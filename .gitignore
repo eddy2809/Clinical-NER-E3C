@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+
+E3C-Corpus-2.0.0/
+.vscode/
+model/
+risultati_model
+
 # User-specific files
 *.rsuser
 *.suo

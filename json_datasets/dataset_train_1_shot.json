@@ -1,0 +1,80 @@
+[
+  {
+    "id_doc": "IT101167.xml",
+    "text": "G.b., 11 anni, è giunto alla nostra osservazione per una grossa tumefazione della coscia dx e, dopo biopsia e staging, è stata posta diagnosi di osteosarcoma del femore destro con metastasi polmonari multiple. Dopo inserzione di CvC è stata intrapresa chemioterapia secondo protocollo isG/os-1, con la somministrazione del 1° ciclo di Hd-MtX (18 gr e.v.) in quattro ore, preceduta da idratazione con 3 l/m2/die ed alcalinizzazione con sodio bicarbonato da circa 24 ore. La funzionalità renale pre-chemioterapia era nella norma. La MtXemia della 24° h. ha mostrato valori molto elevati (556,3 μM/l); nelle 24 ore successive, contestualmente all’incremento dei livelli sierici di MtX (944,9 e 1009,5 μM/l rispettivamente alla 36° e 48° ora), il bambino ha cominciato ad accusare progressivo decadimento delle condizioni generali, febbre, dispnea, contrazione della diuresi con segni di insufficienza renale acuta, epatomegalia, ed a seguire mucosite di ii grado al cavo orale e moderata mielosoppressione. Si è provveduto pertanto ad aumentare il dosaggio dell’acido folinico, intensificare l’alcalinizzazione delle urine ed iniziare trattamento emodialitico. Tali provvedimenti, tuttavia, non sono risultati efficaci nella riduzione della MtXemia o nel prevenire la tossicità sistemica. Dopo 5 giorni dall’inizio del MtX, persistendo l’insufficienza renale, nonostante una buona efficienza del trattamento dialitico, ed alla luce dei livelli di MtXemia persistentemente elevati, è stata somministrata una singola dose di 3.000 u.i. di carbossipeptidasi (voraxaze), che ha determinato una riduzione dei livelli sierici di MtX da 66,8 a 8,59 μM/l. Le condizioni cliniche sono peggiorate ulteriormente, aggravate dalla comparsa di insufficienza respiratoria, mucosite grado ii-iii e segni di colestasi. La determinazione della MtXemia è stata proseguita fino alla 312° ora, insieme alla rescue con acido folinico alla dose di 250 mg e.v. ogni sei ore, poi secondo nomogramma, fino a MtXemia <0,20 μM/l. Dopo venti giorni dall’inizio del MtX, 14 sedute di emodialisi e vigorosa terapia di supporto, il paziente ha mostrato un recupero completo clinico e degli esami di laboratorio. Purtroppo, nonostante la ridotta clearance del farmaco e l’importante tossicità sistemica, non abbiamo registrato alcuna risposta alla chemioterapia. la scadente risposta e la progressione della malattia, dopo la somministrazione del previsto ciclo con Cisplatino e adriamicina ed uno schema di seconda linea, ci hanno obbligato ad un intervento di amputazione dell’arto inferiore destro.\r\n",
+    "entities": [
+      {
+        "testo": "osteosarcoma",
+        "tipo": "CLINENTITY",
+        "inizio": 145,
+        "fine": 157
+      },
+      {
+        "testo": "metastasi polmonari",
+        "tipo": "CLINENTITY",
+        "inizio": 180,
+        "fine": 199
+      },
+      {
+        "testo": "febbre",
+        "tipo": "CLINENTITY",
+        "inizio": 828,
+        "fine": 834
+      },
+      {
+        "testo": "dispnea",
+        "tipo": "CLINENTITY",
+        "inizio": 836,
+        "fine": 843
+      },
+      {
+        "testo": "insufficienza renale acuta",
+        "tipo": "CLINENTITY",
+        "inizio": 884,
+        "fine": 910
+      },
+      {
+        "testo": "epatomegalia",
+        "tipo": "CLINENTITY",
+        "inizio": 912,
+        "fine": 924
+      },
+      {
+        "testo": "mucosite di ii grado al cavo orale",
+        "tipo": "CLINENTITY",
+        "inizio": 939,
+        "fine": 973
+      },
+      {
+        "testo": "mielosoppressione",
+        "tipo": "CLINENTITY",
+        "inizio": 985,
+        "fine": 1002
+      },
+      {
+        "testo": "insufficienza renale",
+        "tipo": "CLINENTITY",
+        "inizio": 1335,
+        "fine": 1355
+      },
+      {
+        "testo": "insufficienza respiratoria",
+        "tipo": "CLINENTITY",
+        "inizio": 1727,
+        "fine": 1753
+      },
+      {
+        "testo": "mucosite",
+        "tipo": "CLINENTITY",
+        "inizio": 1755,
+        "fine": 1763
+      },
+      {
+        "testo": "colestasi",
+        "tipo": "CLINENTITY",
+        "inizio": 1788,
+        "fine": 1797
+      }
+    ]
+  }
+]
