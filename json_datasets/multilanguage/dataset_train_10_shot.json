@@ -1,0 +1,1098 @@
+[
+  {
+    "id_doc": "IT101013.xml",
+    "lingua": "Italian",
+    "text": "Il signor Roberto ha 52 anni, si rivolge al medico di famiglia perché dopo l’influenza che ha avuto ormai due mesi fa, avverte una forte astenia e disappetenza, soprattutto per la carne, con un dimagrimento di 5 Kg. In seguito agli accertamenti diagnostici, risulta la presenza di una neoplasia gastrica. Ricoverato in U.O. di Chirurgia generale, il signor Roberto viene sottoposto ad intervento di gastroresezione totale. Dopo l’intervento chirurgico, torna dalla sala operatoria con ossigeno terapia, catetere venoso centrale, sondino naso-gastrico, catetere vescicale e due drenaggi addominali; è cosciente e chiede insistentemente di bere. Il catetere vescicale appare ostruito, si decide di sostituirlo.\r\n",
+    "entities": [
+      {
+        "testo": "influenza",
+        "tipo": "CLINENTITY",
+        "inizio": 77,
+        "fine": 86
+      },
+      {
+        "testo": "astenia",
+        "tipo": "CLINENTITY",
+        "inizio": 137,
+        "fine": 144
+      },
+      {
+        "testo": "disappetenza",
+        "tipo": "CLINENTITY",
+        "inizio": 147,
+        "fine": 159
+      },
+      {
+        "testo": "neoplasia gastrica",
+        "tipo": "CLINENTITY",
+        "inizio": 285,
+        "fine": 303
+      }
+    ]
+  },
+  {
+    "id_doc": "FR100979.xml",
+    "lingua": "French",
+    "text": "Nous rapportons le cas d'un accident vasculaire cérébral hémorragique du tronc cérébral chez une patiente de 21 ans admise pour prééclampsie sévère sur grossesse non suivie de 38 SA compliquée d'une éclampsie puis d'un accident vasculaire cérébral hémorragique du tronc cérébral à j2 du post-opératoire d'une césarienne pour suspiçion d'hématome rétro-placentaire dès son admission.\nL'hémorragie intracérébrale est une complication rare mais grave chez les femmes en post-partum, plusieurs études sont en cours pour combler les lacunes de connaissances susceptibles d'être impliqués dans les soins des patientes prééclamptiques présentant des complications neurologiques.\n",
+    "entities": [
+      {
+        "testo": "accident vasculaire cérébral hémorragique",
+        "tipo": "CLINENTITY",
+        "inizio": 28,
+        "fine": 69
+      },
+      {
+        "testo": "prééclampsie",
+        "tipo": "CLINENTITY",
+        "inizio": 128,
+        "fine": 140
+      },
+      {
+        "testo": "éclampsie",
+        "tipo": "CLINENTITY",
+        "inizio": 199,
+        "fine": 208
+      },
+      {
+        "testo": "accident vasculaire cérébral hémorragique",
+        "tipo": "CLINENTITY",
+        "inizio": 219,
+        "fine": 260
+      },
+      {
+        "testo": "hématome rétro-placentaire",
+        "tipo": "CLINENTITY",
+        "inizio": 337,
+        "fine": 363
+      },
+      {
+        "testo": "hémorragie intracérébrale",
+        "tipo": "CLINENTITY",
+        "inizio": 385,
+        "fine": 410
+      },
+      {
+        "testo": "prééclamptiques",
+        "tipo": "CLINENTITY",
+        "inizio": 612,
+        "fine": 627
+      },
+      {
+        "testo": "complications neurologiques",
+        "tipo": "CLINENTITY",
+        "inizio": 643,
+        "fine": 670
+      }
+    ]
+  },
+  {
+    "id_doc": "EU100187.xml",
+    "lingua": "Basque",
+    "text": "KONTSULTA ARRAZOIA\r\nSabeleko mina eta sukarra aurkezten dituen 43 urteko gizona.\r\n\r\nAURREKARI PERTSONALAK\r\n-Ez medikamentu alergia ezagunik.\r\n-Ohitura toxikoak: 1 pakete/eguneko erretzailea. \r\n4-5 UBE/eguneko alkohol edalaria. \r\nNoizbehinkako kanabis eta kokaina kontsumitzailea. \r\nBabes gabeko sexu harremanak.\r\n-Ez DM-ik, ez hipertentsio arterialik, ez dislipemiarik.\r\n-Ez gaixotasun kardiologiko ez arnas aparatuko gaixotasunik.\r\n-Ez aurreko gaixotasun digestiborik\r\n-Ez ohiko tratamendurik.\r\n\r\nAurrekari kirugikoak:\r\n-2018/11/20-an ebakuntza abzesu eta uzki inguruko fistula batengatik, ebakidura, drainadura eta desbridamendu eta fistulotomiarekin. \r\n2018/11/21an alta emanda konplikaziorik gabe.\r\n\r\nEGUNGO GAIXOTASUNA\r\nPazienteak duela egun bat sabeleko eskuin aldean hasitako mina aurkezten du, sorbalda eta giltzurrun aldera hedatzen dena. \r\nMina etengabekoa da eta ez da analgesiko arruntekin hobetzen. \r\nGoragaleak ditu, botakarik gabe. 39,5ºCko sukarra izan du. Ez du gernu aparatuko klinikarik esta beste sintomarik ere.\r\n\r\nAZTERKETA FISIKOA\r\nPA 160/98 mmHg FC 100 Temp 36,6ºC SO2 99%\r\n-Egoera orokor ona, baina min nabariarekin. \r\nLekuko eta denborako orientazio egokiak. \r\nOndo hidratatuta. \r\nKolore eta perfusio egokiak. \r\nArnas maiztasun normala.\r\n-Bihotz auskultazioa: erritmikoa, murmuilorik gabe.\r\n-Arnas auskultazioa: arnas murmuilo arrunta.\r\n-Sabeleko azterketa: Zarata peristaltiko normalak. \r\nBiguina eta deprimigarria, sabeleko eskuin alde eta hipokondrioan mingarria, Murphy positiboa. \r\nEz du masa zein megaliarik. \r\nEskuin aldeko giltzurrun perkutsio positiboa.\r\n-Hanketan ez edemarik ezta zain sakonetako tronbosien zeinurik.\r\n\r\nURGENTZIETAKO PROBA OSAGARRIAK:\r\n-Bular eta Sabel erradiografia normalak.\r\n-Odol analisia:\r\n* Gasometria benosoa: pH 7.47, PCO2 38 mmHg, HCO3 28mmol/L. Laktato 1,4 mmol/L.\r\n* Biokimika: PCR 344 mg/L. PCT 3.98. ng/mL. Giltzurrun funtzio normala. Ez beste alteraziorik.\r\n* Hematimetria: Hb 14 g/dL, plaketa normalak. Leukozitoak 29300, 86% neutrofiloak.\r\n* Koagulazio normala.\r\n\r\n-Gernu analisi normala.\r\n-Gernu eta odol kultiboak emaitzen zain.\r\n-Abdomen eta pelbiseko TC: heste itsu -eskuineko heste lodiko neoplasia primarioa eta gibel metastasiekin bat datorren irudia.\r\n",
+    "entities": [
+      {
+        "testo": "Sabeleko mina",
+        "tipo": "CLINENTITY",
+        "inizio": 20,
+        "fine": 33
+      },
+      {
+        "testo": "sukarra",
+        "tipo": "CLINENTITY",
+        "inizio": 38,
+        "fine": 45
+      },
+      {
+        "testo": "alergia",
+        "tipo": "CLINENTITY",
+        "inizio": 123,
+        "fine": 130
+      },
+      {
+        "testo": "erretzailea",
+        "tipo": "CLINENTITY",
+        "inizio": 178,
+        "fine": 189
+      },
+      {
+        "testo": "DM-ik",
+        "tipo": "CLINENTITY",
+        "inizio": 317,
+        "fine": 322
+      },
+      {
+        "testo": "hipertentsio arterialik",
+        "tipo": "CLINENTITY",
+        "inizio": 327,
+        "fine": 350
+      },
+      {
+        "testo": "dislipemiarik",
+        "tipo": "CLINENTITY",
+        "inizio": 355,
+        "fine": 368
+      },
+      {
+        "testo": "gaixotasun kardiologiko",
+        "tipo": "CLINENTITY",
+        "inizio": 375,
+        "fine": 398
+      },
+      {
+        "testo": "arnas aparatuko gaixotasunik",
+        "tipo": "CLINENTITY",
+        "inizio": 402,
+        "fine": 430
+      },
+      {
+        "testo": "gaixotasun digestiborik",
+        "tipo": "CLINENTITY",
+        "inizio": 445,
+        "fine": 468
+      },
+      {
+        "testo": "abzesu",
+        "tipo": "CLINENTITY",
+        "inizio": 546,
+        "fine": 552
+      },
+      {
+        "testo": "uzki inguruko fistula batengatik",
+        "tipo": "CLINENTITY",
+        "inizio": 557,
+        "fine": 589
+      },
+      {
+        "testo": "konplikaziorik",
+        "tipo": "CLINENTITY",
+        "inizio": 681,
+        "fine": 695
+      },
+      {
+        "testo": "mina",
+        "tipo": "CLINENTITY",
+        "inizio": 783,
+        "fine": 787
+      },
+      {
+        "testo": "Mina",
+        "tipo": "CLINENTITY",
+        "inizio": 850,
+        "fine": 854
+      },
+      {
+        "testo": "Goragaleak",
+        "tipo": "CLINENTITY",
+        "inizio": 914,
+        "fine": 924
+      },
+      {
+        "testo": "botakarik",
+        "tipo": "CLINENTITY",
+        "inizio": 931,
+        "fine": 940
+      },
+      {
+        "testo": "sukarra",
+        "tipo": "CLINENTITY",
+        "inizio": 956,
+        "fine": 963
+      },
+      {
+        "testo": "sintomarik",
+        "tipo": "CLINENTITY",
+        "inizio": 1017,
+        "fine": 1027
+      },
+      {
+        "testo": "min",
+        "tipo": "CLINENTITY",
+        "inizio": 1124,
+        "fine": 1127
+      },
+      {
+        "testo": "mingarria",
+        "tipo": "CLINENTITY",
+        "inizio": 1482,
+        "fine": 1491
+      },
+      {
+        "testo": "masa",
+        "tipo": "CLINENTITY",
+        "inizio": 1519,
+        "fine": 1523
+      },
+      {
+        "testo": "megaliarik",
+        "tipo": "CLINENTITY",
+        "inizio": 1529,
+        "fine": 1539
+      },
+      {
+        "testo": "edemarik",
+        "tipo": "CLINENTITY",
+        "inizio": 1603,
+        "fine": 1611
+      },
+      {
+        "testo": "zain sakonetako tronbosien",
+        "tipo": "CLINENTITY",
+        "inizio": 1617,
+        "fine": 1643
+      },
+      {
+        "testo": "neoplasia",
+        "tipo": "CLINENTITY",
+        "inizio": 2164,
+        "fine": 2173
+      },
+      {
+        "testo": "gibel metastasiekin",
+        "tipo": "CLINENTITY",
+        "inizio": 2188,
+        "fine": 2207
+      }
+    ]
+  },
+  {
+    "id_doc": "EU100136.xml",
+    "lingua": "Basque",
+    "text": "KONTSULTAREN ARRAZOIA\r\n84 urteko gizonezkoa. \r\nKotxea gidatzen zihoala, trafiko-istripua izan eta ELUk (UTE) larrialdietako zerbitzura eraman du, buruko eta toraxeko traumatismoagatik.\r\nAURREKARI PERTSONALAK\r\nEz du adierazi medikamentuekiko alergia ezagunik duenik. \r\nArrisku kardiobaskularreko faktore hauek ditu: hipertentsio arteriala eta diabetes mellitusa, tratamenduan. \r\nAurrekari ez-kardiologikoak: neurologiak jarraitzen duen eta betablokeatzailez tratatzen ari den dardara esentziala. \r\n5. metakarpianoaren oinaldearen haustura traumatikoa, eta alterazio kuneiformeak ornoetan, konplikazio neurologikorik gabe. \r\nArterioesklerosi larria aldizkako klaudikazioarekin eta arteria iliako primitiboetako aneurismak, eskuineko alboan (31 mm) eta ezkerrekoan (19 mm); hori dela eta, kontrolak egiten zaizkio kirurgia baskularrean. \r\nOndesteko kartzinoma (2. mailakoa, pT4b pN0); 2009an erradioterapiaz + kimioterapia koajubantez tratatua, eta, ondoren, ondestearen aurre-beheko erauzketa; gaur egun, berreritze-zeinurik ez. \r\nKatarata-interbentzioa egin zitzaion bi begietan 2002an. \r\nAurrekari kardiologikoak: kardiologiako kontsulta anbulatorioen kontrolpean, aorta-gutxiegitasun moderatuagatik, kardiopatia hipertentsiboagatik eta VVI-R taupada-markagailua daramalako (erantzun bentrikular moteleko fibrilazio aurikular bategatik jarri zitzaion). \r\nKontroleko ekokardiogramen arabera, funtzio sistoliko global egokia agertzen du ezkerreko bentrikuluan. \r\nTratamenduan, hauekin: rabeprazola, metformina, sinbastatina, manidipino-hidrokloruroa, hidroklorotiazida, lisinoprila, azenokumarola, propranolola eta zilostazola. \r\nEgoera funtzional basalegokia erakusten du, autonomoa da eguneroko oinarrizko zereginetan, egunero ibiltzen da, bere kotxea gidatzen du, emaztearekin bizi da eta esfortzu moderatuetako disnea baino ez du (N.Y.H.A.-ko II. klase funtzionala).\r\nLARRIALDIETAKO ZERBITZUAN IZANDAKO EBOLUZIOA\r\nIritsi denean, hemodinamikoki egonkor, eupneiko, eta bakarrik kexatu da mina zuelako kontusioa izandako zonetan (burua eta toraxa). \r\nUkatu du konortea galdu duenik. \r\nTraumatologiako zerbitzuak baloratu eta buruko, lepoko eta toraxeko erradiografiak eskatu ditu; aurkikuntza bakarra objektibatu da: bularrezurraren haustura ez-desplazatua. \r\nPaziente antikoagulatua izan eta zefalea handia duela esan duenez, jarraian buruko, lepoko eta toraxeko OT eskatu da; bakarrik aurkitu dira bularrezurraren gorputzeko goiko herenaren haustura ez-desplazatua eta hematoma bat aurreko mediastinoan. \r\nAnalgesia (hantura kontrako ez-esteroideoak, metamizola eta parazetamola) eta minaren kontrola pautatu ostean, kirurgia orokorrak pazientea baloratu du, bularrezurraren hausturaren eta hematomaren maneiua zuzentzeko, eta kontsulta egin zaie guardiako toraxeko zirujauei.\r\n\r\nBeraiek itxarote-tratamendua indikatu dute, analgesiarekin. \r\nBehaketapean 36 ordu eman eta mina aldizka hobetu ostean, pazienteak zefalea eta zerbikalgia biziak eta agitazio-koadroa ditu. \r\nAnalgesia eta antipsikotikoak eman zaizkio bena barnetik, eta berriz egin zaio OT, garezur-erpinetik birika-oinaldeetara. \r\nIrudi-proba egin eta berehala, pazienteak bat-bateko disnea izan du, % 89tik beherako O2 desaturazioarekin, eta hipotentsio arteriala; hori dela-eta, bizkortzeko eta kardiologiako zerbitzuei eman zaie horren berri, balorazioa egin dezaten.\r\n\r\nMIAKETA OSAGARRIAK\r\nEKG: minutuko 60 taupadako erritmo estimulatua, ezkerreko adarraren blokeo-irudiarekin.\r\nAnalitika: giltzurrun-funtzioaren eta ioien parametro normalak; CK eta LDH igoera, 205 eta 278, hurrenez hurren; hemoglobina: 13,9 g/dL, plaketopenia eta leukozitosirik gabe.\r\nPI gutxitua, %40, 1,96 INR-rekin.\r\nToraxeko erradiografia (larrialdietako zerbitzura iritsi denean): bularrezurraren haustura desplazamendurik gabe.\r\nGarezur eta lepoko erradiografiak: hezur-alterazio akuturik gabe.\r\nGarezur, lepo eta toraxeko OT: burmuineko atrofia mistoaren zeinuak, adinari lotutakoak, eta bularrezurraren haustura, aurreko mediastinoko hematomarekin.\r\nSUSMO DIAGNOSTIKOA\r\nKardiopatia hipertentsibo/balbularra duen eta antikoagulatuta dagoen paziente urtetsuak politraumatismo ostean izandako bat-bateko disnea.\r\n",
+    "entities": [
+      {
+        "testo": "buruko eta toraxeko traumatismoagatik",
+        "tipo": "CLINENTITY",
+        "inizio": 146,
+        "fine": 183
+      },
+      {
+        "testo": "alergia",
+        "tipo": "CLINENTITY",
+        "inizio": 241,
+        "fine": 248
+      },
+      {
+        "testo": "hipertentsio arteriala",
+        "tipo": "CLINENTITY",
+        "inizio": 315,
+        "fine": 337
+      },
+      {
+        "testo": "diabetes mellitusa",
+        "tipo": "CLINENTITY",
+        "inizio": 342,
+        "fine": 360
+      },
+      {
+        "testo": "dardara esentziala",
+        "tipo": "CLINENTITY",
+        "inizio": 475,
+        "fine": 493
+      },
+      {
+        "testo": "5. metakarpianoaren oinaldearen haustura traumatikoa",
+        "tipo": "CLINENTITY",
+        "inizio": 497,
+        "fine": 549
+      },
+      {
+        "testo": "alterazio kuneiformeak",
+        "tipo": "CLINENTITY",
+        "inizio": 555,
+        "fine": 577
+      },
+      {
+        "testo": "konplikazio neurologikorik",
+        "tipo": "CLINENTITY",
+        "inizio": 588,
+        "fine": 614
+      },
+      {
+        "testo": "Arterioesklerosi",
+        "tipo": "CLINENTITY",
+        "inizio": 623,
+        "fine": 639
+      },
+      {
+        "testo": "aldizkako klaudikazioarekin",
+        "tipo": "CLINENTITY",
+        "inizio": 647,
+        "fine": 674
+      },
+      {
+        "testo": "arteria iliako primitiboetako aneurismak",
+        "tipo": "CLINENTITY",
+        "inizio": 679,
+        "fine": 719
+      },
+      {
+        "testo": "Ondesteko kartzinoma",
+        "tipo": "CLINENTITY",
+        "inizio": 836,
+        "fine": 856
+      },
+      {
+        "testo": "aorta-gutxiegitasun",
+        "tipo": "CLINENTITY",
+        "inizio": 1165,
+        "fine": 1184
+      },
+      {
+        "testo": "kardiopatia hipertentsiboagatik",
+        "tipo": "CLINENTITY",
+        "inizio": 1201,
+        "fine": 1232
+      },
+      {
+        "testo": "fibrilazio aurikular",
+        "tipo": "CLINENTITY",
+        "inizio": 1305,
+        "fine": 1325
+      },
+      {
+        "testo": "disnea",
+        "tipo": "CLINENTITY",
+        "inizio": 1813,
+        "fine": 1819
+      },
+      {
+        "testo": "mina",
+        "tipo": "CLINENTITY",
+        "inizio": 1988,
+        "fine": 1992
+      },
+      {
+        "testo": "kontusioa",
+        "tipo": "CLINENTITY",
+        "inizio": 2001,
+        "fine": 2010
+      },
+      {
+        "testo": "konortea galdu",
+        "tipo": "CLINENTITY",
+        "inizio": 2059,
+        "fine": 2073
+      },
+      {
+        "testo": "aurkikuntza",
+        "tipo": "CLINENTITY",
+        "inizio": 2180,
+        "fine": 2191
+      },
+      {
+        "testo": "bularrezurraren haustura",
+        "tipo": "CLINENTITY",
+        "inizio": 2216,
+        "fine": 2240
+      },
+      {
+        "testo": "zefalea",
+        "tipo": "CLINENTITY",
+        "inizio": 2292,
+        "fine": 2299
+      },
+      {
+        "testo": "bularrezurraren gorputzeko goiko herenaren haustura",
+        "tipo": "CLINENTITY",
+        "inizio": 2399,
+        "fine": 2450
+      },
+      {
+        "testo": "hematoma",
+        "tipo": "CLINENTITY",
+        "inizio": 2470,
+        "fine": 2478
+      },
+      {
+        "testo": "hantura",
+        "tipo": "CLINENTITY",
+        "inizio": 2518,
+        "fine": 2525
+      },
+      {
+        "testo": "minaren",
+        "tipo": "CLINENTITY",
+        "inizio": 2585,
+        "fine": 2592
+      },
+      {
+        "testo": "bularrezurraren hausturaren",
+        "tipo": "CLINENTITY",
+        "inizio": 2660,
+        "fine": 2687
+      },
+      {
+        "testo": "hematomaren",
+        "tipo": "CLINENTITY",
+        "inizio": 2692,
+        "fine": 2703
+      },
+      {
+        "testo": "mina",
+        "tipo": "CLINENTITY",
+        "inizio": 2873,
+        "fine": 2877
+      },
+      {
+        "testo": "zefalea",
+        "tipo": "CLINENTITY",
+        "inizio": 2912,
+        "fine": 2919
+      },
+      {
+        "testo": "zerbikalgia",
+        "tipo": "CLINENTITY",
+        "inizio": 2924,
+        "fine": 2935
+      },
+      {
+        "testo": "agitazio-koadroa",
+        "tipo": "CLINENTITY",
+        "inizio": 2947,
+        "fine": 2963
+      },
+      {
+        "testo": "disnea",
+        "tipo": "CLINENTITY",
+        "inizio": 3149,
+        "fine": 3155
+      },
+      {
+        "testo": "plaketopenia",
+        "tipo": "CLINENTITY",
+        "inizio": 3585,
+        "fine": 3597
+      },
+      {
+        "testo": "leukozitosirik",
+        "tipo": "CLINENTITY",
+        "inizio": 3602,
+        "fine": 3616
+      },
+      {
+        "testo": "PI gutxitua",
+        "tipo": "CLINENTITY",
+        "inizio": 3624,
+        "fine": 3635
+      },
+      {
+        "testo": "bularrezurraren haustura",
+        "tipo": "CLINENTITY",
+        "inizio": 3725,
+        "fine": 3749
+      },
+      {
+        "testo": "hezur-alterazio",
+        "tipo": "CLINENTITY",
+        "inizio": 3809,
+        "fine": 3824
+      },
+      {
+        "testo": "burmuineko atrofia",
+        "tipo": "CLINENTITY",
+        "inizio": 3872,
+        "fine": 3890
+      },
+      {
+        "testo": "bularrezurraren haustura",
+        "tipo": "CLINENTITY",
+        "inizio": 3934,
+        "fine": 3958
+      },
+      {
+        "testo": "Kardiopatia hipertentsibo",
+        "tipo": "CLINENTITY",
+        "inizio": 4017,
+        "fine": 4042
+      },
+      {
+        "testo": "politraumatismo",
+        "tipo": "CLINENTITY",
+        "inizio": 4105,
+        "fine": 4120
+      },
+      {
+        "testo": "disnea",
+        "tipo": "CLINENTITY",
+        "inizio": 4148,
+        "fine": 4154
+      }
+    ]
+  },
+  {
+    "id_doc": "FR100282.xml",
+    "lingua": "French",
+    "text": "Patient K.M, âgé de 38 ans, présente des crises convulsives qui auraient débuté il y a 3 ans et s'accompagnaient de chute, de perte de mémoire et d'oubli.\nPendant environ deux ans, aucune prise en charge n'avait été instaurée mais une année avant la présente consultation, le patient fut soumis sous un traitement fait de la carbamazépine (deux fois 200 mg par jour).\nCinq mois après, vu que la monothérapie ne donnait pas de résultats escomptés, une multithérapie antiépileptique (carbamazépine, phénobarbital et valproate de sodium) lui fut administrée pendant plus de sept mois mais sans succès également.\nVoyant que son état ne s'améliorait pas, il consulte le Centre Neuro-psychiatrique Dr Joseph-Guislain en date du 21 juin 2014.\nSes antécédents ne relèvent rien de particulier et aucune crise épileptique n'a été retrouvée dans sa famille.\nMais il faut signaler que dans ses habitus, il consomme régulièrement la viande de porc.\nAu complément d'anamnèse, nous notons que ses crises convulsives sont focales évoluant vers des crises bilatérales avec des composantes toniques et cloniques.\nPendant les crises, il y a une émission d'écume et une perte d'urine.\nElles durent environ 5 minutes et ont une fréquence de 2 à 4 par mois.\nL'examen neurologique était normal.\nL'électroencéphalogramme montre un tracé perturbé par sa lenteur et par l'abondance en éléments lents à prédominance droite.\nLe scanner cérébral met en évidence au niveau du parenchyme des multiples lésions kystiques arrondies avec un point hyperdense excentrique représentant le scolex.\nNous avons conclus à une NCC révélée par une épilepsie réfractaire.\nAprès un examen normal du fond d'œil, nous avons instauré un traitement par voie orale fait d'Albendazole (15 mg/kg/jour en 2 prises) et de Prednisolone (1 mg/kg/j) pendant une durée d'une semaine.\nUn suivi médical pendant une durée de six mois a été fait et aucune crise épileptique n'a été notée jusqu'à ce jour.\n",
+    "entities": [
+      {
+        "testo": "crises convulsives",
+        "tipo": "CLINENTITY",
+        "inizio": 41,
+        "fine": 59
+      },
+      {
+        "testo": "chute",
+        "tipo": "CLINENTITY",
+        "inizio": 116,
+        "fine": 121
+      },
+      {
+        "testo": "perte de mémoire",
+        "tipo": "CLINENTITY",
+        "inizio": 126,
+        "fine": 142
+      },
+      {
+        "testo": "oubli",
+        "tipo": "CLINENTITY",
+        "inizio": 148,
+        "fine": 153
+      },
+      {
+        "testo": "crise épileptique",
+        "tipo": "CLINENTITY",
+        "inizio": 794,
+        "fine": 811
+      },
+      {
+        "testo": "crises convulsives",
+        "tipo": "CLINENTITY",
+        "inizio": 982,
+        "fine": 1000
+      },
+      {
+        "testo": "crises",
+        "tipo": "CLINENTITY",
+        "inizio": 1032,
+        "fine": 1038
+      },
+      {
+        "testo": "crises",
+        "tipo": "CLINENTITY",
+        "inizio": 1107,
+        "fine": 1113
+      },
+      {
+        "testo": "lésions kystiques",
+        "tipo": "CLINENTITY",
+        "inizio": 1471,
+        "fine": 1488
+      },
+      {
+        "testo": "NCC",
+        "tipo": "CLINENTITY",
+        "inizio": 1585,
+        "fine": 1588
+      },
+      {
+        "testo": "épilepsie réfractaire",
+        "tipo": "CLINENTITY",
+        "inizio": 1605,
+        "fine": 1626
+      },
+      {
+        "testo": "crise épileptique",
+        "tipo": "CLINENTITY",
+        "inizio": 1894,
+        "fine": 1911
+      }
+    ]
+  },
+  {
+    "id_doc": "EN102305.xml",
+    "lingua": "English",
+    "text": "A 32-year-old female patient with Kniest syndrome presented at our department with a painful pseudarthrosis after femoral valgisation osteotomy 8 years ago. A Wagner cone stem and acetabular roof cup with a cemented Ecofit cup 2M (dual-articulation acetabular cup system) were implanted due to a dysplastic femur with a small medullary space. The Ecofit cup itself is associated with a reduced risk of dislocation. The patient was satisfied with the range of motion after hip endoprosthesis and reported a significant increase in quality of life. The patient is still comfortable with the hip prosthesis at the most recent follow-up 4 years after implantation. Follow-up radiographs over 4 years have not revealed any signs of loosening or migration, and no Trendelenburg sign was reported for the affected side.\r\n",
+    "entities": [
+      {
+        "testo": "Kniest syndrome",
+        "tipo": "CLINENTITY",
+        "inizio": 34,
+        "fine": 49
+      },
+      {
+        "testo": "pseudarthrosis",
+        "tipo": "CLINENTITY",
+        "inizio": 93,
+        "fine": 107
+      },
+      {
+        "testo": "dysplastic femur",
+        "tipo": "CLINENTITY",
+        "inizio": 296,
+        "fine": 312
+      },
+      {
+        "testo": "Trendelenburg sign",
+        "tipo": "CLINENTITY",
+        "inizio": 758,
+        "fine": 776
+      }
+    ]
+  },
+  {
+    "id_doc": "EU100014.xml",
+    "lingua": "Basque",
+    "text": "KARDIOLOGÍA\r\nOSPITALERATZEKO ARRAZOIA. 85 urteko emakumea, sinkopeagatik eta disneagatik Larrialdietatik ospitaleratua izan da.\r\nAURREKARIAK.\r\nEz du alergia ezagunik.\r\nHipertentsio arteriala ondo kontrolatua du tratamenduarekin.\r\nAparteko beste aurrekaririk ez da ezagutzen.\r\nEGUNGO HISTORIA.\r\nDuela bi hilabetetik hona, esfortzuko disnea, aldapak eta etxeko bi solairuak igotzean.\r\nAtzo, sinkopea izan zuen prodromorik gabe, telebista ikusten eserita zegoenean.\r\nKonortea berehalakoan berreskuratu zuen, ondoriorik gabe.\r\nAZTERKETA FISIKOA\r\nKontziente eta orientatua.\r\nTentsio arterial normala, 130/62.\r\nEupneiko dago.\r\nBurua eta lepoa.\r\nMiaketa normala.\r\nBihotzaren auskultazioa.\r\nMurmurio sistolikoa foku aortikoan, bi karotidetara hedatzen dena, 5/6 mailakoa.\r\nBiriken auskultazioa.\r\nAurkikuntza patologikorik gabe.\r\nSabelaldea.\r\nAurkikuntzarik gabe.\r\nGorputz-adarrak.\r\nFobea eragiten duten edemak bi orkatiletan.\r\nPROBA OSAGARRIAK\r\nEKG.\r\nErritmo sinusala.\r\nEzkerreko bentrikuluaren hipertrofia.\r\nEKOKARDIOGRAMA.\r\nAortaren sustraia normala da.\r\nBalbula aortikoaren estenosi larria (abiadura gorena, 4,06; gradiente gorena, 60; gradiente ertaina, 30 mm Hg), balbularen azaleraren kalkulua 0,8 cm2-koa da.\r\nEzker-bentrikuluaren hipertrofia ertaina; funtzio sistolikoa mantendua du; eiekzio-frakzioa,% 50.\r\nBalbula mitrala normala da.\r\nEzkerreko aurikula zabaldua dago.\r\nEskuineko aurikula eta bentrikulua normalak dira.\r\nBiriketako arteriaren presio sistolikoa kalkulatzeko orduan, ez da ikusten balbula trikuspideoaren gutxiegitasunik.\r\nKORONARIOGRAFIA.\r\nArteria koronarioak lesiorik gabeak.\r\nBalbula aortikoaren estenosi larria (kalkulatutako azalera 0,7 cm2-koa da).\r\nEBOLUZIOA\r\nKardiologian egon den bitartean ez du sintomarik izan.\r\nEstenosi aortiko larriari bihotz-gutxiegitasuna eta sinkopea gehitu zaizkionez, ebakuntza egiteko baldintzak betetzen ditu, eta Bihotz-hodietako Kirurgiako Zerbitzuarekin harremanetan jarri gara.\r\nDIAGNOSTIKOA\r\nEstenosi aortiko larriak eragindako sinkopea eta bihotz-gutxiegitasuna.\r\nHipertentsio arteriala.\r\nTRATAMENDUA\r\nEnalaprila, 5 mg, 1-0-1 (goizean, eguerdian, gauean).\r\nKarbedilola, 6,25 mg, 1-0-1.\r\nBESTE GOMENDIO BATZUK\r\nTelefonoz deituko zaio balbula aortikoaren ebakuntzaren egunaren berri emateko.\r\nSintomarik berriro azalduz gero, ospitaleko Larrialdi Zerbitzura etorri beharko luke pazienteak txosten honekin.",
+    "entities": [
+      {
+        "testo": "sinkopeagatik",
+        "tipo": "CLINENTITY",
+        "inizio": 59,
+        "fine": 72
+      },
+      {
+        "testo": "disneagatik",
+        "tipo": "CLINENTITY",
+        "inizio": 77,
+        "fine": 88
+      },
+      {
+        "testo": "alergia",
+        "tipo": "CLINENTITY",
+        "inizio": 149,
+        "fine": 156
+      },
+      {
+        "testo": "Hipertentsio arteriala",
+        "tipo": "CLINENTITY",
+        "inizio": 168,
+        "fine": 190
+      },
+      {
+        "testo": "disnea",
+        "tipo": "CLINENTITY",
+        "inizio": 332,
+        "fine": 338
+      },
+      {
+        "testo": "sinkopea",
+        "tipo": "CLINENTITY",
+        "inizio": 389,
+        "fine": 397
+      },
+      {
+        "testo": "prodromorik",
+        "tipo": "CLINENTITY",
+        "inizio": 408,
+        "fine": 419
+      },
+      {
+        "testo": "Aurkikuntza",
+        "tipo": "CLINENTITY",
+        "inizio": 788,
+        "fine": 799
+      },
+      {
+        "testo": "Aurkikuntzarik",
+        "tipo": "CLINENTITY",
+        "inizio": 834,
+        "fine": 848
+      },
+      {
+        "testo": "edemak",
+        "tipo": "CLINENTITY",
+        "inizio": 895,
+        "fine": 901
+      },
+      {
+        "testo": "Ezkerreko bentrikuluaren hipertrofia",
+        "tipo": "CLINENTITY",
+        "inizio": 962,
+        "fine": 998
+      },
+      {
+        "testo": "Balbula aortikoaren estenosi",
+        "tipo": "CLINENTITY",
+        "inizio": 1049,
+        "fine": 1077
+      },
+      {
+        "testo": "Ezker-bentrikuluaren hipertrofia",
+        "tipo": "CLINENTITY",
+        "inizio": 1209,
+        "fine": 1241
+      },
+      {
+        "testo": "balbula trikuspideoaren gutxiegitasunik",
+        "tipo": "CLINENTITY",
+        "inizio": 1498,
+        "fine": 1537
+      },
+      {
+        "testo": "lesiorik",
+        "tipo": "CLINENTITY",
+        "inizio": 1578,
+        "fine": 1586
+      },
+      {
+        "testo": "Balbula aortikoaren estenosi",
+        "tipo": "CLINENTITY",
+        "inizio": 1596,
+        "fine": 1624
+      },
+      {
+        "testo": "sintomarik",
+        "tipo": "CLINENTITY",
+        "inizio": 1722,
+        "fine": 1732
+      },
+      {
+        "testo": "Estenosi aortiko",
+        "tipo": "CLINENTITY",
+        "inizio": 1740,
+        "fine": 1756
+      },
+      {
+        "testo": "bihotz-gutxiegitasuna",
+        "tipo": "CLINENTITY",
+        "inizio": 1766,
+        "fine": 1787
+      },
+      {
+        "testo": "sinkopea",
+        "tipo": "CLINENTITY",
+        "inizio": 1792,
+        "fine": 1800
+      },
+      {
+        "testo": "Estenosi aortiko",
+        "tipo": "CLINENTITY",
+        "inizio": 1951,
+        "fine": 1967
+      },
+      {
+        "testo": "sinkopea",
+        "tipo": "CLINENTITY",
+        "inizio": 1987,
+        "fine": 1995
+      },
+      {
+        "testo": "bihotz-gutxiegitasuna",
+        "tipo": "CLINENTITY",
+        "inizio": 2000,
+        "fine": 2021
+      },
+      {
+        "testo": "Hipertentsio arteriala",
+        "tipo": "CLINENTITY",
+        "inizio": 2024,
+        "fine": 2046
+      },
+      {
+        "testo": "Sintomarik",
+        "tipo": "CLINENTITY",
+        "inizio": 2251,
+        "fine": 2261
+      }
+    ]
+  },
+  {
+    "id_doc": "EU100121.xml",
+    "lingua": "Basque",
+    "text": "62 urteko emakumezkoa endokrinologoak modu periodikoan jarraitu zuen urte askoan zehar, Graves-Basedow gaixotasunak eragindako hipertiroidismoa zela eta. Terapia aproposaz eta odol-analisi bidez egoki kontrolatu zuen gaixotasuna. Ez zuen intereseko aurrekari gehigarririk, ez beste tratamendurik, eta bere alkohol-kontsumoa oso txikia zen.\r\nHasierako kontsultetako batean, odol-analisian neurtutako entzima pankreatikoen balioen igoera arinak endokrinologoaren arreta erakarri zuen: amilasa 129 U/L [10-125] eta lipasa 63 U/L [13-60]. Osterantzean, emakumea asintomatikoa zen eta gainerako analisi-emaitzak normalak izan ziren. Horregatik, medikuak odol-analisia eskatu zuen hurrengo egunean, baina emaitzak oso bestelakoak izan ziren. Entzimen balioak nabarmen egin zuen gora: amilasa 240 U/L eta lipasa 205 U/L. Funtzio hepatikoa neurtzeko probak eta sabeleko ekografia,pankrearen irudia barne, normalak izan ziren. Digestio-bideko patologiaren bat izan zezakeela susmatuta, endokrinologoak gastroenterologoaren kontsultara bideratu zuen pazientea, azterketa osoa eta jarraipen egokia egin ahal izateko.\r\nHurrengo urteetan, sarri egin zioten odol-analisia bere egoera eta entzima pankreatikoen balioen bilakaera aztertzeko. Batzuetan, balioak oso handiak izan ziren motiborik gabe, eta beste batzuetan odoleko amilasa eta lipasa balioak berez normalizatu ziren arrazoi ezagunik gabe (2. irudia). Emakumeak bizimodu normala egiten segitu zuen, hipertiroidismoa kontrolatzeko ohiko egiaztapenak egin behar izan arren. Modu periodikoan odol-analisiak egiteaz gain, digestio-sistemaren gaixotasuna zeharo baztertzeko azterketa fisiko eta proba erradiologiko ugari egin zizkioten, nahiz eta ez zuen inoiz sintomarik adierazi. Odol-analisi guztietan gainerako parametroen emaitzak normalak izan ziren beti. Sabela haztatzean ez zuen inoiz minik izan eta sabeleko ekografian, tomografia axial konputarizatuan eta erresonantzia magnetiko nuklearrean behatutako irudiak normalak izan ziren beti, pankrean alteraziorik ez zegoela konfirmatuz.\r\nMedikuek ez zuten pazientearen odoleko entzima pankreatikoen balioen igoera nabarmenak, fluktuazioak eta normalizazioak ulertzeko justifikazio klinikorik aurkitu eta ez zuten emaitza aldakor horiek azaltzen jakin.",
+    "entities": [
+      {
+        "testo": "Graves-Basedow gaixotasunak",
+        "tipo": "CLINENTITY",
+        "inizio": 88,
+        "fine": 115
+      },
+      {
+        "testo": "hipertiroidismoa",
+        "tipo": "CLINENTITY",
+        "inizio": 127,
+        "fine": 143
+      },
+      {
+        "testo": "Digestio-bideko patologiaren",
+        "tipo": "CLINENTITY",
+        "inizio": 918,
+        "fine": 946
+      },
+      {
+        "testo": "hipertiroidismoa",
+        "tipo": "CLINENTITY",
+        "inizio": 1445,
+        "fine": 1461
+      },
+      {
+        "testo": "digestio-sistemaren gaixotasuna",
+        "tipo": "CLINENTITY",
+        "inizio": 1564,
+        "fine": 1595
+      },
+      {
+        "testo": "sintomarik",
+        "tipo": "CLINENTITY",
+        "inizio": 1702,
+        "fine": 1712
+      },
+      {
+        "testo": "minik",
+        "tipo": "CLINENTITY",
+        "inizio": 1835,
+        "fine": 1840
+      }
+    ]
+  },
+  {
+    "id_doc": "EN100114.xml",
+    "lingua": "English",
+    "text": "A 77-year-old Tunisian woman was hospitalized because of massive painful ascites. Her family history did not include any autoimmune disease. She denied a history of hepatitis, jaundice or alcohol use. She had a history of diabetes, hypertension treated by glinide and calcium blocker. She was explored 4 years prior to admission for exudative pleuritis of the right lung without any established diagnosis after multiple explorations including thoracoscopy with biopsies. On admission, blood pressure was 150/70 mmHg, her rate was 80 /mn and body temperature was 37°C. The physical examination showed only abdominal distension related to the important ascites without collateral venous circulation. She had no skin lesions, lymphadenopathy, or hepatosplenomegaly and lower extremities showed no edema. Laboratory investigations showed: leucopenia with white blood cell count = 3100/mm3, lymphopenia = 840/mm3, hemoglobin = 10.5g/dL ; low serum albumin level = 29g/L, 47;-globulin = 19g/L. blood glucose levels = 180 mg/dl and hemoglobin A1c = 8.6 %. Urine analysis showed trace protein (0.03g/24h). Platelet count, activated partial thromboplastin time, liver function tests, blood urea nitrogen, serum creatinine, erythrocyte sediment rate and total cholesterol were within normal limits. Tests for HBsAg and HCV were negative. Abdominal ultrasonography showed ascitic fluid without any sign of bowel loop thickening or enteritis. Neither lymphadenopathy nor liver abnormality was present. A chest X-ray film disclosed bilateral pleural effusion. Ascitic obtained by aspiration contained 170 cells mm3 (67% lymphocytes), 46g/L protein, but no malignant cells. Cultures for bacteria and mycobacteria gave no growth. Tuberculosis investigation including initial tuberculin skin test and the research of Koch bacilli in sputum and urine were negative. Echocardiogram and electrocardiogram were normal. Computed tomographic scan showed massive ascites, no dysmorphic liver, and a mild bilateral pleural effusion. Pelvic examination was normal. Oesogastroduodenoscopy showed hiatal hernia without oesophageal varices. An exploratory laparoscopy was performed, revealing a large amount of ascite, a normal liver appearance, and no granulations suggesting tuberculosis or peritoneal carcinosis. Histological examination of the peritoneum showed non specific chronic inflammation. Systemic lupus erythematosus was suspected based on pleuritis, lymphopenia and leucopenia. An additional serologic survey revealed markedly elevated anti-nuclear antibody (ANA) titer of 1/1600 and a significantly elevated titer of antibody to double-stranded DNA (83 IU/mL ; normal < 30 IU/mL). She had also positive serum antibody against the Smith antigen and low serum level of C3 complement component: 67 mg/dL (serum normal range: 84 – 151). Relying on these findings, the patient was diagnosed with SLE since 4 of the 11 diagnostic criteria of the American College of Rheumatology were met. The SLEDAI score according to Systemic Lupus Erythematosus Disease Activity Index was estimated to be 7 on admission. Hydroxychloroquine 200 mg daily in combination with diuretics was initiated. One month later, there was no detectable ascitic fluid and no pleural effusions. Five months later she remained free from symptoms while continuing to take Hydroxychloroquine\r\n",
+    "entities": [
+      {
+        "testo": "ascites",
+        "tipo": "CLINENTITY",
+        "inizio": 73,
+        "fine": 80
+      },
+      {
+        "testo": "autoimmune disease",
+        "tipo": "CLINENTITY",
+        "inizio": 121,
+        "fine": 139
+      },
+      {
+        "testo": "hepatitis",
+        "tipo": "CLINENTITY",
+        "inizio": 165,
+        "fine": 174
+      },
+      {
+        "testo": "jaundice",
+        "tipo": "CLINENTITY",
+        "inizio": 176,
+        "fine": 184
+      },
+      {
+        "testo": "diabetes",
+        "tipo": "CLINENTITY",
+        "inizio": 222,
+        "fine": 230
+      },
+      {
+        "testo": "hypertension",
+        "tipo": "CLINENTITY",
+        "inizio": 232,
+        "fine": 244
+      },
+      {
+        "testo": "exudative pleuritis",
+        "tipo": "CLINENTITY",
+        "inizio": 333,
+        "fine": 352
+      },
+      {
+        "testo": "ascites",
+        "tipo": "CLINENTITY",
+        "inizio": 651,
+        "fine": 658
+      },
+      {
+        "testo": "bilateral pleural effusion",
+        "tipo": "CLINENTITY",
+        "inizio": 1519,
+        "fine": 1545
+      },
+      {
+        "testo": "ascites",
+        "tipo": "CLINENTITY",
+        "inizio": 1940,
+        "fine": 1947
+      },
+      {
+        "testo": "bilateral pleural effusion",
+        "tipo": "CLINENTITY",
+        "inizio": 1981,
+        "fine": 2007
+      },
+      {
+        "testo": "hiatal hernia",
+        "tipo": "CLINENTITY",
+        "inizio": 2070,
+        "fine": 2083
+      },
+      {
+        "testo": "ascite",
+        "tipo": "CLINENTITY",
+        "inizio": 2183,
+        "fine": 2189
+      },
+      {
+        "testo": "Systemic lupus erythematosus",
+        "tipo": "CLINENTITY",
+        "inizio": 2373,
+        "fine": 2401
+      },
+      {
+        "testo": "pleuritis",
+        "tipo": "CLINENTITY",
+        "inizio": 2425,
+        "fine": 2434
+      },
+      {
+        "testo": "lymphopenia",
+        "tipo": "CLINENTITY",
+        "inizio": 2436,
+        "fine": 2447
+      },
+      {
+        "testo": "leucopenia",
+        "tipo": "CLINENTITY",
+        "inizio": 2452,
+        "fine": 2462
+      },
+      {
+        "testo": "SLE",
+        "tipo": "CLINENTITY",
+        "inizio": 2878,
+        "fine": 2881
+      }
+    ]
+  },
+  {
+    "id_doc": "FR100925.xml",
+    "lingua": "French",
+    "text": "Patiente âgée de 29 ans, suivie pour un carcinome mammaire prévu pour radio-chimiothérapie, hospitalisée au service pour une hépatite aiguë grave (ictère fébrile, hyper-transaminasémie avec ASAT à 47 la normale et ALAT à 23 la normale et un taux de prothrombine à 25%).\nLes hépatites virales A, B, C et E étaient négatives et les veines sus-hépatiques étaient libres au Doppler.\nUne hépatite non alphabétique était suspectée devant l'ictère fébrile et le bilan avait révélé une infection à EBV récente retenue devant des Ac anti-VCA type IgM/G et Ac anti-EBNA type IgG positifs.\nLa patiente était traitée par l'acyclovir pendant 10 jours.\nL'évolution était marquée par l'apparition d'une ascite et le diagnostic d'une hépatite auto-immune type était retenue consécutivement sur des arguments biologiques (un pic gamma à l'électrophorèse des protéines sériques et des anticorps anti-nucléaires positifs) et histologiques.\nUne rémission clinico-biologique était obtenue sous corticothérapie.\nLes infections à EBV doivent être recherchées devant tout tableau d'hépatite aiguë fébrile survenant sur un terrain d'immunodépression.\nLes praticiens devront également être alarmés à une cytolyse persistante après l'épisode infectieux afin de guetter un déclenchement d'une éventuelle HAI notamment chez le sexe féminin, en cas de contexte d'auto-immunité et devant la négativité des sérologies infectieuses virales alphabétiques.\n",
+    "entities": [
+      {
+        "testo": "carcinome mammaire",
+        "tipo": "CLINENTITY",
+        "inizio": 40,
+        "fine": 58
+      },
+      {
+        "testo": "hépatite aiguë",
+        "tipo": "CLINENTITY",
+        "inizio": 125,
+        "fine": 139
+      },
+      {
+        "testo": "fébrile",
+        "tipo": "CLINENTITY",
+        "inizio": 154,
+        "fine": 161
+      },
+      {
+        "testo": "hyper-transaminasémie",
+        "tipo": "CLINENTITY",
+        "inizio": 163,
+        "fine": 184
+      },
+      {
+        "testo": "hépatites virales A, B, C et E",
+        "tipo": "CLINENTITY",
+        "inizio": 274,
+        "fine": 304
+      },
+      {
+        "testo": "hépatites virales A, B, C",
+        "tipo": "CLINENTITY",
+        "inizio": 274,
+        "fine": 299
+      },
+      {
+        "testo": "hépatites virales A, B",
+        "tipo": "CLINENTITY",
+        "inizio": 274,
+        "fine": 296
+      },
+      {
+        "testo": "hépatites virales A",
+        "tipo": "CLINENTITY",
+        "inizio": 274,
+        "fine": 293
+      },
+      {
+        "testo": "hépatite",
+        "tipo": "CLINENTITY",
+        "inizio": 383,
+        "fine": 391
+      },
+      {
+        "testo": "fébrile",
+        "tipo": "CLINENTITY",
+        "inizio": 441,
+        "fine": 448
+      },
+      {
+        "testo": "infection à EBV",
+        "tipo": "CLINENTITY",
+        "inizio": 478,
+        "fine": 493
+      },
+      {
+        "testo": "ascite",
+        "tipo": "CLINENTITY",
+        "inizio": 688,
+        "fine": 694
+      },
+      {
+        "testo": "hépatite auto-immune",
+        "tipo": "CLINENTITY",
+        "inizio": 718,
+        "fine": 738
+      },
+      {
+        "testo": "anticorps anti-nucléaires positifs",
+        "tipo": "CLINENTITY",
+        "inizio": 867,
+        "fine": 901
+      },
+      {
+        "testo": "infections à EBV",
+        "tipo": "CLINENTITY",
+        "inizio": 994,
+        "fine": 1010
+      },
+      {
+        "testo": "hépatite aiguë",
+        "tipo": "CLINENTITY",
+        "inizio": 1058,
+        "fine": 1072
+      },
+      {
+        "testo": "fébrile",
+        "tipo": "CLINENTITY",
+        "inizio": 1073,
+        "fine": 1080
+      },
+      {
+        "testo": "immunodépression",
+        "tipo": "CLINENTITY",
+        "inizio": 1108,
+        "fine": 1124
+      },
+      {
+        "testo": "cytolyse persistante",
+        "tipo": "CLINENTITY",
+        "inizio": 1178,
+        "fine": 1198
+      },
+      {
+        "testo": "infectieux",
+        "tipo": "CLINENTITY",
+        "inizio": 1215,
+        "fine": 1225
+      },
+      {
+        "testo": "HAI",
+        "tipo": "CLINENTITY",
+        "inizio": 1276,
+        "fine": 1279
+      },
+      {
+        "testo": "auto-immunité",
+        "tipo": "CLINENTITY",
+        "inizio": 1333,
+        "fine": 1346
+      },
+      {
+        "testo": "infectieuses virales",
+        "tipo": "CLINENTITY",
+        "inizio": 1386,
+        "fine": 1406
+      }
+    ]
+  }
+]

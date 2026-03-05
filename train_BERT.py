@@ -8,17 +8,20 @@ from transformers import (
     AutoModelForTokenClassification, 
     TrainingArguments, 
     Trainer,
-    DataCollatorForTokenClassification
+    DataCollatorForTokenClassification,
+    EarlyStoppingCallback
 )
 
 # --- 1. CONFIGURAZIONE ESPERIMENTO ---
 # Qui decidi quale "secchiello" usare per l'esperimento attuale del prof.
 # Cambia questo file per fare i test: "dataset_train_1_shot.json", "dataset_train_10_shot.json", ecc.
-FILE_TRAIN = "json_datasets/dataset_train_5_shot.json" 
-FILE_TEST = "json_datasets/dataset_test.json"
-NOME_MODELLO_SALVATO = "model/bert_medico_5_shot"
+FILE_TRAIN = "json_datasets/multilanguage/dataset_train_full.json" 
+FILE_TEST = "json_datasets/multilanguage/dataset_test.json"
+NOME_MODELLO_SALVATO = "model/mul_roberta_medico_full_shot_early"
 
-MODEL_NAME = "dbmdz/bert-base-italian-cased"
+#MODEL_NAME = "dbmdz/bert-base-italian-cased"
+# MODEL_NAME = "bert-base-multilingual-cased"
+MODEL_NAME = "xlm-roberta-large"
 
 # Mappiamo le etichette BIO in numeri (BERT ragiona a numeri, non a stringhe)
 label_list = ['O', 'B-CLINENTITY', 'I-CLINENTITY']
@@ -116,13 +119,21 @@ def compute_metrics(p):
 training_args = TrainingArguments(
     output_dir=f"./risultati_{NOME_MODELLO_SALVATO}",
     eval_strategy="epoch",
+    save_strategy="epoch",
     learning_rate=2e-5,
-    per_device_train_batch_size=2, # La 4090 divora batch size grandi senza problemi (16 per full shot)
+    per_device_train_batch_size=8, # La 4090 divora batch size grandi senza problemi (16 per full shot)
     per_device_eval_batch_size=8, #prima era 16 per full shot
-    num_train_epochs=100, # 5 epoche sono perfette per il Few-Shot
+    num_train_epochs=50, # 5 epoche sono perfette per il Few-Shot
     weight_decay=0.01,
     bf16=True, # Magia della RTX 4000: Bfloat16 accelera il training senza perdere precisione
     logging_steps=10,
+    save_only_model=True,
+    metric_for_best_model="f1",
+    load_best_model_at_end=True,
+    greater_is_better=True,
+    save_total_limit=1,
+    # warmup_ratio=0.1,             # Il 10% dei passi iniziali serve a "scaldare" il modello , strategia warmup
+    # lr_scheduler_type="cosine",   # La curva di discesa morbida
 )
 
 trainer = Trainer(
@@ -133,6 +144,7 @@ trainer = Trainer(
     processing_class=tokenizer,
     data_collator=data_collator,
     compute_metrics=compute_metrics,
+    callbacks=[EarlyStoppingCallback(early_stopping_patience=5)]
 )
 
 # VIA AL TRAINING!
