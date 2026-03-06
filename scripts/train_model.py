@@ -13,14 +13,12 @@ from transformers import (
 )
 
 # --- 1. CONFIGURAZIONE ESPERIMENTO ---
-# Qui decidi quale "secchiello" usare per l'esperimento attuale del prof.
-# Cambia questo file per fare i test: "dataset_train_1_shot.json", "dataset_train_10_shot.json", ecc.
 FILE_TRAIN = "json_datasets/multilanguage/dataset_train_full.json" 
 FILE_TEST = "json_datasets/multilanguage/dataset_test.json"
 NOME_MODELLO_SALVATO = "model/mul_roberta_medico_full_shot_early"
 
 #MODEL_NAME = "dbmdz/bert-base-italian-cased"
-# MODEL_NAME = "bert-base-multilingual-cased"
+#MODEL_NAME = "bert-base-multilingual-cased"
 MODEL_NAME = "xlm-roberta-large"
 
 # Mappiamo le etichette BIO in numeri (BERT ragiona a numeri, non a stringhe)
@@ -67,7 +65,7 @@ def prepara_dataset(file_json):
     all_inputs = {"input_ids": [], "attention_mask": [], "labels": []}
     
     for doc in dati:
-        # Applichiamo la magia dell'allineamento a ogni documento!
+        # Applichiamo l'allineamento a ogni documento
         tok_doc = allinea_etichette_bio(doc["text"], doc["entities"], tokenizer)
         all_inputs["input_ids"].append(tok_doc["input_ids"])
         all_inputs["attention_mask"].append(tok_doc["attention_mask"])
@@ -80,7 +78,7 @@ print(f"Preparazione dei dati per l'esperimento: {FILE_TRAIN}...")
 train_dataset = prepara_dataset(FILE_TRAIN)
 eval_dataset = prepara_dataset(FILE_TEST)
 
-print("Caricamento del modello BERT sulla 4090...")
+print("Caricamento del modello BERT...")
 modello = AutoModelForTokenClassification.from_pretrained(
     MODEL_NAME, 
     num_labels=len(label_list),
@@ -115,23 +113,23 @@ def compute_metrics(p):
         "accuracy": results["overall_accuracy"],
     }
 
-# --- 5. IL MOTORE DEL TRAINING (Ottimizzato per RTX 4090) ---
+# --- 5. IL MOTORE DEL TRAINING DI HUGGINGFACE ---
 training_args = TrainingArguments(
     output_dir=f"./risultati_{NOME_MODELLO_SALVATO}",
     eval_strategy="epoch",
     save_strategy="epoch",
     learning_rate=2e-5,
-    per_device_train_batch_size=8, # La 4090 divora batch size grandi senza problemi (16 per full shot)
+    per_device_train_batch_size=8, 
     per_device_eval_batch_size=8, #prima era 16 per full shot
     num_train_epochs=50, # 5 epoche sono perfette per il Few-Shot
     weight_decay=0.01,
-    bf16=True, # Magia della RTX 4000: Bfloat16 accelera il training senza perdere precisione
-    logging_steps=10,
-    save_only_model=True,
+    bf16=True, 
+    save_only_model=True,   # Evita di salvare optimizer/scheduler (molto pesanti)
     metric_for_best_model="f1",
     load_best_model_at_end=True,
     greater_is_better=True,
     save_total_limit=1,
+    
     # warmup_ratio=0.1,             # Il 10% dei passi iniziali serve a "scaldare" il modello , strategia warmup
     # lr_scheduler_type="cosine",   # La curva di discesa morbida
 )
@@ -154,3 +152,5 @@ trainer.train()
 # Salviamo il modello finetunato
 trainer.save_model(NOME_MODELLO_SALVATO)
 print(f"Modello salvato in: {NOME_MODELLO_SALVATO}")
+
+trainer.state.save_to_json(f"./risultati_{NOME_MODELLO_SALVATO}/trainer_state.json")

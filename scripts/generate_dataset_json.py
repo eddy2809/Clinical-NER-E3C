@@ -4,9 +4,8 @@ import random
 import xml.etree.ElementTree as ET
 
 # --- CONFIGURAZIONE ---
-#XML_DIR = "E3C-Corpus-2.0.0\E3C-Corpus-2.0.0\data_annotation\Italian\layer1"  # CARTELLA CON TUTTI I TUOI FILE Italiani XML/XMI DELL'E3C
-E3C_ROOT_DIR = "E3C-Corpus-2.0.0\data_annotation"
-SEED = 42 # Seed fisso per la tesi: garantisce che i "secchielli" siano sempre identici se lo rilanci
+E3C_ROOT_DIR = "data/raw/E3C-Corpus-2.0.0\data_annotation"
+SEED = 42 
 random.seed(SEED)
 
 def parse_xmi_e3c(file_path):
@@ -47,25 +46,6 @@ def parse_xmi_e3c(file_path):
                 
     return testo_completo, entita_estratte
 
-# # --- 1. LETTURA DI TUTTA LA CARTELLA ---
-# print(f"Analisi dei file nella cartella '{XML_DIR}' in corso...")
-# dataset_completo = []
-
-# for filename in os.listdir(XML_DIR):
-#     if not filename.endswith(".xml"): 
-#         continue
-        
-#     percorso_file = os.path.join(XML_DIR, filename)
-#     testo, entita = parse_xmi_e3c(percorso_file)
-    
-#     # Teniamo solo i referti validi (che hanno almeno un po' di testo e almeno una malattia annotata)
-#     if testo and len(testo) > 10 and len(entita) > 0:
-#         dataset_completo.append({
-#             "id_doc": filename,
-#             "text": testo,
-#             "entities": entita
-#         })
-
 
 
 # --- LETTURA MULTILINGUE ---
@@ -73,9 +53,9 @@ print(f"Scansione di tutte le lingue nella cartella: {E3C_ROOT_DIR}...")
 dataset_completo = []
 conteggio_lingue = {}
 
-# os.walk naviga in tutte le sottocartelle automaticamente
+# navigazione ricorsiva della cartella
 for root_dir, dirs, files in os.walk(E3C_ROOT_DIR):
-    # Vogliamo solo i file del Layer 1 (quelli fatti a mano)
+    # Vogliamo solo i file del Layer 1 (gold standard)
     if "layer1" in root_dir.lower():
         for filename in files:
             if filename.endswith(".xml"):
@@ -103,14 +83,14 @@ print(f"TOTALE: {len(dataset_completo)} documenti clinici pronti per l'addestram
 
 print(f"Trovati e processati correttamente {len(dataset_completo)} documenti clinici.")
 
-# --- 2. CREAZIONE DEI "SECCHIELLI" PER GLI ESPERIMENTI (Data Splitting) ---
-# Mescoliamo i documenti in modo casuale
+# --- 2. Data Splitting ---
+# shuffle dei documenti in modo casuale
 random.shuffle(dataset_completo)
 
-# Riserviamo il 20% dei dati per il Test finale (il prof vorrà vedere come si comporta su dati MAI visti)
+# Split train/test (80/20)
 num_test = int(len(dataset_completo) * 0.2)
 test_set = dataset_completo[:num_test]
-train_pool = dataset_completo[num_test:] # Il restante 80% lo usiamo per pescare i dati di addestramento
+train_pool = dataset_completo[num_test:]
 
 print(f"Documenti riservati per il Test (Test Set): {len(test_set)}")
 print(f"Documenti disponibili per il Training: {len(train_pool)}")
@@ -126,13 +106,13 @@ def salva_json(dati, nome_file):
     with open(nome_file, 'w', encoding='utf-8') as f:
         json.dump(dati, f, ensure_ascii=False, indent=2)
 
-salva_json(test_set, "json_datasets/multilanguage/dataset_test.json")
-salva_json(one_shot_set, "json_datasets/multilanguage/dataset_train_1_shot.json")
-salva_json(few_shot_set_5, "json_datasets/multilanguage/dataset_train_5_shot.json")
-salva_json(few_shot_set_10, "json_datasets/multilanguage/dataset_train_10_shot.json")
-salva_json(full_train_set, "json_datasets/multilanguage/dataset_train_full.json")
+salva_json(test_set, "data/processed/multi/dataset_test.json")
+salva_json(one_shot_set, "data/processed/multi/dataset_train_1_shot.json")
+salva_json(few_shot_set_5, "data/processed/multi/dataset_train_5_shot.json")
+salva_json(few_shot_set_10, "data/processed/multi/dataset_train_10_shot.json")
+salva_json(full_train_set, "data/processed/multi/dataset_train_full.json")
 
-print("\n✅ File JSON generati con successo!")
+print("\nFile JSON generati: ")
 print("- dataset_test.json")
 print("- dataset_train_1_shot.json")
 print("- dataset_train_5_shot.json")
