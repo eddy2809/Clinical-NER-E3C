@@ -31,7 +31,10 @@ seqeval = evaluate.load("seqeval") # Metrica standard per il NER
 
 # --- 2. FUNZIONI DI SUPPORTO (Riutilizziamo la tua funzione vincente) ---
 def allinea_etichette_bio(testo, entita_estratte, tokenizer):
-    """La funzione che abbiamo appena testato e validato!"""
+    
+    """ Prende il testo grezzo e le coordinate, e restituisce i token di BERT 
+    con le relative etichette B-I-O. """
+
     tokenized = tokenizer(testo, return_offsets_mapping=True, truncation=True, max_length=512)
     offsets = tokenized["offset_mapping"]
     
@@ -153,4 +156,4 @@ trainer.train()
 trainer.save_model(NOME_MODELLO_SALVATO)
 print(f"Modello salvato in: {NOME_MODELLO_SALVATO}")
 
-trainer.state.save_to_json(f"./risultati_{NOME_MODELLO_SALVATO}/trainer_state.json")
+trainer.state.save_to_json(f"./model{NOME_MODELLO_SALVATO}/trainer_state.json")

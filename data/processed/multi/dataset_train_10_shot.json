@@ -1,256 +1,498 @@
 [
   {
-    "id_doc": "IT101013.xml",
-    "lingua": "Italian",
-    "text": "Il signor Roberto ha 52 anni, si rivolge al medico di famiglia perché dopo l’influenza che ha avuto ormai due mesi fa, avverte una forte astenia e disappetenza, soprattutto per la carne, con un dimagrimento di 5 Kg. In seguito agli accertamenti diagnostici, risulta la presenza di una neoplasia gastrica. Ricoverato in U.O. di Chirurgia generale, il signor Roberto viene sottoposto ad intervento di gastroresezione totale. Dopo l’intervento chirurgico, torna dalla sala operatoria con ossigeno terapia, catetere venoso centrale, sondino naso-gastrico, catetere vescicale e due drenaggi addominali; è cosciente e chiede insistentemente di bere. Il catetere vescicale appare ostruito, si decide di sostituirlo.\r\n",
+    "id_doc": "ES100633.xml",
+    "lingua": "Spanish",
+    "text": "Varón de 46 años que refiere estreñimiento y dolor en hemiabdomen superior de 7 días de evolución. La tomografía computerizada (TC) abdominal mostró una masa de 11 x 12 x 7 cm dependiente del colon descendente por lo que se realizó una hemicolectomía izquierda. La anatomía patológica mostró un tumor de células fusiformes con baja actividad mitótica que, tras el examen ultraestructural e inmunohistoquímico (IHQ), fue diagnóstico de GANT. A los 5 meses presentó una recidiva doble situada en la transcavidad de los epiplones y adyacente a la pared del ciego la cual fue resecada completamente. Se realizó tratamiento adyuvante con imatinib 400 mg al día vía oral. Tras 24 meses de seguimiento no se han registrado recidivas ni metástasis.\r\n",
     "entities": [
       {
-        "testo": "influenza",
+        "testo": "estreñimiento",
         "tipo": "CLINENTITY",
-        "inizio": 77,
-        "fine": 86
+        "inizio": 29,
+        "fine": 42
       },
       {
-        "testo": "astenia",
+        "testo": "dolor en hemiabdomen superior",
         "tipo": "CLINENTITY",
-        "inizio": 137,
-        "fine": 144
-      },
-      {
-        "testo": "disappetenza",
-        "tipo": "CLINENTITY",
-        "inizio": 147,
-        "fine": 159
-      },
-      {
-        "testo": "neoplasia gastrica",
-        "tipo": "CLINENTITY",
-        "inizio": 285,
-        "fine": 303
-      }
-    ]
-  },
-  {
-    "id_doc": "FR100979.xml",
-    "lingua": "French",
-    "text": "Nous rapportons le cas d'un accident vasculaire cérébral hémorragique du tronc cérébral chez une patiente de 21 ans admise pour prééclampsie sévère sur grossesse non suivie de 38 SA compliquée d'une éclampsie puis d'un accident vasculaire cérébral hémorragique du tronc cérébral à j2 du post-opératoire d'une césarienne pour suspiçion d'hématome rétro-placentaire dès son admission.\nL'hémorragie intracérébrale est une complication rare mais grave chez les femmes en post-partum, plusieurs études sont en cours pour combler les lacunes de connaissances susceptibles d'être impliqués dans les soins des patientes prééclamptiques présentant des complications neurologiques.\n",
-    "entities": [
-      {
-        "testo": "accident vasculaire cérébral hémorragique",
-        "tipo": "CLINENTITY",
-        "inizio": 28,
-        "fine": 69
-      },
-      {
-        "testo": "prééclampsie",
-        "tipo": "CLINENTITY",
-        "inizio": 128,
-        "fine": 140
-      },
-      {
-        "testo": "éclampsie",
-        "tipo": "CLINENTITY",
-        "inizio": 199,
-        "fine": 208
-      },
-      {
-        "testo": "accident vasculaire cérébral hémorragique",
-        "tipo": "CLINENTITY",
-        "inizio": 219,
-        "fine": 260
-      },
-      {
-        "testo": "hématome rétro-placentaire",
-        "tipo": "CLINENTITY",
-        "inizio": 337,
-        "fine": 363
-      },
-      {
-        "testo": "hémorragie intracérébrale",
-        "tipo": "CLINENTITY",
-        "inizio": 385,
-        "fine": 410
-      },
-      {
-        "testo": "prééclamptiques",
-        "tipo": "CLINENTITY",
-        "inizio": 612,
-        "fine": 627
-      },
-      {
-        "testo": "complications neurologiques",
-        "tipo": "CLINENTITY",
-        "inizio": 643,
-        "fine": 670
-      }
-    ]
-  },
-  {
-    "id_doc": "EU100187.xml",
-    "lingua": "Basque",
-    "text": "KONTSULTA ARRAZOIA\r\nSabeleko mina eta sukarra aurkezten dituen 43 urteko gizona.\r\n\r\nAURREKARI PERTSONALAK\r\n-Ez medikamentu alergia ezagunik.\r\n-Ohitura toxikoak: 1 pakete/eguneko erretzailea. \r\n4-5 UBE/eguneko alkohol edalaria. \r\nNoizbehinkako kanabis eta kokaina kontsumitzailea. \r\nBabes gabeko sexu harremanak.\r\n-Ez DM-ik, ez hipertentsio arterialik, ez dislipemiarik.\r\n-Ez gaixotasun kardiologiko ez arnas aparatuko gaixotasunik.\r\n-Ez aurreko gaixotasun digestiborik\r\n-Ez ohiko tratamendurik.\r\n\r\nAurrekari kirugikoak:\r\n-2018/11/20-an ebakuntza abzesu eta uzki inguruko fistula batengatik, ebakidura, drainadura eta desbridamendu eta fistulotomiarekin. \r\n2018/11/21an alta emanda konplikaziorik gabe.\r\n\r\nEGUNGO GAIXOTASUNA\r\nPazienteak duela egun bat sabeleko eskuin aldean hasitako mina aurkezten du, sorbalda eta giltzurrun aldera hedatzen dena. \r\nMina etengabekoa da eta ez da analgesiko arruntekin hobetzen. \r\nGoragaleak ditu, botakarik gabe. 39,5ºCko sukarra izan du. Ez du gernu aparatuko klinikarik esta beste sintomarik ere.\r\n\r\nAZTERKETA FISIKOA\r\nPA 160/98 mmHg FC 100 Temp 36,6ºC SO2 99%\r\n-Egoera orokor ona, baina min nabariarekin. \r\nLekuko eta denborako orientazio egokiak. \r\nOndo hidratatuta. \r\nKolore eta perfusio egokiak. \r\nArnas maiztasun normala.\r\n-Bihotz auskultazioa: erritmikoa, murmuilorik gabe.\r\n-Arnas auskultazioa: arnas murmuilo arrunta.\r\n-Sabeleko azterketa: Zarata peristaltiko normalak. \r\nBiguina eta deprimigarria, sabeleko eskuin alde eta hipokondrioan mingarria, Murphy positiboa. \r\nEz du masa zein megaliarik. \r\nEskuin aldeko giltzurrun perkutsio positiboa.\r\n-Hanketan ez edemarik ezta zain sakonetako tronbosien zeinurik.\r\n\r\nURGENTZIETAKO PROBA OSAGARRIAK:\r\n-Bular eta Sabel erradiografia normalak.\r\n-Odol analisia:\r\n* Gasometria benosoa: pH 7.47, PCO2 38 mmHg, HCO3 28mmol/L. Laktato 1,4 mmol/L.\r\n* Biokimika: PCR 344 mg/L. PCT 3.98. ng/mL. Giltzurrun funtzio normala. Ez beste alteraziorik.\r\n* Hematimetria: Hb 14 g/dL, plaketa normalak. Leukozitoak 29300, 86% neutrofiloak.\r\n* Koagulazio normala.\r\n\r\n-Gernu analisi normala.\r\n-Gernu eta odol kultiboak emaitzen zain.\r\n-Abdomen eta pelbiseko TC: heste itsu -eskuineko heste lodiko neoplasia primarioa eta gibel metastasiekin bat datorren irudia.\r\n",
-    "entities": [
-      {
-        "testo": "Sabeleko mina",
-        "tipo": "CLINENTITY",
-        "inizio": 20,
-        "fine": 33
-      },
-      {
-        "testo": "sukarra",
-        "tipo": "CLINENTITY",
-        "inizio": 38,
-        "fine": 45
-      },
-      {
-        "testo": "alergia",
-        "tipo": "CLINENTITY",
-        "inizio": 123,
-        "fine": 130
-      },
-      {
-        "testo": "erretzailea",
-        "tipo": "CLINENTITY",
-        "inizio": 178,
-        "fine": 189
-      },
-      {
-        "testo": "DM-ik",
-        "tipo": "CLINENTITY",
-        "inizio": 317,
-        "fine": 322
-      },
-      {
-        "testo": "hipertentsio arterialik",
-        "tipo": "CLINENTITY",
-        "inizio": 327,
-        "fine": 350
-      },
-      {
-        "testo": "dislipemiarik",
-        "tipo": "CLINENTITY",
-        "inizio": 355,
-        "fine": 368
-      },
-      {
-        "testo": "gaixotasun kardiologiko",
-        "tipo": "CLINENTITY",
-        "inizio": 375,
-        "fine": 398
-      },
-      {
-        "testo": "arnas aparatuko gaixotasunik",
-        "tipo": "CLINENTITY",
-        "inizio": 402,
-        "fine": 430
-      },
-      {
-        "testo": "gaixotasun digestiborik",
-        "tipo": "CLINENTITY",
-        "inizio": 445,
-        "fine": 468
-      },
-      {
-        "testo": "abzesu",
-        "tipo": "CLINENTITY",
-        "inizio": 546,
-        "fine": 552
-      },
-      {
-        "testo": "uzki inguruko fistula batengatik",
-        "tipo": "CLINENTITY",
-        "inizio": 557,
-        "fine": 589
-      },
-      {
-        "testo": "konplikaziorik",
-        "tipo": "CLINENTITY",
-        "inizio": 681,
-        "fine": 695
-      },
-      {
-        "testo": "mina",
-        "tipo": "CLINENTITY",
-        "inizio": 783,
-        "fine": 787
-      },
-      {
-        "testo": "Mina",
-        "tipo": "CLINENTITY",
-        "inizio": 850,
-        "fine": 854
-      },
-      {
-        "testo": "Goragaleak",
-        "tipo": "CLINENTITY",
-        "inizio": 914,
-        "fine": 924
-      },
-      {
-        "testo": "botakarik",
-        "tipo": "CLINENTITY",
-        "inizio": 931,
-        "fine": 940
-      },
-      {
-        "testo": "sukarra",
-        "tipo": "CLINENTITY",
-        "inizio": 956,
-        "fine": 963
-      },
-      {
-        "testo": "sintomarik",
-        "tipo": "CLINENTITY",
-        "inizio": 1017,
-        "fine": 1027
-      },
-      {
-        "testo": "min",
-        "tipo": "CLINENTITY",
-        "inizio": 1124,
-        "fine": 1127
-      },
-      {
-        "testo": "mingarria",
-        "tipo": "CLINENTITY",
-        "inizio": 1482,
-        "fine": 1491
+        "inizio": 45,
+        "fine": 74
       },
       {
         "testo": "masa",
         "tipo": "CLINENTITY",
-        "inizio": 1519,
-        "fine": 1523
+        "inizio": 153,
+        "fine": 157
       },
       {
-        "testo": "megaliarik",
+        "testo": "tumor de células fusiformes",
         "tipo": "CLINENTITY",
-        "inizio": 1529,
-        "fine": 1539
+        "inizio": 295,
+        "fine": 322
       },
       {
-        "testo": "edemarik",
+        "testo": "GANT",
         "tipo": "CLINENTITY",
-        "inizio": 1603,
-        "fine": 1611
+        "inizio": 435,
+        "fine": 439
       },
       {
-        "testo": "zain sakonetako tronbosien",
+        "testo": "recidiva",
         "tipo": "CLINENTITY",
-        "inizio": 1617,
-        "fine": 1643
+        "inizio": 468,
+        "fine": 476
       },
       {
-        "testo": "neoplasia",
+        "testo": "recidivas",
         "tipo": "CLINENTITY",
-        "inizio": 2164,
-        "fine": 2173
+        "inizio": 716,
+        "fine": 725
       },
       {
-        "testo": "gibel metastasiekin",
+        "testo": "metástasis",
         "tipo": "CLINENTITY",
-        "inizio": 2188,
-        "fine": 2207
+        "inizio": 729,
+        "fine": 739
+      }
+    ]
+  },
+  {
+    "id_doc": "FR100663.xml",
+    "lingua": "French",
+    "text": "Nous rapportons le cas d'une patiente âgée de 35 ans, au cycle régulier, II ème geste, avec un enfant vivant accouché par césarienne programmée (césarienne de convenance, segmentaire basse).\nLa seconde grossesse a été marquée par l'apparition à 7 semaines d'aménorrhée (SA) de métrorragies modérées, ayant motivé une consultation dans notre structure.\nL'examen clinique était sans particularités: la patiente était stable sur le plan hémodynamique, avec une tension artérielle à 120/70 mmHg, et un pouls à 78 pulsations/minute.\nL'examen de l'abdomen retrouvait une cicatrice de type Pfannenstiel; avec une palpation souple, sans douleur ni sensibilité localisées et un utérus de taille subnormale.\nL'échographie obstétricale par voie trans-abdominale a permis d'objectiver un utérus antéversé, légèrement augmenté de taille (mesurant 87x36mm), avec présence d'un sac gestationnel tonique, faisant 39mm de diamètre, siégeant au niveau du canal cervical, avec un pôle supérieur affleurant l'orifice interne du col.\nLe sac contenait un embryon avec activité cardiaque positive et longueur cranio-caudale de 10mm, correspondant à un âge gestationnel de 7SA+4 jours.\nIl n'y avait pas d'épanchement péritonéal.\nLe taux d'hCG plasmatique était de 134404 mUi/mL.\nNous avons tenté un traitement médical en première intention par Méthotrexate, à raison d'1mg/kg en injection intramusculaire, répétée 48 heures plus tard, après réalisation d'un bilan sanguin (Numération formule sanguine, Taux de transaminases, Urée et Créatinine) qui était normal.\nAu troisième jour après l'administration de Méthotrexate, nous avons réalisé un contrôle échographique qui a objectivé la présence d'un sac gestationnel de 45mm de diamètre, siège d'un embryon avec activité cardiaque toujours positive, de longueur cranio-caudale projetant l'âge gestationnel à 8 SA+3 jours.\nLa patiente était toujours stable, et avait présenté un seul épisode de métrorragie minime depuis le début de son hospitalisation.\nNous avons alors décidé de réaliser un traitement chirurgical par laparotomie: après reprise de l'ancienne cicatrice de type Pfannenstiel et ouverture de la cavité, nous avons trouvé à l'exploration du pelvis une vessie ascensionnée sur la partie antérieure de l'utérus, avec un aspect normal de la cicatrice, sans signes d'invasion trophoblastique du myomètre.\nLes annexes étaient sans particularités.\nNous avons réalisé dans un premier temps une ligature des artères hypogastriques, puis décollé progressivement la vessie de la face antérieure de l'utérus, jusqu'à libération complète du site de l'hystérorraphie.\nNous l'avons incisée sur environ 3 centimètres, et procédé à l'aspiration de l'oeuf en l'abordant par son pôle supérieur.\nNous avons ensuite soigneusement vérifié la vacuité utérine et assuré la libération complète des zones d'insertion du sac gestationnel.\nLa mini-hystérotomie a été reprise par des points séparés et l'hémostase a été assurée sans difficultés.\nNous avons fermé après libération des ligatures vasculaires avec des suites opératoires immédiates simples.\nLa sortie de la patiente a été autorisée au 5ème jour post-opératoire, après une échographie de contrôle ayant objectivé un utérus de taille normale (74x31mm) avec endomètre fin et régulier, mesurant 6mm d'épaisseur et une cavité utérine libre.\nLa surveillance de l'hCG plasmatique par la suite a objectivé une diminution progressive, jusqu'à négativation 7 semaines après l'intervention.\n",
+    "entities": [
+      {
+        "testo": "métrorragies",
+        "tipo": "CLINENTITY",
+        "inizio": 277,
+        "fine": 289
+      },
+      {
+        "testo": "cicatrice",
+        "tipo": "CLINENTITY",
+        "inizio": 565,
+        "fine": 574
+      },
+      {
+        "testo": "douleur",
+        "tipo": "CLINENTITY",
+        "inizio": 629,
+        "fine": 636
+      },
+      {
+        "testo": "utérus de taille subnormale",
+        "tipo": "CLINENTITY",
+        "inizio": 669,
+        "fine": 696
+      },
+      {
+        "testo": "épanchement péritonéal",
+        "tipo": "CLINENTITY",
+        "inizio": 1181,
+        "fine": 1203
+      },
+      {
+        "testo": "métrorragie",
+        "tipo": "CLINENTITY",
+        "inizio": 1919,
+        "fine": 1930
+      },
+      {
+        "testo": "cicatrice",
+        "tipo": "CLINENTITY",
+        "inizio": 2085,
+        "fine": 2094
+      },
+      {
+        "testo": "cicatrice",
+        "tipo": "CLINENTITY",
+        "inizio": 2277,
+        "fine": 2286
+      },
+      {
+        "testo": "invasion",
+        "tipo": "CLINENTITY",
+        "inizio": 2302,
+        "fine": 2310
+      }
+    ]
+  },
+  {
+    "id_doc": "FR100589.xml",
+    "lingua": "French",
+    "text": "Mr M.A âgé de 53 ans, Mauritanien, sans contage tuberculeux connu récent dans son entourage, sans habitudes toxiques et sans exposition professionnelle particulière.\nLe patient a présenté 3 mois avant son hospitalisation une toux sèche devenant productive sans hémoptysies associée à des douleurs thoraciques diffuses peu intenses et une dyspnée d'effort évoluant dans un contexte de sensations fébriles et d'altération de l'état général.\nLe patient a été admis au service de pneumologie, l'examen général a retrouvé une Performance Status à 1 sans hippocratisme digital avec à l'examen pleuropulmonaire des râles crépitants bilatéraux.\nLe reste de l'examen somatique a été sans particularité en dehors d'une adénopathie axillaire gauche de 1 cm/1 cm sans signes inflammatoires, mobile par rapport aux deux plans superficiel et profond.\nLa radiographie du thorax a objectivé de multiples opacités réticulo micronodulaires au niveau des deux champs pulmonaires prédominant au niveau des bases.\nLa tomodensitométrie thoracique a montré un aspect en verre dépoli diffus au niveau des deux champs pulmonaires faisant évoquer une pneumopathie interstitielle diffuse sans adénopathies médiastinales.\nDevant ce tableau nous avons discuté en premier lieu, sur un terrain d'immunodépression probable, une origine infectieuse notamment une tuberculose pulmonaire, une aspergillose semi invasive ou une infection à germes banals.\nUne détermination thoracique d'une maladie de système à savoir une sarcoïdose dans sa forme atypique ou une vascularite mais il n'y avait pas de signe d'appel clinique ou radiologique en faveur.\nEn dernier lieu nous avons évoqué une détermination thoracique d'une hémopathie maligne.\nVu le contexte endémique de tuberculose dans notre pays, l'urgence était de rechercher le Bacille de Koch (BK) dans les expectorations qui sont revenues négatives.\nLa bronchoscopie souple a objectivé une inflammation de 2 ème degré diffuse de tout l'arbre bronchique.\nLe lavage broncho alvéolaire a montré un liquide inflammatoire à prédominance lymphocytaire (30%), la recherche de BK, de germes banals et d'aspergillus dans le liquide d'aspiration bronchique a été négative.\nLes biopsies bronchiques ont été en faveur d'un remaniement fibreux et inflammatoire modéré de la muqueuse sans signe de malignité ou d'inflammation spécifique.\nL'exploration fonctionnelle respiratoire a objectivé un trouble ventilatoire mixte.\nSur le plan biologique l'hémogramme a montré une hyperleucocytose à 70000 éléments/mm3 à prédominance lymphocytaire 53000 élément/mm 3, le taux de polynucléaires neutrophiles à 13000 élément/mm 3, le taux d'hémoglobine et de plaquette a été normale.\nLa Cytométrie en flux sur le sang périphérique a été en faveur d'un syndrome lymphoprolifératif de type T avec positivité de CD2, CD3, CD4, TCR alpha beta, HLA DR et négativité de CD7, CD8 et CD25.\nEnfin, la biopsie de l'adénopathie axillaire a montré une localisation ganglionnaire d'un lymphome T.\nDevant ces éléments, un bilan complémentaire a été demandé: un myélogramme et une tomodensitométrie abdomino pelvienne qui sont revenus normales, le frottis sanguin n'a pas révélé de cellules de Sézary, le taux des lactico-déshydrogénase à 507 UI/L, les sérologies virales de l'hépatite B, C, cytomégalovirus et HIV ont été négatives.\nLe caryotype médullaire a été normal, la biopsie ostéo médullaire a montré une moelle de richesse normale sans cellules malignes.\nDevant l'origine subsaharienne du patient, la sérologie HTLV1 a été demandée et qui est revenu positive.\nLe diagnostic retenu a été une pneumopathie interstitielle diffuse dans le cadre d'une leucémie lymphome à cellules T de l'adulte HTLV1+.\nLe patient a été mis sous corticothérapie orale faite de prednisolone à la dose de 1 mg/kg/jour durant 1 mois avec une bonne amélioration clinique et radiologique, puis adressé au service d'hématologie pour entamer la chimiothérapie.\n",
+    "entities": [
+      {
+        "testo": "tuberculeux",
+        "tipo": "CLINENTITY",
+        "inizio": 48,
+        "fine": 59
+      },
+      {
+        "testo": "toux sèche",
+        "tipo": "CLINENTITY",
+        "inizio": 225,
+        "fine": 235
+      },
+      {
+        "testo": "hémoptysies",
+        "tipo": "CLINENTITY",
+        "inizio": 261,
+        "fine": 272
+      },
+      {
+        "testo": "douleurs thoraciques",
+        "tipo": "CLINENTITY",
+        "inizio": 288,
+        "fine": 308
+      },
+      {
+        "testo": "dyspnée d'effort",
+        "tipo": "CLINENTITY",
+        "inizio": 338,
+        "fine": 354
+      },
+      {
+        "testo": "fébriles",
+        "tipo": "CLINENTITY",
+        "inizio": 395,
+        "fine": 403
+      },
+      {
+        "testo": "altération de l'état général",
+        "tipo": "CLINENTITY",
+        "inizio": 409,
+        "fine": 437
+      },
+      {
+        "testo": "hippocratisme digital",
+        "tipo": "CLINENTITY",
+        "inizio": 549,
+        "fine": 570
+      },
+      {
+        "testo": "râles",
+        "tipo": "CLINENTITY",
+        "inizio": 608,
+        "fine": 613
+      },
+      {
+        "testo": "adénopathie axillaire",
+        "tipo": "CLINENTITY",
+        "inizio": 709,
+        "fine": 730
+      },
+      {
+        "testo": "inflammatoires",
+        "tipo": "CLINENTITY",
+        "inizio": 763,
+        "fine": 777
+      },
+      {
+        "testo": "opacités réticulo micronodulaires",
+        "tipo": "CLINENTITY",
+        "inizio": 888,
+        "fine": 921
+      },
+      {
+        "testo": "pneumopathie interstitielle diffuse",
+        "tipo": "CLINENTITY",
+        "inizio": 1125,
+        "fine": 1160
+      },
+      {
+        "testo": "adénopathies médiastinales",
+        "tipo": "CLINENTITY",
+        "inizio": 1166,
+        "fine": 1192
+      },
+      {
+        "testo": "infectieuse",
+        "tipo": "CLINENTITY",
+        "inizio": 1304,
+        "fine": 1315
+      },
+      {
+        "testo": "tuberculose pulmonaire",
+        "tipo": "CLINENTITY",
+        "inizio": 1330,
+        "fine": 1352
+      },
+      {
+        "testo": "aspergillose",
+        "tipo": "CLINENTITY",
+        "inizio": 1358,
+        "fine": 1370
+      },
+      {
+        "testo": "infection",
+        "tipo": "CLINENTITY",
+        "inizio": 1392,
+        "fine": 1401
+      },
+      {
+        "testo": "sarcoïdose",
+        "tipo": "CLINENTITY",
+        "inizio": 1486,
+        "fine": 1496
+      },
+      {
+        "testo": "vascularite",
+        "tipo": "CLINENTITY",
+        "inizio": 1527,
+        "fine": 1538
+      },
+      {
+        "testo": "hémopathie maligne",
+        "tipo": "CLINENTITY",
+        "inizio": 1683,
+        "fine": 1701
+      },
+      {
+        "testo": "tuberculose",
+        "tipo": "CLINENTITY",
+        "inizio": 1731,
+        "fine": 1742
+      },
+      {
+        "testo": "inflammation de 2 ème degré diffuse",
+        "tipo": "CLINENTITY",
+        "inizio": 1907,
+        "fine": 1942
+      },
+      {
+        "testo": "inflammatoire",
+        "tipo": "CLINENTITY",
+        "inizio": 2020,
+        "fine": 2033
+      },
+      {
+        "testo": "inflammatoire",
+        "tipo": "CLINENTITY",
+        "inizio": 2251,
+        "fine": 2264
+      },
+      {
+        "testo": "inflammation",
+        "tipo": "CLINENTITY",
+        "inizio": 2316,
+        "fine": 2328
+      },
+      {
+        "testo": "trouble ventilatoire",
+        "tipo": "CLINENTITY",
+        "inizio": 2397,
+        "fine": 2417
+      },
+      {
+        "testo": "hyperleucocytose",
+        "tipo": "CLINENTITY",
+        "inizio": 2474,
+        "fine": 2490
+      },
+      {
+        "testo": "syndrome lymphoprolifératif de type T",
+        "tipo": "CLINENTITY",
+        "inizio": 2743,
+        "fine": 2780
+      },
+      {
+        "testo": "adénopathie axillaire",
+        "tipo": "CLINENTITY",
+        "inizio": 2896,
+        "fine": 2917
+      },
+      {
+        "testo": "lymphome T.",
+        "tipo": "CLINENTITY",
+        "inizio": 2963,
+        "fine": 2974
+      },
+      {
+        "testo": "hépatite B, C",
+        "tipo": "CLINENTITY",
+        "inizio": 3253,
+        "fine": 3266
+      },
+      {
+        "testo": "hépatite B",
+        "tipo": "CLINENTITY",
+        "inizio": 3253,
+        "fine": 3263
+      },
+      {
+        "testo": "cytomégalovirus",
+        "tipo": "CLINENTITY",
+        "inizio": 3268,
+        "fine": 3283
+      },
+      {
+        "testo": "HIV",
+        "tipo": "CLINENTITY",
+        "inizio": 3287,
+        "fine": 3290
+      },
+      {
+        "testo": "cellules malignes",
+        "tipo": "CLINENTITY",
+        "inizio": 3421,
+        "fine": 3438
+      },
+      {
+        "testo": "HTLV1",
+        "tipo": "CLINENTITY",
+        "inizio": 3496,
+        "fine": 3501
+      },
+      {
+        "testo": "pneumopathie interstitielle diffuse",
+        "tipo": "CLINENTITY",
+        "inizio": 3576,
+        "fine": 3611
+      },
+      {
+        "testo": "leucémie lymphome à cellules T de l'adulte HTLV1+",
+        "tipo": "CLINENTITY",
+        "inizio": 3632,
+        "fine": 3681
+      }
+    ]
+  },
+  {
+    "id_doc": "EN105832.xml",
+    "lingua": "English",
+    "text": "A 35-year-old Caucasian woman known to suffer from late familial hyperinsulinemic hypoglycemia due to a well-known mutation in the insulin receptor gene has been pregnant 6 times. The patient was treated with injections of Sandostatin LAR® (octreotide) during the first four pregnancies. Her first pregnancy in 1999 was unknown until approximately 25th gestational weeks with fatal intrauterine growth retardation. The following two pregnancies were terminated on parental request after a chorion villus biopsy revealed the mutation causing late familial hyperinsulinemic hypoglycemia. During the fourth pregnancy, in which the fetus also had the mutation, serial ultrasound examinations showed a small fetus with appropriate growth. At birth the girl was small for gestational age. She was admitted to the neonatal special care unit due to low blood glucose and intravenous glucose and early feeding was initiated. One day old, her condition deteriorated with signs of an abdominal catastrophe indicating necrotizing enterocolitis. After two laparotomies - both confirming necrotizing enterocolitis - the child died 8 days after birth. In the following two pregnancies Sandostatin LAR® was stopped before pregnancy and the patient was treated only with diet restriction and intensive glucose monitoring. Both pregnancies ended successfully. One child carried the mutation and was small for gestational age at birth while the other child did not carry the mutation and had normal birth weight.\r\n",
+    "entities": [
+      {
+        "testo": "familial hyperinsulinemic hypoglycemia",
+        "tipo": "CLINENTITY",
+        "inizio": 56,
+        "fine": 94
+      },
+      {
+        "testo": "intrauterine growth retardation",
+        "tipo": "CLINENTITY",
+        "inizio": 382,
+        "fine": 413
+      },
+      {
+        "testo": "familial hyperinsulinemic hypoglycemia",
+        "tipo": "CLINENTITY",
+        "inizio": 546,
+        "fine": 584
+      },
+      {
+        "testo": "low blood glucose",
+        "tipo": "CLINENTITY",
+        "inizio": 841,
+        "fine": 858
+      },
+      {
+        "testo": "intravenous glucose",
+        "tipo": "CLINENTITY",
+        "inizio": 863,
+        "fine": 882
+      },
+      {
+        "testo": "abdominal catastrophe",
+        "tipo": "CLINENTITY",
+        "inizio": 973,
+        "fine": 994
+      },
+      {
+        "testo": "necrotizing enterocolitis",
+        "tipo": "CLINENTITY",
+        "inizio": 1006,
+        "fine": 1031
+      },
+      {
+        "testo": "necrotizing enterocolitis",
+        "tipo": "CLINENTITY",
+        "inizio": 1074,
+        "fine": 1099
+      },
+      {
+        "testo": "small for gestational age",
+        "tipo": "CLINENTITY",
+        "inizio": 1381,
+        "fine": 1406
+      },
+      {
+        "testo": "normal birth weight",
+        "tipo": "CLINENTITY",
+        "inizio": 1473,
+        "fine": 1492
+      }
+    ]
+  },
+  {
+    "id_doc": "EN107424.xml",
+    "lingua": "English",
+    "text": "Here, we present a case of unicentric Castleman's disease in a 37-year-old woman without associated neoplastic, autoimmune or infectious diseases. The lesion was located in the femoral region of the right lower extremity and surgically resected after radiographic workup and excisional biopsy examinations. The tumor comprised lymphoid tissue with numerous germinal centers with central fibrosis, onion-skinning and rich interfollicular vascularization. CD23-positive follicular dendritic cells were detected in the germinal centers and numerous CD138-positive plasma cells in interfollicular areas. The diagnosis of mixed cellularity type Castleman's disease was established and the patient recovered well.\n",
+    "entities": [
+      {
+        "testo": "Castleman's disease",
+        "tipo": "CLINENTITY",
+        "inizio": 38,
+        "fine": 57
+      },
+      {
+        "testo": "neoplastic, autoimmune or infectious diseases",
+        "tipo": "CLINENTITY",
+        "inizio": 100,
+        "fine": 145
+      },
+      {
+        "testo": "autoimmune or infectious diseases",
+        "tipo": "CLINENTITY",
+        "inizio": 112,
+        "fine": 145
+      },
+      {
+        "testo": "infectious diseases",
+        "tipo": "CLINENTITY",
+        "inizio": 126,
+        "fine": 145
+      },
+      {
+        "testo": "lesion",
+        "tipo": "CLINENTITY",
+        "inizio": 151,
+        "fine": 157
+      },
+      {
+        "testo": "tumor",
+        "tipo": "CLINENTITY",
+        "inizio": 311,
+        "fine": 316
+      },
+      {
+        "testo": "lymphoid tissue",
+        "tipo": "CLINENTITY",
+        "inizio": 327,
+        "fine": 342
+      },
+      {
+        "testo": "fibrosis",
+        "tipo": "CLINENTITY",
+        "inizio": 387,
+        "fine": 395
+      },
+      {
+        "testo": "onion-skinning",
+        "tipo": "CLINENTITY",
+        "inizio": 397,
+        "fine": 411
+      },
+      {
+        "testo": "CD23-positive follicular dendritic cells",
+        "tipo": "CLINENTITY",
+        "inizio": 454,
+        "fine": 494
+      },
+      {
+        "testo": "Castleman's disease",
+        "tipo": "CLINENTITY",
+        "inizio": 640,
+        "fine": 659
       }
     ]
   },
@@ -520,112 +762,268 @@
     ]
   },
   {
-    "id_doc": "FR100282.xml",
-    "lingua": "French",
-    "text": "Patient K.M, âgé de 38 ans, présente des crises convulsives qui auraient débuté il y a 3 ans et s'accompagnaient de chute, de perte de mémoire et d'oubli.\nPendant environ deux ans, aucune prise en charge n'avait été instaurée mais une année avant la présente consultation, le patient fut soumis sous un traitement fait de la carbamazépine (deux fois 200 mg par jour).\nCinq mois après, vu que la monothérapie ne donnait pas de résultats escomptés, une multithérapie antiépileptique (carbamazépine, phénobarbital et valproate de sodium) lui fut administrée pendant plus de sept mois mais sans succès également.\nVoyant que son état ne s'améliorait pas, il consulte le Centre Neuro-psychiatrique Dr Joseph-Guislain en date du 21 juin 2014.\nSes antécédents ne relèvent rien de particulier et aucune crise épileptique n'a été retrouvée dans sa famille.\nMais il faut signaler que dans ses habitus, il consomme régulièrement la viande de porc.\nAu complément d'anamnèse, nous notons que ses crises convulsives sont focales évoluant vers des crises bilatérales avec des composantes toniques et cloniques.\nPendant les crises, il y a une émission d'écume et une perte d'urine.\nElles durent environ 5 minutes et ont une fréquence de 2 à 4 par mois.\nL'examen neurologique était normal.\nL'électroencéphalogramme montre un tracé perturbé par sa lenteur et par l'abondance en éléments lents à prédominance droite.\nLe scanner cérébral met en évidence au niveau du parenchyme des multiples lésions kystiques arrondies avec un point hyperdense excentrique représentant le scolex.\nNous avons conclus à une NCC révélée par une épilepsie réfractaire.\nAprès un examen normal du fond d'œil, nous avons instauré un traitement par voie orale fait d'Albendazole (15 mg/kg/jour en 2 prises) et de Prednisolone (1 mg/kg/j) pendant une durée d'une semaine.\nUn suivi médical pendant une durée de six mois a été fait et aucune crise épileptique n'a été notée jusqu'à ce jour.\n",
+    "id_doc": "ES100002.xml",
+    "lingua": "Spanish",
+    "text": "Varón de 66 años controlado en Consultas Externas por hipertrofia benigna de próstata. Presenta episodios de hematuria monosintomática autolimitada y urinocultivos negativos. En estudio ecográfico se observa ureteropielocaliectasia grado II de riñón derecho y en U.I.V. se objetiva anulación funcional de riñón derecho, motivo por el cuál, se practica nefrostomia percutánea derecha, que confirma el hallazgo urográfico. Ocho meses antes, est:udio ecográfico y U.I.V. sin hallazgos patológicos.\r\n\r\nEntre sus antecedentes personales cabe destacar: sin alergias conocidas. HTA. Diabetes Mellitus tipo II. Miocardiopatía hipertrófica. Aneurisma carotídeo intracerebral sin secuelas.\r\nLa exploración física practicada es la siguiente: Abdomen blando y depresible, no doloroso, no megalias, Fosas renales libres indoloras. Genitales externos sin signos patológicos. Tacto rectal compatible con HBP grado I-II. Se llevan a cabo las siguientes EXPLORACIONES COMPLEMENTARIAS:\r\nANALISIS: Glucemia 145 mg/dl, Creatinina 1.4 mg/dl. Resto de parámetros dentro de la normalidad.\r\nCITOLOGIA URINARIA: Compatible con carcinoma de células transicionales de bajo grado.\r\nPIELOGRAFIA DESCENDENTE a traves de Nefrostomia: Defecto de replección a nivel de uréter sacro-ilíaco derecho de aproximadamente 20 mm de longitud, con signos de infiltración de la pared.\r\n\r\nESTUDIO FUNCIONAL DE RIÑON DERECHO: Aclaramiento de Creatinina inferior a 5 ml/minuto.\r\nTAC ABDOMINO-PELVICO: Aneurisma de Aorta infrarrenal. Atrofia hidronefrótica de riñón derecho, sin visualizarse imágenes endoluminales intraureterales. Dudosas adenopatías paravesicales.\r\nAnte estos hallazgos y la sospecha de tumor de vías de uréter derecho, el paciente es intervenido quirúrgicamente practicándose nefroureterectomía radical derecha con evolución postoperatoria satisfactoria. El dictamen histopatológico de la pieza nos informa de pielonefritis crónica y cambios de arteriosclerosis, así como lesión inflamatoria ureteral que oblitera la luz con infiltrado de linfocitos en capas musculares, erosión de urotelio y presencia de Actinomices. Tras 9 años de seguimiento, el paciente mantiene una función renal aceptable (Creatinina sérica 2.1 mg/dl ) y es controlado por HBP sintomática.\r\n",
     "entities": [
       {
-        "testo": "crises convulsives",
+        "testo": "hipertrofia benigna de próstata",
         "tipo": "CLINENTITY",
-        "inizio": 41,
-        "fine": 59
+        "inizio": 54,
+        "fine": 85
       },
       {
-        "testo": "chute",
+        "testo": "hematuria",
         "tipo": "CLINENTITY",
-        "inizio": 116,
-        "fine": 121
+        "inizio": 109,
+        "fine": 118
       },
       {
-        "testo": "perte de mémoire",
+        "testo": "ureteropielocaliectasia",
         "tipo": "CLINENTITY",
-        "inizio": 126,
-        "fine": 142
+        "inizio": 208,
+        "fine": 231
       },
       {
-        "testo": "oubli",
+        "testo": "anulación funcional de riñón",
         "tipo": "CLINENTITY",
-        "inizio": 148,
-        "fine": 153
+        "inizio": 282,
+        "fine": 310
       },
       {
-        "testo": "crise épileptique",
+        "testo": "alergias",
         "tipo": "CLINENTITY",
-        "inizio": 794,
-        "fine": 811
+        "inizio": 551,
+        "fine": 559
       },
       {
-        "testo": "crises convulsives",
+        "testo": "HTA",
         "tipo": "CLINENTITY",
-        "inizio": 982,
-        "fine": 1000
+        "inizio": 571,
+        "fine": 574
       },
       {
-        "testo": "crises",
+        "testo": "Diabetes Mellitus tipo II",
         "tipo": "CLINENTITY",
-        "inizio": 1032,
-        "fine": 1038
+        "inizio": 576,
+        "fine": 601
       },
       {
-        "testo": "crises",
+        "testo": "Miocardiopatía hipertrófica",
         "tipo": "CLINENTITY",
-        "inizio": 1107,
-        "fine": 1113
+        "inizio": 603,
+        "fine": 630
       },
       {
-        "testo": "lésions kystiques",
+        "testo": "Aneurisma carotídeo",
         "tipo": "CLINENTITY",
-        "inizio": 1471,
-        "fine": 1488
+        "inizio": 632,
+        "fine": 651
       },
       {
-        "testo": "NCC",
+        "testo": "doloroso",
         "tipo": "CLINENTITY",
-        "inizio": 1585,
-        "fine": 1588
+        "inizio": 763,
+        "fine": 771
       },
       {
-        "testo": "épilepsie réfractaire",
+        "testo": "megalias",
         "tipo": "CLINENTITY",
-        "inizio": 1605,
-        "fine": 1626
+        "inizio": 776,
+        "fine": 784
       },
       {
-        "testo": "crise épileptique",
+        "testo": "signos",
         "tipo": "CLINENTITY",
-        "inizio": 1894,
-        "fine": 1911
+        "inizio": 841,
+        "fine": 847
+      },
+      {
+        "testo": "HBP",
+        "tipo": "CLINENTITY",
+        "inizio": 889,
+        "fine": 892
+      },
+      {
+        "testo": "carcinoma de células transicionales",
+        "tipo": "CLINENTITY",
+        "inizio": 1102,
+        "fine": 1137
+      },
+      {
+        "testo": "Defecto de replección a nivel de uréter",
+        "tipo": "CLINENTITY",
+        "inizio": 1203,
+        "fine": 1242
+      },
+      {
+        "testo": "infiltración",
+        "tipo": "CLINENTITY",
+        "inizio": 1316,
+        "fine": 1328
+      },
+      {
+        "testo": "Aneurisma de Aorta infrarrenal",
+        "tipo": "CLINENTITY",
+        "inizio": 1455,
+        "fine": 1485
+      },
+      {
+        "testo": "Atrofia hidronefrótica de riñón derecho",
+        "tipo": "CLINENTITY",
+        "inizio": 1487,
+        "fine": 1526
+      },
+      {
+        "testo": "adenopatías",
+        "tipo": "CLINENTITY",
+        "inizio": 1593,
+        "fine": 1604
+      },
+      {
+        "testo": "tumor de vías de uréter",
+        "tipo": "CLINENTITY",
+        "inizio": 1659,
+        "fine": 1682
+      },
+      {
+        "testo": "pielonefritis crónica",
+        "tipo": "CLINENTITY",
+        "inizio": 1883,
+        "fine": 1904
+      },
+      {
+        "testo": "arteriosclerosis",
+        "tipo": "CLINENTITY",
+        "inizio": 1918,
+        "fine": 1934
+      },
+      {
+        "testo": "lesión inflamatoria",
+        "tipo": "CLINENTITY",
+        "inizio": 1945,
+        "fine": 1964
+      },
+      {
+        "testo": "infiltrado",
+        "tipo": "CLINENTITY",
+        "inizio": 1998,
+        "fine": 2008
+      },
+      {
+        "testo": "erosión de urotelio",
+        "tipo": "CLINENTITY",
+        "inizio": 2044,
+        "fine": 2063
+      },
+      {
+        "testo": "HBP",
+        "tipo": "CLINENTITY",
+        "inizio": 2220,
+        "fine": 2223
       }
     ]
   },
   {
-    "id_doc": "EN102305.xml",
+    "id_doc": "EN100705.xml",
     "lingua": "English",
-    "text": "A 32-year-old female patient with Kniest syndrome presented at our department with a painful pseudarthrosis after femoral valgisation osteotomy 8 years ago. A Wagner cone stem and acetabular roof cup with a cemented Ecofit cup 2M (dual-articulation acetabular cup system) were implanted due to a dysplastic femur with a small medullary space. The Ecofit cup itself is associated with a reduced risk of dislocation. The patient was satisfied with the range of motion after hip endoprosthesis and reported a significant increase in quality of life. The patient is still comfortable with the hip prosthesis at the most recent follow-up 4 years after implantation. Follow-up radiographs over 4 years have not revealed any signs of loosening or migration, and no Trendelenburg sign was reported for the affected side.\r\n",
+    "text": "We report the case of a male patient, 79 years old, diabetic for 10 years on metformin, hypertensive for 5 years on amilodipine; occasional alcoholic weaned 4 years ago. He was initially admitted for mental confusion with sudden onset dysarthria dating back 48 hours before. Initial assessment found Glasgow score (GCS) of 12/15 (eye opening at 5, verbal response at 2, motor response at 5), symmetrical and reactive pupils, without feeling-motor deficit, normal osteotendinous reflexes, slightly polypneic at 24 cycles/min, pulsed oxygen saturation (SpO 2) at 97% in ambient air, he was tachycardic at 115 bpm and hypertensive at 160/95 mmHg, his capillary blood glucose at 2.24 g/L, and glycosuria on the urine dipstick test without ketonuria. The patient was apyretic. Arterial gas testing showed normal corrected anion gap metabolic acidosis, with hypokalaemia at 3 mmol/L and normal lactatemia at 0.43 mmol/L. Diagnosis of diabetes decompensation was made despite absence of ketone bodies on urine dipstick test. After conditioning, the patient was put on a hydration regimen with hypokalaemia correction and insulin therapy, and then referred to intensive care for additional management in face of non-improvement in his neurological condition. A brain scan was performed objectifying multiple parietal ischemic foci, chest scanner showed a thickening of the septal and foci of bronchial dilation without sign of pneumopathy linked to COVID-19 infection; abdominal ultrasound did not show any abnormalities. An electrocardiogram was performed showing no electrical signs of hypokalaemia or repolarization disturbances, transthoracic echocardiography was normal, as was ultrasound of supraortic trunks. Laboratory workup showed an elevated C-reactive protein (CRP) of 45.5 with negative procalcitonin (0.04 ng/ml), white blood cells at 12,500 (PNN at 9280 and normal lymphocytes at 2140), no thrombocytopenia, normal ferritinemia, fibrinogen levels elevated to 5.37 and negative D-dimers. Natremia, magnesemia, corrected serum calcium, phosphoremia and thyroid assessment was normal. SARS-CoV-2 reverse transcription polymerase chain reaction (RT-PCR) by nasopharyngeal swab was negative, COVID-19 serology (IgM and IgG) was also negative. Faced with concept of ischemic lesions on a brain scan, anticoagulation at a prophylactic dose, antiplatelet aggregation with aspirin and statins were initiated as well as an antibiotic therapy at a meningeal dose with ceftriaxone pending results of the lumbar puncture which subsequently showed a clear liquid with a high proteinorachia at 0.58g/l (normal between 0.15 and 0.45), a normal glycorachia/blood sugar ratio at 0.58 (normal at 0.5); with a culture showing less than 3 elements, sterile after 24 hours. Cerebral Magnetic resonance angiography performed on day 2 of admission showed signs in favor of vascular leukopathy, with some calcifications in basal ganglia and cortical atrophy. Electroencephalogram showed signs of epilepsy, which prompted us to retain the diagnosis of nonketotic hyperglycemia-related epileptic seizures. Anticonvulsant treatment was started with sodium valproate. The Patient worsened neurologically despite correction of his metabolic acidosis, he was intubated on day 3 of his admission (day 5 of symptoms onset). A cerebral computerized tomography (CT) scan was performed without showing any progressive lesions. Faced with installation of lymphopenia (HIV serologies 1 and 2 negative) with increased CRP, a multiplex RT-PCR in protected distal bronchial sample as well as in Cerebrospinal fluid (CSF) were performed, the first was positive to SARS-CoV-2. Reverse transcription polymerase chain reaction of SARS-CoV-2 in CSF was positive but with a cycle threshold (CT) of 38.6. The diagnosis of SARS-CoV-2 encephalopathy was retained. The patient is still in intensive care.\r\n",
     "entities": [
       {
-        "testo": "Kniest syndrome",
+        "testo": "diabetic",
         "tipo": "CLINENTITY",
-        "inizio": 34,
-        "fine": 49
+        "inizio": 52,
+        "fine": 60
       },
       {
-        "testo": "pseudarthrosis",
+        "testo": "hypertensive",
         "tipo": "CLINENTITY",
-        "inizio": 93,
-        "fine": 107
+        "inizio": 88,
+        "fine": 100
       },
       {
-        "testo": "dysplastic femur",
+        "testo": "mental confusion",
         "tipo": "CLINENTITY",
-        "inizio": 296,
-        "fine": 312
+        "inizio": 200,
+        "fine": 216
       },
       {
-        "testo": "Trendelenburg sign",
+        "testo": "dysarthria",
         "tipo": "CLINENTITY",
-        "inizio": 758,
-        "fine": 776
+        "inizio": 235,
+        "fine": 245
+      },
+      {
+        "testo": "tachycardic",
+        "tipo": "CLINENTITY",
+        "inizio": 588,
+        "fine": 599
+      },
+      {
+        "testo": "hypertensive",
+        "tipo": "CLINENTITY",
+        "inizio": 615,
+        "fine": 627
+      },
+      {
+        "testo": "hypokalaemia",
+        "tipo": "CLINENTITY",
+        "inizio": 852,
+        "fine": 864
+      },
+      {
+        "testo": "hypokalaemia",
+        "tipo": "CLINENTITY",
+        "inizio": 1580,
+        "fine": 1592
+      },
+      {
+        "testo": "elevated C-reactive protein",
+        "tipo": "CLINENTITY",
+        "inizio": 1736,
+        "fine": 1763
+      },
+      {
+        "testo": "thrombocytopenia",
+        "tipo": "CLINENTITY",
+        "inizio": 1897,
+        "fine": 1913
+      },
+      {
+        "testo": "calcifications in basal ganglia",
+        "tipo": "CLINENTITY",
+        "inizio": 2887,
+        "fine": 2918
+      },
+      {
+        "testo": "cortical atrophy",
+        "tipo": "CLINENTITY",
+        "inizio": 2923,
+        "fine": 2939
+      },
+      {
+        "testo": "epilepsy",
+        "tipo": "CLINENTITY",
+        "inizio": 2978,
+        "fine": 2986
+      },
+      {
+        "testo": "epileptic seizures",
+        "tipo": "CLINENTITY",
+        "inizio": 3066,
+        "fine": 3084
+      },
+      {
+        "testo": "lesions",
+        "tipo": "CLINENTITY",
+        "inizio": 3389,
+        "fine": 3396
+      },
+      {
+        "testo": "SARS-CoV-2 encephalopathy",
+        "tipo": "CLINENTITY",
+        "inizio": 3781,
+        "fine": 3806
       }
     ]
   },
@@ -832,266 +1230,6 @@
         "tipo": "CLINENTITY",
         "inizio": 1835,
         "fine": 1840
-      }
-    ]
-  },
-  {
-    "id_doc": "EN100114.xml",
-    "lingua": "English",
-    "text": "A 77-year-old Tunisian woman was hospitalized because of massive painful ascites. Her family history did not include any autoimmune disease. She denied a history of hepatitis, jaundice or alcohol use. She had a history of diabetes, hypertension treated by glinide and calcium blocker. She was explored 4 years prior to admission for exudative pleuritis of the right lung without any established diagnosis after multiple explorations including thoracoscopy with biopsies. On admission, blood pressure was 150/70 mmHg, her rate was 80 /mn and body temperature was 37°C. The physical examination showed only abdominal distension related to the important ascites without collateral venous circulation. She had no skin lesions, lymphadenopathy, or hepatosplenomegaly and lower extremities showed no edema. Laboratory investigations showed: leucopenia with white blood cell count = 3100/mm3, lymphopenia = 840/mm3, hemoglobin = 10.5g/dL ; low serum albumin level = 29g/L, 47;-globulin = 19g/L. blood glucose levels = 180 mg/dl and hemoglobin A1c = 8.6 %. Urine analysis showed trace protein (0.03g/24h). Platelet count, activated partial thromboplastin time, liver function tests, blood urea nitrogen, serum creatinine, erythrocyte sediment rate and total cholesterol were within normal limits. Tests for HBsAg and HCV were negative. Abdominal ultrasonography showed ascitic fluid without any sign of bowel loop thickening or enteritis. Neither lymphadenopathy nor liver abnormality was present. A chest X-ray film disclosed bilateral pleural effusion. Ascitic obtained by aspiration contained 170 cells mm3 (67% lymphocytes), 46g/L protein, but no malignant cells. Cultures for bacteria and mycobacteria gave no growth. Tuberculosis investigation including initial tuberculin skin test and the research of Koch bacilli in sputum and urine were negative. Echocardiogram and electrocardiogram were normal. Computed tomographic scan showed massive ascites, no dysmorphic liver, and a mild bilateral pleural effusion. Pelvic examination was normal. Oesogastroduodenoscopy showed hiatal hernia without oesophageal varices. An exploratory laparoscopy was performed, revealing a large amount of ascite, a normal liver appearance, and no granulations suggesting tuberculosis or peritoneal carcinosis. Histological examination of the peritoneum showed non specific chronic inflammation. Systemic lupus erythematosus was suspected based on pleuritis, lymphopenia and leucopenia. An additional serologic survey revealed markedly elevated anti-nuclear antibody (ANA) titer of 1/1600 and a significantly elevated titer of antibody to double-stranded DNA (83 IU/mL ; normal < 30 IU/mL). She had also positive serum antibody against the Smith antigen and low serum level of C3 complement component: 67 mg/dL (serum normal range: 84 – 151). Relying on these findings, the patient was diagnosed with SLE since 4 of the 11 diagnostic criteria of the American College of Rheumatology were met. The SLEDAI score according to Systemic Lupus Erythematosus Disease Activity Index was estimated to be 7 on admission. Hydroxychloroquine 200 mg daily in combination with diuretics was initiated. One month later, there was no detectable ascitic fluid and no pleural effusions. Five months later she remained free from symptoms while continuing to take Hydroxychloroquine\r\n",
-    "entities": [
-      {
-        "testo": "ascites",
-        "tipo": "CLINENTITY",
-        "inizio": 73,
-        "fine": 80
-      },
-      {
-        "testo": "autoimmune disease",
-        "tipo": "CLINENTITY",
-        "inizio": 121,
-        "fine": 139
-      },
-      {
-        "testo": "hepatitis",
-        "tipo": "CLINENTITY",
-        "inizio": 165,
-        "fine": 174
-      },
-      {
-        "testo": "jaundice",
-        "tipo": "CLINENTITY",
-        "inizio": 176,
-        "fine": 184
-      },
-      {
-        "testo": "diabetes",
-        "tipo": "CLINENTITY",
-        "inizio": 222,
-        "fine": 230
-      },
-      {
-        "testo": "hypertension",
-        "tipo": "CLINENTITY",
-        "inizio": 232,
-        "fine": 244
-      },
-      {
-        "testo": "exudative pleuritis",
-        "tipo": "CLINENTITY",
-        "inizio": 333,
-        "fine": 352
-      },
-      {
-        "testo": "ascites",
-        "tipo": "CLINENTITY",
-        "inizio": 651,
-        "fine": 658
-      },
-      {
-        "testo": "bilateral pleural effusion",
-        "tipo": "CLINENTITY",
-        "inizio": 1519,
-        "fine": 1545
-      },
-      {
-        "testo": "ascites",
-        "tipo": "CLINENTITY",
-        "inizio": 1940,
-        "fine": 1947
-      },
-      {
-        "testo": "bilateral pleural effusion",
-        "tipo": "CLINENTITY",
-        "inizio": 1981,
-        "fine": 2007
-      },
-      {
-        "testo": "hiatal hernia",
-        "tipo": "CLINENTITY",
-        "inizio": 2070,
-        "fine": 2083
-      },
-      {
-        "testo": "ascite",
-        "tipo": "CLINENTITY",
-        "inizio": 2183,
-        "fine": 2189
-      },
-      {
-        "testo": "Systemic lupus erythematosus",
-        "tipo": "CLINENTITY",
-        "inizio": 2373,
-        "fine": 2401
-      },
-      {
-        "testo": "pleuritis",
-        "tipo": "CLINENTITY",
-        "inizio": 2425,
-        "fine": 2434
-      },
-      {
-        "testo": "lymphopenia",
-        "tipo": "CLINENTITY",
-        "inizio": 2436,
-        "fine": 2447
-      },
-      {
-        "testo": "leucopenia",
-        "tipo": "CLINENTITY",
-        "inizio": 2452,
-        "fine": 2462
-      },
-      {
-        "testo": "SLE",
-        "tipo": "CLINENTITY",
-        "inizio": 2878,
-        "fine": 2881
-      }
-    ]
-  },
-  {
-    "id_doc": "FR100925.xml",
-    "lingua": "French",
-    "text": "Patiente âgée de 29 ans, suivie pour un carcinome mammaire prévu pour radio-chimiothérapie, hospitalisée au service pour une hépatite aiguë grave (ictère fébrile, hyper-transaminasémie avec ASAT à 47 la normale et ALAT à 23 la normale et un taux de prothrombine à 25%).\nLes hépatites virales A, B, C et E étaient négatives et les veines sus-hépatiques étaient libres au Doppler.\nUne hépatite non alphabétique était suspectée devant l'ictère fébrile et le bilan avait révélé une infection à EBV récente retenue devant des Ac anti-VCA type IgM/G et Ac anti-EBNA type IgG positifs.\nLa patiente était traitée par l'acyclovir pendant 10 jours.\nL'évolution était marquée par l'apparition d'une ascite et le diagnostic d'une hépatite auto-immune type était retenue consécutivement sur des arguments biologiques (un pic gamma à l'électrophorèse des protéines sériques et des anticorps anti-nucléaires positifs) et histologiques.\nUne rémission clinico-biologique était obtenue sous corticothérapie.\nLes infections à EBV doivent être recherchées devant tout tableau d'hépatite aiguë fébrile survenant sur un terrain d'immunodépression.\nLes praticiens devront également être alarmés à une cytolyse persistante après l'épisode infectieux afin de guetter un déclenchement d'une éventuelle HAI notamment chez le sexe féminin, en cas de contexte d'auto-immunité et devant la négativité des sérologies infectieuses virales alphabétiques.\n",
-    "entities": [
-      {
-        "testo": "carcinome mammaire",
-        "tipo": "CLINENTITY",
-        "inizio": 40,
-        "fine": 58
-      },
-      {
-        "testo": "hépatite aiguë",
-        "tipo": "CLINENTITY",
-        "inizio": 125,
-        "fine": 139
-      },
-      {
-        "testo": "fébrile",
-        "tipo": "CLINENTITY",
-        "inizio": 154,
-        "fine": 161
-      },
-      {
-        "testo": "hyper-transaminasémie",
-        "tipo": "CLINENTITY",
-        "inizio": 163,
-        "fine": 184
-      },
-      {
-        "testo": "hépatites virales A, B, C et E",
-        "tipo": "CLINENTITY",
-        "inizio": 274,
-        "fine": 304
-      },
-      {
-        "testo": "hépatites virales A, B, C",
-        "tipo": "CLINENTITY",
-        "inizio": 274,
-        "fine": 299
-      },
-      {
-        "testo": "hépatites virales A, B",
-        "tipo": "CLINENTITY",
-        "inizio": 274,
-        "fine": 296
-      },
-      {
-        "testo": "hépatites virales A",
-        "tipo": "CLINENTITY",
-        "inizio": 274,
-        "fine": 293
-      },
-      {
-        "testo": "hépatite",
-        "tipo": "CLINENTITY",
-        "inizio": 383,
-        "fine": 391
-      },
-      {
-        "testo": "fébrile",
-        "tipo": "CLINENTITY",
-        "inizio": 441,
-        "fine": 448
-      },
-      {
-        "testo": "infection à EBV",
-        "tipo": "CLINENTITY",
-        "inizio": 478,
-        "fine": 493
-      },
-      {
-        "testo": "ascite",
-        "tipo": "CLINENTITY",
-        "inizio": 688,
-        "fine": 694
-      },
-      {
-        "testo": "hépatite auto-immune",
-        "tipo": "CLINENTITY",
-        "inizio": 718,
-        "fine": 738
-      },
-      {
-        "testo": "anticorps anti-nucléaires positifs",
-        "tipo": "CLINENTITY",
-        "inizio": 867,
-        "fine": 901
-      },
-      {
-        "testo": "infections à EBV",
-        "tipo": "CLINENTITY",
-        "inizio": 994,
-        "fine": 1010
-      },
-      {
-        "testo": "hépatite aiguë",
-        "tipo": "CLINENTITY",
-        "inizio": 1058,
-        "fine": 1072
-      },
-      {
-        "testo": "fébrile",
-        "tipo": "CLINENTITY",
-        "inizio": 1073,
-        "fine": 1080
-      },
-      {
-        "testo": "immunodépression",
-        "tipo": "CLINENTITY",
-        "inizio": 1108,
-        "fine": 1124
-      },
-      {
-        "testo": "cytolyse persistante",
-        "tipo": "CLINENTITY",
-        "inizio": 1178,
-        "fine": 1198
-      },
-      {
-        "testo": "infectieux",
-        "tipo": "CLINENTITY",
-        "inizio": 1215,
-        "fine": 1225
-      },
-      {
-        "testo": "HAI",
-        "tipo": "CLINENTITY",
-        "inizio": 1276,
-        "fine": 1279
-      },
-      {
-        "testo": "auto-immunité",
-        "tipo": "CLINENTITY",
-        "inizio": 1333,
-        "fine": 1346
-      },
-      {
-        "testo": "infectieuses virales",
-        "tipo": "CLINENTITY",
-        "inizio": 1386,
-        "fine": 1406
       }
     ]
   }
