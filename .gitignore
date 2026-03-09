@@ -8,7 +8,7 @@ E3C-Corpus-2.0.0/
 .vscode/
 model/
 risultati_model
-
+wandb/
 # User-specific files
 *.rsuser
 *.suo
