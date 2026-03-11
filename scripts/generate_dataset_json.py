@@ -59,20 +59,18 @@ def parse_xmi_e3c(file_path):
 
 
 
-# --- CONFIGURAZIONE ---
+#CONFIGURAZIONE
 E3C_ROOT_DIR = "data/raw/E3C-Corpus-2.0.0\data_annotation"
 SEED = 42 
 random.seed(SEED)
 
 if __name__ == "__main__":
-    # --- LETTURA MULTILINGUE ---
     print(f"Scansione di tutte le lingue nella cartella: {E3C_ROOT_DIR}...")
     dataset_completo = []
     conteggio_lingue = {}
 
-    # navigazione ricorsiva della cartella
     for root_dir, dirs, files in os.walk(E3C_ROOT_DIR):
-        # Vogliamo solo i file del Layer 1 (gold standard)
+        #Layer 1 (gold standard)
         if "layer1" in root_dir.lower():
             for filename in files:
                 if filename.endswith(".xml"):
@@ -89,8 +87,8 @@ if __name__ == "__main__":
 
     print(f"Trovati e processati correttamente {len(dataset_completo)} documenti clinici.")
 
-    # --- 2. Data Splitting ---
-    # shuffle dei documenti in modo casuale
+    # Data Splitting
+   
     random.shuffle(dataset_completo)
 
     # Split train/test (80/20)
@@ -101,13 +99,13 @@ if __name__ == "__main__":
     print(f"Documenti riservati per il Test (Test Set): {len(test_set)}")
     print(f"Documenti disponibili per il Training: {len(train_pool)}")
 
-    # Creiamo le porzioni per confrontare One-Shot e Few-Shot
-    one_shot_set = train_pool[:1]       # Solo 1 documento
-    few_shot_set_5 = train_pool[:5]     # Solo 5 documenti
-    few_shot_set_10 = train_pool[:10]   # Solo 10 documenti
-    full_train_set = train_pool         # Tutti i documenti rimasti
+    # Crezione pool per One-Shot e Few-Shot
+    one_shot_set = train_pool[:1]       
+    few_shot_set_5 = train_pool[:5]     
+    few_shot_set_10 = train_pool[:10]   
+    full_train_set = train_pool         
 
-    # --- 3. SALVATAGGIO DEI FILE JSON ---
+
     def salva_json(dati, nome_file):
         with open(nome_file, 'w', encoding='utf-8') as f:
             json.dump(dati, f, ensure_ascii=False, indent=2)

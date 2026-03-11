@@ -5,6 +5,7 @@ import os
 import evaluate
 import numpy as np
 from datasets import Dataset
+from dotenv import load_dotenv
 from transformers import (
     AutoTokenizer, 
     AutoModelForTokenClassification, 
@@ -14,24 +15,24 @@ from transformers import (
     EarlyStoppingCallback
 )
 
-# --- 1. CONFIGURAZIONE ESPERIMENTO ---
+#Configurazione
 FILE_TRAIN = "data/processed/multi/dataset_train_full.json" 
 FILE_TEST = "data/processed/multi/dataset_test.json"
-NOME_MODELLO_SALVATO = "multi_roberta_medico_full_shot_early"
+NOME_MODELLO_SALVATO = "multi_bert_medico_full_shot_early"
 
 #MODEL_NAME = "dbmdz/bert-base-italian-cased"
-#MODEL_NAME = "bert-base-multilingual-cased"
-MODEL_NAME = "xlm-roberta-large"
+MODEL_NAME = "bert-base-multilingual-cased"
+#MODEL_NAME = "xlm-roberta-large"
 
-# Mappiamo le etichette BIO in numeri (BERT ragiona a numeri, non a stringhe)
+# Mapping etichette BIO in numeri
 label_list = ['O', 'B-CLINENTITY', 'I-CLINENTITY']
 label2id = {label: i for i, label in enumerate(label_list)}
 id2label = {i: label for i, label in enumerate(label_list)}
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-seqeval = evaluate.load("seqeval") # Metrica standard per il NER
+seqeval = evaluate.load("seqeval") # Metrica NER
 
-# --- 2. FUNZIONI DI SUPPORTO (Riutilizziamo la tua funzione vincente) ---
+
 def BIO_encoding(testo, entita_estratte, tokenizer):
     
     """ Prende il testo grezzo e le coordinate, e restituisce i token di BERT 
@@ -58,14 +59,13 @@ def BIO_encoding(testo, entita_estratte, tokenizer):
                 else:
                     labels[idx] = label2id['I-CLINENTITY']
 
-    # Convertiamo gli ID in token testuali
+    # Convertiamo gli ID in token testuali (DEBUG)
     tokens_text = tokenizer.convert_ids_to_tokens(input_ids)
     BIO_list = []
     for t, l in zip(tokens_text, labels):
         label_name = id2label[l] if l != -100 else "SPECIAL"
         BIO_list.append((t, label_name))
                     
-    # Non ci servono più gli offsets per il training
     tokenized["labels"] = labels
     del tokenized["offset_mapping"] 
     return tokenized, BIO_list
@@ -79,7 +79,6 @@ def make_dataset(file_json):
     
     for doc in dati:
         if doc is not None:
-            # Applichiamo l'allineamento a ogni documento
             tok_doc, token_text = BIO_encoding(doc["text"], doc["entities"], tokenizer)
             all_inputs["input_ids"].append(tok_doc["input_ids"])
             all_inputs["attention_mask"].append(tok_doc["attention_mask"])
@@ -87,9 +86,9 @@ def make_dataset(file_json):
         
     return Dataset.from_dict(all_inputs), token_text
 
-# --- 3. METRICHE DI VALUTAZIONE ---
+# Evaluation metrics
 def compute_metrics(p):
-    """Calcola Precision, Recall e F1-Score (Quelli che metterai nel grafico per il prof!)"""
+    """Calcola Precision, Recall e F1-Score"""
     predictions, labels = p
     predictions = np.argmax(predictions, axis=2)
 
@@ -111,16 +110,15 @@ def compute_metrics(p):
         "accuracy": results["overall_accuracy"],
     }
 
-wandb.init(
-    project="clinical-ner-task", 
-    name="multi_fullFT__early_roberta",
-    tags=["BERT", "NER", "Clinical"]
-)
+
 
 if __name__ == "__main__":
 
-    from dotenv import load_dotenv
-
+    wandb.init(
+        project="clinical-ner-task", 
+        name=NOME_MODELLO_SALVATO,
+        tags=["BERT", "NER", "Clinical"]
+    )
     load_dotenv()
     api_key = os.getenv("WANDB_API_KEY")
     wandb.login(key=api_key)
@@ -144,25 +142,26 @@ if __name__ == "__main__":
 
 
 
-    # --- 5. IL MOTORE DEL TRAINING DI HUGGINGFACE ---
+    # TRAINING
     training_args = TrainingArguments(
         output_dir=f"./risultati_model/{NOME_MODELLO_SALVATO}",
         eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=2e-5,
         per_device_train_batch_size=8, 
-        per_device_eval_batch_size=8, #prima era 16 per full shot
-        num_train_epochs=50, # 5 epoche sono perfette per il Few-Shot
+        per_device_eval_batch_size=8, 
+        num_train_epochs=100, 
         weight_decay=0.01,
         bf16=True, 
         save_only_model=True,   # Evita di salvare optimizer/scheduler (molto pesanti)
-        metric_for_best_model="f1",
+        metric_for_best_model="loss",
         load_best_model_at_end=True,
         greater_is_better=True,
         save_total_limit=1,
-        report_to="wandb"
+        report_to="wandb",
+        logging_strategy="epoch"
         
-        # warmup_ratio=0.1,             # Il 10% dei passi iniziali serve a "scaldare" il modello , strategia warmup
+        # warmup_ratio=0.1,             # strategia warmup
         # lr_scheduler_type="cosine",   # La curva di discesa morbida
     )
 
@@ -174,15 +173,12 @@ if __name__ == "__main__":
         processing_class=tokenizer,
         data_collator=data_collator,
         compute_metrics=compute_metrics,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=5)]
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=10)]
     )
 
-    # VIA AL TRAINING!
-    print("\n🚀 INIZIO ADDESTRAMENTO 🚀")
+    
+    print("\n INIZIO ADDESTRAMENTO ")
     trainer.train()
-
-    # Salviamo il modello finetunato
     trainer.save_model(f"model/{NOME_MODELLO_SALVATO}")
     print(f"Modello salvato in: model/{NOME_MODELLO_SALVATO}")
-
     trainer.state.save_to_json(f"model/{NOME_MODELLO_SALVATO}/trainer_state.json")
