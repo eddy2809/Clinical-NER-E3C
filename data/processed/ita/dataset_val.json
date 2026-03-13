@@ -1,0 +1,896 @@
+[
+  {
+    "id_doc": "IT100608.xml",
+    "text": "Uomo di 41 anni, giunto alla nostra osservazione per stato anasarcatico, lieve iponatriemia. (Na+132 mEq/L). Anamnesi patologica remota e farmacologica negative. Funzionalità renale, epatica, proteine totali nella norma, non cardiopatie in atto. Riscontro di elevata osmolarità urinaria (953 mosm/kg), sodiuria elevata (441 mmol/24 h), bassa osmolarità plasmatica (269 mOsm/kg). AVP non dosabile. TC total body negativa per processi espansivi. RMN encefalo: microadenoma ipofisario non secernente. Trattato con furosemide ev con beneficio (perdita di 15 l di liquidi accumulati). Sono in corso ricerche genetiche, sequenziamento completo del gene AVPR2, volte a chiarire il sospetto diagnostico di NSIAD.\r\n",
+    "entities": [
+      {
+        "testo": "iponatriemia",
+        "tipo": "CLINENTITY",
+        "inizio": 79,
+        "fine": 91
+      },
+      {
+        "testo": "microadenoma ipofisario",
+        "tipo": "CLINENTITY",
+        "inizio": 458,
+        "fine": 481
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100027.xml",
+    "text": "Un paziente di 83 anni nel dicembre 2006, riceve diagnosi di carcinoma prostatico su biopsia in seguito alla comparsa di disturbi urinari. Al momento della diagnosi i parametri laboratoristico-strumentali erano i seguenti: PSA 127 ng/ml, il Gleason score 8 (4+4), due lesioni ossee evidenti alla scintigrafia ossea e la TC risultava negativa per ripetizioni viscerali. Paziente asintomatico. Nell’anamnesi patologica era riferita ipertensione arteriosa controllata con terapia medica. Dal momento della diagnosi veniva sottoposto a terapia continua con analoghi LH-RH (Luteinizing Hormone-Releasing Hormone) e riduzione del PSA al nadir di 10 ng/ ml dopo 6 mesi. Il PSA del paziente aumentava da 10 a 26 ng/ml in 3 mesi, una nuova scintigrafia ossea evidenziava la comparsa di nuove metastasi ossee, la TC continuava ad essere negativa per lesioni viscerali, la fosfatasi alcalina risultava esser incrementata, continuava ad essere asintomatico e in buone condizioni cliniche generali per cui veniva ritenuto “fit” secondo la valutazione geriatrica. Si sottoponeva a 4 serie, di 12 cicli ciascuno, di ritrattamenti con docetaxel (75 mg/mq/ogni 3 settimane) da ottobre 2007 a novembre 2011 che il paziente tollerava in maniera soddisfacente senza tossicità di rilievo, con una buona qualità di vita e il nadir del PSA raggiungeva 2 ng/ml. Lo studio clinico randomizzato di fase III TAX 327, docetaxel verso mitoxantrone, ha dimostrato un beneficio di sopravvivenza del docetaxel trisettimanale nei pazienti con mCRPC. L’analisi per sottogruppi dei pazienti trattati con docetaxel trisettimanale verso mitoxantrone ha confermato che i pazienti di età ≥ 75 anni (20%) avevano un beneficio in termini di sopravvivenza sovrapponibile ai pazienti di età < 75 anni. Durante il trattamento con docetaxel, nel novembre 2011, il paziente andava in progressione biochimica e strumentale, quattro nuove lesioni ossee erano presenti ad una scintigrafia ossea, assenti le lesioni viscerali e il PSA aumentava da 2 a 62 ng/ml. Nel dicembre 2011 (88 anni) il paziente veniva arruolato nel programma italiano di accesso allargato al cabazitaxel (early access program, EAP), il PSA era ulteriormente incrementato a 71 ng/ml solo nell’ultimo mese, il performance status secondo ECOG (Eastern Cooperative Oncology Group) era uguale a 1 ed era lievemente sintomatico. Veniva sottoposto a terapia con cabazitaxel (25 mg/mq/ogni 3 settimane) in associazione a prednisone 10 mg/die. Da dicembre 2011 a settembre 2013 (90 anni) il paziente riceveva 17 cicli di cabazitaxel, il PSA diventava non rilevabile e la scintigrafia ossea non evidenziava nuove lesioni. Il trattamento era ben tollerato senza tossicità e il paziente asintomatico, a scopo profilattico solo i primi cicli venivano somministrati con il supporto dei fattori di crescita G-CSF (granulocyte colonystimulating factor). Lo studio randomizzato di fase III TROPIC, che ha confrontato il cabazitaxel verso il mitoxantrone, ha dimostrato un beneficio di sopravvivenza a favore del cabazitaxel per i pazienti con mCRPC in progressione di malattia dopo o durante il trattamento chemioterapico con docetaxel. Inoltre il cabazitaxel è stato associato ad una riduzione del dolore relativo alla patologia neoplastica, con un profilo di sicurezza consistente con altre chemioterapie e una bassa percentuale di neuropatia periferica. Nello studio TROPIC è stato evidenziato, per i pazienti di età ≥ 75 anni (18%), un beneficio di sopravvivenza dal cabazitaxel sovrapponibile a quello riportato nei pazienti di età inferiore ai 75 anni. Il trial segnalava un rischio aumentato di neutropenia per i pazienti anziani con età > 75 anni ma gestibile con la profilassi primaria impiegando G-CSF. Il decesso del paziente avveniva dopo un anno dall’ultima somministrazione di cabazitaxel per cause naturali.\r\n",
+    "entities": [
+      {
+        "testo": "carcinoma prostatico",
+        "tipo": "CLINENTITY",
+        "inizio": 61,
+        "fine": 81
+      },
+      {
+        "testo": "disturbi urinari",
+        "tipo": "CLINENTITY",
+        "inizio": 121,
+        "fine": 137
+      },
+      {
+        "testo": "lesioni ossee",
+        "tipo": "CLINENTITY",
+        "inizio": 268,
+        "fine": 281
+      },
+      {
+        "testo": "ipertensione arteriosa",
+        "tipo": "CLINENTITY",
+        "inizio": 430,
+        "fine": 452
+      },
+      {
+        "testo": "metastasi ossee",
+        "tipo": "CLINENTITY",
+        "inizio": 783,
+        "fine": 798
+      },
+      {
+        "testo": "lesioni ossee",
+        "tipo": "CLINENTITY",
+        "inizio": 1891,
+        "fine": 1904
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100803.xml",
+    "text": "Paziente di 20 anni, con anamnesi di doppia eterozigosi per anemia falciforme e +IVS1-nt110, giunge in PS per dolore agli arti inferiori, febbre, anemia e incremento degli indici di emolisi. La paziente presenta dilatazione calico-pielica destra, splenomegalia e colelitiasi, già note. In PS, la paziente effettua terapia trasfusionale e antidolorifica con paracetamolo e oppioidi. Il quadro clinico e l’RX torace escludono una sindrome toracica acuta. Viene trasferita nel Reparto di Medicina Interna dove prosegue la terapia antidolorifica, l’idratazione e l’HU. La paziente viene dimessa, asintomatica, con l’indicazione a eseguire ECD transcranico per escludere trombosi dei seni cerebrali e infarti cerebrali silenti ed ecocardiogramma per determinare la PAPS.\r\n",
+    "entities": [
+      {
+        "testo": "dolore agli arti inferiori",
+        "tipo": "CLINENTITY",
+        "inizio": 110,
+        "fine": 136
+      },
+      {
+        "testo": "febbre",
+        "tipo": "CLINENTITY",
+        "inizio": 138,
+        "fine": 144
+      },
+      {
+        "testo": "anemia",
+        "tipo": "CLINENTITY",
+        "inizio": 146,
+        "fine": 152
+      },
+      {
+        "testo": "splenomegalia",
+        "tipo": "CLINENTITY",
+        "inizio": 247,
+        "fine": 260
+      },
+      {
+        "testo": "colelitiasi",
+        "tipo": "CLINENTITY",
+        "inizio": 263,
+        "fine": 274
+      },
+      {
+        "testo": "trombosi dei seni cerebrali",
+        "tipo": "CLINENTITY",
+        "inizio": 666,
+        "fine": 693
+      },
+      {
+        "testo": "infarti cerebrali silenti",
+        "tipo": "CLINENTITY",
+        "inizio": 696,
+        "fine": 721
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100415.xml",
+    "text": "Vi presentiamo un caso clinico. Giunge alla nostra osservazione una donna di 50 anni, fumatrice di circa 10 sigarette al dì, che riferisce dolori addominali post prandiali, che durano circa un paio d’ore, accompagnati da nausea, conati di vomito e senso di fatica respiratoria. La paziente riferisce inoltre gonfiore addominale subito dopo i pasti e riduzione del peso corporeo (circa in un mese). Si decide di ricoverare la paziente in regime di DH presso la nostra struttura ospedaliera per sottoporla ad indagini laboratoristiche e diagnostiche. All’esame obiettivo, oltre ad un valore di PA di 145/95 mmHg, si riscontra un rinforzo del secondo tono sul focolaio aortico. All’esame obiettivo del torace si apprezza un murmure aspro su tutto l’ambito polmonare e all’esame obiettivo dell’addome, assenza di dolenzia alla palpazione profonda e superficiale, con organi ipocondriaci all’arco. Gli esami di laboratorio evidenziano un’alterata glicemia a digiuno (110 mg/dL) e un lieve aumento delle transaminasi (GOT: 50 U/L, GPT: 60 U/L). ECG: ritmo sinusale con frequenza cardiaca di 75 b/minuto. All’ecografia dell’addome: presenza di brigth disomogeneo, in assenza di lesioni focali e versamento in addome. RX torace: incremento della trama bronco vascolare con assenza di lesioni focali. Ecografia cardiaca: nella norma. Esame EGDS: segni di gastrite aspecifica. HP negativo. Per tale motivo viene iniziata terapia con farmaci antiipertensivi: TRIATEC 5 mg una compressa al mattino, associata a terapia anti reflusso: ANTRA 20 mg e PERIDON 10 mg prima dei pasti. La paziente viene dimessa col consiglio di assumere un regime dietetico alimentare corretto, evitando cibi reflussogeni, quali caffè, menta, thè, spezie, di osservare una buona masticazione, di utilizzare cibi ben cotti. Viene consigliato inoltre di ridurre l’utilizzo del sale e l’abolizione completa dell’abitudine tabagica. Dopo tre settimane, la paziente rientra riferendo assenza di miglioramento della sintomatologia clinica, nonostante la terapia e la modifica dello stile di vita. La paziente viene rivisitata. L’esame obiettivo risulta invariato rispetto al precedente, fatta eccezione per l’evidenza di una riduzione della pressione arteriosa (130/85 mmHg). Ad un esame più accurato dell’addome si reperta all’auscultazione un soffio sistolico a livello epigastrico. La paziente viene sottoposta ad esame EcoColorDoppler (ECD) dei vasi addominali da cui emerge: stenosi emodinamica del tripode celiaco, con presenza di ectasia post-stenotica. Generalmente, nel paziente affetto da aterosclerosi pluridistrettuale, il ritrovamento all’ECD di una stenosi asintomatica del tripode celiaco è un evento abbastanza frequente. Poiché la paziente però, non presentava localizzazione di malattia aterosclerotica in nessun distretto, è stata sospettata una patologia da legamento arcuato, che ben si evidenzia all’ECD durante gli atti respiratori forzati. Viene effettuata Angio-TC addome per conferma diagnostica che ben evidenzia la costrizione del tronco celiaco da parte del legamento arcuato. La paziente avendo attualmente una sintomatologia saltuaria è in attuale controllo clinico-strumentale in previsione di un intervento chirurgico.\r\n",
+    "entities": [
+      {
+        "testo": "dolori addominali",
+        "tipo": "CLINENTITY",
+        "inizio": 139,
+        "fine": 156
+      },
+      {
+        "testo": "nausea",
+        "tipo": "CLINENTITY",
+        "inizio": 221,
+        "fine": 227
+      },
+      {
+        "testo": "conati di vomito",
+        "tipo": "CLINENTITY",
+        "inizio": 229,
+        "fine": 245
+      },
+      {
+        "testo": "senso di fatica respiratoria",
+        "tipo": "CLINENTITY",
+        "inizio": 248,
+        "fine": 276
+      },
+      {
+        "testo": "gonfiore addominale",
+        "tipo": "CLINENTITY",
+        "inizio": 308,
+        "fine": 327
+      },
+      {
+        "testo": "riduzione del peso corporeo",
+        "tipo": "CLINENTITY",
+        "inizio": 350,
+        "fine": 377
+      },
+      {
+        "testo": "alterata glicemia",
+        "tipo": "CLINENTITY",
+        "inizio": 933,
+        "fine": 950
+      },
+      {
+        "testo": "aumento delle transaminasi",
+        "tipo": "CLINENTITY",
+        "inizio": 984,
+        "fine": 1010
+      },
+      {
+        "testo": "gastrite",
+        "tipo": "CLINENTITY",
+        "inizio": 1346,
+        "fine": 1354
+      },
+      {
+        "testo": "soffio sistolico",
+        "tipo": "CLINENTITY",
+        "inizio": 2304,
+        "fine": 2320
+      },
+      {
+        "testo": "stenosi",
+        "tipo": "CLINENTITY",
+        "inizio": 2439,
+        "fine": 2446
+      },
+      {
+        "testo": "aterosclerosi",
+        "tipo": "CLINENTITY",
+        "inizio": 2558,
+        "fine": 2571
+      }
+    ]
+  },
+  {
+    "id_doc": "IT101073.xml",
+    "text": "Il Sig. Enzo, di anni 58, si presenta la sera del sabato in P.S. riferendo emissione di sangue durante l’evacuazione ed ematemesi di scarsa entită Enzo appare lucido e orientato. Il paziente ha una storia di alcoolismo con epatopatia alcolica successivamente evoluta in cirrosi epatica; viene riferito anche un recente ricovero per emorragia da varici esofagee. Enzo è accompagnato dal figlio, che è molto preoccupato per il padre, il quale da un anno ormai vive praticamente da solo, perché la madre è morta di tumore e lui, nonostante sia scapolo, lavora fuori città e torna a casa solo per il fine settimana.\r\n",
+    "entities": [
+      {
+        "testo": "emissione di sangue durante l’evacuazione",
+        "tipo": "CLINENTITY",
+        "inizio": 75,
+        "fine": 116
+      },
+      {
+        "testo": "ematemesi",
+        "tipo": "CLINENTITY",
+        "inizio": 120,
+        "fine": 129
+      },
+      {
+        "testo": "epatopatia alcolica",
+        "tipo": "CLINENTITY",
+        "inizio": 223,
+        "fine": 242
+      },
+      {
+        "testo": "cirrosi epatica",
+        "tipo": "CLINENTITY",
+        "inizio": 270,
+        "fine": 285
+      },
+      {
+        "testo": "emorragia da varici esofagee",
+        "tipo": "CLINENTITY",
+        "inizio": 332,
+        "fine": 360
+      },
+      {
+        "testo": "tumore",
+        "tipo": "CLINENTITY",
+        "inizio": 512,
+        "fine": 518
+      }
+    ]
+  },
+  {
+    "id_doc": "IT101177.xml",
+    "text": "il piccolo leonardo è un bambino che giunge alla nostra osservazione all’età di 8 anni, per il riscontro occasionale di ipogammaglobulinemia in corso di un episodio di gastroenterite: igG 290 mg/dl (vn 636-1916), iga <5 Mg/dl (vn 41-315), igM <16 mg/dl (vn 56-261). Fino ad allora era cresciuto bene e non aveva presentato una storia significativa di infezioni. Il numero dei linfociti b era risultato nella norma (Cd19+ 15.6%). Nel corso del work-up diagnostico si era osservata una spontanea risalita dei valori di immunoglobuline sino al raggiungimento del valore massimo di igG di 432 mg/dl. Successivamente leonardo aveva iniziato a presentare sintomatologia intestinale cronica caratterizzata da diarrea e dolori addominali ricorrenti, associata a febbricola, e contemporaneamente si era osservata una nuova discesa dei valori di immunoglobuline e, questa volta anche di albumina (2.8 g/l). Avviate quindi le indagini diagnostiche per il malassorbimento, erano state escluse la giardiasi, la celiachia ed erano risultati negativi gli esami colturali delle feci. Per il riscontro di alti livelli di calprotectina fecale (277 mg/Kg) il piccolo veniva sottoposto a screening degli asCa e colonscopia. Alla luce della positività degli asCa, si era ipotizzata una diagnosi di morbo di Crohn, non confermata all’esame istologico, che invece metteva in evidenza una iperplasia linfatica nodulare intestinale. L’associazione di ipogammaglobulinemia ed ipoalbuminemia ci aveva fatto inizialmente orientare verso una forma secondaria a protidodispersione intestinale. La terapia ex adiuvantibus con cotrimossazolo e successivamente con metronidazolo aveva determinato un miglioramento transitorio della sintomatologia intestinale associata a risalita delle immunoglobuline sieriche. Il piccolo aveva successivamente presentato un progressivo deterioramento delle condizioni cliniche, con una perdita di peso di circa 12 kg (il 25% del suo peso), una profonda astenia ed un sempre maggior numero di infezioni; la diarrea accompagnata da febbricola non tendeva al miglioramento. Lo studio della risposta anticorpale alla vaccinazione con vaccino penumococcico polisaccardico 23-valente era risultato deficitario e pertanto era stata posta la diagnosi di immunodeficienza comune variabile. Leonardo aveva iniziato pertanto terapia sostitutiva con immunoglobuline per via endovenosa. La protidodispersione e la sintomatologia non avevano mostrato alcun miglioramento dopo l’inizio di tale terapia. La terapia con metilprednisolone alla dose iniziale di 1 mg/Kg ha viceversa determinato un rapido ed eclatante miglioramento clinico con scomparsa della sintomatologia intestinale, recupero del peso e normalizzazione degli esami di laboratorio (albuminemia e livelli di igG). Leonardo ha proseguito tale terapia, con una lenta riduzione della dose, senza presentare una riattivazione della patologia intestinale. In atto leonardo prosegue la terapia con immunoglobuline sottocutanee settimanalmente senza alcun disturbo.\r\n",
+    "entities": [
+      {
+        "testo": "ipogammaglobulinemia",
+        "tipo": "CLINENTITY",
+        "inizio": 120,
+        "fine": 140
+      },
+      {
+        "testo": "gastroenterite",
+        "tipo": "CLINENTITY",
+        "inizio": 168,
+        "fine": 182
+      },
+      {
+        "testo": "diarrea",
+        "tipo": "CLINENTITY",
+        "inizio": 702,
+        "fine": 709
+      },
+      {
+        "testo": "dolori addominali ricorrenti,",
+        "tipo": "CLINENTITY",
+        "inizio": 712,
+        "fine": 741
+      },
+      {
+        "testo": "febbricola",
+        "tipo": "CLINENTITY",
+        "inizio": 754,
+        "fine": 764
+      },
+      {
+        "testo": "giardiasi",
+        "tipo": "CLINENTITY",
+        "inizio": 984,
+        "fine": 993
+      },
+      {
+        "testo": "celiachia",
+        "tipo": "CLINENTITY",
+        "inizio": 998,
+        "fine": 1007
+      },
+      {
+        "testo": "morbo di Crohn",
+        "tipo": "CLINENTITY",
+        "inizio": 1277,
+        "fine": 1291
+      },
+      {
+        "testo": "iperplasia linfatica nodulare intestinale",
+        "tipo": "CLINENTITY",
+        "inizio": 1365,
+        "fine": 1406
+      },
+      {
+        "testo": "astenia",
+        "tipo": "CLINENTITY",
+        "inizio": 1955,
+        "fine": 1962
+      },
+      {
+        "testo": "diarrea",
+        "tipo": "CLINENTITY",
+        "inizio": 2008,
+        "fine": 2015
+      },
+      {
+        "testo": "febbricola",
+        "tipo": "CLINENTITY",
+        "inizio": 2032,
+        "fine": 2042
+      }
+    ]
+  },
+  {
+    "id_doc": "IT101164.xml",
+    "text": "Bambino di 5 anni con diagnosi perinatale di valvole dell’uretra posteriore e insufficienza renale bilaterale sottoposto a dialisi peritoneale per 2 anni seguita da due tentativi di trapianto falliti, il primo per embolia e il secondo per trombosi e infine a trattamento emodialiatico trisettimannale dopo episodi di peritonite ricorrente. All’età di 4 anni per la comparsa di astenia e cefalea in corso di dialisi associata poi a vomito viene eseguita TAC cranio che mostra la presenza di formazione espansiva in fossa cranica posteriore confermata dalla RMN encefalo e midollo, in assenza di metastasi midollari. Il bambino viene pertanto sottoposto a intervento di asportazione macroscopicamente completa della neoplasia con diagnosi istologica di MB desmoplastico-nodulare esprimente la beta catenina nucleare. Gli esami di stadiazione post-chirurgici confermano l’assenza di metastasi cerebrali, midollari e liquorali. Il piano di cura successivo prevede il trattamento radioterapico cranio-spinale con boost sulla sede tumorale seguito da chemioterapia adiuvante (vincristina, lomustina e cisplatino). In considerazione della situazione nefrologica del bambino, dell’importante nefrotossicità del cisplatino, della tossicità ematologica della lomustina e dei fattori prognostici positivi legati al tumore (asportazione completa, istologia, assenza di metastasi ed espressione beta catenina nucleare), si è deciso di intraprendere, dopo la radioterapia alla dose totale di 54 Gy, un trattamento meno tossico con vincristina alla dose di 1.5 mg/mq per un giorno e ciclofosfamide inizialmente alla dose di 500 mg/mq per 2 giorni e dal secondo ciclo alla dose di 1250 mg/mq per un totale di 6 cicli. Tale trattamento eseguito il giorno della seduta emodialitica e il giorno successivo è stato ben tollerato e ha permesso la remissione di malattia. Attualmente, a 17 mesi dalla fine del trattamento, il bambino non presenta segni di recidiva, esegue regolari controlli di follow-up neurologico, endocrinologico e prosegue trattamento emodialitico tri-settimanale.\r\n",
+    "entities": [
+      {
+        "testo": "valvole dell’uretra posteriore",
+        "tipo": "CLINENTITY",
+        "inizio": 45,
+        "fine": 75
+      },
+      {
+        "testo": "insufficienza renale",
+        "tipo": "CLINENTITY",
+        "inizio": 78,
+        "fine": 98
+      },
+      {
+        "testo": "embolia",
+        "tipo": "CLINENTITY",
+        "inizio": 214,
+        "fine": 221
+      },
+      {
+        "testo": "trombosi",
+        "tipo": "CLINENTITY",
+        "inizio": 239,
+        "fine": 247
+      },
+      {
+        "testo": "peritonite",
+        "tipo": "CLINENTITY",
+        "inizio": 317,
+        "fine": 327
+      },
+      {
+        "testo": "astenia",
+        "tipo": "CLINENTITY",
+        "inizio": 377,
+        "fine": 384
+      },
+      {
+        "testo": "cefalea",
+        "tipo": "CLINENTITY",
+        "inizio": 387,
+        "fine": 394
+      },
+      {
+        "testo": "vomito",
+        "tipo": "CLINENTITY",
+        "inizio": 431,
+        "fine": 437
+      },
+      {
+        "testo": "metastasi midollari",
+        "tipo": "CLINENTITY",
+        "inizio": 594,
+        "fine": 613
+      },
+      {
+        "testo": "neoplasia",
+        "tipo": "CLINENTITY",
+        "inizio": 714,
+        "fine": 723
+      },
+      {
+        "testo": "metastasi cerebrali, midollari e liquorali",
+        "tipo": "CLINENTITY",
+        "inizio": 880,
+        "fine": 922
+      },
+      {
+        "testo": "metastasi cerebrali, midollari",
+        "tipo": "CLINENTITY",
+        "inizio": 880,
+        "fine": 910
+      },
+      {
+        "testo": "metastasi cerebrali",
+        "tipo": "CLINENTITY",
+        "inizio": 880,
+        "fine": 899
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100460.xml",
+    "text": "Uomo 51 aa con cirrosi HCV Child Pough A, TURV per Ca uroteliale in remissione, ricoverato per intensi dolori inguinali bilaterali irradiati agli arti inferiori, insorti da poche ore; febbre la sera prima. All’ingresso apiretico, parametri nella norma, PCR 20 mg/l, leucociti 5.410/mmc, Hb 11,7 g/dl, piastrine 53.000/mmc (come i precedenti), il resto nella norma. EO non lesioni cutanee, né edemi, non iperemia cutanea arti inferiori, non ascite. TC: ipertrofia muscoli ileo-psoas, medio gluteo sx e iperdensità sottocutanea nella regione glutea sx, addensamento polmonare al lobo inferiore sx. RM: edema interstiziale ai muscoli ileo-psoas, otturatori, adduttori, glutei, vasto laterale, retto femorale, tensore della fascia lata bilaterale, edema del tessuto adiposo dello scavo pelvico, non raccolte. Es. 2 ore dopo: PCR 25,6 mg/l, 6.050 gb/mmc, Hb 12,6 g/dl, piastrine stabili, CPK 113.000 U/l, mioglobina 17.204 ug/l, AST 1810 U/l. Dopo emocolture in apiressia, iniziava Vancomicina e Meropenem ev. Per rapido aggravamento trasferito in UTI ma decesso dopo 6 ore (12 ore dal ricovero). Emocolture: Streptococcus Zooepidemicus sensibile a Penicillina, Levofloxacina e Vancomicina, resistente a Clindamicina. Il paziente lavorava in un maneggio, spesso a contatto con deiezioni. Peculiarità del caso: epidemiologia (zoonosi, trasmissione aerea?), clinica (rapida evoluzione a esito infausto con imponente rabdomiolisi, in assenza di evidente stato settico, solo con lieve flogosi) e resistenza dello Streptococco a Clindamicina, farmaco indicato come I scelta nelle gravi infezioni.\r\n",
+    "entities": [
+      {
+        "testo": "dolori inguinali",
+        "tipo": "CLINENTITY",
+        "inizio": 103,
+        "fine": 119
+      },
+      {
+        "testo": "febbre",
+        "tipo": "CLINENTITY",
+        "inizio": 184,
+        "fine": 190
+      },
+      {
+        "testo": "edema",
+        "tipo": "CLINENTITY",
+        "inizio": 600,
+        "fine": 605
+      },
+      {
+        "testo": "rabdomiolisi",
+        "tipo": "CLINENTITY",
+        "inizio": 1409,
+        "fine": 1421
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100525.xml",
+    "text": "Il paziente D.G.R., 68 anni con 18 anni di scolarità, giunge alla nostra osservazione per anomia e deficit della memoria a breve termine, insorti da circa 2 mesi. All’anamnesi risulta affetto da ipertensione arteriosa essenziale ed ipercolesterolemia ben controllate da trattamento farmacologico, gozzo multinodulare in eutiroidismo, poliposi del colon con pregressa resezione segmentaria del retto (2010). L’esame neurologico ha rilevato deambulazione a piccoli passi a base allargata, ed oscillazioni pluridirezionali alla prova di Romberg. Gli esami ematochimici hanno escluso le possibili cause secondarie di deficit cognitivo. La valutazione neuropsicologica ha evidenziato deficit della memoria verbale a breve e a lungo termine, della memoria di prosa e delle funzioni prassiche e valori ai limiti della norma per la memoria visuo-spaziale e per la fluenza verbale. L’esame RM encefalo descrive un: “Sistema ventricolare di volume aumentato nella parte sopratentoriale da idrocefalo triventricolare, con asimmetria dei ventricoli laterali per maggiore ampiezza del corno frontale sinistro. Lo studio della dinamica del flusso liquorale ha mostrato ridotta rappresentazione della banda di flusso liquorale posteriore in specie a livello dell’acquedotto di Silvio, compatibile con rallentato/ostacolato deflusso a tale livello. Lievemente ampi gli spazi liquorali periencefalici della base e della volta. Uniforme riduzione di spessore del corpo calloso. Le immagini di diffusione non hanno mostrato lesioni ischemiche in fase acuta o subacuta del parenchima cerebrale”. Il monitoraggio dinamico della pressione liquorale delle 24 ore ha osservato un: “Appiattimento delle onde B”. Viene eseguita deplezione di 42 cc di liquor. L’esame neurologico post-procedurale ha rilevato un miglioramento dell’andatura, dell’ideazione e del pensiero critico. Nel novembre 2012 ha praticato intervento di derivazione liquorale extra-tecale mediante shunt ventricolo-peritoneale con un sistema valvolare unidirezionale programmabile Codman Hakim® (130 mm H2O). Il trattamento chirurgico di derivazione liquorale nel paziente con idrocefalo normoteso ha migliorato dopo solo un mese dall’intervento le condizioni cliniche e le performance cognitive, in particolare le funzioni prassiche e la memoria visuospaziale.\r\n",
+    "entities": [
+      {
+        "testo": "anomia",
+        "tipo": "CLINENTITY",
+        "inizio": 90,
+        "fine": 96
+      },
+      {
+        "testo": "deficit della memoria a breve termine",
+        "tipo": "CLINENTITY",
+        "inizio": 99,
+        "fine": 136
+      },
+      {
+        "testo": "ipertensione arteriosa essenziale",
+        "tipo": "CLINENTITY",
+        "inizio": 195,
+        "fine": 228
+      },
+      {
+        "testo": "ipercolesterolemia",
+        "tipo": "CLINENTITY",
+        "inizio": 232,
+        "fine": 250
+      },
+      {
+        "testo": "gozzo multinodulare",
+        "tipo": "CLINENTITY",
+        "inizio": 297,
+        "fine": 316
+      },
+      {
+        "testo": "eutiroidismo",
+        "tipo": "CLINENTITY",
+        "inizio": 320,
+        "fine": 332
+      },
+      {
+        "testo": "ridotta rappresentazione della banda di flusso liquorale",
+        "tipo": "CLINENTITY",
+        "inizio": 1155,
+        "fine": 1211
+      },
+      {
+        "testo": "lesioni ischemiche",
+        "tipo": "CLINENTITY",
+        "inizio": 1505,
+        "fine": 1523
+      }
+    ]
+  },
+  {
+    "id_doc": "IT101097.xml",
+    "text": "Il signor Franco, di anni 62 viene accompagnato al PS dal 118 perché presenta cefalea generalizzata, acufeni, nausea e vomito, bradicardia, vertigini, crisi convulsive e alterazioni dello stato di coscienza. Il signor Franco soffre di ipertensione arteriosa, 2 anni fa gli è stata diagnosticata la fibrillazione atriale, e per questo è in trattamento con anticoagulante. Il medico decide di fare una TC Cranio che evidenzia l'aumento della PIC a causa di un'emorragia cerebrale. Verosimilmente da attribuire alla presenza di un picco pressorio. Il paziente viene operato d’urgenza e a fine intervento viene posizionato un drenaggio per il monitoraggio della PIC.\r\n",
+    "entities": [
+      {
+        "testo": "cefalea generalizzata",
+        "tipo": "CLINENTITY",
+        "inizio": 78,
+        "fine": 99
+      },
+      {
+        "testo": "acufeni",
+        "tipo": "CLINENTITY",
+        "inizio": 101,
+        "fine": 108
+      },
+      {
+        "testo": "nausea",
+        "tipo": "CLINENTITY",
+        "inizio": 110,
+        "fine": 116
+      },
+      {
+        "testo": "vomito",
+        "tipo": "CLINENTITY",
+        "inizio": 119,
+        "fine": 125
+      },
+      {
+        "testo": "bradicardia",
+        "tipo": "CLINENTITY",
+        "inizio": 127,
+        "fine": 138
+      },
+      {
+        "testo": "vertigini",
+        "tipo": "CLINENTITY",
+        "inizio": 140,
+        "fine": 149
+      },
+      {
+        "testo": "crisi convulsive",
+        "tipo": "CLINENTITY",
+        "inizio": 151,
+        "fine": 167
+      },
+      {
+        "testo": "alterazioni dello stato di coscienza",
+        "tipo": "CLINENTITY",
+        "inizio": 170,
+        "fine": 206
+      },
+      {
+        "testo": "ipertensione arteriosa",
+        "tipo": "CLINENTITY",
+        "inizio": 235,
+        "fine": 257
+      },
+      {
+        "testo": "fibrillazione atriale",
+        "tipo": "CLINENTITY",
+        "inizio": 298,
+        "fine": 319
+      },
+      {
+        "testo": "un'emorragia cerebrale",
+        "tipo": "CLINENTITY",
+        "inizio": 455,
+        "fine": 477
+      }
+    ]
+  },
+  {
+    "id_doc": "IT101167.xml",
+    "text": "G.b., 11 anni, è giunto alla nostra osservazione per una grossa tumefazione della coscia dx e, dopo biopsia e staging, è stata posta diagnosi di osteosarcoma del femore destro con metastasi polmonari multiple. Dopo inserzione di CvC è stata intrapresa chemioterapia secondo protocollo isG/os-1, con la somministrazione del 1° ciclo di Hd-MtX (18 gr e.v.) in quattro ore, preceduta da idratazione con 3 l/m2/die ed alcalinizzazione con sodio bicarbonato da circa 24 ore. La funzionalità renale pre-chemioterapia era nella norma. La MtXemia della 24° h. ha mostrato valori molto elevati (556,3 μM/l); nelle 24 ore successive, contestualmente all’incremento dei livelli sierici di MtX (944,9 e 1009,5 μM/l rispettivamente alla 36° e 48° ora), il bambino ha cominciato ad accusare progressivo decadimento delle condizioni generali, febbre, dispnea, contrazione della diuresi con segni di insufficienza renale acuta, epatomegalia, ed a seguire mucosite di ii grado al cavo orale e moderata mielosoppressione. Si è provveduto pertanto ad aumentare il dosaggio dell’acido folinico, intensificare l’alcalinizzazione delle urine ed iniziare trattamento emodialitico. Tali provvedimenti, tuttavia, non sono risultati efficaci nella riduzione della MtXemia o nel prevenire la tossicità sistemica. Dopo 5 giorni dall’inizio del MtX, persistendo l’insufficienza renale, nonostante una buona efficienza del trattamento dialitico, ed alla luce dei livelli di MtXemia persistentemente elevati, è stata somministrata una singola dose di 3.000 u.i. di carbossipeptidasi (voraxaze), che ha determinato una riduzione dei livelli sierici di MtX da 66,8 a 8,59 μM/l. Le condizioni cliniche sono peggiorate ulteriormente, aggravate dalla comparsa di insufficienza respiratoria, mucosite grado ii-iii e segni di colestasi. La determinazione della MtXemia è stata proseguita fino alla 312° ora, insieme alla rescue con acido folinico alla dose di 250 mg e.v. ogni sei ore, poi secondo nomogramma, fino a MtXemia <0,20 μM/l. Dopo venti giorni dall’inizio del MtX, 14 sedute di emodialisi e vigorosa terapia di supporto, il paziente ha mostrato un recupero completo clinico e degli esami di laboratorio. Purtroppo, nonostante la ridotta clearance del farmaco e l’importante tossicità sistemica, non abbiamo registrato alcuna risposta alla chemioterapia. la scadente risposta e la progressione della malattia, dopo la somministrazione del previsto ciclo con Cisplatino e adriamicina ed uno schema di seconda linea, ci hanno obbligato ad un intervento di amputazione dell’arto inferiore destro.\r\n",
+    "entities": [
+      {
+        "testo": "osteosarcoma",
+        "tipo": "CLINENTITY",
+        "inizio": 145,
+        "fine": 157
+      },
+      {
+        "testo": "metastasi polmonari",
+        "tipo": "CLINENTITY",
+        "inizio": 180,
+        "fine": 199
+      },
+      {
+        "testo": "febbre",
+        "tipo": "CLINENTITY",
+        "inizio": 828,
+        "fine": 834
+      },
+      {
+        "testo": "dispnea",
+        "tipo": "CLINENTITY",
+        "inizio": 836,
+        "fine": 843
+      },
+      {
+        "testo": "insufficienza renale acuta",
+        "tipo": "CLINENTITY",
+        "inizio": 884,
+        "fine": 910
+      },
+      {
+        "testo": "epatomegalia",
+        "tipo": "CLINENTITY",
+        "inizio": 912,
+        "fine": 924
+      },
+      {
+        "testo": "mucosite di ii grado al cavo orale",
+        "tipo": "CLINENTITY",
+        "inizio": 939,
+        "fine": 973
+      },
+      {
+        "testo": "mielosoppressione",
+        "tipo": "CLINENTITY",
+        "inizio": 985,
+        "fine": 1002
+      },
+      {
+        "testo": "insufficienza renale",
+        "tipo": "CLINENTITY",
+        "inizio": 1335,
+        "fine": 1355
+      },
+      {
+        "testo": "insufficienza respiratoria",
+        "tipo": "CLINENTITY",
+        "inizio": 1727,
+        "fine": 1753
+      },
+      {
+        "testo": "mucosite",
+        "tipo": "CLINENTITY",
+        "inizio": 1755,
+        "fine": 1763
+      },
+      {
+        "testo": "colestasi",
+        "tipo": "CLINENTITY",
+        "inizio": 1788,
+        "fine": 1797
+      }
+    ]
+  },
+  {
+    "id_doc": "IT101172.xml",
+    "text": "M.d., maschio di 9 anni giunge alla nostra osservazione per episodio di macroematuria terminale, con urine color rosso vivo, preceduto da dolore addominale intermittente nelle due settimane precedenti. Una prima ecografia renale eseguita all’ingresso evidenzia reni di normali dimensioni in assenza di calcoli, vie urinarie non dilatate e vescica a contenuto finemente corpuscolato. Gli accertamenti ematologici ed urinari di primo livello hanno permesso di escludere le più comuni cause di macroematuria del bambino, in particolare la glomerulonefrite post-infettiva, la calcolosi renale e l’infezione urinaria. Dopo 2 giorni, per il persistere della macroematuria, ripetiamo un’ecografia renale che mette in evidenza una “idroureteronefrosi dx con materiale ipoecogeno non vascolarizzato a livello del calice inferiore, della pelvi e del tratto iniziale dell’uretere”, interpretati dal radiologo come possibile coagulo ematico. Tuttavia le ecografie ripetute nei giorni successivi hanno mostrato una sostanziale stabilità del quadro, rendendo poco probabile l’ipotesi formulata. Il riscontro di una ipereosinofilia periferica (e 1200/mmc) ci ha fatto ipotizzare una infezione da schistosoma, che raramente può causare nel bambino lesioni polipoidi sanguinanti di pelvi ed uretere; tuttavia la ricerca del parassita nelle urine è risultata negativa. Decidiamo quindi di eseguire una uro-angio-RM che ha permesso di evidenziare a livello della regione papillare del calice inferiore dx una formazione rotondeggiante del diametro di 15 mm ampiamente protrudente nel calice inferiore, con spiccata impregnazione di mdc. L’agobiopsia percutanea ecoguidata e la successiva nefrectomia hanno permesso di porre diagnosi di rabdomiosarcoma embrionale, variante botrioide. La massa neoplastica ha dimensioni di 5x2.5 cm, il restante parenchima renale, il tessuto adiposo ed i linfonodi sono indenni da neoplasia. Gli accertamenti strumentali e le biopsie ossee sono risultati negativi per localizzazioni secondarie di malattia.\r\n",
+    "entities": [
+      {
+        "testo": "macroematuria",
+        "tipo": "CLINENTITY",
+        "inizio": 72,
+        "fine": 85
+      },
+      {
+        "testo": "dolore addominale intermittente",
+        "tipo": "CLINENTITY",
+        "inizio": 138,
+        "fine": 169
+      },
+      {
+        "testo": "macroematuria",
+        "tipo": "CLINENTITY",
+        "inizio": 491,
+        "fine": 504
+      },
+      {
+        "testo": "glomerulonefrite post-infettiva",
+        "tipo": "CLINENTITY",
+        "inizio": 536,
+        "fine": 567
+      },
+      {
+        "testo": "calcolosi renale",
+        "tipo": "CLINENTITY",
+        "inizio": 572,
+        "fine": 588
+      },
+      {
+        "testo": "infezione urinaria",
+        "tipo": "CLINENTITY",
+        "inizio": 593,
+        "fine": 611
+      },
+      {
+        "testo": "macroematuria",
+        "tipo": "CLINENTITY",
+        "inizio": 652,
+        "fine": 665
+      },
+      {
+        "testo": "idroureteronefrosi dx",
+        "tipo": "CLINENTITY",
+        "inizio": 724,
+        "fine": 745
+      },
+      {
+        "testo": "coagulo ematico",
+        "tipo": "CLINENTITY",
+        "inizio": 913,
+        "fine": 928
+      },
+      {
+        "testo": "ipereosinofilia",
+        "tipo": "CLINENTITY",
+        "inizio": 1101,
+        "fine": 1116
+      },
+      {
+        "testo": "infezione da schistosoma",
+        "tipo": "CLINENTITY",
+        "inizio": 1168,
+        "fine": 1192
+      },
+      {
+        "testo": "rabdomiosarcoma embrionale, variante botrioide",
+        "tipo": "CLINENTITY",
+        "inizio": 1717,
+        "fine": 1763
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100177.xml",
+    "text": "Osvaldo, anni 52, ha una storia di diarrea e calo ponderale che si può far riferire a due anni prima. Non c'è storia di sanguinamento gastroenterico ed una ricerca di sangue occulto fecale è risultata negativa su tre campioni. Ammette di averci dato dentro con l'alcol in passato, ma da diversi anni è assolutamente astinente. Ha un diabete, controllato con insulina. Sei anni prima è stato colecistectomizzato. Gli esami di laboratorio sono normali, se si fa eccezione per una lieve anemia, così come normali sono lo studio radiologico del piccolo e del grosso intestino.\r\n",
+    "entities": [
+      {
+        "testo": "diarrea",
+        "tipo": "CLINENTITY",
+        "inizio": 35,
+        "fine": 42
+      },
+      {
+        "testo": "calo ponderale",
+        "tipo": "CLINENTITY",
+        "inizio": 45,
+        "fine": 59
+      },
+      {
+        "testo": "sanguinamento gastroenterico",
+        "tipo": "CLINENTITY",
+        "inizio": 122,
+        "fine": 150
+      },
+      {
+        "testo": "diabete",
+        "tipo": "CLINENTITY",
+        "inizio": 337,
+        "fine": 344
+      }
+    ]
+  },
+  {
+    "id_doc": "IT101110.xml",
+    "text": "Nel luglio del 2002 abbiamo osservato una donna di 60 anni con febbre continua da 6 giorni e 5 escare localizzate a livello degli arti superiori e inferiori accompagnate da linfoadenopatia regionale. Tuttavia le condizioni generali erano buone, sia al momento della prima visita che nei giorni precedenti, e non si è manifestato esantema. La paziente aveva soggiornato in sud Africa per 20 giorni e i primi sintomi sono comparsi 6 giorni dopo il rientro in Patria. I principali esami emato chimici hanno mostrato una modesta ipertransaminasemia e un moderato incremento della VES. La diagnosi sierologica è stata effettuata mediante un test di immuno fluorescenza indiretta per la ricerca delle IgG ed IgM anti Rickettsia (Focus USA, Alifax). Il test utilizza vetrini contenenti antigeni di R. typhy e di R. rickettsii che consentono di discriminare, rispettivamente, il gruppo “Typhus Fever” da quello “Spotted Fever”, quest’ultimo comprendente anche R africae, R. akari, R. conorii, R.\r\naustralis, R. sibirica e altre. L' infezione verso una di queste specie induce la produzione di anticorpi verso R. rickettsii.\r\nIl siero in esame mostrava una positività sia per IgG (>1/256) che per IgM (>1/50) verso R. rickettsii.\r\nLa paziente è stata trattata con doxiciclina 100 mg due volte al giorno per 8 giorni ed è guarita non manifestando alcun segno di malattia anche nel follow up fino a 6 mesi. Il quadro clinico, le informazioni epidemiologiche, la risposta al trattamento e il risultato dell’esame siero-immunologico hanno permesso di porre diagnosi di rickettsiosi del gruppo della “Spotted Fever” probabilmente da Rickettsia africae. Agente etiologico del Tifo da zecche africano, Rickettsia africae è trasmessa.\r\n",
+    "entities": [
+      {
+        "testo": "febbre",
+        "tipo": "CLINENTITY",
+        "inizio": 63,
+        "fine": 69
+      },
+      {
+        "testo": "linfoadenopatia regionale",
+        "tipo": "CLINENTITY",
+        "inizio": 173,
+        "fine": 198
+      },
+      {
+        "testo": "esantema",
+        "tipo": "CLINENTITY",
+        "inizio": 329,
+        "fine": 337
+      },
+      {
+        "testo": "ipertransaminasemia",
+        "tipo": "CLINENTITY",
+        "inizio": 525,
+        "fine": 544
+      },
+      {
+        "testo": "rickettsiosi del gruppo della “Spotted Fever”",
+        "tipo": "CLINENTITY",
+        "inizio": 1556,
+        "fine": 1601
+      }
+    ]
+  },
+  {
+    "id_doc": "IT101025.xml",
+    "text": "Il signor Ugo di anni 63 sposato con due figli, viene ricoverato nell'UO di Medicina per accertamenti. Al ricovero il signor Ugo presenta forti dolori addominali e vomito. Gli viene posizionato un sondino naso gastrico. Dopo vari accertamenti viene diagnosticato un K gastrico con metastasi del fegato e del pancreas. Il signor Ugo viene sottoposto ad intervento chirurgico palliativo. Al ritorno dalla sala operatoria, Ugo presenta forti dolori addominali e gli è stato posizionato un catetere venoso centrale e prescritta una nutrizione parenterale totale. Il giorno successivo Il signore chiede quando potrà alimentarsi naturalmente e quando potrà togliere il catetere venoso.\r\n",
+    "entities": [
+      {
+        "testo": "dolori addominali",
+        "tipo": "CLINENTITY",
+        "inizio": 144,
+        "fine": 161
+      },
+      {
+        "testo": "vomito",
+        "tipo": "CLINENTITY",
+        "inizio": 164,
+        "fine": 170
+      },
+      {
+        "testo": "K gastrico",
+        "tipo": "CLINENTITY",
+        "inizio": 266,
+        "fine": 276
+      },
+      {
+        "testo": "metastasi del fegato e del pancreas",
+        "tipo": "CLINENTITY",
+        "inizio": 281,
+        "fine": 316
+      },
+      {
+        "testo": "metastasi del fegato",
+        "tipo": "CLINENTITY",
+        "inizio": 281,
+        "fine": 301
+      },
+      {
+        "testo": "dolori addominali",
+        "tipo": "CLINENTITY",
+        "inizio": 439,
+        "fine": 456
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100825.xml",
+    "text": "Un internista ospedaliero in pensione accetta un’offerta di consulenza come “hospitalist” presso una struttura riabilitativa (RSA) della provincia in cui vive, specificamente nel reparto di Ortopedia. In anamnesi gli è stata posta diagnosi di diverticolosi del colon. Dopo circa 3 mesi di lavoro nella RSA, un pomeriggio, mentre si trova a casa, accusa un dolore sordo, di tipo spastico in ipogastrio e fossa iliaca dx con alvo chiuso a feci e gas per alcune ore; pensando alla diverticolite, inizia prontamente terapia ev con ceftriaxone e metronidazolo per 2 giorni, seguita, dopo la crisi dolorosa addominale e diarroica, dall’assunzione per 4 giorni di ciprofloxacina per os. Dopo circa sei giorni riprende una sintomatologia caratterizzata da diarrea acquosa irrefrenabile accompagnata da vomito e febbre. Viene ripristinata terapia venosa con ceftriaxone e metronidazolo seppur con modesti risultati clinici; il secondo giorno di terapia apprende che un paziente 92enne, ricoverato nella clinica dove lavora -dopo il trasferimento in PS di un ospedale viciniore- è risultato affetto da Infezione da Clostridium difficile. Il “medico/paziente” effettua un test al DNA per ricerca tossine da Clostridium difficile su feci; il risultato è positivo. Egli intraprende, quindi, terapia con vancomicina per os (con rapido miglioramento della sintomatologia) per 2 settimane; il test su feci per C.d. si negativizza. Dopo circa un mese egli riprende il lavoro ma, dopo alcuni giorni, si ripresenta la sintomatologia diarroica; il test su feci per ricerca di C.d. risulta nuovamente positivo. Riprende, quindi, la terapia con vancomicina con dosaggi a scalare per 5 settimane. Il test si negativizza per due volte a distanza di 2 e 4 settimane dopo la fine della terapia.\r\n",
+    "entities": [
+      {
+        "testo": "diverticolosi del colon",
+        "tipo": "CLINENTITY",
+        "inizio": 243,
+        "fine": 266
+      },
+      {
+        "testo": "dolore sordo, di tipo spastico in ipogastrio e fossa iliaca dx",
+        "tipo": "CLINENTITY",
+        "inizio": 356,
+        "fine": 418
+      },
+      {
+        "testo": "dolore sordo, di tipo spastico in ipogastrio",
+        "tipo": "CLINENTITY",
+        "inizio": 356,
+        "fine": 400
+      },
+      {
+        "testo": "diverticolite",
+        "tipo": "CLINENTITY",
+        "inizio": 478,
+        "fine": 491
+      },
+      {
+        "testo": "crisi dolorosa addominale",
+        "tipo": "CLINENTITY",
+        "inizio": 586,
+        "fine": 611
+      },
+      {
+        "testo": "diarroica",
+        "tipo": "CLINENTITY",
+        "inizio": 614,
+        "fine": 623
+      },
+      {
+        "testo": "diarrea",
+        "tipo": "CLINENTITY",
+        "inizio": 748,
+        "fine": 755
+      },
+      {
+        "testo": "vomito",
+        "tipo": "CLINENTITY",
+        "inizio": 794,
+        "fine": 800
+      },
+      {
+        "testo": "febbre",
+        "tipo": "CLINENTITY",
+        "inizio": 803,
+        "fine": 809
+      },
+      {
+        "testo": "Infezione da Clostridium difficile",
+        "tipo": "CLINENTITY",
+        "inizio": 1092,
+        "fine": 1126
+      },
+      {
+        "testo": "Clostridium difficile",
+        "tipo": "CLINENTITY",
+        "inizio": 1196,
+        "fine": 1217
+      },
+      {
+        "testo": "sintomatologia diarroica",
+        "tipo": "CLINENTITY",
+        "inizio": 1499,
+        "fine": 1523
+      },
+      {
+        "testo": "C.d",
+        "tipo": "CLINENTITY",
+        "inizio": 1556,
+        "fine": 1559
+      }
+    ]
+  }
+]

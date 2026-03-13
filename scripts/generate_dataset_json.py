@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 
 
 def parse_xmi_e3c(file_path):
-    """Estrae testo ed entità dal formato UIMA XMI (la logica che abbiamo testato con successo)."""
+    """Estrae testo ed entità dal formato UIMA XMI."""
 
     p = Path(file_path)
     try:
@@ -60,7 +60,7 @@ def parse_xmi_e3c(file_path):
 
 
 #CONFIGURAZIONE
-E3C_ROOT_DIR = "data/raw/E3C-Corpus-2.0.0\data_annotation"
+E3C_ROOT_DIR = "data/raw/E3C-Corpus-2.0.0/data_annotation"
 SEED = 42 
 random.seed(SEED)
 
@@ -91,12 +91,12 @@ if __name__ == "__main__":
    
     random.shuffle(dataset_completo)
 
-    # Split train/test (80/20)
-    num_test = int(len(dataset_completo) * 0.2)
-    test_set = dataset_completo[:num_test]
-    train_pool = dataset_completo[num_test:]
+    # Split train/val (80/20)
+    num_val = int(len(dataset_completo) * 0.2)
+    val_set = dataset_completo[:num_val]
+    train_pool = dataset_completo[num_val:]
 
-    print(f"Documenti riservati per il Test (Test Set): {len(test_set)}")
+    print(f"Documenti riservati per il Val (Test Set): {len(val_set)}")
     print(f"Documenti disponibili per il Training: {len(train_pool)}")
 
     # Crezione pool per One-Shot e Few-Shot
@@ -109,15 +109,15 @@ if __name__ == "__main__":
     def salva_json(dati, nome_file):
         with open(nome_file, 'w', encoding='utf-8') as f:
             json.dump(dati, f, ensure_ascii=False, indent=2)
-
-    salva_json(test_set, "data/processed/multi/dataset_test.json")
+    
+    salva_json(val_set, "data/processed/multi/dataset_val.json")
     salva_json(one_shot_set, "data/processed/multi/dataset_train_1_shot.json")
     salva_json(few_shot_set_5, "data/processed/multi/dataset_train_5_shot.json")
     salva_json(few_shot_set_10, "data/processed/multi/dataset_train_10_shot.json")
     salva_json(full_train_set, "data/processed/multi/dataset_train_full.json")
 
     print("\nFile JSON generati: ")
-    print("- dataset_test.json")
+    print("- dataset_val.json")
     print("- dataset_train_1_shot.json")
     print("- dataset_train_5_shot.json")
     print("- dataset_train_10_shot.json")

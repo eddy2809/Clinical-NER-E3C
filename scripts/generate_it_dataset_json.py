@@ -56,7 +56,7 @@ def parse_xmi_e3c(file_path):
 
 if __name__ == "__main__":
     # --- CONFIGURAZIONE ---
-    XML_DIR = "data/raw/E3C-Corpus-2.0.0\data_annotation\Italian\layer1"
+    XML_DIR = "data/raw/E3C-Corpus-2.0.0/data_annotation/Italian/layer1"
     SEED = 42
     random.seed(SEED)
 
@@ -83,12 +83,12 @@ if __name__ == "__main__":
     # shuffle dei documenti in modo casuale
     random.shuffle(dataset_completo)
 
-    # Split train/test (80/20)  
+    # Split train/val (80/20)  
     num_test = int(len(dataset_completo) * 0.2)
-    test_set = dataset_completo[:num_test]
+    val_set = dataset_completo[:num_test]
     train_pool = dataset_completo[num_test:] 
 
-    print(f"Documenti riservati per il Test (Test Set): {len(test_set)}")
+    print(f"Documenti riservati per il Test (Test Set): {len(val_set)}")
     print(f"Documenti disponibili per il Training: {len(train_pool)}")
 
     # Creiamo le porzioni per confrontare One-Shot e Few-Shot
@@ -102,14 +102,14 @@ if __name__ == "__main__":
         with open(nome_file, 'w', encoding='utf-8') as f:
             json.dump(dati, f, ensure_ascii=False, indent=2)
 
-    salva_json(test_set, "data/processed/ita/dataset_test.json")
+    salva_json(val_set, "data/processed/ita/dataset_val.json")
     salva_json(one_shot_set, "data/processed/ita/dataset_train_1_shot.json")
     salva_json(few_shot_set_5, "data/processed/ita/dataset_train_5_shot.json")
     salva_json(few_shot_set_10, "data/processed/ita/dataset_train_10_shot.json")
     salva_json(full_train_set, "data/processed/ita/dataset_train_full.json")
 
     print("\n File JSON generati: ")
-    print("- dataset_test.json")
+    print("- dataset_val.json")
     print("- dataset_train_1_shot.json")
     print("- dataset_train_5_shot.json")
     print("- dataset_train_10_shot.json")

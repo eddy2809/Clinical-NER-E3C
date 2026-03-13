@@ -1,5 +1,4 @@
 import json
-import torch
 import wandb
 import os
 import evaluate
@@ -17,7 +16,7 @@ from transformers import (
 
 #Configurazione
 FILE_TRAIN = "data/processed/multi/dataset_train_full.json" 
-FILE_TEST = "data/processed/multi/dataset_test.json"
+FILE_EVAL = "data/processed/multi/dataset_val.json"
 NOME_MODELLO_SALVATO = "multi_bert_medico_full_shot_early"
 
 #MODEL_NAME = "dbmdz/bert-base-italian-cased"
@@ -124,10 +123,10 @@ if __name__ == "__main__":
     wandb.login(key=api_key)
 
 
-    # --- 4. PREPARAZIONE DATI E MODELLO ---
+    #PREPARAZIONE DATI E MODELLO
     print(f"Preparazione dei dati per l'esperimento: {FILE_TRAIN}...")
     train_dataset,_ = make_dataset(FILE_TRAIN)
-    eval_dataset,_ = make_dataset(FILE_TEST)
+    eval_dataset,_ = make_dataset(FILE_EVAL)
 
     print("Caricamento del modello BERT...")
     modello = AutoModelForTokenClassification.from_pretrained(
@@ -153,16 +152,19 @@ if __name__ == "__main__":
         num_train_epochs=100, 
         weight_decay=0.01,
         bf16=True, 
-        save_only_model=True,   # Evita di salvare optimizer/scheduler (molto pesanti)
+        save_only_model=True,   
         metric_for_best_model="loss",
         load_best_model_at_end=True,
         greater_is_better=True,
         save_total_limit=1,
         report_to="wandb",
         logging_strategy="epoch"
+
+        # CHIEDERE AL PROF
+        #lr_scheduler_type="linear",
         
-        # warmup_ratio=0.1,             # strategia warmup
-        # lr_scheduler_type="cosine",   # La curva di discesa morbida
+        # warmup_ratio=0.1,             
+        # lr_scheduler_type="cosine",   
     )
 
     trainer = Trainer(
@@ -177,7 +179,7 @@ if __name__ == "__main__":
     )
 
     
-    print("\n INIZIO ADDESTRAMENTO ")
+    print("\n Inizio Training ")
     trainer.train()
     trainer.save_model(f"model/{NOME_MODELLO_SALVATO}")
     print(f"Modello salvato in: model/{NOME_MODELLO_SALVATO}")

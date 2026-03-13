@@ -1,725 +1,5 @@
 [
   {
-    "id_doc": "IT101167.xml",
-    "text": "G.b., 11 anni, è giunto alla nostra osservazione per una grossa tumefazione della coscia dx e, dopo biopsia e staging, è stata posta diagnosi di osteosarcoma del femore destro con metastasi polmonari multiple. Dopo inserzione di CvC è stata intrapresa chemioterapia secondo protocollo isG/os-1, con la somministrazione del 1° ciclo di Hd-MtX (18 gr e.v.) in quattro ore, preceduta da idratazione con 3 l/m2/die ed alcalinizzazione con sodio bicarbonato da circa 24 ore. La funzionalità renale pre-chemioterapia era nella norma. La MtXemia della 24° h. ha mostrato valori molto elevati (556,3 μM/l); nelle 24 ore successive, contestualmente all’incremento dei livelli sierici di MtX (944,9 e 1009,5 μM/l rispettivamente alla 36° e 48° ora), il bambino ha cominciato ad accusare progressivo decadimento delle condizioni generali, febbre, dispnea, contrazione della diuresi con segni di insufficienza renale acuta, epatomegalia, ed a seguire mucosite di ii grado al cavo orale e moderata mielosoppressione. Si è provveduto pertanto ad aumentare il dosaggio dell’acido folinico, intensificare l’alcalinizzazione delle urine ed iniziare trattamento emodialitico. Tali provvedimenti, tuttavia, non sono risultati efficaci nella riduzione della MtXemia o nel prevenire la tossicità sistemica. Dopo 5 giorni dall’inizio del MtX, persistendo l’insufficienza renale, nonostante una buona efficienza del trattamento dialitico, ed alla luce dei livelli di MtXemia persistentemente elevati, è stata somministrata una singola dose di 3.000 u.i. di carbossipeptidasi (voraxaze), che ha determinato una riduzione dei livelli sierici di MtX da 66,8 a 8,59 μM/l. Le condizioni cliniche sono peggiorate ulteriormente, aggravate dalla comparsa di insufficienza respiratoria, mucosite grado ii-iii e segni di colestasi. La determinazione della MtXemia è stata proseguita fino alla 312° ora, insieme alla rescue con acido folinico alla dose di 250 mg e.v. ogni sei ore, poi secondo nomogramma, fino a MtXemia <0,20 μM/l. Dopo venti giorni dall’inizio del MtX, 14 sedute di emodialisi e vigorosa terapia di supporto, il paziente ha mostrato un recupero completo clinico e degli esami di laboratorio. Purtroppo, nonostante la ridotta clearance del farmaco e l’importante tossicità sistemica, non abbiamo registrato alcuna risposta alla chemioterapia. la scadente risposta e la progressione della malattia, dopo la somministrazione del previsto ciclo con Cisplatino e adriamicina ed uno schema di seconda linea, ci hanno obbligato ad un intervento di amputazione dell’arto inferiore destro.\r\n",
-    "entities": [
-      {
-        "testo": "osteosarcoma",
-        "tipo": "CLINENTITY",
-        "inizio": 145,
-        "fine": 157
-      },
-      {
-        "testo": "metastasi polmonari",
-        "tipo": "CLINENTITY",
-        "inizio": 180,
-        "fine": 199
-      },
-      {
-        "testo": "febbre",
-        "tipo": "CLINENTITY",
-        "inizio": 828,
-        "fine": 834
-      },
-      {
-        "testo": "dispnea",
-        "tipo": "CLINENTITY",
-        "inizio": 836,
-        "fine": 843
-      },
-      {
-        "testo": "insufficienza renale acuta",
-        "tipo": "CLINENTITY",
-        "inizio": 884,
-        "fine": 910
-      },
-      {
-        "testo": "epatomegalia",
-        "tipo": "CLINENTITY",
-        "inizio": 912,
-        "fine": 924
-      },
-      {
-        "testo": "mucosite di ii grado al cavo orale",
-        "tipo": "CLINENTITY",
-        "inizio": 939,
-        "fine": 973
-      },
-      {
-        "testo": "mielosoppressione",
-        "tipo": "CLINENTITY",
-        "inizio": 985,
-        "fine": 1002
-      },
-      {
-        "testo": "insufficienza renale",
-        "tipo": "CLINENTITY",
-        "inizio": 1335,
-        "fine": 1355
-      },
-      {
-        "testo": "insufficienza respiratoria",
-        "tipo": "CLINENTITY",
-        "inizio": 1727,
-        "fine": 1753
-      },
-      {
-        "testo": "mucosite",
-        "tipo": "CLINENTITY",
-        "inizio": 1755,
-        "fine": 1763
-      },
-      {
-        "testo": "colestasi",
-        "tipo": "CLINENTITY",
-        "inizio": 1788,
-        "fine": 1797
-      }
-    ]
-  },
-  {
-    "id_doc": "IT102056.xml",
-    "text": "Donna - aa. 30\r\n\r\nAnamnesi Patologica\r\nAsportazione di cisti dermoide dell’ovaio destro all’età di circa 20 anni.\r\n\r\nEsordio della malattia attuale\r\nDolore addominale, vomito biliare, febbre. Ricovero d’urgenza nel nostro reparto con diagnosi di addome acuto.\r\n\r\nEsame obiettivo\r\nPaziente sofferente per dolore addominale, febbrile (38°C ascellare, 39,5°C rettale), tachicardica. Addome poco trattabile per contrattura muscolare di parete, soprattutto nel quadrante inferiore destro, dove la dolorabilità è particolarmente accentuata e dove sembra di palpare tumefazione a limiti indistinti. Forte dolorabilità del Douglas all’esplorazione rettale. Un’ecografia addominale non è contributiva. Espletati i consueti esami preoperatori (leucocitosi neutrofila) si conferma la diagnosi di addome acuto da presumibile appendicite acuta (ascesso appendicolare?) e in alternativa da possibile torsione ovarica destra.\r\nSi procede a intervento chirurgico.\r\n\r\n\r\nIntervento\r\nOpen - laparoscopy ombelicale (Hasson trocar).\r\nInduzione di pneumoperitoneo CO2 - 12 mm Hg. Esplorazione della cavità peritoneale: si reperta grossa formazione grossolanamente sferica di circa 10 cm di diametro, che sostituisce in pratica l’ovaio di destra e aderisce al peritoneo parietale, al cieco, all’appendice e ai vasi iliaci. Nessuna altra constatazione patologica. Lisi delle aderenze e liberazione del cieco e dell’appendice che appaiono normali. Distacco della massa dai vasi iliaci e identificazione dell’uretere. Interruzione della tuba e dei vasi ovarici (bisturi armonico). Applicazione di clip su moncone tubarico residuo. Liberazione completa della massa, che è estratta in bag. Controllo dell’emostasi, lavaggio e toilette del cavo addominale. Evacuazione della CO2. Sutura degli accessi.\r\n\r\nAnatomia Patologica\r\nMacroscopia - La massa di circa 10 cm ha colorito bluastro e al taglio si rivela di struttura cistica a parete ispessita e a contenuto liquido, denso, ematico. L’ovaio è ridotto a scarsi residui con altre cisti contenenti liquido chiaro.\r\nMicroscopia - Nelle sezioni istologiche eseguite previo adeguato, ampio campionamento la formazione cistica maggiore, a contenuto ematico, risulta rivestita internamente da più strati di elementi ad ampio citoplasma eosinofilo di tipo luteinico; le altre cisti minori sono di tipo follicolare.\r\nDiagnosi: Ovaio con corpo luteo emorragico e cisti follicolari corticali\r\n\r\n\r\nDecorso post-operatorio regolare con dimissione dopo pochi giorni.\r\n\r\nFollow-up e outcome senza particolarità degne di rilievo.\r\n",
-    "entities": [
-      {
-        "testo": "cisti dermoide",
-        "tipo": "CLINENTITY",
-        "inizio": 55,
-        "fine": 69
-      },
-      {
-        "testo": "Dolore addominale",
-        "tipo": "CLINENTITY",
-        "inizio": 149,
-        "fine": 166
-      },
-      {
-        "testo": "vomito biliare",
-        "tipo": "CLINENTITY",
-        "inizio": 168,
-        "fine": 182
-      },
-      {
-        "testo": "febbre",
-        "tipo": "CLINENTITY",
-        "inizio": 184,
-        "fine": 190
-      },
-      {
-        "testo": "addome acuto",
-        "tipo": "CLINENTITY",
-        "inizio": 246,
-        "fine": 258
-      },
-      {
-        "testo": "dolore addominale",
-        "tipo": "CLINENTITY",
-        "inizio": 304,
-        "fine": 321
-      },
-      {
-        "testo": "febbrile",
-        "tipo": "CLINENTITY",
-        "inizio": 323,
-        "fine": 331
-      },
-      {
-        "testo": "tachicardica",
-        "tipo": "CLINENTITY",
-        "inizio": 366,
-        "fine": 378
-      },
-      {
-        "testo": "contrattura muscolare",
-        "tipo": "CLINENTITY",
-        "inizio": 407,
-        "fine": 428
-      },
-      {
-        "testo": "addome acuto",
-        "tipo": "CLINENTITY",
-        "inizio": 785,
-        "fine": 797
-      },
-      {
-        "testo": "appendicite acuta",
-        "tipo": "CLINENTITY",
-        "inizio": 813,
-        "fine": 830
-      },
-      {
-        "testo": "torsione ovarica",
-        "tipo": "CLINENTITY",
-        "inizio": 886,
-        "fine": 902
-      },
-      {
-        "testo": "cisti",
-        "tipo": "CLINENTITY",
-        "inizio": 2002,
-        "fine": 2007
-      }
-    ]
-  },
-  {
-    "id_doc": "IT100333.xml",
-    "text": "Una donna di 48 anni viene ricoverata in ambiente ospedaliero nell’agosto del 2011 per la presenza, da circa un mese, di astenia marcata, gonfiore addominale e incremento ponderale. L’anamnesi patologica remota evidenzia un’ipertensione arteriosa scarsamente controllata dalla terapia farmacologica e una storia di ulcera gastrica, in terapia con inibitori di pompa protonica con risoluzione del quadro. Durante il ricovero vengono effettuati esami ematochimici con riscontro di: marcata anemia (Hb = 9,8 g/dl, vn = 12,0-16,0 g/dl); riduzione dell’ematocrito (ematocrito = 31,9%, vn = 37,0-47,0); leucocitosi neutrofila con linfocitopenia (neutrofili = 10,66 × 10³/μl, vn = 1,50-8,00 × 10³/μl; linfociti = 0,52 × 10³/μl, vn = 0,90-4,00 × 10³/μl); lieve rialzo delle transaminasi (GOT = 56 U/l, vn < 32 U/l; GPT = 89 U/l, vn < 31 U/l). All’esame obiettivo non sono presenti alterazioni di rilievo. Per ricercare la causa dell’anemia vengono eseguite una esofagogastroduodenoscopia, che rileva una gastrite cronica in fase di lieve attività, e una pancolonscopia, risultata nella norma. Una ecotomografia dell’addome mostra la presenza di una massa in sede cefalo-pancreatica e di multiple formazioni nodulari a livello del parenchima epatico. La TC torace-addome conferma il quadro addominale e non evidenzia alterazioni patologiche a livello toracico. Per meglio caratterizzare la massa tumorale viene effettuata una biopsia epatica con riscontro di tessuto infiltrato da carcinoma neuroendocrino scarsamente differenziato (NEC con Ki67 = 55,9% secondo WHO 2010) positivo per sinaptofisina, enolasi neuronospecifica (NSE), cromogranina A (CgA) e citocheratina 7 e 9 Il dosaggio dei marcatori aspecifici di neoplasia neuroendocrina mostra un marcato incremento dell’NSE (NSE = 235 ng/ml, vn < 12,5 ng/ml) e della CgA sierica (CgA sierica = 354 ng/ml, vn < 35 ng/ml) e una scintigrafia con OctreoScan una debole positività per i recettori della somatostatina (SSTR) a livello della lesione pancreatica e di solo due lesioni epatiche. A novembre dello stesso anno la paziente viene nuovamente ricoverata per l’insorgenza di uno stato settico secondario a meningite da Listeria monocytogenes e per multipli focolai bronco-pneumonici da Staphylococcus aureus meticillino-resistente. Gli esami ematochimici rilevano una severa leucopenia e ipokaliemia, quest’ultima scarsamente responsiva alla terapia con potassio per via parenterale. Si osserva inoltre la comparsa di un quadro clinico caratterizzato da incremento glicemico e modificazione dell’obiettività con comparsa di cute bronzina, ittero, ipertricosi, alterata distribuzione del pannicolo adiposo sottocutaneo con gibbo. L’elevata suscettibilità alle infezioni, l’ipertensione, l’ipopotassiemia, il riscontro di elevati livelli glicemici e un caratteristico habitus, in presenza di una neoplasia endocrina pancreatica pongono il sospetto di sindrome di Cushing da secrezione ectopica di ACTH. Per confermare tale sospetto viene effettuato il dosaggio degli ormoni corticotropi con riscontro di elevati livelli di ACTH (ACTH = 338 pg/ml, vn = 5-60 pg/ml), di cortisolo circolante (cortisolo circolante > 630 ng/ml, vn = 62-194 ng/ml) e di cortisolo libero urinario (cortisolo libero urinario > 630 mg/die, vn = 36-137 mg/die). Successivamente viene eseguita una nuova valutazione immunoistochimica su tessuto tumorale che evidenzia una forte positività per cellule secernenti ACTH, confermando quindi definitivamente la diagnosi di neoplasia neuroendocrina a produzione di ACTH. A novembre del 2011 l’instaurarsi di uno stato di shock settico determina il decesso della paziente per arresto cardio-circolatorio. rdio-circolatorio.\r\n",
-    "entities": [
-      {
-        "testo": "astenia",
-        "tipo": "CLINENTITY",
-        "inizio": 121,
-        "fine": 128
-      },
-      {
-        "testo": "gonfiore addominale",
-        "tipo": "CLINENTITY",
-        "inizio": 138,
-        "fine": 157
-      },
-      {
-        "testo": "incremento ponderale",
-        "tipo": "CLINENTITY",
-        "inizio": 160,
-        "fine": 180
-      },
-      {
-        "testo": "ipertensione arteriosa",
-        "tipo": "CLINENTITY",
-        "inizio": 224,
-        "fine": 246
-      },
-      {
-        "testo": "ulcera gastrica",
-        "tipo": "CLINENTITY",
-        "inizio": 315,
-        "fine": 330
-      },
-      {
-        "testo": "anemia",
-        "tipo": "CLINENTITY",
-        "inizio": 488,
-        "fine": 494
-      },
-      {
-        "testo": "leucocitosi",
-        "tipo": "CLINENTITY",
-        "inizio": 597,
-        "fine": 608
-      },
-      {
-        "testo": "linfocitopenia",
-        "tipo": "CLINENTITY",
-        "inizio": 624,
-        "fine": 638
-      },
-      {
-        "testo": "rialzo delle transaminasi",
-        "tipo": "CLINENTITY",
-        "inizio": 753,
-        "fine": 778
-      },
-      {
-        "testo": "anemia",
-        "tipo": "CLINENTITY",
-        "inizio": 925,
-        "fine": 931
-      },
-      {
-        "testo": "gastrite cronica",
-        "tipo": "CLINENTITY",
-        "inizio": 996,
-        "fine": 1012
-      },
-      {
-        "testo": "carcinoma neuroendocrino",
-        "tipo": "CLINENTITY",
-        "inizio": 1472,
-        "fine": 1496
-      },
-      {
-        "testo": "sinaptofisina",
-        "tipo": "CLINENTITY",
-        "inizio": 1576,
-        "fine": 1589
-      },
-      {
-        "testo": "meningite da Listeria monocytogenes",
-        "tipo": "CLINENTITY",
-        "inizio": 2152,
-        "fine": 2187
-      },
-      {
-        "testo": "Staphylococcus aureus meticillino-resistente",
-        "tipo": "CLINENTITY",
-        "inizio": 2232,
-        "fine": 2276
-      },
-      {
-        "testo": "leucopenia",
-        "tipo": "CLINENTITY",
-        "inizio": 2321,
-        "fine": 2331
-      },
-      {
-        "testo": "ipokaliemia",
-        "tipo": "CLINENTITY",
-        "inizio": 2334,
-        "fine": 2345
-      },
-      {
-        "testo": "ipertensione",
-        "tipo": "CLINENTITY",
-        "inizio": 2718,
-        "fine": 2730
-      },
-      {
-        "testo": "ipopotassiemia",
-        "tipo": "CLINENTITY",
-        "inizio": 2734,
-        "fine": 2748
-      },
-      {
-        "testo": "neoplasia endocrina pancreatica",
-        "tipo": "CLINENTITY",
-        "inizio": 2840,
-        "fine": 2871
-      },
-      {
-        "testo": "neoplasia endocrina",
-        "tipo": "CLINENTITY",
-        "inizio": 2840,
-        "fine": 2859
-      },
-      {
-        "testo": "sindrome di Cushing",
-        "tipo": "CLINENTITY",
-        "inizio": 2895,
-        "fine": 2914
-      },
-      {
-        "testo": "ACTH",
-        "tipo": "CLINENTITY",
-        "inizio": 2941,
-        "fine": 2945
-      },
-      {
-        "testo": "neoplasia neuroendocrina",
-        "tipo": "CLINENTITY",
-        "inizio": 3485,
-        "fine": 3509
-      },
-      {
-        "testo": "shock settico",
-        "tipo": "CLINENTITY",
-        "inizio": 3582,
-        "fine": 3595
-      },
-      {
-        "testo": "arresto cardio-circolatorio",
-        "tipo": "CLINENTITY",
-        "inizio": 3636,
-        "fine": 3663
-      }
-    ]
-  },
-  {
-    "id_doc": "IT100368.xml",
-    "text": "Donna di 73 anni con anamnesi negativa per rischio cardiovascolare, in terapia con coumadin dal 1987 per intervento di sostituzione valvolare mitralica con protesi meccanica. FAP dal 1997. A dicembre 2012 effettua vaccino antinfluenzale con successiva comparsa di astenia e dispnea. Nei giorni seguenti comparsa di ittero ed urine ipercromiche per cui la paziente accede in pronto soccorso. Ecografia e TC con mdc negative per ostruzione biliare, lesioni focali, calcolosi o dilatazione delle vie biliari. Gli esami ematici mettono in evidenza una anemia emolitica: Hb 8,6 g/dL; LDH 2138 U/L; Bilirubina 6,80 mg/dL prevalentemente indiretta; Aptoglobina consumata <0,06 g/L; Ferritina 202 ng/mL. Il Test di Coombs risulta negativo, mentre lo striscio periferico conferma la presenza di una emolisi-intravascolare con 3 schistociti per campo. Dai risultati ottenuti, pertanto, le possibili cause fisiopatologiche consistono con maggiore probabilità nell’Emoglobinuria Parossistica Notturna o nell’Emolisi Meccanica: il test di Ham risulta negativo mentre l’EcoTT, confermato da quello TE, evidenziano un rigurgito paravalvolare moderato-grave sul contorno mitralico posteriore (PVL). Il PVL complica fino al 20% degli interventi di sostituzione valvolare. Richiede una correzione chirurgica se induce scompenso cardiaco o anemia emolitica refrattaria. L’intervento per via percutanea secondo recenti studi ha successo in oltre il 70% dei casi a fronte di una probabilità di eventi avversi maggiori a 30 giorni di circa l’8%. In circa il 30% dei pazienti trattati può residuare o addirittura peggiorare l’emolisi intravascolare.\r\n",
-    "entities": [
-      {
-        "testo": "astenia",
-        "tipo": "CLINENTITY",
-        "inizio": 264,
-        "fine": 271
-      },
-      {
-        "testo": "dispnea",
-        "tipo": "CLINENTITY",
-        "inizio": 274,
-        "fine": 281
-      },
-      {
-        "testo": "ittero",
-        "tipo": "CLINENTITY",
-        "inizio": 315,
-        "fine": 321
-      },
-      {
-        "testo": "ostruzione biliare",
-        "tipo": "CLINENTITY",
-        "inizio": 427,
-        "fine": 445
-      },
-      {
-        "testo": "calcolosi",
-        "tipo": "CLINENTITY",
-        "inizio": 463,
-        "fine": 472
-      },
-      {
-        "testo": "dilatazione delle vie biliari",
-        "tipo": "CLINENTITY",
-        "inizio": 475,
-        "fine": 504
-      },
-      {
-        "testo": "anemia emolitica",
-        "tipo": "CLINENTITY",
-        "inizio": 548,
-        "fine": 564
-      },
-      {
-        "testo": "emolisi-intravascolare",
-        "tipo": "CLINENTITY",
-        "inizio": 790,
-        "fine": 812
-      },
-      {
-        "testo": "Emoglobinuria Parossistica Notturna",
-        "tipo": "CLINENTITY",
-        "inizio": 953,
-        "fine": 988
-      },
-      {
-        "testo": "Emolisi",
-        "tipo": "CLINENTITY",
-        "inizio": 996,
-        "fine": 1003
-      },
-      {
-        "testo": "PVL",
-        "tipo": "CLINENTITY",
-        "inizio": 1177,
-        "fine": 1180
-      },
-      {
-        "testo": "scompenso cardiaco",
-        "tipo": "CLINENTITY",
-        "inizio": 1300,
-        "fine": 1318
-      },
-      {
-        "testo": "anemia emolitica",
-        "tipo": "CLINENTITY",
-        "inizio": 1321,
-        "fine": 1337
-      }
-    ]
-  },
-  {
-    "id_doc": "IT101158.xml",
-    "text": "C. A. è un ragazzo di 23 anni, affetto da Germinoma sopra-sellare non secernente, recidivato localmente. Al termine della terapia con Thiotepa (300 mg/m2 x 3 giorni consecutivi) è stato sottoposto a re-infusione di PBSC autologhe (cellularità infusa pari a 6,69 CD 34 x 106/kg). Il decorso post-trapianto è stato complicato dalla presenza di iperpiressia dal g. +2 al g. +24 (emocoltura positiva per streptococcus mitis e Staphylococcus hominis) e di mucosite di 2°-3° grado. Il ragazzo ha lamentato a lungo profonda astenia e incapacità ad alimentarsi per il persistere di nausea e vomito, per le quali è stato necessario sostenerlo, inizialmente, con NPT. Dopo circa due mesi il ragazzo ha continuato a riferire profonda astenia, nausea, inappetenza, estrema difficoltà a compiere azioni quotidiane (vestirsi, camminare, leggere). Ha presentato lievi tremori a carico degli arti superiori, frequenti episodi di vertigini soggettive, cefalea, umore depresso, modesta reattività agli stimoli esterni. La RMN di rivalutazione non ha evidenziato recidive. Dopo circa un mese e mezzo dal trapianto il ragazzo ha presentato, presso il proprio domicilio, un episodio sincopale associato a febbre (38°C). È stata effettuata una Tac Encefalo, risultata negativa. Nei giorni a seguire ha presentato altri sintomi neurologici: astenia generalizzata, riduzione del tono muscolare progressivamente ingravescente a carico degli arti inferiori ed in minor misura a carico degli arti superiori, mialgie intense, parestesie e disestesie degli arti inferiori (dal ginocchio in giù) e delle mani, deficit deambulatorio progressivo fino ad impossibilità a mantenere la stazione eretta. Obiettivamente il ragazzo riusciva a tenere la posizione di Mingazzini I con livellamento a sinistra; mentre non riusciva a mantenere la posizione di Mingazzini II (deficit di tipo distale). Presentava inoltre: areflessia, ipoestesia a calza e a guanto con disestesia; lieve ipoestesia anche anche a livello delle cosce bilateralmente; riflesso plantare in flessione. Nel sospetto di una Polineuropatia periferica sub-acuta sono stati effettuati diversi esami nei quali è stato rilevato: modesto incremento delle transaminasi e dell’LDH; CPK nella norma; anticorpi anti micoplasma negativi. La rachicentesi esplorativa ha evidenziato nel liquor un quoziente di albumina patologicamente alterato, con scarsa cellularità. L’elettromiografia ha evidenziato un deficit sensitivo- motorio a carico dei nervi esaminati (peroneo sinistro, tibiale sinistro, mediano sinistro, ulnare sinistro e surale sinistro). Il referto elettromiografico e l’esame del liquor hanno confermato un quadro di polineuropatia sensitivo-motoria di tipo assonale. È stato effettuato trattamento con Ig e.v. alla dose di 400 mg/Kg (32 grammi) per 5 giorni consecutivi ed impostato un trattamento riabilitativo fisioterapico. I controllo clinici ed elettromiografici successivi hanno messo in evidenza progressivi ma lenti miglioramenti della forza sia agli arti inferiori che superiori. Attualmente, a distanza di quattro mesi dalla comparsa del suddetto quadro clinico, il ragazzo riesce a mantenere la stazione eretta, ma deambula solo con sostegno. Persistono parestesie e disestesie di grado minore, in particolare alle gambe; i ROT permangono ipoevocabili diffusamente. La RMN effettuata a distanza di quattro mesi rispetto alla precedente conferma lo stato di remissione della malattia di base.\r\n",
-    "entities": [
-      {
-        "testo": "Germinoma",
-        "tipo": "CLINENTITY",
-        "inizio": 42,
-        "fine": 51
-      },
-      {
-        "testo": "iperpiressia",
-        "tipo": "CLINENTITY",
-        "inizio": 342,
-        "fine": 354
-      },
-      {
-        "testo": "mucosite",
-        "tipo": "CLINENTITY",
-        "inizio": 451,
-        "fine": 459
-      },
-      {
-        "testo": "astenia",
-        "tipo": "CLINENTITY",
-        "inizio": 517,
-        "fine": 524
-      },
-      {
-        "testo": "nausea",
-        "tipo": "CLINENTITY",
-        "inizio": 574,
-        "fine": 580
-      },
-      {
-        "testo": "vomito",
-        "tipo": "CLINENTITY",
-        "inizio": 583,
-        "fine": 589
-      },
-      {
-        "testo": "astenia",
-        "tipo": "CLINENTITY",
-        "inizio": 723,
-        "fine": 730
-      },
-      {
-        "testo": "nausea",
-        "tipo": "CLINENTITY",
-        "inizio": 732,
-        "fine": 738
-      },
-      {
-        "testo": "inappetenza",
-        "tipo": "CLINENTITY",
-        "inizio": 740,
-        "fine": 751
-      },
-      {
-        "testo": "tremori a carico degli arti",
-        "tipo": "CLINENTITY",
-        "inizio": 853,
-        "fine": 880
-      },
-      {
-        "testo": "vertigini soggettive",
-        "tipo": "CLINENTITY",
-        "inizio": 913,
-        "fine": 933
-      },
-      {
-        "testo": "cefalea",
-        "tipo": "CLINENTITY",
-        "inizio": 935,
-        "fine": 942
-      },
-      {
-        "testo": "umore depresso",
-        "tipo": "CLINENTITY",
-        "inizio": 944,
-        "fine": 958
-      },
-      {
-        "testo": "episodio sincopale",
-        "tipo": "CLINENTITY",
-        "inizio": 1153,
-        "fine": 1171
-      },
-      {
-        "testo": "febbre",
-        "tipo": "CLINENTITY",
-        "inizio": 1184,
-        "fine": 1190
-      },
-      {
-        "testo": "astenia",
-        "tipo": "CLINENTITY",
-        "inizio": 1318,
-        "fine": 1325
-      },
-      {
-        "testo": "riduzione del tono muscolare",
-        "tipo": "CLINENTITY",
-        "inizio": 1341,
-        "fine": 1369
-      },
-      {
-        "testo": "mialgie",
-        "tipo": "CLINENTITY",
-        "inizio": 1481,
-        "fine": 1488
-      },
-      {
-        "testo": "parestesie e disestesie degli arti",
-        "tipo": "CLINENTITY",
-        "inizio": 1498,
-        "fine": 1532
-      },
-      {
-        "testo": "disestesie",
-        "tipo": "CLINENTITY",
-        "inizio": 1511,
-        "fine": 1521
-      },
-      {
-        "testo": "deficit deambulatorio",
-        "tipo": "CLINENTITY",
-        "inizio": 1580,
-        "fine": 1601
-      },
-      {
-        "testo": "areflessia",
-        "tipo": "CLINENTITY",
-        "inizio": 1879,
-        "fine": 1889
-      },
-      {
-        "testo": "ipoestesia a calza e a guanto",
-        "tipo": "CLINENTITY",
-        "inizio": 1891,
-        "fine": 1920
-      },
-      {
-        "testo": "disestesia",
-        "tipo": "CLINENTITY",
-        "inizio": 1925,
-        "fine": 1935
-      },
-      {
-        "testo": "ipoestesia",
-        "tipo": "CLINENTITY",
-        "inizio": 1943,
-        "fine": 1953
-      },
-      {
-        "testo": "Polineuropatia",
-        "tipo": "CLINENTITY",
-        "inizio": 2056,
-        "fine": 2070
-      },
-      {
-        "testo": "deficit sensitivo",
-        "tipo": "CLINENTITY",
-        "inizio": 2425,
-        "fine": 2442
-      },
-      {
-        "testo": "polineuropatia sensitivo-motoria di tipo assonale.",
-        "tipo": "CLINENTITY",
-        "inizio": 2652,
-        "fine": 2702
-      },
-      {
-        "testo": "polineuropatia sensitivo-motoria di tipo assonale",
-        "tipo": "CLINENTITY",
-        "inizio": 2652,
-        "fine": 2701
-      },
-      {
-        "testo": "parestesie",
-        "tipo": "CLINENTITY",
-        "inizio": 3201,
-        "fine": 3211
-      },
-      {
-        "testo": "disestesie",
-        "tipo": "CLINENTITY",
-        "inizio": 3214,
-        "fine": 3224
-      }
-    ]
-  },
-  {
-    "id_doc": "IT100809.xml",
-    "text": "Una donna di 58 anni giungeva presso il nostro nosocomio per febbre, stato confusionale ed algia in fianco e fossa iliaca sinistra. In anamnesi ipotiroidismo, obesità, ernie discali lombosacrali, nonché recente caduta a domicilio e successiva insorgenza di zoppia e dolore all’arto inferiore sinistro, trattata con FANS per via intramuscolare. L’obiettività clinica mostrava edemi periferici, dolorabilità ed impotenza funzionale dell’arto inferiore sinistro. Gli esami ematochimici mostravano leucocitosi neutrofila, aumento degli indici infiammatori (VES: 94mm, PCR: 29,12 mg/dl, Procalcitonina: 25 ng/ml). Le emocolture risultavano positive per Stafilococco Aureo meticillinoresistente, e pertanto veniva instaurata terapia con teicoplanina ev (bolo di 12 mg/kg/die per 72 h seguito da dose di 6 mg/kg/die). L’ecocardiogramma trans esofageo escludeva la presenza di vegetazioni endocarditiche. La TC total body mostrava assenza di alterazioni della densità parenchimale cerebrale e degli organi parenchimatosi, non liquido in addome ed assenza di immagini da riferire a lesioni da trauma. LA RM del rachide lombosacrale e del bacino evidenziavano anterolistesi di L5 su S1 e marcato infarcimento edematoso nella sede dell’articolazione coxofemorale di sinistra con associato infarcimento infiammatorio-colliquativo del muscolo ileopsoas. Dopo due settimane dall’instaurarsi della terapia antibiotica mirata si assisteva a normalizzazione degli indici di flogosi, riduzione della sintomatologia dolorosa di gamba sinistra e ripresa funzionale parziale dell’arto inferiore sinistro. La paziente veniva dimessa al domicilio con indicazione a FKT ambulatoriale ed è tuttora in stretto follow up con RM programmata a tre mesi.\r\n",
-    "entities": [
-      {
-        "testo": "febbre",
-        "tipo": "CLINENTITY",
-        "inizio": 61,
-        "fine": 67
-      },
-      {
-        "testo": "stato confusionale",
-        "tipo": "CLINENTITY",
-        "inizio": 69,
-        "fine": 87
-      },
-      {
-        "testo": "algia in fianco e fossa iliaca",
-        "tipo": "CLINENTITY",
-        "inizio": 91,
-        "fine": 121
-      },
-      {
-        "testo": "ipotiroidismo",
-        "tipo": "CLINENTITY",
-        "inizio": 144,
-        "fine": 157
-      },
-      {
-        "testo": "obesità",
-        "tipo": "CLINENTITY",
-        "inizio": 159,
-        "fine": 166
-      },
-      {
-        "testo": "ernie discali lombosacrali",
-        "tipo": "CLINENTITY",
-        "inizio": 168,
-        "fine": 194
-      },
-      {
-        "testo": "dolore all’arto inferiore",
-        "tipo": "CLINENTITY",
-        "inizio": 266,
-        "fine": 291
-      },
-      {
-        "testo": "dolorabilità ed impotenza funzionale dell’arto inferiore",
-        "tipo": "CLINENTITY",
-        "inizio": 393,
-        "fine": 449
-      },
-      {
-        "testo": "leucocitosi",
-        "tipo": "CLINENTITY",
-        "inizio": 494,
-        "fine": 505
-      },
-      {
-        "testo": "Stafilococco Aureo meticillinoresistente",
-        "tipo": "CLINENTITY",
-        "inizio": 648,
-        "fine": 688
-      },
-      {
-        "testo": "anterolistesi",
-        "tipo": "CLINENTITY",
-        "inizio": 1150,
-        "fine": 1163
-      },
-      {
-        "testo": "infarcimento edematoso nella sede dell’articolazione coxofemorale di sinistra",
-        "tipo": "CLINENTITY",
-        "inizio": 1186,
-        "fine": 1263
-      },
-      {
-        "testo": "infarcimento infiammatorio-colliquativo del muscolo ileopsoas",
-        "tipo": "CLINENTITY",
-        "inizio": 1278,
-        "fine": 1339
-      }
-    ]
-  },
-  {
-    "id_doc": "IT101060.xml",
-    "text": "IL signor Massimo di 86 anni, da stamani manifesta dispnea, affaticabilità nelle attività di vita quotidiane, confusione mentale. La moglie, viste le condizioni generali di salute, rileva la temperatura corporea che risulta 38,5 °C. Decide quindi di chiamare il Medico della Continuità ssistenziale che all’auscultazione rileva “sfregamenti” alla base polmonare di destra. Visto che il paziente ha avuto un infarto 6 mesi fa, si decide per il ricovero. In Ospedale il medico di Pronto Soccorso fa diagnosi di “broncopolmonite destra” e decide di prescrivere una terapia antibiotica per via intramuscolare da eseguire per 7 giorni.\r\n",
-    "entities": [
-      {
-        "testo": "dispnea",
-        "tipo": "CLINENTITY",
-        "inizio": 51,
-        "fine": 58
-      },
-      {
-        "testo": "affaticabilità",
-        "tipo": "CLINENTITY",
-        "inizio": 60,
-        "fine": 74
-      },
-      {
-        "testo": "confusione mentale",
-        "tipo": "CLINENTITY",
-        "inizio": 110,
-        "fine": 128
-      },
-      {
-        "testo": "infarto",
-        "tipo": "CLINENTITY",
-        "inizio": 407,
-        "fine": 414
-      },
-      {
-        "testo": "broncopolmonite",
-        "tipo": "CLINENTITY",
-        "inizio": 510,
-        "fine": 525
-      }
-    ]
-  },
-  {
     "id_doc": "IT101013.xml",
     "text": "Il signor Roberto ha 52 anni, si rivolge al medico di famiglia perché dopo l’influenza che ha avuto ormai due mesi fa, avverte una forte astenia e disappetenza, soprattutto per la carne, con un dimagrimento di 5 Kg. In seguito agli accertamenti diagnostici, risulta la presenza di una neoplasia gastrica. Ricoverato in U.O. di Chirurgia generale, il signor Roberto viene sottoposto ad intervento di gastroresezione totale. Dopo l’intervento chirurgico, torna dalla sala operatoria con ossigeno terapia, catetere venoso centrale, sondino naso-gastrico, catetere vescicale e due drenaggi addominali; è cosciente e chiede insistentemente di bere. Il catetere vescicale appare ostruito, si decide di sostituirlo.\r\n",
     "entities": [
@@ -750,56 +30,572 @@
     ]
   },
   {
-    "id_doc": "IT101493.xml",
-    "text": "Un ragazzo di 35 anni giunge all'osservazione del medico per un senso di peso in sede lombare bilateralmente presente da circa un anno e oggi divenuto più intenso, tanto da riferirlo dolore gravativo. Il paziente riferisce un episodio di emissione di urine scure nella settimana precedente e poliuria. Nella storia clinica del paziente non sono presenti patologie degne di nota, PA 150/95 mmHg FC 80 bpm, T 36,5 °C. Con la palpazione bimanuale è possibile apprezzare l'aumento di volume dei reni bilateralmente, familiarità positiva per nefropatia cistica. Gli esami ematochimici evidenziano emocromo nella norma, creatininemia 1,6 mg/dl, azotemia 98 mg/dl. Esame urine: microematuria, Peso specifico < 1007.\r\n",
+    "id_doc": "IT101011.xml",
+    "text": "Marco di anni 23 si presenta al pronto soccorso dopo una notte insonne per un dolore in fossa iliaca destra, accompagnato da nausea; non ha febbre. Riferisce all’infermiere di triage che da due giorni accusava i seguenti sintomi: senso di pesantezza allo stomaco, aerofagia, un vago dolore addominale con crampi soprattutto intorno all’ombelico, stipsi. La sera precedente, dopo aver cenato, il dolore è aumentato e si è localizzato in fossa iliaca destra. Vengono programmati alcuni accertamenti nell’ipotesi che si tratti di appendicite acuta. Confermata la diagnosi il ragazzo viene ricoverato presso la U.O. di Chirurgia dove viene preparato per sottoporsi ad un intervento di appendicectomia in regime di urgenza.\r\n",
     "entities": [
       {
-        "testo": "urine scure",
+        "testo": "dolore in fossa iliaca",
         "tipo": "CLINENTITY",
-        "inizio": 251,
+        "inizio": 78,
+        "fine": 100
+      },
+      {
+        "testo": "nausea",
+        "tipo": "CLINENTITY",
+        "inizio": 125,
+        "fine": 131
+      },
+      {
+        "testo": "senso di pesantezza allo stomaco",
+        "tipo": "CLINENTITY",
+        "inizio": 230,
         "fine": 262
       },
       {
-        "testo": "poliuria",
+        "testo": "aerofagia",
         "tipo": "CLINENTITY",
-        "inizio": 292,
+        "inizio": 264,
+        "fine": 273
+      },
+      {
+        "testo": "dolore addominale",
+        "tipo": "CLINENTITY",
+        "inizio": 283,
         "fine": 300
       },
       {
-        "testo": "nefropatia cistica",
+        "testo": "stipsi",
         "tipo": "CLINENTITY",
-        "inizio": 537,
-        "fine": 555
+        "inizio": 346,
+        "fine": 352
       },
       {
-        "testo": "microematuria",
+        "testo": "appendicite acuta",
         "tipo": "CLINENTITY",
-        "inizio": 671,
-        "fine": 684
+        "inizio": 527,
+        "fine": 544
       }
     ]
   },
   {
-    "id_doc": "IT101004.xml",
-    "text": "Il Sig. Giovanni di 68 anni si reca dal proprio medico curante perché da 3 giorni presenta ittero. Riferisce al medico che da circa un mese lamenta dolore in sede epigastrica, difficoltà durante la digestione; in poco tempo è dimagrito molto e si sente molto stanco. Il medico prescrive alcuni esami ematici ed un’ecografia all'addome. Dagli accertamenti ematici risultano alterati i marcatori tumorali e l'ecografia mostra una massa di origine tumorale a livello del Pancreas. Il Signore viene ricoverato nella U.O. di Chirurgia e sottoposto a tutti gli accertamenti del caso. L'équipe medica decide di eseguire un intervento chirurgico di resezione radicale. Il Sig. Giovanni appare molto disorientato e spaventato.\r\n",
+    "id_doc": "IT101143.xml",
+    "text": "K.A., unigenito dell’età di 18 mesi, non dimostra una storia clinica\r\nsignificativa per malattie pregresse ed in particolare per infezioni\r\ndelle vie urinarie. I genitori non sono consanguinei e non riferiscono a carico delle rispettive famiglie l’esistenza di anomalie dell’apparato uro-genitale. L’ecografia reno-vescicale e testicolare eseguite\r\nsul bambino sono nella norma.\r\n\r\nAll’esame obiettivo l’aspetto fenotipico è maschile. I testicoli sono\r\npresenti nella borsa scrotale bilateralmente e normoconformati per\r\nl’età. Lo scroto è bifido. Il meato uretrale è situato all’apice di un glande che emerge per meno di un centimetro dal piano cutaneo.\r\nIl pene, stirato e misurato dal tubercolo pubico all’apice del glande,\r\nrisulta dunque < - 2,5 SD per l’età. I corpi cavernosi, apparentemente normoconformati, sono palpabili al di sotto del piano cutaneo stesso, mentre non vi sono note obiettive per definire il pene del bambino come palmato, “intrappolato” o semplicemente infossato.\r\n\r\nViene eseguito uno studio del cariotipo che dimostra un corredo\r\ncromosomico 46,xY. Lo studio ormonale conferma, per l’età, un\r\ntitolo molto basso del testosterone, pari a 2,5 ng/dl. I valori di FSH\r\ne LH sono pari rispettivamente a 0,9 mu/ml e 0,1 mu/ml.\r\n\r\nIl trattamento è consistito nella somministrazione per via intramuscolare profonda di 25 mg. (100 mg./m²) ogni 4 settimane, per tre\r\nvolte complessivamente, di testosterone propionato. La terapia col\r\ntestosterone propionato non ha evidenziato effetti collaterali importanti, nè a carico del sito di iniezione nè di carattere generale, fatta\r\neccezione per una maggior irritabilità del bambino durante il periodo del trattamento (sono peraltro noti gli effetti del testosterone sulla crescita ossea nei trattamenti a lungo termine).\r\n\r\nLa risposta anatomo-clinica è stata positiva per ciò che concerne\r\nl’allungamento dell’asta, come evidenziato dalle immagini, con un incremento costante e già ben apprezzabile dopo la\r\nseconda dose di ormone.\r\n",
     "entities": [
       {
-        "testo": "ittero",
+        "testo": "infezioni\r\ndelle vie urinarie",
         "tipo": "CLINENTITY",
-        "inizio": 91,
-        "fine": 97
+        "inizio": 129,
+        "fine": 158
       },
       {
-        "testo": "dolore in sede epigastrica",
+        "testo": "scroto è bifido",
         "tipo": "CLINENTITY",
-        "inizio": 148,
+        "inizio": 531,
+        "fine": 546
+      }
+    ]
+  },
+  {
+    "id_doc": "IT101146.xml",
+    "text": "Si tratta di un bambino di 2 anni visto in Pronto Soccorso Pediatrico per dolori addominali crampiformi da alcune ore associati a\r\nnumerose scariche diarroiche senza febbre; dopo breve osservazione\r\nclinica veniva dimesso a domicilio con diagnosi di gastroenterite\r\nall’esordio. Il bambino rientrava la notte stessa per la persistenza delle algie addominali con diarrea e comparsa di vomiti, non biliari: clinicamente il piccolo paziente era molto sofferente con aspetto letargico; l’addome era disteso con difesa diffusa, timpanico alla percussione soprattutto in mesogastrio e peristalsi torbida all’ascoltazione.\r\n\r\nGli Indici di flogosi erano caratterizzati da 25,24 x 10/mm³ globuli bianchi e PCR a 0,05 mg/dL. Richiesta un’ecografia addominale\r\nper sospetta invaginazione intestinale, questa non evidenziava immagini dirette o indirette compatibili con una patologia addominale\r\nchirurgica in atto per l’abbondante meteorismo intestinale. Viste le\r\nscadenti condizioni generali del bambino si insisteva con il Collega\r\nRadiologo per la ripetizione dell’ecografia addominale preparando il\r\nbambino con un clistere. La seconda ecografia eseguita due ore più\r\ntardi evidenziava un’immagine a coccarda compatibile con una invaginazione ileo-ileale a livello dei quadranti addominali di sinistra.\r\n\r\nIl\r\nbambino, pertanto veniva sottoposto d’urgenza ad una laparotomia\r\nesplorativa mediante un accesso pararettale destra con il riscontro di\r\nun’ernia ileale interna su residuo onfalo mesenterico infiammato con\r\nbanda aderenziale al seno ombelicale. Il medio-ileo erniato\r\nruotava attorno alla banda aderenziale formando un volvolo occludente. Resecata la briglia aderenziale e derotata l’ansa intestinale, l’ileo riprendeva il suo normale flusso vascolare e l’intervento si\r\nconcludeva con una resezione del diverticolo di Meckel con anastomosi ileo-ileale termino-terminale. Il cieco appariva particolarmente\r\nmobile. Il decorso post-operatorio è stato regolare con ripresa graduale dell’alimentazione enterale. Il bambino è stato dimesso in 8^\r\ngiornata post-operatoria.\r\n",
+    "entities": [
+      {
+        "testo": "dolori addominali crampiformi",
+        "tipo": "CLINENTITY",
+        "inizio": 74,
+        "fine": 103
+      },
+      {
+        "testo": "scariche diarroiche",
+        "tipo": "CLINENTITY",
+        "inizio": 140,
+        "fine": 159
+      },
+      {
+        "testo": "gastroenterite",
+        "tipo": "CLINENTITY",
+        "inizio": 250,
+        "fine": 264
+      },
+      {
+        "testo": "algie addominali",
+        "tipo": "CLINENTITY",
+        "inizio": 341,
+        "fine": 357
+      },
+      {
+        "testo": "diarrea",
+        "tipo": "CLINENTITY",
+        "inizio": 362,
+        "fine": 369
+      },
+      {
+        "testo": "vomiti",
+        "tipo": "CLINENTITY",
+        "inizio": 384,
+        "fine": 390
+      },
+      {
+        "testo": "addome era disteso",
+        "tipo": "CLINENTITY",
+        "inizio": 484,
+        "fine": 502
+      },
+      {
+        "testo": "invaginazione intestinale",
+        "tipo": "CLINENTITY",
+        "inizio": 764,
+        "fine": 789
+      },
+      {
+        "testo": "invaginazione ileo-ileale",
+        "tipo": "CLINENTITY",
+        "inizio": 1224,
+        "fine": 1249
+      },
+      {
+        "testo": "ernia",
+        "tipo": "CLINENTITY",
+        "inizio": 1446,
+        "fine": 1451
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100335.xml",
+    "text": "A gennaio 2012 è giunto alla nostra osservazione un paziente di 52 anni a seguito di improvvisa comparsa di dolore all’ipocondrio sinistro. L’ecografia dell’addome ha evidenziato la presenza di splenomegalia (milza diametro longitudinale 17 cm, area di superficie 109,6 cm2). L’anamnesi patologica è risultata silente. L’esame obiettivo ha confermato la presenza di splenomegalia con polo splenico palpabile a circa 5 cm dall’arcata costale. L’esame emocromocitometrico ha evidenziato una spiccata leucocitosi con globuli bianchi pari a 191.000/mm3, lieve anemia con Hb 11,1 g/dl e conta piastrinica pari a 341.000/mm3. La valutazione midollare ha mostrato un quadro ipercellulare con incremento degli elementi della serie mieloide e megacariocitaria. La valutazione citogenetica convenzionale ha evidenziato un cariotipo 46 XY, t(9;22) (q34;q11) su 20 metafasi analizzate l’analisi molecolare effettuata su sangue periferico e midollare ha confermato la presenza del trascritto BCR-ABL del tipo p210 (b2a2). Pertanto è stata effettuata diagnosi di leucemia mieloide cronica Ph+ in fase cronica, con rischio SOKAL intermedio pari a 0,989, rischio EURO intermedio pari a 1,322 e rischio EUTOS basso pari a 0,411. In considerazione dell’età del paziente è stata effettuata tipizzazione HLA che ha evidenziato l’assenza di un donatore familiare HLA compatibile. A febbraio 2012, dopo un’iniziale citoriduzione con idrossiurea, il paziente ha intrapreso terapia con nilotinib al dosaggio di 600 mg/die (300 mg BID). Dopo circa due settimane di trattamento, il paziente ha ottenuto una risposta ematologica completa e dopo circa un mese si è osservata una netta riduzione della splenomegalia. A maggio 2012 (3° mese) il paziente ha confermato la risposta ematologica completa (CHR) e la rivalutazione midollare ha mostrato il raggiungimento di una risposta citogenetica completa (CCR). Il nostro centro possiede un laboratorio di biologia molecolare standardizzato all’interno del network dei laboratori LABNET. Sin dall’esordio della malattia il monitoraggio molecolare del paziente è stato effettuato ogni 3 mesi fino alla conferma della risposta molecolare maggiore all’interno del network LABNET, in accordo alle raccomandazioni ELN 2009 prima, ed ESMO 2012 successivamente. L’analisi molecolare al 3° mese effettuata su sangue periferico e midollare ha confermato una risposta ottimale al trattamento con un trascritto non solo inferiore al 10% ma anche inferiore all’1%, con un valore di trascritto BCR-ABL/ABL pari a 0,749 IS quantificabile secondo RT-PCR quantitativa. Globalmente la terapia è stata ben tollerata, ad eccezione di un transitorio episodio di piastrinopenia di grado 1 comparso dopo un mese di trattamento e successivamente regredito spontaneamente, di un rash cutaneo di grado 1 regredito spontaneamente e di una ri-esacerbazione di crisi emorroidaria regredita con terapia topica e con flavonoidi per via orale. Successivamente il paziente ha effettuato periodici controlli clinico-ematologici e monitoraggio biochimico. Ad agosto 2012 (6° mese) la rivalutazione midollare ha confermato la risposta citogenetica completa e la valutazione molecolare in RT-PCR quantitativa ha confermato l’ottenimento di una risposta molecolare ottimale con un valore di trascritto BCR-ABL/ ABL pari a 0,21 IS (< 10% e soprattutto < 1% del trascritto). A novembre 2012 (9° mese) il paziente ha confermato la risposta ematologia completa (CHR) e la risposta citogenetica completa (CCR). Dopo 9 mesi di terapia abbiamo assistito ad un’ulteriore riduzione del trascritto molecolare con una valore di BCR-ABL/ABL pari a 0,044 IS con il raggiungimento di una risposta molecolare maggiore (MMR). All’ultimo controllo effettuato a febbraio 2013 (12° mese) l’andamento rimane positivo e la valutazione molecolare in RT-PCR quantitativa non solo ha confermato il trend di riduzione del trascritto ma il paziente ha raggiunto una risposta molecolare profonda con una riduzione del trascritto di 4 log (MR4) con un valore di BCR-ABL/ABL pari a 0,01 IS.\r\n",
+    "entities": [
+      {
+        "testo": "dolore all’ipocondrio sinistro",
+        "tipo": "CLINENTITY",
+        "inizio": 108,
+        "fine": 138
+      },
+      {
+        "testo": "splenomegalia",
+        "tipo": "CLINENTITY",
+        "inizio": 194,
+        "fine": 207
+      },
+      {
+        "testo": "splenomegalia",
+        "tipo": "CLINENTITY",
+        "inizio": 366,
+        "fine": 379
+      },
+      {
+        "testo": "leucocitosi",
+        "tipo": "CLINENTITY",
+        "inizio": 498,
+        "fine": 509
+      },
+      {
+        "testo": "anemia",
+        "tipo": "CLINENTITY",
+        "inizio": 556,
+        "fine": 562
+      },
+      {
+        "testo": "leucemia mieloide cronica Ph+ in fase cronica",
+        "tipo": "CLINENTITY",
+        "inizio": 1049,
+        "fine": 1094
+      },
+      {
+        "testo": "splenomegalia",
+        "tipo": "CLINENTITY",
+        "inizio": 1673,
+        "fine": 1686
+      },
+      {
+        "testo": "piastrinopenia",
+        "tipo": "CLINENTITY",
+        "inizio": 2661,
+        "fine": 2675
+      },
+      {
+        "testo": "rash cutaneo",
+        "tipo": "CLINENTITY",
+        "inizio": 2774,
+        "fine": 2786
+      },
+      {
+        "testo": "crisi emorroidaria",
+        "tipo": "CLINENTITY",
+        "inizio": 2852,
+        "fine": 2870
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100990.xml",
+    "text": "L'ECG di questo numero appartiene ad un signore di 67 anni, il quale accede autonomamente nel nostro Pronto Soccorso di II livello a seguito di un episodio di dolore toracico insorto circa 40 minuti prima. Al momento dell'arrivo in PS il paziente lamenta un dolore retrosternale di intensità 8/10, irradiato ad entrambi gli emitoraci anteriormente, di tipo oppressivo, a carattere ingravescente, non esacerbato dal respiro o dai movimenti del torace, associato a profusa sudorazione algida, non associato a dispnea o cardiopalmo.\r\n\r\nL'anamnesi, principalmente rivolta alla ricerca di fattori di rischio cardiovascolari, è positiva per ipertensione arteriosa in trattamento con amlodipina 10 mg die, fumo (circa 15 sigarette/die) e blanda dislipidemia non in terapia. Il paziente nega familiarità per cardiopatia ischemica e diabete mellito. Riferisce inoltre che per un episodio di dolore toracico, circa 8 anni prima ha eseguito un test da sforzo al cicloergometro, del quale riferisce che diede risultato completamente negativo, ma di cui non porta documentazione alcuna.\r\n\r\nAd un iniziale esame obiettivo il paziente si presenta orientato e collaborante, anche se molto sofferente. È presente un marcato pallore cutaneo, associato ad abbondante sudorazione algida. Il restante esame obiettivo cardiopolmonare, addominale e neurologico si presenta nella norma.\r\n\r\nI parametri vitali sono i seguenti: PA 148/86, FC 80 R, spO2 98% in aria ambiente, T 36.3°C.\r\nViene somministrato acido acetilsilicilico 250 mg ev, nitroderivato sublinguale con parziale regressione della sintomatologia e, in seguito, morfina ev, con cui si ottiene un soddisfacente controllo del dolore.\r\n",
+    "entities": [
+      {
+        "testo": "dolore toracico",
+        "tipo": "CLINENTITY",
+        "inizio": 159,
         "fine": 174
       },
       {
-        "testo": "massa di origine tumorale",
+        "testo": "dolore retrosternale",
         "tipo": "CLINENTITY",
-        "inizio": 428,
-        "fine": 453
+        "inizio": 258,
+        "fine": 278
+      },
+      {
+        "testo": "ipertensione arteriosa",
+        "tipo": "CLINENTITY",
+        "inizio": 635,
+        "fine": 657
+      },
+      {
+        "testo": "dislipidemia",
+        "tipo": "CLINENTITY",
+        "inizio": 738,
+        "fine": 750
+      },
+      {
+        "testo": "cardiopatia ischemica",
+        "tipo": "CLINENTITY",
+        "inizio": 800,
+        "fine": 821
+      },
+      {
+        "testo": "diabete mellito",
+        "tipo": "CLINENTITY",
+        "inizio": 824,
+        "fine": 839
+      },
+      {
+        "testo": "dolore toracico",
+        "tipo": "CLINENTITY",
+        "inizio": 882,
+        "fine": 897
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100742.xml",
+    "text": "Donna, 56 anni. Anamnesi: rettocolite ulcerosa (RCU). Ricoverata per disordini elettrolitici secondari a diarrea, anche su indicazione del gastroenterologo consulente, veniva sottoposta a colonscopia, con diagnosi di fase attiva di RCU. Dopo 24 ore trascorse in assenza di sintomi, la pz riferiva “mal di gola”. All’esame clinico: evidenza di rigonfiamento alla base del collo, ed alla palpazione: crepitio classicamente suggestivo di enfisema sottocutaneo. Le tecniche di imaging, immediatamente praticate, documentavano pneumomediastino e retropneumoperitoneo, con la ovvia conclusione diagnostica di microperforazione colica in corso di colonscopia. La pz veniva sottoposta ad intervento chirurgico.\r\n",
+    "entities": [
+      {
+        "testo": "rettocolite ulcerosa",
+        "tipo": "CLINENTITY",
+        "inizio": 26,
+        "fine": 46
+      },
+      {
+        "testo": "RCU",
+        "tipo": "CLINENTITY",
+        "inizio": 48,
+        "fine": 51
+      },
+      {
+        "testo": "diarrea",
+        "tipo": "CLINENTITY",
+        "inizio": 105,
+        "fine": 112
+      },
+      {
+        "testo": "RCU",
+        "tipo": "CLINENTITY",
+        "inizio": 232,
+        "fine": 235
+      },
+      {
+        "testo": "mal di gola",
+        "tipo": "CLINENTITY",
+        "inizio": 298,
+        "fine": 309
+      },
+      {
+        "testo": "enfisema sottocutaneo",
+        "tipo": "CLINENTITY",
+        "inizio": 435,
+        "fine": 456
+      },
+      {
+        "testo": "pneumomediastino",
+        "tipo": "CLINENTITY",
+        "inizio": 522,
+        "fine": 538
+      },
+      {
+        "testo": "retropneumoperitoneo",
+        "tipo": "CLINENTITY",
+        "inizio": 541,
+        "fine": 561
+      },
+      {
+        "testo": "microperforazione",
+        "tipo": "CLINENTITY",
+        "inizio": 603,
+        "fine": 620
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100622.xml",
+    "text": "Giunge in Pronto Soccorso una donna di anni 42, per riscontro occasionale di anemia normocitica e comparsa, da qualche giorno, di dispnea da sforzo lieve, succulenza agli arti inferiori e calo del visus all’occhio sinistro. La paziente, affetta da sclerosi multipla (in buon controllo farmacologico con b-interferone), pratica prelievi per profilo completo di ingresso, ECG, emogasanalisi arteriosa (EGA), RX torace ed ecografia dell’addome completo. All’arrivo, appare orientata, sveglia e collaborante (GCS 15), eupnoica a riposo, il polso è ritmico e tachifrequente, all’esame obiettivo del torace si evidenzia solo un lieve riduzione del murmure vescicolare, l’obiettività neurologica è negativa per segni di lato. L’EGA conferma anemia ed evidenzia, inoltre, ipopotassiemia (K+=2.5mEq/L); l’esame RX del torace descrive segni di broncopneumopatia con ectasia delle strutture vascolari ilari, l’ecografia dell’addome evidenzia iperecogenicità della corticale renale con perdita della differenziazione cortico-midollare a carico di entrambi i reni. Ricoverata in Medicina d’Urgenza, i prelievi ematochimici confermano l’anemia normocitica e l’ipopotassiemia e documentano insufficienza renale acuta e piastrinopenia lieve. Viene praticato un’ecodoppler cardiaco che evidenzia un quadro di cardiomiopatia ipertrofica, lieve riduzione della funzione sistolica globale, disfunzione diastolica con pattern da alterato rilasciamento, ipertensione polmonare con insufficienza tricuspidale (PAPs stimata: 40 mmHg), con indicazione ad approfondimento diagnostico con RMN cardiaca (la quale, tuttavia, praticata successivamente, non fornirà informazioni aggiuntive). La paziente avvia terapia con steroidi, diuretico dell’ansa, protezione gastrica e profilassi antibiotica ed EPO a somministrazione trisettimanale. In corso di ricovero, la funzione renale tende a peggiorare, pur se con diuresi conservata, gli esami di laboratorio documentano anemia emolitica (riduzione dell’aptoglobina, aumento dei valori di LDH, evidenza di numerosi schistociti allo striscio periferico) e proteinuria massiva (3 gr/24h) con comparsa di emorragie muco-cutanee (petecchie) per cui viene posta diagnosi di malattia microangiopatica e sindrome nefrosica secondarie a tossicità da b-interferone. La paziente avvia terapia con corticosteroidi ad alto dosaggio, plasma fresco congelato ed emazie concentrate. Tuttavia, per il persistere della piastrinopenia e dell’anemia e per il peggioramento della funzionalità renale (che ingenera anche crisi ipertensive e scarso controllo pressorio), come da protocollo, viene sottoposta a sedute di plasma exchange (PEX, previo posizionamento di catetere venoso ad alto flusso in vena femorale dx) alle quali si associa infusione rituximab (375mg/m2/settimana per 4 settimane), a potenziamento della stessa che da sola era risultata inefficace al miglioramento del quadro clinico-laboratoristico. Dopo la quarta seduta di PEX, si assiste ad una progressiva normalizzazione del quadro emocromocitometrico, a fronte di un progressivo peggioramento della funzione renale, che ha richiesto terapia sostitutiva emodialitica permanente.\r\n",
+    "entities": [
+      {
+        "testo": "anemia normocitica",
+        "tipo": "CLINENTITY",
+        "inizio": 77,
+        "fine": 95
+      },
+      {
+        "testo": "dispnea",
+        "tipo": "CLINENTITY",
+        "inizio": 130,
+        "fine": 137
+      },
+      {
+        "testo": "sclerosi multipla",
+        "tipo": "CLINENTITY",
+        "inizio": 248,
+        "fine": 265
+      },
+      {
+        "testo": "anemia",
+        "tipo": "CLINENTITY",
+        "inizio": 734,
+        "fine": 740
+      },
+      {
+        "testo": "ipopotassiemia",
+        "tipo": "CLINENTITY",
+        "inizio": 764,
+        "fine": 778
+      },
+      {
+        "testo": "broncopneumopatia",
+        "tipo": "CLINENTITY",
+        "inizio": 834,
+        "fine": 851
+      },
+      {
+        "testo": "anemia normocitica",
+        "tipo": "CLINENTITY",
+        "inizio": 1123,
+        "fine": 1141
+      },
+      {
+        "testo": "ipopotassiemia",
+        "tipo": "CLINENTITY",
+        "inizio": 1146,
+        "fine": 1160
+      },
+      {
+        "testo": "insufficienza renale acuta",
+        "tipo": "CLINENTITY",
+        "inizio": 1175,
+        "fine": 1201
+      },
+      {
+        "testo": "piastrinopenia",
+        "tipo": "CLINENTITY",
+        "inizio": 1204,
+        "fine": 1218
+      },
+      {
+        "testo": "cardiomiopatia ipertrofica",
+        "tipo": "CLINENTITY",
+        "inizio": 1292,
+        "fine": 1318
+      },
+      {
+        "testo": "ipertensione polmonare",
+        "tipo": "CLINENTITY",
+        "inizio": 1432,
+        "fine": 1454
+      },
+      {
+        "testo": "insufficienza tricuspidale",
+        "tipo": "CLINENTITY",
+        "inizio": 1459,
+        "fine": 1485
+      },
+      {
+        "testo": "anemia emolitica",
+        "tipo": "CLINENTITY",
+        "inizio": 1938,
+        "fine": 1954
+      },
+      {
+        "testo": "proteinuria",
+        "tipo": "CLINENTITY",
+        "inizio": 2072,
+        "fine": 2083
+      },
+      {
+        "testo": "emorragie muco-cutanee",
+        "tipo": "CLINENTITY",
+        "inizio": 2119,
+        "fine": 2141
+      },
+      {
+        "testo": "petecchie",
+        "tipo": "CLINENTITY",
+        "inizio": 2143,
+        "fine": 2152
+      },
+      {
+        "testo": "sindrome nefrosica",
+        "tipo": "CLINENTITY",
+        "inizio": 2214,
+        "fine": 2232
+      },
+      {
+        "testo": "piastrinopenia",
+        "tipo": "CLINENTITY",
+        "inizio": 2419,
+        "fine": 2433
+      },
+      {
+        "testo": "anemia",
+        "tipo": "CLINENTITY",
+        "inizio": 2441,
+        "fine": 2447
+      },
+      {
+        "testo": "peggioramento della funzionalità renale",
+        "tipo": "CLINENTITY",
+        "inizio": 2457,
+        "fine": 2496
+      },
+      {
+        "testo": "peggioramento della funzione renale",
+        "tipo": "CLINENTITY",
+        "inizio": 3048,
+        "fine": 3083
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100509.xml",
+    "text": "Donna, 87 anni, ipertiroidismo subclinico, artrosi, osteoporosi (fratture T10-T11), ipovisus, AH in terapia steroidea cronica; ipertensione; scompenso cardiaco diastolico; un ricovero per EPA. Recente embolia polmonare, da allora in TAO. Recentemente agitazione e dolore resistente a paracetamolo. All’ECG RS 66 bpm, deviazione assiale sinistra, BBD incompleto. Chest Pain Score e Wells Score bassi. All’ecocardiogramma FE 55%. PA 160/90 mmHg. Giordano positivo, dolore paravertebrale bilateralmente. Dopo caduta accidentale vivo dolore a livello dorsale. Al quadro rx crolli vertebrali da T6 a T8 con pregresso crollo di T12. Procrastinata la chifoplastica e prescritto un busto, iniziava cauta fisioterapia. Videat oculistico e continuazione della terapia steroidea. Prescrizione di teriparatide e vitamina D.\r\n",
+    "entities": [
+      {
+        "testo": "ipertiroidismo",
+        "tipo": "CLINENTITY",
+        "inizio": 16,
+        "fine": 30
+      },
+      {
+        "testo": "artrosi",
+        "tipo": "CLINENTITY",
+        "inizio": 43,
+        "fine": 50
+      },
+      {
+        "testo": "osteoporosi",
+        "tipo": "CLINENTITY",
+        "inizio": 52,
+        "fine": 63
+      },
+      {
+        "testo": "ipertensione",
+        "tipo": "CLINENTITY",
+        "inizio": 127,
+        "fine": 139
+      },
+      {
+        "testo": "scompenso cardiaco diastolico",
+        "tipo": "CLINENTITY",
+        "inizio": 141,
+        "fine": 170
+      },
+      {
+        "testo": "dolore paravertebrale",
+        "tipo": "CLINENTITY",
+        "inizio": 463,
+        "fine": 484
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100961.xml",
+    "text": "Una donna di 69 anni si è recata all’Ospedale di Pescia (USL Toscana Centro) per disfonia, ptosi palpebrale e disfagia ingravescente da circa 10 giorni. In anamnesi ipertensione in tp con ACE inibitore, esofagite ed ernia iatale. La TC cranio era negativa per lesioni della base cranica e del tronco. Emocromo e funzione renale nei limiti, negativi gli indici di flogosi. All’arrivo in reparto la paziente si presentava vigile con disfonia, disartria e disfagia in assenza di deficit di forza o sensibilità degli arti. Nel sospetto di sindrome di Miller Fisher è stata eseguita una rachicentesi che ha mostrato liquor nei limiti della norma per cui è stato posto il sospetto di Miastenia Gravis a esordio bulbare. Per la comparsa di ortopnea con caduta linguale in clinostatismo, la paziente è stata trasferita presso la terapia sub intensiva dove ha eseguito plasma aferesi ottenendo un rapido miglioramento. La paziente ha eseguito 5 cicli di plasma aferesi e successivamente ha iniziato terapia con piridostigmina. Gli anticorpi anti recettore Ach sono risultati positivi. La miastenia gravis è una patologia autoimmune della placca neuromuscolare che coinvolge in maniera variabile in muscoli oculari, respiratori o bulbari. L’interessamento dei muscoli bulbari e respiratori è quello che peggiora la prognosi. Nei casi più gravi il trattamento con plasma aferesi fornisce un rapido miglioramento della sintomatologia ma non è utile a lungo termine per cui deve essere utilizzato solo come terapia di salvataggio in attesa che la terapia con piridostigmina dia i risultati a lungo termine.\r\n",
+    "entities": [
+      {
+        "testo": "disfonia",
+        "tipo": "CLINENTITY",
+        "inizio": 81,
+        "fine": 89
+      },
+      {
+        "testo": "ptosi palpebrale",
+        "tipo": "CLINENTITY",
+        "inizio": 91,
+        "fine": 107
+      },
+      {
+        "testo": "disfagia",
+        "tipo": "CLINENTITY",
+        "inizio": 110,
+        "fine": 118
+      },
+      {
+        "testo": "ipertensione",
+        "tipo": "CLINENTITY",
+        "inizio": 165,
+        "fine": 177
+      },
+      {
+        "testo": "esofagite",
+        "tipo": "CLINENTITY",
+        "inizio": 203,
+        "fine": 212
+      },
+      {
+        "testo": "ernia iatale",
+        "tipo": "CLINENTITY",
+        "inizio": 216,
+        "fine": 228
+      },
+      {
+        "testo": "disfonia",
+        "tipo": "CLINENTITY",
+        "inizio": 431,
+        "fine": 439
+      },
+      {
+        "testo": "disartria",
+        "tipo": "CLINENTITY",
+        "inizio": 441,
+        "fine": 450
+      },
+      {
+        "testo": "disfagia",
+        "tipo": "CLINENTITY",
+        "inizio": 453,
+        "fine": 461
+      },
+      {
+        "testo": "sindrome di Miller Fisher",
+        "tipo": "CLINENTITY",
+        "inizio": 535,
+        "fine": 560
+      },
+      {
+        "testo": "Miastenia Gravis",
+        "tipo": "CLINENTITY",
+        "inizio": 678,
+        "fine": 694
+      },
+      {
+        "testo": "ortopnea",
+        "tipo": "CLINENTITY",
+        "inizio": 733,
+        "fine": 741
+      },
+      {
+        "testo": "miastenia gravis",
+        "tipo": "CLINENTITY",
+        "inizio": 1079,
+        "fine": 1095
       }
     ]
   }
