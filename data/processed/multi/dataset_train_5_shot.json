@@ -1,546 +1,600 @@
 [
   {
-    "id_doc": "EU100010.xml",
-    "lingua": "Basque",
-    "text": "ERREUMATOLOGIA\r\nOSPITALERATZEKO/KONTSULTARAKO ARRAZOIA.\r\nAzterketa sakona egitera datorren 55 urteko emakumea.\r\nAURREKARIAK.\r\nEz du alergia ezagunik.\r\nHipertentsio arteriala du eta erretzailea da.\r\nEz du ohiko tratamendurik.\r\nEGUNGO HISTORIA.\r\nPazienteak duela lau urtetik 3 faseetako Raynaud-en fenomenoa du.\r\nHatz-puntetan ultzera mingarri txikiak ditu.\r\nDuela 6 hilabetetik hatzak hazita ditu, azala lodituta eta gogortuta, bai besoetan eta bai zangoetan ere.\r\nBihotzerrea sentitzen du maiz, edozein janari hartuta, eta goragalea ere bai.\r\nEz du botaka egin.\r\nBatzuetan beherakoa du.\r\nAtalkako galdeketa: esfortzu txiki eta ertainak egitean disnea sentitzen du; ez du eztulik, ez karkaxarik, ez eta bularreko minik ere.\r\nEz zaio nabarmenki ilea erortzen, ez du ahoko ultzerarik, ez eta fotosentikortasunik ere.\r\nAZTERKETA FISIKOA.\r\nTentsio arteriala, 160/95 mm Hg; tenperatura, 36,5 °C; bihotz-maiztasuna: 85 tau/min; arnas maiztasuna, 16 arnas/min; O2Sat,% 98.\r\nBurua eta lepoa.\r\nEz dago ingurgitazio jugularrik, ez eta adenopatia zerbikalik ere.\r\nBihotz-auskultazioa.\r\nErritmikoa, murmuriorik gabea.\r\nBiriken auskultazioa.\r\nKarraka-soinu finak bi oinaldeetan.\r\nSabelaldea.\r\nEz dago aurkikuntza patologikorik.\r\nAzala.\r\nEsklerodaktilia, hatzak hazita eta atximurka ezinak.\r\nOrbain txikiak hatz-mamietan.\r\nAzala gogortuta, bai besoen atzeko aldean eta bai zangoetan.\r\nRodman-en indizea: orban arreak sorbalden atzealdean.\r\nEz du artritisaren zeinurik.\r\nPROBA OSAGARRIAK.\r\nANALITIKA.\r\nBiokimika, alteraziorik gabe; hemograma, alteraziorik gabe; proteinograma, alteraziorik gabe; gernu- azterketa, 3 eritrozito eremuko, proteinarik ez.\r\nMikroskopioaren bidezko azterketa, alteraziorik gabe.\r\nKonplementu-frakzioak: C3 eta C4 normala; antigorputz antinuklear positiboak, titulazioa 1/640.\r\nAntiDNA negatiboa, Anti-Scl70 positiboa.\r\nESOFAGOGRAMA.\r\nMugimendu motela.\r\nHiatoko hernia.\r\nBULARREKO ERRADIOGRAFIA.\r\nNormala.\r\nBIRIKETAKO PROBA FUNTZIONALAK.\r\nFVC,% 65; FEV1/FVC,% 55; DLCO;% 50. \r\n6MT (6 minutuko testa): 400 metro egin ditu; O2Sat bukaeran,% 96 (hasieran% 98).\r\nTORAXEKO OTA.\r\nBiriken azpiko aldeetan gaixotasun interstiziala, \" beira lauso \" batean zehar ikusiko balitz bezala.\r\nEKOKARDIOGRAMA.\r\nEiekzio-frakzioa,% 60.\r\nEz da isuri perikardikorik ikusten.\r\nBalbula normalak.\r\nEzkerreko aurikula eta aortaren sustraiak normalak dira.\r\nKalkulatutako biriketako arteria-presio sistolikoa, 35 mm Hg.\r\nEBOLUZIOA.\r\nPazienteak esklerosi sistemikoa du, barreiatua.\r\nLarruazaleko erasan progresiboa du eta maiz artatu behar izaten da, barne-organoak larri erasateko arriskuan baitago.\r\nPazienteak Raynaud-en gaixotasunarentzako tratamendua hartu du, hots, iloprosta 5 egunetan jarraian, eta mina jaitsi egin zaio.\r\nAldi berean, tratamendua hasi da bosentana erabiliz, pixkanaka-pixkanaka dosia handiagotuz, hatzetako ultzerak ekiditeko.\r\nEra berean, pantoprazola hartzen ari da, digestio-ondoeza arintzeko.\r\nBirika eta bihotza ebaluatu ondoren, biriketako gaixotasun interstizial hedatua (BGIH) diagnostikatu da, hasierako unean.\r\nKanpo-kontsultetan aldiro-aldiro ebaluatuko dute.\r\nDIAGNOSTIKOA.\r\nEsklerosi sistemiko progresiboa, barreiatua.\r\nRaynaud-en fenomenoa eta hatzetako ultzerak, hasierako biriketako gaixotasun interstiziala.\r\nTRATAMENDUA.\r\nAmlodipinoa, 5 mg/24 orduan behin, hotza egiten duen garaian\r\nBosentana, 125 mg/12 orduan behin.\r\nPantoprazola, 20 mg/24 orduan behin.\r\nMikofenolatoa 500 mg, 2 pilula/24 orduan behin.\r\nEnalaprila, 10 mg/24 orduan behin.\r\nBESTE GOMENDIO BATZUK.\r\nHotza saihestu.\r\nEskularru eta galtzerdi lodiak erabili.\r\nEskuak ur berotan sartu.\r\n",
+    "id_doc": "IT101013.xml",
+    "lingua": "Italian",
+    "text": "Il signor Roberto ha 52 anni, si rivolge al medico di famiglia perché dopo l’influenza che ha avuto ormai due mesi fa, avverte una forte astenia e disappetenza, soprattutto per la carne, con un dimagrimento di 5 Kg. In seguito agli accertamenti diagnostici, risulta la presenza di una neoplasia gastrica. Ricoverato in U.O. di Chirurgia generale, il signor Roberto viene sottoposto ad intervento di gastroresezione totale. Dopo l’intervento chirurgico, torna dalla sala operatoria con ossigeno terapia, catetere venoso centrale, sondino naso-gastrico, catetere vescicale e due drenaggi addominali; è cosciente e chiede insistentemente di bere. Il catetere vescicale appare ostruito, si decide di sostituirlo.\r\n",
     "entities": [
+      {
+        "testo": "influenza",
+        "tipo": "CLINENTITY",
+        "inizio": 77,
+        "fine": 86
+      },
+      {
+        "testo": "astenia",
+        "tipo": "CLINENTITY",
+        "inizio": 137,
+        "fine": 144
+      },
+      {
+        "testo": "disappetenza",
+        "tipo": "CLINENTITY",
+        "inizio": 147,
+        "fine": 159
+      },
+      {
+        "testo": "neoplasia gastrica",
+        "tipo": "CLINENTITY",
+        "inizio": 285,
+        "fine": 303
+      }
+    ]
+  },
+  {
+    "id_doc": "FR100979.xml",
+    "lingua": "French",
+    "text": "Nous rapportons le cas d'un accident vasculaire cérébral hémorragique du tronc cérébral chez une patiente de 21 ans admise pour prééclampsie sévère sur grossesse non suivie de 38 SA compliquée d'une éclampsie puis d'un accident vasculaire cérébral hémorragique du tronc cérébral à j2 du post-opératoire d'une césarienne pour suspiçion d'hématome rétro-placentaire dès son admission.\nL'hémorragie intracérébrale est une complication rare mais grave chez les femmes en post-partum, plusieurs études sont en cours pour combler les lacunes de connaissances susceptibles d'être impliqués dans les soins des patientes prééclamptiques présentant des complications neurologiques.\n",
+    "entities": [
+      {
+        "testo": "accident vasculaire cérébral hémorragique",
+        "tipo": "CLINENTITY",
+        "inizio": 28,
+        "fine": 69
+      },
+      {
+        "testo": "prééclampsie",
+        "tipo": "CLINENTITY",
+        "inizio": 128,
+        "fine": 140
+      },
+      {
+        "testo": "éclampsie",
+        "tipo": "CLINENTITY",
+        "inizio": 199,
+        "fine": 208
+      },
+      {
+        "testo": "accident vasculaire cérébral hémorragique",
+        "tipo": "CLINENTITY",
+        "inizio": 219,
+        "fine": 260
+      },
+      {
+        "testo": "hématome rétro-placentaire",
+        "tipo": "CLINENTITY",
+        "inizio": 337,
+        "fine": 363
+      },
+      {
+        "testo": "hémorragie intracérébrale",
+        "tipo": "CLINENTITY",
+        "inizio": 385,
+        "fine": 410
+      },
+      {
+        "testo": "prééclamptiques",
+        "tipo": "CLINENTITY",
+        "inizio": 612,
+        "fine": 627
+      },
+      {
+        "testo": "complications neurologiques",
+        "tipo": "CLINENTITY",
+        "inizio": 643,
+        "fine": 670
+      }
+    ]
+  },
+  {
+    "id_doc": "EU100187.xml",
+    "lingua": "Basque",
+    "text": "KONTSULTA ARRAZOIA\r\nSabeleko mina eta sukarra aurkezten dituen 43 urteko gizona.\r\n\r\nAURREKARI PERTSONALAK\r\n-Ez medikamentu alergia ezagunik.\r\n-Ohitura toxikoak: 1 pakete/eguneko erretzailea. \r\n4-5 UBE/eguneko alkohol edalaria. \r\nNoizbehinkako kanabis eta kokaina kontsumitzailea. \r\nBabes gabeko sexu harremanak.\r\n-Ez DM-ik, ez hipertentsio arterialik, ez dislipemiarik.\r\n-Ez gaixotasun kardiologiko ez arnas aparatuko gaixotasunik.\r\n-Ez aurreko gaixotasun digestiborik\r\n-Ez ohiko tratamendurik.\r\n\r\nAurrekari kirugikoak:\r\n-2018/11/20-an ebakuntza abzesu eta uzki inguruko fistula batengatik, ebakidura, drainadura eta desbridamendu eta fistulotomiarekin. \r\n2018/11/21an alta emanda konplikaziorik gabe.\r\n\r\nEGUNGO GAIXOTASUNA\r\nPazienteak duela egun bat sabeleko eskuin aldean hasitako mina aurkezten du, sorbalda eta giltzurrun aldera hedatzen dena. \r\nMina etengabekoa da eta ez da analgesiko arruntekin hobetzen. \r\nGoragaleak ditu, botakarik gabe. 39,5ºCko sukarra izan du. Ez du gernu aparatuko klinikarik esta beste sintomarik ere.\r\n\r\nAZTERKETA FISIKOA\r\nPA 160/98 mmHg FC 100 Temp 36,6ºC SO2 99%\r\n-Egoera orokor ona, baina min nabariarekin. \r\nLekuko eta denborako orientazio egokiak. \r\nOndo hidratatuta. \r\nKolore eta perfusio egokiak. \r\nArnas maiztasun normala.\r\n-Bihotz auskultazioa: erritmikoa, murmuilorik gabe.\r\n-Arnas auskultazioa: arnas murmuilo arrunta.\r\n-Sabeleko azterketa: Zarata peristaltiko normalak. \r\nBiguina eta deprimigarria, sabeleko eskuin alde eta hipokondrioan mingarria, Murphy positiboa. \r\nEz du masa zein megaliarik. \r\nEskuin aldeko giltzurrun perkutsio positiboa.\r\n-Hanketan ez edemarik ezta zain sakonetako tronbosien zeinurik.\r\n\r\nURGENTZIETAKO PROBA OSAGARRIAK:\r\n-Bular eta Sabel erradiografia normalak.\r\n-Odol analisia:\r\n* Gasometria benosoa: pH 7.47, PCO2 38 mmHg, HCO3 28mmol/L. Laktato 1,4 mmol/L.\r\n* Biokimika: PCR 344 mg/L. PCT 3.98. ng/mL. Giltzurrun funtzio normala. Ez beste alteraziorik.\r\n* Hematimetria: Hb 14 g/dL, plaketa normalak. Leukozitoak 29300, 86% neutrofiloak.\r\n* Koagulazio normala.\r\n\r\n-Gernu analisi normala.\r\n-Gernu eta odol kultiboak emaitzen zain.\r\n-Abdomen eta pelbiseko TC: heste itsu -eskuineko heste lodiko neoplasia primarioa eta gibel metastasiekin bat datorren irudia.\r\n",
+    "entities": [
+      {
+        "testo": "Sabeleko mina",
+        "tipo": "CLINENTITY",
+        "inizio": 20,
+        "fine": 33
+      },
+      {
+        "testo": "sukarra",
+        "tipo": "CLINENTITY",
+        "inizio": 38,
+        "fine": 45
+      },
       {
         "testo": "alergia",
         "tipo": "CLINENTITY",
-        "inizio": 132,
-        "fine": 139
-      },
-      {
-        "testo": "Hipertentsio arteriala",
-        "tipo": "CLINENTITY",
-        "inizio": 151,
-        "fine": 173
+        "inizio": 123,
+        "fine": 130
       },
       {
         "testo": "erretzailea",
         "tipo": "CLINENTITY",
-        "inizio": 181,
-        "fine": 192
+        "inizio": 178,
+        "fine": 189
       },
       {
-        "testo": "Raynaud-en fenomenoa",
+        "testo": "DM-ik",
         "tipo": "CLINENTITY",
-        "inizio": 285,
-        "fine": 305
+        "inizio": 317,
+        "fine": 322
       },
       {
-        "testo": "ultzera",
+        "testo": "hipertentsio arterialik",
         "tipo": "CLINENTITY",
-        "inizio": 325,
-        "fine": 332
+        "inizio": 327,
+        "fine": 350
       },
       {
-        "testo": "hazita",
+        "testo": "dislipemiarik",
         "tipo": "CLINENTITY",
-        "inizio": 384,
-        "fine": 390
+        "inizio": 355,
+        "fine": 368
       },
       {
-        "testo": "lodituta",
+        "testo": "gaixotasun kardiologiko",
         "tipo": "CLINENTITY",
-        "inizio": 403,
-        "fine": 411
+        "inizio": 375,
+        "fine": 398
       },
       {
-        "testo": "Bihotzerrea",
+        "testo": "arnas aparatuko gaixotasunik",
         "tipo": "CLINENTITY",
-        "inizio": 464,
-        "fine": 475
+        "inizio": 402,
+        "fine": 430
       },
       {
-        "testo": "goragalea",
+        "testo": "gaixotasun digestiborik",
         "tipo": "CLINENTITY",
-        "inizio": 523,
-        "fine": 532
+        "inizio": 445,
+        "fine": 468
       },
       {
-        "testo": "botaka",
+        "testo": "abzesu",
         "tipo": "CLINENTITY",
-        "inizio": 549,
-        "fine": 555
+        "inizio": 546,
+        "fine": 552
       },
       {
-        "testo": "beherakoa",
+        "testo": "uzki inguruko fistula batengatik",
         "tipo": "CLINENTITY",
-        "inizio": 573,
-        "fine": 582
+        "inizio": 557,
+        "fine": 589
       },
       {
-        "testo": "disnea",
+        "testo": "konplikaziorik",
         "tipo": "CLINENTITY",
-        "inizio": 644,
-        "fine": 650
-      },
-      {
-        "testo": "eztulik",
-        "tipo": "CLINENTITY",
-        "inizio": 671,
-        "fine": 678
-      },
-      {
-        "testo": "bularreko minik",
-        "tipo": "CLINENTITY",
-        "inizio": 702,
-        "fine": 717
-      },
-      {
-        "testo": "ilea erortzen",
-        "tipo": "CLINENTITY",
-        "inizio": 743,
-        "fine": 756
-      },
-      {
-        "testo": "ahoko ultzerarik",
-        "tipo": "CLINENTITY",
-        "inizio": 764,
-        "fine": 780
-      },
-      {
-        "testo": "fotosentikortasunik",
-        "tipo": "CLINENTITY",
-        "inizio": 789,
-        "fine": 808
-      },
-      {
-        "testo": "ingurgitazio jugularrik",
-        "tipo": "CLINENTITY",
-        "inizio": 992,
-        "fine": 1015
-      },
-      {
-        "testo": "adenopatia",
-        "tipo": "CLINENTITY",
-        "inizio": 1024,
-        "fine": 1034
-      },
-      {
-        "testo": "aurkikuntza",
-        "tipo": "CLINENTITY",
-        "inizio": 1187,
-        "fine": 1198
-      },
-      {
-        "testo": "Esklerodaktilia",
-        "tipo": "CLINENTITY",
-        "inizio": 1223,
-        "fine": 1238
-      },
-      {
-        "testo": "hazita",
-        "tipo": "CLINENTITY",
-        "inizio": 1247,
-        "fine": 1253
-      },
-      {
-        "testo": "Orbain",
-        "tipo": "CLINENTITY",
-        "inizio": 1277,
-        "fine": 1283
-      },
-      {
-        "testo": "Azala gogortuta",
-        "tipo": "CLINENTITY",
-        "inizio": 1308,
-        "fine": 1323
-      },
-      {
-        "testo": "orban",
-        "tipo": "CLINENTITY",
-        "inizio": 1389,
-        "fine": 1394
-      },
-      {
-        "testo": "artritisaren",
-        "tipo": "CLINENTITY",
-        "inizio": 1431,
-        "fine": 1443
-      },
-      {
-        "testo": "Hiatoko hernia",
-        "tipo": "CLINENTITY",
-        "inizio": 1865,
-        "fine": 1879
-      },
-      {
-        "testo": "gaixotasun interstiziala",
-        "tipo": "CLINENTITY",
-        "inizio": 2109,
-        "fine": 2133
-      },
-      {
-        "testo": "isuri perikardikorik",
-        "tipo": "CLINENTITY",
-        "inizio": 2235,
-        "fine": 2255
-      },
-      {
-        "testo": "esklerosi sistemikoa",
-        "tipo": "CLINENTITY",
-        "inizio": 2429,
-        "fine": 2449
-      },
-      {
-        "testo": "Raynaud-en gaixotasunarentzako",
-        "tipo": "CLINENTITY",
-        "inizio": 2597,
-        "fine": 2627
+        "inizio": 681,
+        "fine": 695
       },
       {
         "testo": "mina",
         "tipo": "CLINENTITY",
-        "inizio": 2691,
-        "fine": 2695
+        "inizio": 783,
+        "fine": 787
       },
       {
-        "testo": "ultzerak",
+        "testo": "Mina",
         "tipo": "CLINENTITY",
-        "inizio": 2817,
-        "fine": 2825
+        "inizio": 850,
+        "fine": 854
       },
       {
-        "testo": "digestio-ondoeza",
+        "testo": "Goragaleak",
         "tipo": "CLINENTITY",
-        "inizio": 2879,
-        "fine": 2895
+        "inizio": 914,
+        "fine": 924
       },
       {
-        "testo": "biriketako gaixotasun interstizial hedatua",
+        "testo": "botakarik",
         "tipo": "CLINENTITY",
-        "inizio": 2945,
-        "fine": 2987
-      },
-      {
-        "testo": "BGIH",
-        "tipo": "CLINENTITY",
-        "inizio": 2989,
-        "fine": 2993
-      },
-      {
-        "testo": "Raynaud-en fenomenoa",
-        "tipo": "CLINENTITY",
-        "inizio": 3143,
-        "fine": 3163
-      },
-      {
-        "testo": "ultzerak",
-        "tipo": "CLINENTITY",
-        "inizio": 3178,
-        "fine": 3186
-      },
-      {
-        "testo": "biriketako gaixotasun interstiziala",
-        "tipo": "CLINENTITY",
-        "inizio": 3198,
-        "fine": 3233
-      }
-    ]
-  },
-  {
-    "id_doc": "FR100480.xml",
-    "lingua": "French",
-    "text": "Il s'agissait de Mme H.O âgée de 55 ans connue diabétique type II sous traitement, qui a présenté une lésion ulcérée avec destruction partielle de la tablette unguéale du 3 ème doigt de la main gauche évoluant de façon progressive depuis 2 ans.\nL'installation d'une douleur au niveau du site a poussé la patiente a consulté dans notre formation.\nAprès un bilan clinique et radiologique, une biopsie a été réalisée.\nL'analyse histologique a montré un mélanome malin acro-lentigineux ulcéré de niveau V de Clark et d'indice de Breslow de 4 mm.\nLa patiente a subi une amputation transphalangienne proximale avec passage en zone saine.\nL'examen anatomopathologique de la pièce d'exérèse a confirmé la nature histologique de la lésion.\nUn bilan d'extension a été réalisé sans montrer de localisation secondaire.\nAucun traitement complémentaire n'a été entrepris.\nAprès 6mois, l'évolution a été marquée par l'absence de signe de récidive, puis la patiente n'a pas été revue.\nUn an après, la patiente a remarqué que le moignon de l'amputation devient inflammatoire avec augmentation de son volume.\nElle a repris la consultation dans notre service.\nL'examen clinique a montré une tuméfaction du moignon qui a été rouge avec présence de nodule bleu dure et douloureux à la palpation, infiltrant la racine de l'index et l'annulaire.\nPar ailleurs, les aires ganglionnaires ont été libres.\nL'imagerie par résonnance magnétique a montré une extension atteignant le carpe.\nLe bilan d'extension à distance a objectivé une hyperfixation au niveau de la 8 ème cote à la scintigraphie.\nLe scanner thoraco-abdomino-pelvien a objectivé la présence de deux nodules pulmonaires.\nLa Tomographie par émission de positons au 18-FDG a montré deux nodules pulmonaires contigus latéro basaux droits faiblement hyper métaboliques, d'allure secondaire et absence d'hyper métabolisme pathologique au niveau de l'ensemble du squelette exploré notamment au niveau du gril costal.\nLa reprise chirurgicale a consisté en une amputation transverse courte intéressant 2 ème, 3 ème et 4 ème rayons selon Chase et conservation complète de la colonne du pouce et de l'auriculaire tous en respectant des marges macroscopiques saines, et permettant à la patiente de garder une pince type celle de homard.\nAprès avoir présenté le dossier aux oncologues, aucun traitement adjuvant n'a été entrepris.\nL'examen anatomopathologique de la pièce d'exérèse a montré une récidive de mélanome malin niveau V de Clark et indice de Breslow de 1,5 cm avec présence d'emboles vasculaires, d'engainements périnerveux et la confirmation des marges histologiques saines.\nLa patiente a débuté la rééducation deux semaines après l'intervention pour la réadaptation rapide à la vie quotidienne.\nLa patiente est revue régulièrement, son état clinique est stable, et elle est satisfaite de la fonction de sa main qui lui permet d'assurer ses taches quotidiennes.\n",
-    "entities": [
-      {
-        "testo": "diabétique type II",
-        "tipo": "CLINENTITY",
-        "inizio": 47,
-        "fine": 65
-      },
-      {
-        "testo": "lésion",
-        "tipo": "CLINENTITY",
-        "inizio": 102,
-        "fine": 108
-      },
-      {
-        "testo": "destruction partielle de la tablette unguéale du 3 ème doigt de la main gauche",
-        "tipo": "CLINENTITY",
-        "inizio": 122,
-        "fine": 200
-      },
-      {
-        "testo": "douleur",
-        "tipo": "CLINENTITY",
-        "inizio": 266,
-        "fine": 273
-      },
-      {
-        "testo": "mélanome malin acro-lentigineux",
-        "tipo": "CLINENTITY",
-        "inizio": 450,
-        "fine": 481
-      },
-      {
-        "testo": "lésion",
-        "tipo": "CLINENTITY",
-        "inizio": 723,
-        "fine": 729
-      },
-      {
-        "testo": "récidive",
-        "tipo": "CLINENTITY",
-        "inizio": 923,
-        "fine": 931
-      },
-      {
-        "testo": "moignon",
-        "tipo": "CLINENTITY",
-        "inizio": 1012,
-        "fine": 1019
-      },
-      {
-        "testo": "inflammatoire",
-        "tipo": "CLINENTITY",
-        "inizio": 1044,
-        "fine": 1057
-      },
-      {
-        "testo": "tuméfaction",
-        "tipo": "CLINENTITY",
-        "inizio": 1172,
-        "fine": 1183
-      },
-      {
-        "testo": "moignon",
-        "tipo": "CLINENTITY",
-        "inizio": 1187,
-        "fine": 1194
-      },
-      {
-        "testo": "nodule",
-        "tipo": "CLINENTITY",
-        "inizio": 1228,
-        "fine": 1234
-      },
-      {
-        "testo": "douloureux",
-        "tipo": "CLINENTITY",
-        "inizio": 1248,
-        "fine": 1258
-      },
-      {
-        "testo": "hyperfixation",
-        "tipo": "CLINENTITY",
-        "inizio": 1507,
-        "fine": 1520
-      },
-      {
-        "testo": "nodules pulmonaires",
-        "tipo": "CLINENTITY",
-        "inizio": 1636,
-        "fine": 1655
-      },
-      {
-        "testo": "nodules pulmonaires",
-        "tipo": "CLINENTITY",
-        "inizio": 1721,
-        "fine": 1740
-      },
-      {
-        "testo": "hyper métaboliques",
-        "tipo": "CLINENTITY",
-        "inizio": 1782,
-        "fine": 1800
-      },
-      {
-        "testo": "hyper métabolisme",
-        "tipo": "CLINENTITY",
-        "inizio": 1835,
-        "fine": 1852
-      },
-      {
-        "testo": "récidive",
-        "tipo": "CLINENTITY",
-        "inizio": 2419,
-        "fine": 2427
-      },
-      {
-        "testo": "mélanome malin niveau V de Clark",
-        "tipo": "CLINENTITY",
-        "inizio": 2431,
-        "fine": 2463
-      },
-      {
-        "testo": "emboles",
-        "tipo": "CLINENTITY",
-        "inizio": 2511,
-        "fine": 2518
-      },
-      {
-        "testo": "engainements périnerveux",
-        "tipo": "CLINENTITY",
-        "inizio": 2534,
-        "fine": 2558
-      }
-    ]
-  },
-  {
-    "id_doc": "FR100510.xml",
-    "lingua": "French",
-    "text": "Il s'agit d'un patient âgé de 21 ans, sans antécédents pathologiques particuliers qui a consulté pour une tuméfaction de la région scapulaire droite évoluant depuis deux ans sans signe accompagnateurs.\nL'examen physique a révélé une grande masse mesurant 10cm sur 7cm avec sensation d'accrochage de la scapula et limitation des mouvements de l'épaule droite.\nLa radiographie standard a montrée une lésion osseuse sclérosée à la partie supérieure de la scapula sans érosion corticale ni fracture associée.\nLe bilan a été complété par une TDM qui a révélé une tumeur osseuse occupant la fosse sus épineuse de la scapula, avec un diamètre maximal de 10,5 cm, des marges minces mais bien défini et sans atteinte des parties molles.\nLes données radiologiques cités ci-dessus ont été en faveur d'un kyste osseux bénin mais localement invasif.\nUne biopsie préliminaire a été réalisée est dont le résultat été en faveur d'un kyste osseux anévrismal.\nLa décision été une exerce totale de la lésion.\nLors de l'intervention la sacpula a été exposée à travers une voie d'abord avec deux branches une sur le bord supérieur et l'autre sur le bord spinal avec hémostase du pédicule supéro-interne de la scapula.\nLa tumeur été enveloppée par les muscles alentour et occupant la fosse sus-épineuse.\nUne large résection complète de la lésion a été réalisée emportant une partie de muscle sus épineuse.\nL'examen macroscopique de la pièce d'exérèse a révélé une masse kystique qui contenait des cloisons fibreuses et des spicules osseux sans signes de malignité évidents.\nL'examen histologique a montré une volumineuse lésion avec des espaces kystiques, des dépôts d'hémosidérine, des ostéoblastes actives et des nombreuses cellules géantes multinuclées.\nCes caractéristiques histopathologiques été en faveur d'un kyste osseux anévrysmal.\nApres l'excision de la masse, la reprise été rapide et sans incidents avec des bons amplitudes articulaires de l'épaule.\n",
-    "entities": [
-      {
-        "testo": "tuméfaction",
-        "tipo": "CLINENTITY",
-        "inizio": 106,
-        "fine": 117
-      },
-      {
-        "testo": "lésion osseuse",
-        "tipo": "CLINENTITY",
-        "inizio": 398,
-        "fine": 412
-      },
-      {
-        "testo": "tumeur osseuse",
-        "tipo": "CLINENTITY",
-        "inizio": 558,
-        "fine": 572
-      },
-      {
-        "testo": "kyste osseux",
-        "tipo": "CLINENTITY",
-        "inizio": 793,
-        "fine": 805
-      },
-      {
-        "testo": "kyste osseux anévrismal",
-        "tipo": "CLINENTITY",
-        "inizio": 917,
+        "inizio": 931,
         "fine": 940
       },
       {
-        "testo": "tumeur",
+        "testo": "sukarra",
         "tipo": "CLINENTITY",
-        "inizio": 1200,
-        "fine": 1206
+        "inizio": 956,
+        "fine": 963
       },
       {
-        "testo": "lésion",
+        "testo": "sintomarik",
         "tipo": "CLINENTITY",
-        "inizio": 1317,
-        "fine": 1323
+        "inizio": 1017,
+        "fine": 1027
       },
       {
-        "testo": "masse kystique",
+        "testo": "min",
         "tipo": "CLINENTITY",
-        "inizio": 1442,
-        "fine": 1456
+        "inizio": 1124,
+        "fine": 1127
       },
       {
-        "testo": "volumineuse lésion avec des espaces kystiques",
+        "testo": "mingarria",
         "tipo": "CLINENTITY",
-        "inizio": 1587,
-        "fine": 1632
+        "inizio": 1482,
+        "fine": 1491
       },
       {
-        "testo": "kyste osseux anévrysmal",
+        "testo": "masa",
         "tipo": "CLINENTITY",
-        "inizio": 1794,
-        "fine": 1817
+        "inizio": 1519,
+        "fine": 1523
+      },
+      {
+        "testo": "megaliarik",
+        "tipo": "CLINENTITY",
+        "inizio": 1529,
+        "fine": 1539
+      },
+      {
+        "testo": "edemarik",
+        "tipo": "CLINENTITY",
+        "inizio": 1603,
+        "fine": 1611
+      },
+      {
+        "testo": "zain sakonetako tronbosien",
+        "tipo": "CLINENTITY",
+        "inizio": 1617,
+        "fine": 1643
+      },
+      {
+        "testo": "neoplasia",
+        "tipo": "CLINENTITY",
+        "inizio": 2164,
+        "fine": 2173
+      },
+      {
+        "testo": "gibel metastasiekin",
+        "tipo": "CLINENTITY",
+        "inizio": 2188,
+        "fine": 2207
       }
     ]
   },
   {
-    "id_doc": "EN104179.xml",
-    "lingua": "English",
-    "text": "Forty year old male presented with a huge mass in this left arm. The same patient apparently was admitted three years back for excision of the arm swelling which was relatively small that time. However the patient did not undergo surgery and was takin treatment from local bone setters during the last three years and tumor grew to a larger size during this period. The current dimensions of tumor was 32x28 cms with circumference of 87 cms. X-ray showed complete destruction of the upper humerus with central calcification. Biopsy releveled a chondrosarcoma. Skeletal survey and bone scan did not reveal any other lesion in the body. A forequarter amputation was done and a 16 kg tumor mass was excised. At three years follow up, the patient has no complains with no recurrence of the tumor.\r\n",
+    "id_doc": "EU100136.xml",
+    "lingua": "Basque",
+    "text": "KONTSULTAREN ARRAZOIA\r\n84 urteko gizonezkoa. \r\nKotxea gidatzen zihoala, trafiko-istripua izan eta ELUk (UTE) larrialdietako zerbitzura eraman du, buruko eta toraxeko traumatismoagatik.\r\nAURREKARI PERTSONALAK\r\nEz du adierazi medikamentuekiko alergia ezagunik duenik. \r\nArrisku kardiobaskularreko faktore hauek ditu: hipertentsio arteriala eta diabetes mellitusa, tratamenduan. \r\nAurrekari ez-kardiologikoak: neurologiak jarraitzen duen eta betablokeatzailez tratatzen ari den dardara esentziala. \r\n5. metakarpianoaren oinaldearen haustura traumatikoa, eta alterazio kuneiformeak ornoetan, konplikazio neurologikorik gabe. \r\nArterioesklerosi larria aldizkako klaudikazioarekin eta arteria iliako primitiboetako aneurismak, eskuineko alboan (31 mm) eta ezkerrekoan (19 mm); hori dela eta, kontrolak egiten zaizkio kirurgia baskularrean. \r\nOndesteko kartzinoma (2. mailakoa, pT4b pN0); 2009an erradioterapiaz + kimioterapia koajubantez tratatua, eta, ondoren, ondestearen aurre-beheko erauzketa; gaur egun, berreritze-zeinurik ez. \r\nKatarata-interbentzioa egin zitzaion bi begietan 2002an. \r\nAurrekari kardiologikoak: kardiologiako kontsulta anbulatorioen kontrolpean, aorta-gutxiegitasun moderatuagatik, kardiopatia hipertentsiboagatik eta VVI-R taupada-markagailua daramalako (erantzun bentrikular moteleko fibrilazio aurikular bategatik jarri zitzaion). \r\nKontroleko ekokardiogramen arabera, funtzio sistoliko global egokia agertzen du ezkerreko bentrikuluan. \r\nTratamenduan, hauekin: rabeprazola, metformina, sinbastatina, manidipino-hidrokloruroa, hidroklorotiazida, lisinoprila, azenokumarola, propranolola eta zilostazola. \r\nEgoera funtzional basalegokia erakusten du, autonomoa da eguneroko oinarrizko zereginetan, egunero ibiltzen da, bere kotxea gidatzen du, emaztearekin bizi da eta esfortzu moderatuetako disnea baino ez du (N.Y.H.A.-ko II. klase funtzionala).\r\nLARRIALDIETAKO ZERBITZUAN IZANDAKO EBOLUZIOA\r\nIritsi denean, hemodinamikoki egonkor, eupneiko, eta bakarrik kexatu da mina zuelako kontusioa izandako zonetan (burua eta toraxa). \r\nUkatu du konortea galdu duenik. \r\nTraumatologiako zerbitzuak baloratu eta buruko, lepoko eta toraxeko erradiografiak eskatu ditu; aurkikuntza bakarra objektibatu da: bularrezurraren haustura ez-desplazatua. \r\nPaziente antikoagulatua izan eta zefalea handia duela esan duenez, jarraian buruko, lepoko eta toraxeko OT eskatu da; bakarrik aurkitu dira bularrezurraren gorputzeko goiko herenaren haustura ez-desplazatua eta hematoma bat aurreko mediastinoan. \r\nAnalgesia (hantura kontrako ez-esteroideoak, metamizola eta parazetamola) eta minaren kontrola pautatu ostean, kirurgia orokorrak pazientea baloratu du, bularrezurraren hausturaren eta hematomaren maneiua zuzentzeko, eta kontsulta egin zaie guardiako toraxeko zirujauei.\r\n\r\nBeraiek itxarote-tratamendua indikatu dute, analgesiarekin. \r\nBehaketapean 36 ordu eman eta mina aldizka hobetu ostean, pazienteak zefalea eta zerbikalgia biziak eta agitazio-koadroa ditu. \r\nAnalgesia eta antipsikotikoak eman zaizkio bena barnetik, eta berriz egin zaio OT, garezur-erpinetik birika-oinaldeetara. \r\nIrudi-proba egin eta berehala, pazienteak bat-bateko disnea izan du, % 89tik beherako O2 desaturazioarekin, eta hipotentsio arteriala; hori dela-eta, bizkortzeko eta kardiologiako zerbitzuei eman zaie horren berri, balorazioa egin dezaten.\r\n\r\nMIAKETA OSAGARRIAK\r\nEKG: minutuko 60 taupadako erritmo estimulatua, ezkerreko adarraren blokeo-irudiarekin.\r\nAnalitika: giltzurrun-funtzioaren eta ioien parametro normalak; CK eta LDH igoera, 205 eta 278, hurrenez hurren; hemoglobina: 13,9 g/dL, plaketopenia eta leukozitosirik gabe.\r\nPI gutxitua, %40, 1,96 INR-rekin.\r\nToraxeko erradiografia (larrialdietako zerbitzura iritsi denean): bularrezurraren haustura desplazamendurik gabe.\r\nGarezur eta lepoko erradiografiak: hezur-alterazio akuturik gabe.\r\nGarezur, lepo eta toraxeko OT: burmuineko atrofia mistoaren zeinuak, adinari lotutakoak, eta bularrezurraren haustura, aurreko mediastinoko hematomarekin.\r\nSUSMO DIAGNOSTIKOA\r\nKardiopatia hipertentsibo/balbularra duen eta antikoagulatuta dagoen paziente urtetsuak politraumatismo ostean izandako bat-bateko disnea.\r\n",
     "entities": [
       {
-        "testo": "arm swelling",
+        "testo": "buruko eta toraxeko traumatismoagatik",
         "tipo": "CLINENTITY",
-        "inizio": 143,
-        "fine": 155
+        "inizio": 146,
+        "fine": 183
       },
       {
-        "testo": "tumor",
+        "testo": "alergia",
         "tipo": "CLINENTITY",
-        "inizio": 318,
-        "fine": 323
+        "inizio": 241,
+        "fine": 248
       },
       {
-        "testo": "tumor",
+        "testo": "hipertentsio arteriala",
         "tipo": "CLINENTITY",
-        "inizio": 392,
-        "fine": 397
+        "inizio": 315,
+        "fine": 337
       },
       {
-        "testo": "chondrosarcoma",
+        "testo": "diabetes mellitusa",
         "tipo": "CLINENTITY",
-        "inizio": 544,
-        "fine": 558
+        "inizio": 342,
+        "fine": 360
       },
       {
-        "testo": "tumor mass",
+        "testo": "dardara esentziala",
         "tipo": "CLINENTITY",
-        "inizio": 681,
-        "fine": 691
+        "inizio": 475,
+        "fine": 493
       },
       {
-        "testo": "tumor",
+        "testo": "5. metakarpianoaren oinaldearen haustura traumatikoa",
         "tipo": "CLINENTITY",
-        "inizio": 786,
-        "fine": 791
+        "inizio": 497,
+        "fine": 549
+      },
+      {
+        "testo": "alterazio kuneiformeak",
+        "tipo": "CLINENTITY",
+        "inizio": 555,
+        "fine": 577
+      },
+      {
+        "testo": "konplikazio neurologikorik",
+        "tipo": "CLINENTITY",
+        "inizio": 588,
+        "fine": 614
+      },
+      {
+        "testo": "Arterioesklerosi",
+        "tipo": "CLINENTITY",
+        "inizio": 623,
+        "fine": 639
+      },
+      {
+        "testo": "aldizkako klaudikazioarekin",
+        "tipo": "CLINENTITY",
+        "inizio": 647,
+        "fine": 674
+      },
+      {
+        "testo": "arteria iliako primitiboetako aneurismak",
+        "tipo": "CLINENTITY",
+        "inizio": 679,
+        "fine": 719
+      },
+      {
+        "testo": "Ondesteko kartzinoma",
+        "tipo": "CLINENTITY",
+        "inizio": 836,
+        "fine": 856
+      },
+      {
+        "testo": "aorta-gutxiegitasun",
+        "tipo": "CLINENTITY",
+        "inizio": 1165,
+        "fine": 1184
+      },
+      {
+        "testo": "kardiopatia hipertentsiboagatik",
+        "tipo": "CLINENTITY",
+        "inizio": 1201,
+        "fine": 1232
+      },
+      {
+        "testo": "fibrilazio aurikular",
+        "tipo": "CLINENTITY",
+        "inizio": 1305,
+        "fine": 1325
+      },
+      {
+        "testo": "disnea",
+        "tipo": "CLINENTITY",
+        "inizio": 1813,
+        "fine": 1819
+      },
+      {
+        "testo": "mina",
+        "tipo": "CLINENTITY",
+        "inizio": 1988,
+        "fine": 1992
+      },
+      {
+        "testo": "kontusioa",
+        "tipo": "CLINENTITY",
+        "inizio": 2001,
+        "fine": 2010
+      },
+      {
+        "testo": "konortea galdu",
+        "tipo": "CLINENTITY",
+        "inizio": 2059,
+        "fine": 2073
+      },
+      {
+        "testo": "aurkikuntza",
+        "tipo": "CLINENTITY",
+        "inizio": 2180,
+        "fine": 2191
+      },
+      {
+        "testo": "bularrezurraren haustura",
+        "tipo": "CLINENTITY",
+        "inizio": 2216,
+        "fine": 2240
+      },
+      {
+        "testo": "zefalea",
+        "tipo": "CLINENTITY",
+        "inizio": 2292,
+        "fine": 2299
+      },
+      {
+        "testo": "bularrezurraren gorputzeko goiko herenaren haustura",
+        "tipo": "CLINENTITY",
+        "inizio": 2399,
+        "fine": 2450
+      },
+      {
+        "testo": "hematoma",
+        "tipo": "CLINENTITY",
+        "inizio": 2470,
+        "fine": 2478
+      },
+      {
+        "testo": "hantura",
+        "tipo": "CLINENTITY",
+        "inizio": 2518,
+        "fine": 2525
+      },
+      {
+        "testo": "minaren",
+        "tipo": "CLINENTITY",
+        "inizio": 2585,
+        "fine": 2592
+      },
+      {
+        "testo": "bularrezurraren hausturaren",
+        "tipo": "CLINENTITY",
+        "inizio": 2660,
+        "fine": 2687
+      },
+      {
+        "testo": "hematomaren",
+        "tipo": "CLINENTITY",
+        "inizio": 2692,
+        "fine": 2703
+      },
+      {
+        "testo": "mina",
+        "tipo": "CLINENTITY",
+        "inizio": 2873,
+        "fine": 2877
+      },
+      {
+        "testo": "zefalea",
+        "tipo": "CLINENTITY",
+        "inizio": 2912,
+        "fine": 2919
+      },
+      {
+        "testo": "zerbikalgia",
+        "tipo": "CLINENTITY",
+        "inizio": 2924,
+        "fine": 2935
+      },
+      {
+        "testo": "agitazio-koadroa",
+        "tipo": "CLINENTITY",
+        "inizio": 2947,
+        "fine": 2963
+      },
+      {
+        "testo": "disnea",
+        "tipo": "CLINENTITY",
+        "inizio": 3149,
+        "fine": 3155
+      },
+      {
+        "testo": "plaketopenia",
+        "tipo": "CLINENTITY",
+        "inizio": 3585,
+        "fine": 3597
+      },
+      {
+        "testo": "leukozitosirik",
+        "tipo": "CLINENTITY",
+        "inizio": 3602,
+        "fine": 3616
+      },
+      {
+        "testo": "PI gutxitua",
+        "tipo": "CLINENTITY",
+        "inizio": 3624,
+        "fine": 3635
+      },
+      {
+        "testo": "bularrezurraren haustura",
+        "tipo": "CLINENTITY",
+        "inizio": 3725,
+        "fine": 3749
+      },
+      {
+        "testo": "hezur-alterazio",
+        "tipo": "CLINENTITY",
+        "inizio": 3809,
+        "fine": 3824
+      },
+      {
+        "testo": "burmuineko atrofia",
+        "tipo": "CLINENTITY",
+        "inizio": 3872,
+        "fine": 3890
+      },
+      {
+        "testo": "bularrezurraren haustura",
+        "tipo": "CLINENTITY",
+        "inizio": 3934,
+        "fine": 3958
+      },
+      {
+        "testo": "Kardiopatia hipertentsibo",
+        "tipo": "CLINENTITY",
+        "inizio": 4017,
+        "fine": 4042
+      },
+      {
+        "testo": "politraumatismo",
+        "tipo": "CLINENTITY",
+        "inizio": 4105,
+        "fine": 4120
+      },
+      {
+        "testo": "disnea",
+        "tipo": "CLINENTITY",
+        "inizio": 4148,
+        "fine": 4154
       }
     ]
   },
   {
-    "id_doc": "EN100490.xml",
-    "lingua": "English",
-    "text": "We received a boy 3-year-old boy with autistic disorder on hospital of pediatric ward A at university hospital Mohammed VI of Marrakesh. He has no family history of illness or autistic spectrum disorder. The history revealed that at 2 years of age. The child was diagnosed with a ‘‘severe communication disorder,'' with social interaction difficulties and sensory processing delay. A composite follow-up of all previous assessments and investigations was undertaken. Blood work was normal (thyroid-stimulating hormone (TSH), hemoglobin, mean corpuscular volume (MCV), and ferritin). Genetic testing was unremarkable (normal karyotype, negative for fragile X) and the magnetic resonance imaging (MRI) in search of a demyelinating attack of the white matter, electroencephalography (EEG), optometry assessment were also normal. At the conclusion of this composite assessment, the boy was given a primary diagnosis of autistic spectrum disorder. A plan was instituted including speech-language therapy, intensive individualized educational programming, and contact was encouraged with the Autism Society. For that purpose, the parents moved to morocco to be surrounded by family without any huge improvement. Upon direct questioning at initial presentation, the 3-year-old child was reported by the parents to have unexplained fatigue, Gastrointestinal symptoms included bloating, constipation and diarrhea. Psychiatric symptoms included a frequently depressed mood, disproportionate anger, and emotional lability. On exploring his history, the child was born from yemenite father and Moroccan mother in Germany at-term weighing 3500 g with an Apgar score of 9 at 1 minute and 10 at 5 minutes after an uneventful pregnancy and delivery. No concerns were present in the neonatal period. Development in the first 24 months of life appeared fine according to the parents-his motor skills seemed to progress normally and he achieved expected milestones. After 2 years of age, however, his language skills slowly began to regress. He also demonstrated a change in temperament as he started to whine repeatedly and to scream without provocation. Physical examination revealed a height and weight normal for age. He was uncommunicative, restless, and somewhat agitated. General examination was unremarkable other than dark rings around the eyes. There were no dysmorphic features evident. He had difficulty maintaining eye contact, and he appeared disinterested in what was taking place. No abnormality was found on abdominal assessment. Anti-tissue transglutaminase antibodies levels were 76 U (normal < 10). The patient underwent upper endoscopy as duodenal biopsy to confirm a celiac disease diagnosis. It shows a total villous atrophy corresponding to a stage 4 of Marsh classification. Given the positive screen for celiac disease (positive anti-tissue transglutaminase antibodies and results of duodenal biopsy), dietary intervention was immediately commenced. All gluten was eliminated from the boy's diet. Within 1 month, the boy's gastrointestinal symptoms were relieved and his behavior had changed. The mother reported that her boy became progressively more communicative. The child has continued on the gluten-free diet and has progressed well and remained healthy over the following 6 months.\r\n",
+    "id_doc": "FR100282.xml",
+    "lingua": "French",
+    "text": "Patient K.M, âgé de 38 ans, présente des crises convulsives qui auraient débuté il y a 3 ans et s'accompagnaient de chute, de perte de mémoire et d'oubli.\nPendant environ deux ans, aucune prise en charge n'avait été instaurée mais une année avant la présente consultation, le patient fut soumis sous un traitement fait de la carbamazépine (deux fois 200 mg par jour).\nCinq mois après, vu que la monothérapie ne donnait pas de résultats escomptés, une multithérapie antiépileptique (carbamazépine, phénobarbital et valproate de sodium) lui fut administrée pendant plus de sept mois mais sans succès également.\nVoyant que son état ne s'améliorait pas, il consulte le Centre Neuro-psychiatrique Dr Joseph-Guislain en date du 21 juin 2014.\nSes antécédents ne relèvent rien de particulier et aucune crise épileptique n'a été retrouvée dans sa famille.\nMais il faut signaler que dans ses habitus, il consomme régulièrement la viande de porc.\nAu complément d'anamnèse, nous notons que ses crises convulsives sont focales évoluant vers des crises bilatérales avec des composantes toniques et cloniques.\nPendant les crises, il y a une émission d'écume et une perte d'urine.\nElles durent environ 5 minutes et ont une fréquence de 2 à 4 par mois.\nL'examen neurologique était normal.\nL'électroencéphalogramme montre un tracé perturbé par sa lenteur et par l'abondance en éléments lents à prédominance droite.\nLe scanner cérébral met en évidence au niveau du parenchyme des multiples lésions kystiques arrondies avec un point hyperdense excentrique représentant le scolex.\nNous avons conclus à une NCC révélée par une épilepsie réfractaire.\nAprès un examen normal du fond d'œil, nous avons instauré un traitement par voie orale fait d'Albendazole (15 mg/kg/jour en 2 prises) et de Prednisolone (1 mg/kg/j) pendant une durée d'une semaine.\nUn suivi médical pendant une durée de six mois a été fait et aucune crise épileptique n'a été notée jusqu'à ce jour.\n",
     "entities": [
       {
-        "testo": "autistic disorder",
+        "testo": "crises convulsives",
         "tipo": "CLINENTITY",
-        "inizio": 38,
-        "fine": 55
+        "inizio": 41,
+        "fine": 59
       },
       {
-        "testo": "autistic spectrum disorder",
+        "testo": "chute",
         "tipo": "CLINENTITY",
-        "inizio": 176,
-        "fine": 202
+        "inizio": 116,
+        "fine": 121
       },
       {
-        "testo": "autistic spectrum disorder",
+        "testo": "perte de mémoire",
         "tipo": "CLINENTITY",
-        "inizio": 915,
-        "fine": 941
+        "inizio": 126,
+        "fine": 142
       },
       {
-        "testo": "bloating",
+        "testo": "oubli",
         "tipo": "CLINENTITY",
-        "inizio": 1368,
-        "fine": 1376
+        "inizio": 148,
+        "fine": 153
       },
       {
-        "testo": "constipation",
+        "testo": "crise épileptique",
         "tipo": "CLINENTITY",
-        "inizio": 1378,
-        "fine": 1390
+        "inizio": 794,
+        "fine": 811
       },
       {
-        "testo": "diarrhea",
+        "testo": "crises convulsives",
         "tipo": "CLINENTITY",
-        "inizio": 1395,
-        "fine": 1403
+        "inizio": 982,
+        "fine": 1000
       },
       {
-        "testo": "villous atrophy",
+        "testo": "crises",
         "tipo": "CLINENTITY",
-        "inizio": 2713,
-        "fine": 2728
+        "inizio": 1032,
+        "fine": 1038
       },
       {
-        "testo": "celiac disease",
+        "testo": "crises",
         "tipo": "CLINENTITY",
-        "inizio": 2811,
-        "fine": 2825
+        "inizio": 1107,
+        "fine": 1113
+      },
+      {
+        "testo": "lésions kystiques",
+        "tipo": "CLINENTITY",
+        "inizio": 1471,
+        "fine": 1488
+      },
+      {
+        "testo": "NCC",
+        "tipo": "CLINENTITY",
+        "inizio": 1585,
+        "fine": 1588
+      },
+      {
+        "testo": "épilepsie réfractaire",
+        "tipo": "CLINENTITY",
+        "inizio": 1605,
+        "fine": 1626
+      },
+      {
+        "testo": "crise épileptique",
+        "tipo": "CLINENTITY",
+        "inizio": 1894,
+        "fine": 1911
       }
     ]
   }

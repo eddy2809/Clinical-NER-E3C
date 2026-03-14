@@ -812,5 +812,639 @@
         "fine": 453
       }
     ]
+  },
+  {
+    "id_doc": "IT100003.xml",
+    "lingua": "Italian",
+    "text": "Gabriele è un uomo di 53 anni, affetto dal 2004 da malattie croniche altamente invalidanti: la distrofia muscolare di tipo 1 e il diabete mellito di tipo 2. Vive in un piccolo borgo di Trieste in una zona periferica, con la madre anziana, in quanto, a causa delle sue patologie e di un basso livello di scolarità, non è mai riuscito a emanciparsi e a trovare un’occupazione. Le condizioni fisiche dell’uomo sono molto peggiorate nel corso degli ultimi anni, limitando la sua funzione motoria, fino al ricorso, nell’ultimo anno, all’utilizzo di una carrozzina per potersi muovere. All’inizio del 2017, la madre di Gabriele muore per una malattia improvvisa. Nonostante la presenza del fratello e di alcuni amici, Gabriele si sente solo e si lascia andare. Non si controlla più il diabete, cade più volte all’interno del proprio domicilio, non esce di casa per la presenza di barriere architettoniche importanti e i suoi deficit motori peggiorano ulteriormente. La presa in carico da parte dei servizi territoriali del Distretto n. 1 dell’ASUGI di Trieste si articola in una valutazione da parte di un’equipe composta dall’infermiera, dal medico di medicina generale, dal fisioterapista e dall’assistente sociale per l’attivazione della rete e di un piano assistenziale individuale. La costruzione del piano assistenziale in base ai bisogni e alla collaborazione di Gabriele prevede l’intervento del fisiatra per un programma riabilitativo e del fisioterapista per la fornitura di ausili adeguati alle necessità della persona. Un letto articolato, un materasso antidecubito e una carrozzina hanno permesso la mobilità sicura all’interno della casa, ma l’intervento più significativo è stato la fornitura di uno scendiscale e di una carrozzina elettrica specifica per uscire dall’abitazione e superare le barriere architettoniche. L’assistente sociale è intervenuta con l’attivazione di un progetto di sostegno al reddito e il contributo per una badante per venti ore alla settimana, per aiutare l’uomo in tutte le attività della vita quotidiana. Nella valutazione multidimensionale con scheda Valgraf, prevista per la presa in carico, è stata inserita anche la valutazione con la scala PHE-S®, che ha rilevato un valore basso di engagement pari a 2. La rivalutazione a 4 mesi di distanza dopo la costruzione della rete assistenziale ha permesso di evidenziare un innalzamento di mezzo punto, dimostrando che Gabriele ha compreso il suo ruolo attivo nel processo di cura e ha messo in atto tutte le competenze acquisite per gestirlo in modo ottimale e in autonomia. Ora si muove con la sua carrozzina elettrica in autonomia per le vie del paese, si sottopone ai controlli per il diabete in modo costante con valori delle glicemie stabili nei range previsti dalla diabetologa e mantiene uno stile di vita adeguato alle sue patologie.\r\n",
+    "entities": [
+      {
+        "testo": "distrofia muscolare",
+        "tipo": "CLINENTITY",
+        "inizio": 95,
+        "fine": 114
+      },
+      {
+        "testo": "diabete mellito di tipo 2",
+        "tipo": "CLINENTITY",
+        "inizio": 130,
+        "fine": 155
+      },
+      {
+        "testo": "diabete",
+        "tipo": "CLINENTITY",
+        "inizio": 779,
+        "fine": 786
+      },
+      {
+        "testo": "diabete",
+        "tipo": "CLINENTITY",
+        "inizio": 2676,
+        "fine": 2683
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100902.xml",
+    "lingua": "Italian",
+    "text": "D.S. maschio di 47 anni, fumatore di circa 15 sigarette al giorno, BMI: 26. In anamnesi allergia agli acari, diabete mellito 2 diagnosticato all’età di 45 anni. In terapia domiciliare con metformina e sulfaniluree, in scadente compenso glicometabolico. Da circa 3mesi digestione difficoltosa e ricorrente epigastralgia, trattate con ranitidina 300 mg/die. Per il peggioramento dell’epigastralgia e per vomito frequente insorto da 2 giorni raggiunge il nostro Pronto Soccorso. In PS il paziente è vigile e collaborante. Eupnoico. Riferisce dolore epigastrico retrosternale e vomito. Addome trattabile ma diffusamente dolente. PA 140/105 mmHg, FC 105 bpm, SaO2 98% (FiO2 0.21), TC 36.5 °C. Pratica ECG ed Ecocardiogramma: nella norma. Eco addome e TC Addome: Stomaco disteso con contenuto fluido ed ispessimento delle pareti gastriche. All’EAB evidenza di acidosi metabolica con elevato GAP anionico. (PH 7.23, PCO2 22.6 mmHg, AG 23.7 mmol/l HCO3 12.4 mmol/l). Glicemia 526 mg/dl. HbA1c 13.8%. Chetonemia 5.6 mmol/l. Viene posta diagnosi di chetoacidosi diabetica. Ricoverato in reparto di Medicina Interna inizia terapia insulinica infusiva e reintegrazione idro - elettrolitica. In terza giornata il paziente supera l’evento acuto: glicemia 190 mg/dl, Chetonemia 0.5 mmol/l, PH 7.38, HCO3 20.0 mmol/l, creatininemia 1.2 mg/dl. Comincia ad alimentarsi ed inizia terapia insulinica con schema Basal Bolus. Durante il ricovero il paziente esegue anche il dosaggio del peptide C che è di 0.61 ng/dl (VN>0.75), e la ricerca degli anticorpi anti-GAD che risulta positiva. Pratica inoltre una EGDS che evidenzia la presenza di gastrite con ulcera gastrica e duodenale. Inizia terapia con pantoprazolo 40 mg/die. Viene quindi dimesso con controllo a 40 gg. In conclusione ci troviamo di fronte ad un paziente con diagnosi di diabete mellito tipo 2 ma che non è mai riuscito a raggiungere un adeguato compenso glicemico e che, addirittura, ha un episodio di chetoacidosi. La precedente diagnosi di diabete mellito tipo 2 è corretta? Appare evidente che la diagnosi corretta sia di LADA (Latent Autoimmune Diabetes of Adult). Il LADA è un tipo di Diabete Mellito a patogenesi autoimmune con lenta evoluzione, caratterizzato dalla presenza di anti-GAD (Glutamic Acid Decarboxylase) o ICA (Islet Cell Antibody) o IA-2 (protein tyrosin phoshatase), esordio dopo i 35 anni e insulino-indipendenza per almeno 6 mesi dalla diagnosi.\r\n",
+    "entities": [
+      {
+        "testo": "allergia agli acari",
+        "tipo": "CLINENTITY",
+        "inizio": 88,
+        "fine": 107
+      },
+      {
+        "testo": "diabete mellito 2",
+        "tipo": "CLINENTITY",
+        "inizio": 109,
+        "fine": 126
+      },
+      {
+        "testo": "digestione difficoltosa",
+        "tipo": "CLINENTITY",
+        "inizio": 268,
+        "fine": 291
+      },
+      {
+        "testo": "epigastralgia",
+        "tipo": "CLINENTITY",
+        "inizio": 305,
+        "fine": 318
+      },
+      {
+        "testo": "epigastralgia",
+        "tipo": "CLINENTITY",
+        "inizio": 382,
+        "fine": 395
+      },
+      {
+        "testo": "vomito",
+        "tipo": "CLINENTITY",
+        "inizio": 402,
+        "fine": 408
+      },
+      {
+        "testo": "dolore epigastrico",
+        "tipo": "CLINENTITY",
+        "inizio": 539,
+        "fine": 557
+      },
+      {
+        "testo": "vomito",
+        "tipo": "CLINENTITY",
+        "inizio": 574,
+        "fine": 580
+      },
+      {
+        "testo": "Stomaco disteso",
+        "tipo": "CLINENTITY",
+        "inizio": 757,
+        "fine": 772
+      },
+      {
+        "testo": "acidosi metabolica con elevato GAP anionico",
+        "tipo": "CLINENTITY",
+        "inizio": 854,
+        "fine": 897
+      },
+      {
+        "testo": "chetoacidosi diabetica",
+        "tipo": "CLINENTITY",
+        "inizio": 1039,
+        "fine": 1061
+      },
+      {
+        "testo": "gastrite",
+        "tipo": "CLINENTITY",
+        "inizio": 1620,
+        "fine": 1628
+      },
+      {
+        "testo": "ulcera gastrica e duodenale",
+        "tipo": "CLINENTITY",
+        "inizio": 1633,
+        "fine": 1660
+      },
+      {
+        "testo": "diabete mellito tipo 2",
+        "tipo": "CLINENTITY",
+        "inizio": 1817,
+        "fine": 1839
+      },
+      {
+        "testo": "chetoacidosi",
+        "tipo": "CLINENTITY",
+        "inizio": 1949,
+        "fine": 1961
+      },
+      {
+        "testo": "diabete mellito tipo 2",
+        "tipo": "CLINENTITY",
+        "inizio": 1989,
+        "fine": 2011
+      },
+      {
+        "testo": "LADA",
+        "tipo": "CLINENTITY",
+        "inizio": 2072,
+        "fine": 2076
+      },
+      {
+        "testo": "Latent Autoimmune Diabetes of Adult",
+        "tipo": "CLINENTITY",
+        "inizio": 2078,
+        "fine": 2113
+      },
+      {
+        "testo": "LADA",
+        "tipo": "CLINENTITY",
+        "inizio": 2119,
+        "fine": 2123
+      },
+      {
+        "testo": "Diabete Mellito",
+        "tipo": "CLINENTITY",
+        "inizio": 2137,
+        "fine": 2152
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100918.xml",
+    "lingua": "Italian",
+    "text": "Giungeva, presso la medicina generale dell’ODM, per febbre (TC 38°C, PA 100/60 mmHg), insufficienza respiratoria ipossiemica-ipocapnica, tachicardia sinusale, alterazione dello stato di coscienza, disfagia ed indici infiammatori elevati (pcr 100mg/dl; procalcitonina 50 ng/ml), punteggio SOFA 7, paziente di anni 40, in anamnesi minus cognitivo e cecità totale da esiti di intervento di asportazione di astrocitoma pilocitico cerebrale all’età di otto anni. Recente doppio ricovero in NCH per ostruzione della derivazione liquorale sx trattata con derivazione esterna e successiva sepsi da ascesso cutaneo extracranico da ritenzione di corpo estraneo e polmonite ab-ingestis complicata da epatotossicita da sulfametassozolocotrimoxazolo. L’esame clinico integrato da eco-bed side rilevò atelettasia polmonare dx, ipocinesia globale cardiaca con FE 45% (aumento della troponina 1,5 ng/ml e cpk 1500 UI/l, bnp 3000 ng/l, da cardiomiopatia settica), dolore intenso a sede pelvica associato ad aumento delle dimensioni della prostata (6 cm, PSA 50 ng/ml) e aree ipo-ecogene da sospetto ascesso prostatico. Si praticarono emocolture, urinocolture (tutte negative) e massaggio prostatico con coltura del liquido prostatico. In urgenza fu eseguita tc total body con mezzo di contrasto che confermò l’ascesso prostatico e rilevo di polmonite ab ingestis con ostruzione del bronco principale destro cui seguì broncoscopia disostruttiva e BAL (che risultò negativo). L’esame tc fu integrato in elezione dalla rmn addomino-pelvica che confermò l’ascesso prostatico ed escluse interessamento perineale. Empiricamente iniziò linezolid e meropenem sostituito da gentamicina per 10 gg. (coltura positiva per enterococcus faecium sensibile alla gentamicina). Successiva completa risoluzione dei sintomi e dell’ascesso prostatico a controllo dopo 20 giorni. Durante la degenza fu sottoposto a riabilitazione motoria passiva per preservare le sue abilità residue.\r\n",
+    "entities": [
+      {
+        "testo": "febbre",
+        "tipo": "CLINENTITY",
+        "inizio": 52,
+        "fine": 58
+      },
+      {
+        "testo": "insufficienza respiratoria",
+        "tipo": "CLINENTITY",
+        "inizio": 86,
+        "fine": 112
+      },
+      {
+        "testo": "tachicardia sinusale",
+        "tipo": "CLINENTITY",
+        "inizio": 137,
+        "fine": 157
+      },
+      {
+        "testo": "disfagia",
+        "tipo": "CLINENTITY",
+        "inizio": 197,
+        "fine": 205
+      },
+      {
+        "testo": "cecità totale",
+        "tipo": "CLINENTITY",
+        "inizio": 347,
+        "fine": 360
+      },
+      {
+        "testo": "sepsi",
+        "tipo": "CLINENTITY",
+        "inizio": 581,
+        "fine": 586
+      },
+      {
+        "testo": "ascesso cutaneo",
+        "tipo": "CLINENTITY",
+        "inizio": 590,
+        "fine": 605
+      },
+      {
+        "testo": "polmonite",
+        "tipo": "CLINENTITY",
+        "inizio": 653,
+        "fine": 662
+      },
+      {
+        "testo": "epatotossicita",
+        "tipo": "CLINENTITY",
+        "inizio": 689,
+        "fine": 703
+      },
+      {
+        "testo": "atelettasia polmonare dx",
+        "tipo": "CLINENTITY",
+        "inizio": 787,
+        "fine": 811
+      },
+      {
+        "testo": "ipocinesia globale cardiaca",
+        "tipo": "CLINENTITY",
+        "inizio": 813,
+        "fine": 840
+      },
+      {
+        "testo": "dolore intenso a sede pelvica",
+        "tipo": "CLINENTITY",
+        "inizio": 947,
+        "fine": 976
+      },
+      {
+        "testo": "ascesso prostatico",
+        "tipo": "CLINENTITY",
+        "inizio": 1082,
+        "fine": 1100
+      },
+      {
+        "testo": "ascesso prostatico",
+        "tipo": "CLINENTITY",
+        "inizio": 1293,
+        "fine": 1311
+      },
+      {
+        "testo": "polmonite",
+        "tipo": "CLINENTITY",
+        "inizio": 1324,
+        "fine": 1333
+      },
+      {
+        "testo": "ascesso prostatico",
+        "tipo": "CLINENTITY",
+        "inizio": 1535,
+        "fine": 1553
+      },
+      {
+        "testo": "ascesso prostatico",
+        "tipo": "CLINENTITY",
+        "inizio": 1794,
+        "fine": 1812
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100963.xml",
+    "lingua": "Italian",
+    "text": "Pz di 63 anni, in anamnesi adenocarcinoma colon G2 infiltrante con secondarismi epatici, in trattamento con chemioterapia neoadiuvante con 5-fluorouracile (mFOLFOX6) in corso 2^ ciclo, iniziato il giorno prima dell’accesso in ps. Il paziente giunge per dolore toracico tipico insorto dalla mattina a carattere episodico di breve durata (4 episodi), analoga sintomatologia durante il primo ciclo. All’ecg sopra ST in inferiore senza specularita’, 1^troponina 33 ng/dl; ecoscopia nella norma, al 2^ ecg a paziente asintomatico (dopo 3 ore) scomparsa del sopra ST in inferiore e comparsa in sede antero-laterale, si sospende il trattamento. Ricovera il paziente in UTIC e si effettua coronarografia (circolo coronarico indenne).\r\n",
+    "entities": [
+      {
+        "testo": "adenocarcinoma colon G2",
+        "tipo": "CLINENTITY",
+        "inizio": 27,
+        "fine": 50
+      },
+      {
+        "testo": "dolore toracico",
+        "tipo": "CLINENTITY",
+        "inizio": 253,
+        "fine": 268
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100753.xml",
+    "lingua": "Italian",
+    "text": "Paziente di sesso maschile, razza caucasica, di anni 55 ed in apparente buone condizioni di salute fino a 4-5 giorni prima del ricovero. Motivo del ricovero: melena e gengivorragia. In anamnesi: familiarità per K colon; nella personale: epatopatia cronica HCV relata, ipertensione arteriosa in terapia con calcio- antagonista, polipectomia in corso di colonscopia due anni prima, con riferita negatività per patologia neoplastica. Da allora nessun successivo controllo clinico. All’ingresso in Reparto le condizioni generali erano discrete. All’esame obiettivo presenza di ecchimosi cutanee agli arti e al dorso, gengivorragia; organi ipocondriaci nei limiti. Agli esami ematochimici praticati in PS anemizzazione (Hg 7.8 g/dl), piastrinopenia grave (4.000 u/l), profilo epatico alterato (AST 152 UI/l, ALT 238 UI/L, GGT 102 UI/L). All’ingresso in Reparto esami ematochimici sovrapponibili a quelli praticati in PS. Vengono praticati oltre ai comuni esami di laboratorio: profilo reumatologico, sottopopolazioni linfocitarie, crioglobulinemia, HCV-RNA quali/quantitativo (risultati poi) negativi. Il Consulente ematologo pratica mieloaspirato in sede sternale (non cellule atipiche, estrema povertà dei precursori piastrinici). Viene prescritta terapia con metilprednisolone 40 mg due volte al dì ed emotrasfusione. Dopo circa 3 giorni nonostante la terapia cortisonica in atto, i valori delle piastrine si riducono (2000 u/l) e viene aggiunta terapia con Immunoglobulina Umana Normale e, al bisogno vengono praticati concentrati piastrinici e sacche di emazie concentrate, con persistenza di piastrinopenia grave. Al quinto giorno ancora nessuna risposta alla terapia. Nel corso del ricovero (durante il quale è stata sottoposta a TAC total-body (negativa), EGDS con biopsia risultata positiva per gastropatia cronica atrofica e varici esofagee F1) il quadro ematologico non si è modificato; non c’è adeguata risposta al regime terapeutico in atto e si procede, sospesa la terapia con immunoglobuline, ad aggiungere sempre alla terapia cortisonica, Revolade (Eltrombopag) 50 mg 1 compressa al mattino. Anche quest’ultima associazione terapeutica dopo un periodo congruo di trattamento, associato a trasfusioni di concentrati eritrocitari, non sortisce l’effetto desiderato. Intanto vengono espletate le indagini strumentali richieste che non evidenziano alterazioni particolari. In accordo con il consulente ematologo si decide di associare al metilprednisolone 40 x 2 volte al dì e Rituximab 1 flacone a settimana per tre settimane. Questa associazione ha portato ad un incremento graduale e costante delle piastrine ed il paziente è stato dimesso con terapia cortisonica.\r\n",
+    "entities": [
+      {
+        "testo": "melena",
+        "tipo": "CLINENTITY",
+        "inizio": 158,
+        "fine": 164
+      },
+      {
+        "testo": "gengivorragia",
+        "tipo": "CLINENTITY",
+        "inizio": 167,
+        "fine": 180
+      },
+      {
+        "testo": "epatopatia cronica",
+        "tipo": "CLINENTITY",
+        "inizio": 237,
+        "fine": 255
+      },
+      {
+        "testo": "ipertensione arteriosa",
+        "tipo": "CLINENTITY",
+        "inizio": 268,
+        "fine": 290
+      },
+      {
+        "testo": "polipectomia",
+        "tipo": "CLINENTITY",
+        "inizio": 327,
+        "fine": 339
+      },
+      {
+        "testo": "ecchimosi cutanee",
+        "tipo": "CLINENTITY",
+        "inizio": 573,
+        "fine": 590
+      },
+      {
+        "testo": "gengivorragia",
+        "tipo": "CLINENTITY",
+        "inizio": 613,
+        "fine": 626
+      },
+      {
+        "testo": "piastrinopenia",
+        "tipo": "CLINENTITY",
+        "inizio": 729,
+        "fine": 743
+      },
+      {
+        "testo": "gastropatia cronica",
+        "tipo": "CLINENTITY",
+        "inizio": 1799,
+        "fine": 1818
+      },
+      {
+        "testo": "varici esofagee",
+        "tipo": "CLINENTITY",
+        "inizio": 1830,
+        "fine": 1845
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100633.xml",
+    "lingua": "Italian",
+    "text": "Caucasico di 68 anni viene sottoposto a coronarografia circa un’ora dopo la comparsa di sintomi di IMA. Viene praticata PTCA primaria. Dopo 6 giorni dalla procedura, comparsa di dolore alle dita dei piedi con cianosi e marezzatura. Progressivo peggioramento del quadro periferico fino alla comparsa di aree di necrosi parcellari alle dita dei piedi. Incremento della creatinina (Cr.:3.2 mg%). Come da consulenza chirurgica, si procede ad amputazione di quattro dita del piede sx e due del piede dx. Al riscontro istologico quadro di embolizzazione da cristalli di colesterolo. Nei due mesi successivi progressivo recupero della funzione renale.\r\n",
+    "entities": [
+      {
+        "testo": "IMA",
+        "tipo": "CLINENTITY",
+        "inizio": 99,
+        "fine": 102
+      },
+      {
+        "testo": "dolore alle dita",
+        "tipo": "CLINENTITY",
+        "inizio": 178,
+        "fine": 194
+      },
+      {
+        "testo": "cianosi",
+        "tipo": "CLINENTITY",
+        "inizio": 209,
+        "fine": 216
+      },
+      {
+        "testo": "necrosi",
+        "tipo": "CLINENTITY",
+        "inizio": 310,
+        "fine": 317
+      },
+      {
+        "testo": "embolizzazione da cristalli di colesterolo",
+        "tipo": "CLINENTITY",
+        "inizio": 533,
+        "fine": 575
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100509.xml",
+    "lingua": "Italian",
+    "text": "Donna, 87 anni, ipertiroidismo subclinico, artrosi, osteoporosi (fratture T10-T11), ipovisus, AH in terapia steroidea cronica; ipertensione; scompenso cardiaco diastolico; un ricovero per EPA. Recente embolia polmonare, da allora in TAO. Recentemente agitazione e dolore resistente a paracetamolo. All’ECG RS 66 bpm, deviazione assiale sinistra, BBD incompleto. Chest Pain Score e Wells Score bassi. All’ecocardiogramma FE 55%. PA 160/90 mmHg. Giordano positivo, dolore paravertebrale bilateralmente. Dopo caduta accidentale vivo dolore a livello dorsale. Al quadro rx crolli vertebrali da T6 a T8 con pregresso crollo di T12. Procrastinata la chifoplastica e prescritto un busto, iniziava cauta fisioterapia. Videat oculistico e continuazione della terapia steroidea. Prescrizione di teriparatide e vitamina D.\r\n",
+    "entities": [
+      {
+        "testo": "ipertiroidismo",
+        "tipo": "CLINENTITY",
+        "inizio": 16,
+        "fine": 30
+      },
+      {
+        "testo": "artrosi",
+        "tipo": "CLINENTITY",
+        "inizio": 43,
+        "fine": 50
+      },
+      {
+        "testo": "osteoporosi",
+        "tipo": "CLINENTITY",
+        "inizio": 52,
+        "fine": 63
+      },
+      {
+        "testo": "ipertensione",
+        "tipo": "CLINENTITY",
+        "inizio": 127,
+        "fine": 139
+      },
+      {
+        "testo": "scompenso cardiaco diastolico",
+        "tipo": "CLINENTITY",
+        "inizio": 141,
+        "fine": 170
+      },
+      {
+        "testo": "dolore paravertebrale",
+        "tipo": "CLINENTITY",
+        "inizio": 463,
+        "fine": 484
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100997.xml",
+    "lingua": "Italian",
+    "text": "Una donna di 61 anni, con anamnesi cardiologica muta, senza alcuna terapia cronica domiciliare, recente stress familiare e rilevante stato depressivo (la paziente riferisce qualche ora prima un brusco litigio con l'ex marito, con il quale sta affrontando da sei mesi una storia di separazione), si è presentata al Pronto Soccorso in seguito alla comparsa da circa un'ora di dolore retrosternale oppressivo, irradiato al giugulo, a carattere crescente di intensità, associato a dispnea e a diaforesi.\r\n\r\nL'esame obiettivo documentava lieve dispnea, toni cardiaci validi e in successione ritmica, soffio sistolico 2/6 Freeman-Levine puntale, murmure vescicolare fisiologico senza segni di congestione polmonare né di broncospasmo, non edemi declivi, addome trattabile e senza punti dolenti; la pressione arteriosa era 120/70 mmHg, la glicemia 103 mg/dl e la SO2 in aria ambiente 98%. Gli esami ematochimici hanno permesso di rilevare solo un minimo movimento troponinico. L'ECG mostrava ritmo sinusale, frequenza cardiaca 88 bpm, tratto ST sopraslivellato di 0.5 mm in sede laterale alta e 1 mm in sede anterosettale (V1-V3) con minimo aspetto speculare inferiore; tale sopraslivellamento è stato transitorio (< 10 minuti), con rapido ritorno all'isoelettrica del tratto ST e con scomparsa dei sintomi già in Pronto Soccorso, dopo somministrazione di nitrati e.v. e ASA. L'ecocardiogramma eseguito in Pronto Soccorso ha evidenziato: ventricolo sinistro di dimensioni ai limiti superiori (DTD 55 mm), spessori nei limiti, estesa acinesia e rigonfiamento aneurismatico \"a pallone\" (cioè aspetto globoso) dell'apice del ventricolo sinistro, con ipercinesia compensatoria dei segmenti basali e frazione di eiezione del 35%; radice aortica nei limiti della norma; insufficienza mitralica lieve e sezioni destre ai limiti superiori (PAPs 32 mmHg); pericardio indenne.\r\n\r\nLa paziente è stata quindi ricoverata in UTIC, persistendo una lieve oppressione toracica in assenza di sintomatologia dispnoica e con una obiettività cardiopolmonare nei limiti della norma; l'ECG mostrava tratto ST isoelettrico e inversione dell'onda T in D1, D2, aVL, V3-V6. Si è disposto lo studio coronarografico d'urgenza, somministrando nel frattempo eparina sodica ev con carico orale di clopidogrel e proseguendo con l'infusione del nitrato a basso dosaggio; la coronarografia ha mostrato albero coronarico privo di lesioni significative. Alla ventricolografia si apprezzava ancor più l'aspetto aneurismatico anteropuntale con ulteriore riduzione della funzione sistolica (angiograficamente frazione di eiezione < 30%).\r\n\r\nL'ECG alla 24a ora dall'ingresso in UTIC, ha mostrato profonde onde T negative nelle precordiali con prolungamento dell'intervallo QT; la troponina, contrariamente a quanto le gravi alterazioni della cinetica avrebbero fatto prevedere, era in riduzione già alla 12a ora; sempre normali CK-MB, indici di flogosi, transaminasi ed elettroliti.\r\n\r\nIl decorso clinico è stato privo di complicanze sia emodinamiche che aritmiche, con rapida e precoce mobilizzazione; i valori pressori tendenzialmente bassi hanno consentito soltanto un modesto utilizzo di ACE-inibitori e betabloccanti oltre alla monoterapia con antiaggreganti piastrinici. Il controllo ecocardiografico predimissione ha mostrato in terza giornata uno straordinario recupero della contrattilità dei segmenti medi e distali con frazione di eiezione del ventricolo sinistro del 55% (persisteva soltanto ipocinesia puntale e scomparsa dell'aspetto aneurismatico). Al controllo post-ricovero, al 1° mese e al 6° mese, la paziente era asintomatica e con normalizzazione ECGrafica.\r\n",
+    "entities": [
+      {
+        "testo": "dolore retrosternale",
+        "tipo": "CLINENTITY",
+        "inizio": 374,
+        "fine": 394
+      },
+      {
+        "testo": "dispnea",
+        "tipo": "CLINENTITY",
+        "inizio": 477,
+        "fine": 484
+      },
+      {
+        "testo": "diaforesi",
+        "tipo": "CLINENTITY",
+        "inizio": 489,
+        "fine": 498
+      },
+      {
+        "testo": "dispnea",
+        "tipo": "CLINENTITY",
+        "inizio": 539,
+        "fine": 546
+      },
+      {
+        "testo": "acinesia",
+        "tipo": "CLINENTITY",
+        "inizio": 1526,
+        "fine": 1534
+      },
+      {
+        "testo": "insufficienza mitralica",
+        "tipo": "CLINENTITY",
+        "inizio": 1757,
+        "fine": 1780
+      },
+      {
+        "testo": "oppressione toracica",
+        "tipo": "CLINENTITY",
+        "inizio": 1932,
+        "fine": 1952
+      }
+    ]
+  },
+  {
+    "id_doc": "IT101163.xml",
+    "lingua": "Italian",
+    "text": "MR, femmina, giunge alla nostra osservazione a 3 mesi di vita. Nata da parto eutocico a 36 settimane, gravidanza decorsa senza alcun problema, peso 2300 grammi. I genitori sono sani, non consanguinei, ma provenienti dalla stessa piccola comunità grecoalbanese siciliana. Nessun problema segnalato alla nascita ma riscontro di scarso accrescimento postnatale. Durante il primo ricovero, per bronchiolite, all’età di due mesi, si rilevano anemia severa (sono necessarie due trasfusioni di emazie concentrate) e neutropenia (PMN 400-700/L). A 6 mesi compare un rash eritematoso a livello della faccia volare degli arti. RPS19, SBDS e GATA1 risultano wt; il cariotipo, l’adenosina deaminasi e il DEB test sono nella norma. A 12 mesi compaiono pachionichia dei piedi, teleangiectasie e poikiloderma (alternanza di aree ipo ed iperpigmentate): quest’ultimo origina alle estremità e si diffonde in seguito alla parte superiore del tronco e al volto. Si evidenziano anche note dismorfiche: naso sottile con radice schiacciata, sopracciglia rade, lieve micrognazia e fronte prominente. All’RX lieve slargamento delle metafisi distali di radio, ulna e femori. A 20 mesi esegue una biopsia cutanea che conferma la presenza di teleangiectasie e ipercheratosi. L’aspirato midollare mostra ridotta cellularità, assenza di anomalie clonali e note displastiche soprattutto a carico della serie eritroide. Si evidenziano anche persistenti livelli elevati di LDH, ferritina e AST, nonché transitori incrementi della CPK. A 24 mesi il poichiloderma si attenua, la pachionichia peggiora e compare una lieve ipercheratosi diffusa. Negative le indagini genetiche per la DC (Discherina, TERC, TERT, NOP10, NHP2, TINF2) e per la sindrome ipoplasia cartilagine-capelli (RMRP). Alla fine il rilievo in omozigosi di una mutazione (c.504-2A>C) del gene C16orf57, confermata in eterozigosi nei genitori, permette di porre la diagnosi di PN (si tratta del 38º caso segnalato, il 5º in Italia).\r\n",
+    "entities": [
+      {
+        "testo": "scarso accrescimento postnatale",
+        "tipo": "CLINENTITY",
+        "inizio": 326,
+        "fine": 357
+      },
+      {
+        "testo": "bronchiolite",
+        "tipo": "CLINENTITY",
+        "inizio": 390,
+        "fine": 402
+      },
+      {
+        "testo": "anemia severa",
+        "tipo": "CLINENTITY",
+        "inizio": 437,
+        "fine": 450
+      },
+      {
+        "testo": "neutropenia",
+        "tipo": "CLINENTITY",
+        "inizio": 509,
+        "fine": 520
+      },
+      {
+        "testo": "rash eritematoso",
+        "tipo": "CLINENTITY",
+        "inizio": 558,
+        "fine": 574
+      },
+      {
+        "testo": "pachionichia",
+        "tipo": "CLINENTITY",
+        "inizio": 739,
+        "fine": 751
+      },
+      {
+        "testo": "teleangiectasie",
+        "tipo": "CLINENTITY",
+        "inizio": 763,
+        "fine": 778
+      },
+      {
+        "testo": "poikiloderma",
+        "tipo": "CLINENTITY",
+        "inizio": 781,
+        "fine": 793
+      },
+      {
+        "testo": "teleangiectasie",
+        "tipo": "CLINENTITY",
+        "inizio": 1215,
+        "fine": 1230
+      },
+      {
+        "testo": "ipercheratosi",
+        "tipo": "CLINENTITY",
+        "inizio": 1233,
+        "fine": 1246
+      },
+      {
+        "testo": "poichiloderma",
+        "tipo": "CLINENTITY",
+        "inizio": 1516,
+        "fine": 1529
+      },
+      {
+        "testo": "pachionichia",
+        "tipo": "CLINENTITY",
+        "inizio": 1545,
+        "fine": 1557
+      },
+      {
+        "testo": "ipercheratosi",
+        "tipo": "CLINENTITY",
+        "inizio": 1587,
+        "fine": 1600
+      },
+      {
+        "testo": "sindrome ipoplasia cartilagine-capelli",
+        "tipo": "CLINENTITY",
+        "inizio": 1705,
+        "fine": 1743
+      },
+      {
+        "testo": "RMRP",
+        "tipo": "CLINENTITY",
+        "inizio": 1745,
+        "fine": 1749
+      },
+      {
+        "testo": "PN",
+        "tipo": "CLINENTITY",
+        "inizio": 1908,
+        "fine": 1910
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100332.xml",
+    "lingua": "Italian",
+    "text": "Una paziente di 57 anni della provincia di Viterbo giunge al Pronto Soccorso dell’Ospedale di Belcolle (Viterbo) il 29 settembre 2015 lamentando sintomi iniziati quattro giorni prima, quali nausea e vomito, a cui sono seguiti, a distanza di due giorni, diarrea, diplopia, secchezza delle fauci e, al quarto giorno, disfagia. La donna è stata immediatamente ricoverata al reparto Osservazione Breve. Dall’anamnesi è emerso che la paziente aveva mangiato peperoncini ripieni sotto olio confezionati da lei alcuni giorni prima. Al sospetto di botulismo è stata iniziata immediatamente la terapia con siero antibotulino (una unità, come riferito dal medico del Pronto Soccorso che l’ha somministrata) e sono stati inviati direttamente dall’Ospedale Belcolle al Laboratorio di riferimento dell’Istituto Superiore di Sanità (ISS-Dipartimento di Sanità Pubblica Veterinaria e Sicurezza Alimentare, reparto Pericoli Microbiologici Connessi agli Alimenti), campioni ematici, di lavaggio intestinale e fecali della paziente, e il barattolo con il residuo alimentare. Non è stata effettuata denuncia di sospetto botulismo alla ASL di competenza, nei termini previsti dal sistema vigente di notifiche di malattie infettive. Dagli esami effettuati dal Laboratorio dell’ISS è emersa la presenza di tossina botulinica di tipo B nel residuato dei peperoncini in olio e nel siero, mentre il Clostridium Botulinum è stato ritrovato nel lavaggio intestinale e nel residuo alimentare del barattolo (olio e piccoli pezzi di tonno, capperi, peperoncini), nulla di rilevante è emerso dal tampone rettale. Una volta inviata la denuncia di malattia accertata alla ASL di Viterbo, è stata avviata l’inchiesta epidemiologica. Dall’indagine è emerso che la signora aveva preparato 4 barattoli di peperoncini ripieni sotto olio con i seguenti prodotti: peperoncini acquistati in una bancarella di frutta e verdura esposta a polvere, sulla strada tra Taranto e Praia a mare durante le ferie estive; tonno sott’olio acquistato al supermercato; capperi sotto sale acquistati al supermercato; alici sott’olio acquistate al supermercato; olio di oliva acquistato al supermercato e già precedentemente utilizzato per altre preparazioni. La preparazione è avvenuta con le seguenti modalità: bollitura dei peperoncini per circa 10 minuti in acqua e aceto; preparazione a freddo del ripieno (capperi, tonno e alici); bollitura dei barattoli per 20 minuti (a partire da acqua fredda) e successiva asciugatura su teli di cotone; inserimento dei peperoncini ripieni nei barattoli e successivo riempimento con olio fino al bordo; bollitura in pentola dei barattoli, riempiti e chiusi, per circa 20 minuti, senza capovolgerli, partendo da acqua fredda. Tappi e barattoli erano già stati utilizzati in precedenza. La signora ha regalato un barattolo alla figlia, che ha riferito di averne mangiato il contenuto nei giorni successivi, senza lamentare alcun sintomo. Tre giorni dopo la preparazione, il barattolo più capiente è stato aperto per una cena con 14 commensali. Nessuno ha riferito sintomi. Il barattolo aperto è stato conservato in frigorifero. I peperoncini sono stati poi mangiati, a distanza di 7 giorni dalla produzione, dalla signora, che ha anche utilizzato l’olio come condimento per una zuppa. La stessa notte sono iniziati i sintomi. Dei quattro barattoli prodotti: uno è stato consumato dalla figlia; uno è quello incriminato; uno è stato gettato nei rifiuti dalla figlia appena saputa la causa della patologia materna; uno era ancora in possesso della signora. I tecnici della Prevenzione del SIAN (Servizio Igiene Alimenti e Nutrizione, Dipartimento di prevenzione ASL di Viterbo) si sono recati al domicilio della donna, con il compito di prelevare e inviare ai laboratori dell’ISS per la ricerca di Cl. Botulinum l’ultimo barattolo rimasto. I risultati sono stati totalmente negativi.\r\n",
+    "entities": [
+      {
+        "testo": "nausea",
+        "tipo": "CLINENTITY",
+        "inizio": 190,
+        "fine": 196
+      },
+      {
+        "testo": "vomito",
+        "tipo": "CLINENTITY",
+        "inizio": 199,
+        "fine": 205
+      },
+      {
+        "testo": "diarrea",
+        "tipo": "CLINENTITY",
+        "inizio": 253,
+        "fine": 260
+      },
+      {
+        "testo": "diplopia",
+        "tipo": "CLINENTITY",
+        "inizio": 262,
+        "fine": 270
+      },
+      {
+        "testo": "secchezza delle fauci",
+        "tipo": "CLINENTITY",
+        "inizio": 272,
+        "fine": 293
+      },
+      {
+        "testo": "disfagia",
+        "tipo": "CLINENTITY",
+        "inizio": 315,
+        "fine": 323
+      },
+      {
+        "testo": "botulismo",
+        "tipo": "CLINENTITY",
+        "inizio": 540,
+        "fine": 549
+      }
+    ]
   }
 ]

@@ -15,9 +15,9 @@ from transformers import (
 )
 
 #Configurazione
-FILE_TRAIN = "data/processed/multi/dataset_train_full.json" 
+FILE_TRAIN = "data/processed/multi/dataset_train_100_shot.json" 
 FILE_EVAL = "data/processed/multi/dataset_val.json"
-NOME_MODELLO_SALVATO = "multi_bert_medico_full_shot_early"
+NOME_MODELLO_SALVATO = "multi_bert_medico_100_shot"
 
 #MODEL_NAME = "dbmdz/bert-base-italian-cased"
 MODEL_NAME = "bert-base-multilingual-cased"
@@ -70,7 +70,8 @@ def BIO_encoding(testo, entita_estratte, tokenizer):
     return tokenized, BIO_list
 
 def make_dataset(file_json):
-    """Legge il file JSON e lo trasforma in un Dataset HuggingFace."""
+    """Legge il file JSON e lo trasforma in un Dataset HuggingFace, preparando token di input
+    attention_mask e labels."""
     with open(file_json, 'r', encoding='utf-8') as f:
         dati = json.load(f)
         
@@ -85,13 +86,14 @@ def make_dataset(file_json):
         
     return Dataset.from_dict(all_inputs), token_text
 
-# Evaluation metrics
-def compute_metrics(p):
+#Evaluation metrics
+def compute_metrics_exact_match(p):
     """Calcola Precision, Recall e F1-Score"""
     predictions, labels = p
-    predictions = np.argmax(predictions, axis=2)
 
-    # Rimuoviamo i -100 (i token speciali ignorati)
+    predictions = np.argmax(predictions, axis=2)
+    print(f"predizione: {predictions}, etichetta corretta: {labels}")
+    # Rimuoviamo i -100 (i token speciali ignorati) 
     true_predictions = [
         [label_list[p] for (p, l) in zip(prediction, label) if l != -100]
         for prediction, label in zip(predictions, labels)
@@ -101,6 +103,23 @@ def compute_metrics(p):
         for prediction, label in zip(predictions, labels)
     ]
 
+    # 1. Srotoliamo le liste di liste in una singola lista 1D
+    true_labels_flat = [label for sentence_labels in true_labels for label in sentence_labels]
+    preds_flat = [label for sentence_preds in true_predictions for label in sentence_preds]
+    
+    # da etichetta a id (per wandb)
+    y_true_id = [label2id[label] for label in true_labels_flat]
+    preds_id = [label2id[label] for label in preds_flat]
+
+    wandb.log({
+    "matrice_di_confusione_token": wandb.plot.confusion_matrix(
+        probs=None,
+        y_true=y_true_id,
+        preds=preds_id,
+        class_names=['O', 'B-CLINENTITY', 'I-CLINENTITY']
+    )
+    })
+
     results = seqeval.compute(predictions=true_predictions, references=true_labels)
     return {
         "precision": results["overall_precision"],
@@ -108,6 +127,143 @@ def compute_metrics(p):
         "f1": results["overall_f1"],
         "accuracy": results["overall_accuracy"],
     }
+def estrai_entita(seq_tags):
+    """
+    Data una lista di tag BIO (es. ['O', 'B-CLINENTITY', 'I-CLINENTITY', 'O']),
+    restituisce un set di tuple che rappresentano le entità trovate.
+    Formato tupla: (tipo_entita, indice_inizio, indice_fine)
+    """
+    entita = set()
+    tipo_corrente = None
+    inizio_corrente = -1
+
+    for i, tag in enumerate(seq_tags):
+        if tag == 'O':
+            if tipo_corrente is not None:
+                # Chiude un'entità precedente
+                entita.add((tipo_corrente, inizio_corrente, i - 1))
+                tipo_corrente = None
+                
+        elif tag.startswith('B-'):
+            if tipo_corrente is not None:
+                # Chiude un'entità adiacente prima di aprirne una nuova
+                entita.add((tipo_corrente, inizio_corrente, i - 1))
+            tipo_corrente = tag[2:] # Prende solo 'CLINENTITY'
+            inizio_corrente = i
+            
+        elif tag.startswith('I-'):
+            if tipo_corrente is None:
+                # Caso limite: una I- senza una B- precedente. 
+                # Di solito viene considerata come l'inizio di una nuova entità.
+                tipo_corrente = tag[2:]
+                inizio_corrente = i
+            elif tipo_corrente != tag[2:]:
+                # Transizione I- di un tipo diverso (non dovrebbe succedere se hai solo CLINENTITY, ma previene errori)
+                entita.add((tipo_corrente, inizio_corrente, i - 1))
+                tipo_corrente = tag[2:]
+                inizio_corrente = i
+
+    # Se l'array finisce mentre un'entità era ancora aperta
+    if tipo_corrente is not None:
+        entita.add((tipo_corrente, inizio_corrente, len(seq_tags) - 1))
+
+    return entita
+
+# effettua exact e partial match -> Lenient Evaluation (Valutazione Indulgente) o Relaxed Match (Corrispondenza Rilassata).
+def compute_metrics_exact_partial_match(p):
+    """Calcolo manuale di Precision, Recall, F1 con logica Partial Match (SemEval-style)"""
+    predictions, labels = p
+    predictions = np.argmax(predictions, axis=2)
+
+    # si passa da lista di id (o->O, 1->B, 2->I)
+    # 1. Pulizia dai token speciali (-100) assegnati da pytorch, sono token di padding per rendere le sequenze  passate a BERT di lunghezza uguale
+    true_predictions = [
+        [label_list[p] for (p, l) in zip(prediction, label) if l != -100]
+        for prediction, label in zip(predictions, labels)
+    ]
+    true_labels = [
+        [label_list[l] for (p, l) in zip(prediction, label) if l != -100]
+        for prediction, label in zip(predictions, labels)
+    ]
+
+    # 1. Srotoliamo le liste di liste in una singola lista 1D
+    true_labels_flat = [label for sentence_labels in true_labels for label in sentence_labels]
+    preds_flat = [label for sentence_preds in true_predictions for label in sentence_preds]
+
+    y_true_id = [label2id[label] for label in true_labels_flat]
+    preds_id = [label2id[label] for label in preds_flat]
+
+    wandb.log({
+    "matrice_di_confusione_token": wandb.plot.confusion_matrix(
+        probs=None,
+        y_true=y_true_id,
+        preds=preds_id,
+        class_names=['O', 'B-CLINENTITY', 'I-CLINENTITY']
+    )
+    })
+
+    exact_matches = 0
+    partial_matches = 0
+    total_true_entities = 0
+    total_pred_entities = 0
+
+    # 2. Calcolo dei Match (Exact vs Partial)
+    for y_true, y_pred in zip(true_labels, true_predictions):
+        ent_vere = estrai_entita(y_true)
+        ent_pred = estrai_entita(y_pred)
+        
+        total_true_entities += len(ent_vere)
+        total_pred_entities += len(ent_pred)
+        
+        # Teniamo traccia delle predizioni già "accoppiate" per non contarle due volte
+        predizioni_usate = set()
+        
+        for vera in ent_vere:
+            tipo_v, inizio_v, fine_v = vera
+            
+            for pred in ent_pred:
+                if pred in predizioni_usate:
+                    continue
+                    
+                tipo_p, inizio_p, fine_p = pred
+                
+                # CONDIZIONE DI OVERLAP: 
+                # Hanno lo stesso tipo E i loro confini si intersecano/sovrappongono
+                if tipo_v == tipo_p and max(inizio_v, inizio_p) <= min(fine_v, fine_p):
+                    
+                    # È un Exact o un Partial Match?
+                    if inizio_v == inizio_p and fine_v == fine_p:
+                        exact_matches += 1
+                    else:
+                        partial_matches += 1
+                        
+                    # Segniamo la predizione come usata per questo match
+                    predizioni_usate.add(pred)
+                    break # Passiamo alla prossima entità vera
+
+    
+    tp_score = exact_matches + (0.5 * partial_matches)
+    
+    # Precision
+    precision = tp_score / total_pred_entities if total_pred_entities > 0 else 0.0
+    
+    # Recall
+    recall = tp_score / total_true_entities if total_true_entities > 0 else 0.0
+    
+    # F1 Score
+    if (precision + recall) > 0:
+        f1 = 2 * (precision * recall) / (precision + recall)
+    else:
+        f1 = 0.0
+
+    return {
+        "precision": precision,
+        "recall": recall,
+        "f1": f1,
+        "exact_matches_count": exact_matches,      
+        "partial_matches_count": partial_matches   
+    }
+
 
 
 
@@ -158,10 +314,8 @@ if __name__ == "__main__":
         greater_is_better=True,
         save_total_limit=1,
         report_to="wandb",
-        logging_strategy="epoch"
-
-        # CHIEDERE AL PROF
-        #lr_scheduler_type="linear",
+        logging_strategy="epoch",
+        lr_scheduler_type="linear"
         
         # warmup_ratio=0.1,             
         # lr_scheduler_type="cosine",   
@@ -174,8 +328,8 @@ if __name__ == "__main__":
         eval_dataset=eval_dataset,
         processing_class=tokenizer,
         data_collator=data_collator,
-        compute_metrics=compute_metrics,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=10)]
+        compute_metrics=compute_metrics_exact_partial_match,
+        #callbacks=[EarlyStoppingCallback(early_stopping_patience=10)]
     )
 
     

@@ -1094,5 +1094,963 @@
         "fine": 1406
       }
     ]
+  },
+  {
+    "id_doc": "FR100766.xml",
+    "lingua": "French",
+    "text": "Patient de 75 ans, sans antécédents pathologiques, opéré initialement pour un adénocarcinome rectal à 1cm de la marge anale post radio-chimiothérapie et non métastatique.\nUne amputation abdomino-périnéale a été réalisée par voie cœlioscopique avec confection d'une CPC, la tumeur a été classé pT2N0Mx, et la décision était une surveillance.\nLe patient était en bon état général avec une bonne évolution.\nAprès irrigation le patient est resté propre toute la journée.\nIl a été satisfait de sa chirurgie, et il a préféré la CPC à la CIG définitive; l'examen a objectivé le colon qui est prolabé à travers l'orifice stomial d'où son hospitalisation pour traitement chirurgicale.\nLe traitement chirurgical a été retenu et le patient a bénéficié de la réalisation d'une mucosectomie circulaire puis une fixation de ce dernier par des points séparés.\n",
+    "entities": [
+      {
+        "testo": "adénocarcinome rectal",
+        "tipo": "CLINENTITY",
+        "inizio": 78,
+        "fine": 99
+      },
+      {
+        "testo": "tumeur",
+        "tipo": "CLINENTITY",
+        "inizio": 273,
+        "fine": 279
+      },
+      {
+        "testo": "colon qui est prolabé",
+        "tipo": "CLINENTITY",
+        "inizio": 571,
+        "fine": 592
+      }
+    ]
+  },
+  {
+    "id_doc": "EU100120.xml",
+    "lingua": "Basque",
+    "text": "38 urteko gizonezkoa familia-medikuarenera joan zen bi astez goragalea izan ostean. Izatez osasuntsua zen, ez zuen inolako mediku-tratamendurik jarraitzen eta alkohol-kontsumo moderatua zuen. Gainerakoan ondo zegoen, ez zuen bestelako sintomarik, ez minik, ez sukarrik. Ez zuen oka egin, ez zuen erreminik izan gernu egitean eta gorozki normalak egin zituen. Itxuraz une bateko ondoeza besterik ez zuen sentitu, baina medikuak odol-analisia egiteko eskatu zion, baraurik, edozein patologia baztertzeko badaezpada ere. Hitzordua jarri zuten hiru egun beranduagorako.\r\nOsasun-zentroan ateratako odolaren analisiaren emaitzetan amilasa eta lipasa balio handiak azaldu ziren, 221 U/L [10-125] eta 178,9 U/L [13-60] hurrenez hurren, eta ondorioz pankreatitis akutua susmatu zuen medikuak, nahiz eta gainerako parametroen maila normala izan, fosfatasa alkalinoa (90 U/L [40-129]), gamma-glutamil transferasa (GGT) (57 U/L [10-71]), aspartato aminotransferasa (AST edo GOT) (27 U/L [0-37]) eta alanina aminotransferasa (ALT edo GPT) (37 U/L [0-41]) barne.\r\nOspitaleko Larrialdi Zerbitzuan sakon ikertu zuten. Azterketa fisikoa eta proba erradiologikoak normalak izan ziren, ordea. Sabela biguna zen, masa eta megaliarik gabekoa, ez zuen minik ukitzean, ezta peritoneoko irritazio-zeinurik ere eta Murphy-ren zeinua negatiboa izan zen. Sabeleko ekografian pankrea normala antzeman zioten. Odol-analisia errepikatu zuten eta harria bazen ere, lipasaren balioa normalizatu egin zen: 109,7 U/L. Amilasa ez zen neurtzerik izan. Sintomarik ez zeukanez, etxera bidali zuten. Familia-medikuak jarraipena egitea eta entzima pankreatikoen balioak kontrolatzeko odol-analisia eskatzea erabaki zuten.\r\nBi aste geroago, pazientea osasun-zentroan berrikusi zuen bere medikuak. Ez zuen goragalerik, sabeleko minik edo sindrome konstituzionalik, baina baraurik egindako odol-analisian entzima pankreatikoen igoera deigarria bakarrik nabarmendu zen berriro ere (amilasa 313 U/L eta lipasa 344,8 U/L), gainerako parametroen alterazio gehigarririk gabe. Ospitalera bideratu zuten segituan. Larrialdi Zerbitzuan egindako azterketa fisikoa eta irudi-probak normalak izan ziren eta odol-analisiak amilasa (127 U/L) eta lipasa (48 U/L) balio normalizatuak erakutsi zituen ostera ere (1. irudia).\r\nBi odol-analisi azterketen artean 8 orduko tartea soilik egon zen. Emaitza horien egiazkotasuna zalantzan jarri zen eta egun horretako lehen eta bigarren laginen determinazio guztiak errepikatu genituen laborategiko tresna analitiko desberdin guztietan. Entzima pankreatikoen balioen 8 orduko fluktuazio nabarmena eta normalizazio harrigarria adierazten zuten emaitzak konfirmatu ziren.",
+    "entities": [
+      {
+        "testo": "goragalea",
+        "tipo": "CLINENTITY",
+        "inizio": 61,
+        "fine": 70
+      },
+      {
+        "testo": "sintomarik",
+        "tipo": "CLINENTITY",
+        "inizio": 235,
+        "fine": 245
+      },
+      {
+        "testo": "minik",
+        "tipo": "CLINENTITY",
+        "inizio": 250,
+        "fine": 255
+      },
+      {
+        "testo": "sukarrik",
+        "tipo": "CLINENTITY",
+        "inizio": 260,
+        "fine": 268
+      },
+      {
+        "testo": "oka egin",
+        "tipo": "CLINENTITY",
+        "inizio": 278,
+        "fine": 286
+      },
+      {
+        "testo": "erreminik",
+        "tipo": "CLINENTITY",
+        "inizio": 296,
+        "fine": 305
+      },
+      {
+        "testo": "ondoeza",
+        "tipo": "CLINENTITY",
+        "inizio": 378,
+        "fine": 385
+      },
+      {
+        "testo": "patologia",
+        "tipo": "CLINENTITY",
+        "inizio": 480,
+        "fine": 489
+      },
+      {
+        "testo": "pankreatitis akutua",
+        "tipo": "CLINENTITY",
+        "inizio": 741,
+        "fine": 760
+      },
+      {
+        "testo": "masa",
+        "tipo": "CLINENTITY",
+        "inizio": 1193,
+        "fine": 1197
+      },
+      {
+        "testo": "megaliarik",
+        "tipo": "CLINENTITY",
+        "inizio": 1202,
+        "fine": 1212
+      },
+      {
+        "testo": "minik",
+        "tipo": "CLINENTITY",
+        "inizio": 1230,
+        "fine": 1235
+      },
+      {
+        "testo": "irritazio-zeinurik",
+        "tipo": "CLINENTITY",
+        "inizio": 1263,
+        "fine": 1281
+      },
+      {
+        "testo": "Sintomarik",
+        "tipo": "CLINENTITY",
+        "inizio": 1516,
+        "fine": 1526
+      },
+      {
+        "testo": "goragalerik",
+        "tipo": "CLINENTITY",
+        "inizio": 1764,
+        "fine": 1775
+      },
+      {
+        "testo": "sabeleko minik",
+        "tipo": "CLINENTITY",
+        "inizio": 1777,
+        "fine": 1791
+      },
+      {
+        "testo": "sindrome konstituzionalik",
+        "tipo": "CLINENTITY",
+        "inizio": 1796,
+        "fine": 1821
+      },
+      {
+        "testo": "entzima pankreatikoen igoera",
+        "tipo": "CLINENTITY",
+        "inizio": 1862,
+        "fine": 1890
+      }
+    ]
+  },
+  {
+    "id_doc": "FR100946.xml",
+    "lingua": "French",
+    "text": "Il s'agit d'une patiente de 44 ans, sans antécédent médico-chirurgical, qui a présenté depuis un an des céphalées, compliquées 08 mois après de crises d'épilepsies partielles à généralisation secondaire et de lourdeur de l'hémicorps gauche avec des épisodes de vomissements sans trouble visuel ni fièvre ni altération de l'état général.\nL'examen clinique trouvait une patiente consciente GCS= 15, pupilles égales et réactives, station debout et marche possible sans anomalie, avec hémiparésie gauche 4/5 sans autres signes neurologiques.\nL'IRM cérébrale objectivait en séquence T1 non injectée une lésion pariétale droite sus tentoriel plurilobées iso intense mal limitée, en séquence T2 elle est hétérogène avec un liseré hyper intense et un fond hypo intense traduisant un processus charnu avec des zones de nécroses centrales et un œdème péri-lésionnel en doigt de gans en séquence FLAIR, avec une prise de contraste annulaire intense après injection de gadolinium.\nL'analyse de la spectroscopie était en faveur d'une tumeur gliale.\nLa patiente fut mise sous anticonvulsivant et a bénéficié d'un abord direct avec exérèse macroscopiquement complète.\nL'analyse anatomopathologique était en faveur d'un tuberculome cérébral.\nElle a été mise sous traitement antituberculeux avec arrêt des crises et récupération du déficit après 04 semaines.\nA travers ce cas nous entrevoyons le polymorphisme clinique et radiologique qu'est le tuberculome cérébral.\nIl est évoqué devant un faisceau d'argument clinique, biologique et radiologique mais le diagnostic de certitude reste essentiellement anatomopathologique.\nLa prise en charge ne saurait tarder car les complications sont néfastes et de mauvais pronostic lorsqu'il est détecté tardivement.\n",
+    "entities": [
+      {
+        "testo": "céphalées",
+        "tipo": "CLINENTITY",
+        "inizio": 104,
+        "fine": 113
+      },
+      {
+        "testo": "crises d'épilepsies partielles",
+        "tipo": "CLINENTITY",
+        "inizio": 144,
+        "fine": 174
+      },
+      {
+        "testo": "vomissements",
+        "tipo": "CLINENTITY",
+        "inizio": 261,
+        "fine": 273
+      },
+      {
+        "testo": "trouble visuel",
+        "tipo": "CLINENTITY",
+        "inizio": 279,
+        "fine": 293
+      },
+      {
+        "testo": "fièvre",
+        "tipo": "CLINENTITY",
+        "inizio": 297,
+        "fine": 303
+      },
+      {
+        "testo": "hémiparésie gauche",
+        "tipo": "CLINENTITY",
+        "inizio": 481,
+        "fine": 499
+      },
+      {
+        "testo": "lésion pariétale",
+        "tipo": "CLINENTITY",
+        "inizio": 598,
+        "fine": 614
+      },
+      {
+        "testo": "œdème",
+        "tipo": "CLINENTITY",
+        "inizio": 835,
+        "fine": 840
+      },
+      {
+        "testo": "tumeur gliale",
+        "tipo": "CLINENTITY",
+        "inizio": 1021,
+        "fine": 1034
+      },
+      {
+        "testo": "tuberculome cérébral",
+        "tipo": "CLINENTITY",
+        "inizio": 1204,
+        "fine": 1224
+      },
+      {
+        "testo": "tuberculome cérébral",
+        "tipo": "CLINENTITY",
+        "inizio": 1428,
+        "fine": 1448
+      }
+    ]
+  },
+  {
+    "id_doc": "EN107021.xml",
+    "lingua": "English",
+    "text": "A 20 years old man presented with fever, myalgias, arthralgias, retro-orbital pain, vomiting and gum bleeding during a large dengue outbreak in Lahore, Pakistan. On 7th day of illness patient became afebrile, but he developed severe headaches, unconsciousness followed by altered behavior. On 9th day of illness patient developed painful neck swelling accompanied by fever, tremors, palpitations, hoarseness of voice and odynophagia. Examination revealed acutely swollen, tender thyroid gland along with features of hyperthyroidism. Laboratory evaluation revealed stable hematocrit, thrombocytopenia and leukopenia. Patient had seroconverted for anti-dengue IgM antibodies on the 10th day of illness. A non-contrast Computed Tomogram (CT) of the brain showed right frontal lobe hematoma. Thyroid profile showed increased free T3 and T4 and low TSH. Technetium thyroid scan showed reduced tracer uptake. He was diagnosed as having subacute thyroiditis and treated with oral prednisolone and propranolol. Follow up CT brain showed resolving hematoma. Patient's recovery was uneventful.\r\n",
+    "entities": [
+      {
+        "testo": "fever",
+        "tipo": "CLINENTITY",
+        "inizio": 34,
+        "fine": 39
+      },
+      {
+        "testo": "myalgias",
+        "tipo": "CLINENTITY",
+        "inizio": 41,
+        "fine": 49
+      },
+      {
+        "testo": "arthralgias",
+        "tipo": "CLINENTITY",
+        "inizio": 51,
+        "fine": 62
+      },
+      {
+        "testo": "retro-orbital pain",
+        "tipo": "CLINENTITY",
+        "inizio": 64,
+        "fine": 82
+      },
+      {
+        "testo": "vomiting",
+        "tipo": "CLINENTITY",
+        "inizio": 84,
+        "fine": 92
+      },
+      {
+        "testo": "gum bleeding",
+        "tipo": "CLINENTITY",
+        "inizio": 97,
+        "fine": 109
+      },
+      {
+        "testo": "headaches",
+        "tipo": "CLINENTITY",
+        "inizio": 233,
+        "fine": 242
+      },
+      {
+        "testo": "unconsciousness",
+        "tipo": "CLINENTITY",
+        "inizio": 244,
+        "fine": 259
+      },
+      {
+        "testo": "altered behavior",
+        "tipo": "CLINENTITY",
+        "inizio": 272,
+        "fine": 288
+      },
+      {
+        "testo": "neck swelling",
+        "tipo": "CLINENTITY",
+        "inizio": 338,
+        "fine": 351
+      },
+      {
+        "testo": "fever",
+        "tipo": "CLINENTITY",
+        "inizio": 367,
+        "fine": 372
+      },
+      {
+        "testo": "palpitations",
+        "tipo": "CLINENTITY",
+        "inizio": 383,
+        "fine": 395
+      },
+      {
+        "testo": "hoarseness of voice",
+        "tipo": "CLINENTITY",
+        "inizio": 397,
+        "fine": 416
+      },
+      {
+        "testo": "odynophagia",
+        "tipo": "CLINENTITY",
+        "inizio": 421,
+        "fine": 432
+      },
+      {
+        "testo": "swollen",
+        "tipo": "CLINENTITY",
+        "inizio": 463,
+        "fine": 470
+      },
+      {
+        "testo": "tender thyroid gland",
+        "tipo": "CLINENTITY",
+        "inizio": 472,
+        "fine": 492
+      },
+      {
+        "testo": "hyperthyroidism",
+        "tipo": "CLINENTITY",
+        "inizio": 516,
+        "fine": 531
+      },
+      {
+        "testo": "reduced tracer uptake",
+        "tipo": "CLINENTITY",
+        "inizio": 880,
+        "fine": 901
+      },
+      {
+        "testo": "subacute thyroiditis",
+        "tipo": "CLINENTITY",
+        "inizio": 930,
+        "fine": 950
+      },
+      {
+        "testo": "hematoma",
+        "tipo": "CLINENTITY",
+        "inizio": 1039,
+        "fine": 1047
+      }
+    ]
+  },
+  {
+    "id_doc": "EU100008.xml",
+    "lingua": "Basque",
+    "text": "DERMATOLOGIA\r\nOSPITALERATZEKO/KONTSULTARAKO ARRAZOIA\r\nLarruazaleko lesioak dituen 75 urteko gizonezkoa.\r\nAURREKARIAK\r\nFarmakoekiko alergiak: penizilinari dio alergia.\r\nLarruazaleko minbiziaren aurrekariak ditu.\r\nErredura-aurrekariak haurtzaroan.\r\nOhitura toxikorik ez du.\r\nGizarte-faktoreak: lanbidez baserritarra da.\r\nEGUNGO GAIXOTASUNA\r\nDuela urtebetetik buruan lesioak ditu, baita sabelean kolore eta tamainaz aldatu den lesio bat ere.\r\nBizkarrean aspaldiko zauri kronikoa dauka eta ezkerreko beheko gorputz-adarrean ere bai.\r\nAZTERKETA FISIKOA\r\nEgoera orokor ona.\r\nLesio ezkatatsu eta gorrixkak ditu buruko soilguneetan \" eguzkiak gehien jotako tokietan \", ukitzean latzak direnak.\r\nSabelaldeko larruazalean 1,5 zentimetroko lesioa du, hainbat koloretakoa, ertz irregularrak dituena, eta gune batzuetan bolumen gehiago.\r\nBizkarrean perla-itxurako papula ultzeratua.\r\nEzkerreko zangoan larruazaleko urradura kronikoa dauka, zarakar gogorrak dituena.\r\nPROBA OSAGARRIAK\r\nLau lesioetako larruazalaren biopsia egin da.\r\nBiokimika eta hemograma alteraziorik gabeak, LDH altua du.\r\nToraxeko erradiografia eta abdomeneko ekografia alteraziorik gabeak dira.\r\nEskuin-besapeko gongoil linfatikoko ekografian adenopatia bat ageri da.\r\nDIAGNOSTIKOA\r\nKeratosi aktinikoak.\r\nMelanoma, biopsian 1,5 mm-ko Breslow-en indizea duena, ultzeratua, eta eremu bakoitzean 2 mitosi dituena.\r\nKartzinoma basozelular nodularra.\r\nKartzinoma ezkatatsua.\r\nTRATAMENDUA\r\nKeratosi aktinikoen krioterapia, nitrogeno likidoaren bidez.\r\nMelanomaren ebakuntza, ertzak zentimetro bat zabalduz eta gongoil zelataria atzemanez.\r\nKartzinoma basozelular eta ezkatatsuaren ebakuntza.",
+    "entities": [
+      {
+        "testo": "Larruazaleko lesioak",
+        "tipo": "CLINENTITY",
+        "inizio": 54,
+        "fine": 74
+      },
+      {
+        "testo": "alergiak",
+        "tipo": "CLINENTITY",
+        "inizio": 131,
+        "fine": 139
+      },
+      {
+        "testo": "alergia",
+        "tipo": "CLINENTITY",
+        "inizio": 158,
+        "fine": 165
+      },
+      {
+        "testo": "Larruazaleko minbiziaren",
+        "tipo": "CLINENTITY",
+        "inizio": 168,
+        "fine": 192
+      },
+      {
+        "testo": "Erredura-aurrekariak",
+        "tipo": "CLINENTITY",
+        "inizio": 212,
+        "fine": 232
+      },
+      {
+        "testo": "lesioak",
+        "tipo": "CLINENTITY",
+        "inizio": 364,
+        "fine": 371
+      },
+      {
+        "testo": "lesio",
+        "tipo": "CLINENTITY",
+        "inizio": 424,
+        "fine": 429
+      },
+      {
+        "testo": "zauri kronikoa",
+        "tipo": "CLINENTITY",
+        "inizio": 461,
+        "fine": 475
+      },
+      {
+        "testo": "Lesio ezkatatsu",
+        "tipo": "CLINENTITY",
+        "inizio": 569,
+        "fine": 584
+      },
+      {
+        "testo": "lesioa",
+        "tipo": "CLINENTITY",
+        "inizio": 729,
+        "fine": 735
+      },
+      {
+        "testo": "papula",
+        "tipo": "CLINENTITY",
+        "inizio": 851,
+        "fine": 857
+      },
+      {
+        "testo": "urradura",
+        "tipo": "CLINENTITY",
+        "inizio": 902,
+        "fine": 910
+      },
+      {
+        "testo": "lesioetako",
+        "tipo": "CLINENTITY",
+        "inizio": 976,
+        "fine": 986
+      },
+      {
+        "testo": "adenopatia",
+        "tipo": "CLINENTITY",
+        "inizio": 1201,
+        "fine": 1211
+      },
+      {
+        "testo": "Keratosi aktinikoak",
+        "tipo": "CLINENTITY",
+        "inizio": 1241,
+        "fine": 1260
+      },
+      {
+        "testo": "Melanoma",
+        "tipo": "CLINENTITY",
+        "inizio": 1263,
+        "fine": 1271
+      },
+      {
+        "testo": "Kartzinoma basozelular nodularra",
+        "tipo": "CLINENTITY",
+        "inizio": 1370,
+        "fine": 1402
+      },
+      {
+        "testo": "Kartzinoma ezkatatsua",
+        "tipo": "CLINENTITY",
+        "inizio": 1405,
+        "fine": 1426
+      },
+      {
+        "testo": "Keratosi aktinikoen",
+        "tipo": "CLINENTITY",
+        "inizio": 1442,
+        "fine": 1461
+      },
+      {
+        "testo": "Melanomaren",
+        "tipo": "CLINENTITY",
+        "inizio": 1504,
+        "fine": 1515
+      },
+      {
+        "testo": "Kartzinoma basozelular eta ezkatatsuaren",
+        "tipo": "CLINENTITY",
+        "inizio": 1592,
+        "fine": 1632
+      }
+    ]
+  },
+  {
+    "id_doc": "IT100961.xml",
+    "lingua": "Italian",
+    "text": "Una donna di 69 anni si è recata all’Ospedale di Pescia (USL Toscana Centro) per disfonia, ptosi palpebrale e disfagia ingravescente da circa 10 giorni. In anamnesi ipertensione in tp con ACE inibitore, esofagite ed ernia iatale. La TC cranio era negativa per lesioni della base cranica e del tronco. Emocromo e funzione renale nei limiti, negativi gli indici di flogosi. All’arrivo in reparto la paziente si presentava vigile con disfonia, disartria e disfagia in assenza di deficit di forza o sensibilità degli arti. Nel sospetto di sindrome di Miller Fisher è stata eseguita una rachicentesi che ha mostrato liquor nei limiti della norma per cui è stato posto il sospetto di Miastenia Gravis a esordio bulbare. Per la comparsa di ortopnea con caduta linguale in clinostatismo, la paziente è stata trasferita presso la terapia sub intensiva dove ha eseguito plasma aferesi ottenendo un rapido miglioramento. La paziente ha eseguito 5 cicli di plasma aferesi e successivamente ha iniziato terapia con piridostigmina. Gli anticorpi anti recettore Ach sono risultati positivi. La miastenia gravis è una patologia autoimmune della placca neuromuscolare che coinvolge in maniera variabile in muscoli oculari, respiratori o bulbari. L’interessamento dei muscoli bulbari e respiratori è quello che peggiora la prognosi. Nei casi più gravi il trattamento con plasma aferesi fornisce un rapido miglioramento della sintomatologia ma non è utile a lungo termine per cui deve essere utilizzato solo come terapia di salvataggio in attesa che la terapia con piridostigmina dia i risultati a lungo termine.\r\n",
+    "entities": [
+      {
+        "testo": "disfonia",
+        "tipo": "CLINENTITY",
+        "inizio": 81,
+        "fine": 89
+      },
+      {
+        "testo": "ptosi palpebrale",
+        "tipo": "CLINENTITY",
+        "inizio": 91,
+        "fine": 107
+      },
+      {
+        "testo": "disfagia",
+        "tipo": "CLINENTITY",
+        "inizio": 110,
+        "fine": 118
+      },
+      {
+        "testo": "ipertensione",
+        "tipo": "CLINENTITY",
+        "inizio": 165,
+        "fine": 177
+      },
+      {
+        "testo": "esofagite",
+        "tipo": "CLINENTITY",
+        "inizio": 203,
+        "fine": 212
+      },
+      {
+        "testo": "ernia iatale",
+        "tipo": "CLINENTITY",
+        "inizio": 216,
+        "fine": 228
+      },
+      {
+        "testo": "disfonia",
+        "tipo": "CLINENTITY",
+        "inizio": 431,
+        "fine": 439
+      },
+      {
+        "testo": "disartria",
+        "tipo": "CLINENTITY",
+        "inizio": 441,
+        "fine": 450
+      },
+      {
+        "testo": "disfagia",
+        "tipo": "CLINENTITY",
+        "inizio": 453,
+        "fine": 461
+      },
+      {
+        "testo": "sindrome di Miller Fisher",
+        "tipo": "CLINENTITY",
+        "inizio": 535,
+        "fine": 560
+      },
+      {
+        "testo": "Miastenia Gravis",
+        "tipo": "CLINENTITY",
+        "inizio": 678,
+        "fine": 694
+      },
+      {
+        "testo": "ortopnea",
+        "tipo": "CLINENTITY",
+        "inizio": 733,
+        "fine": 741
+      },
+      {
+        "testo": "miastenia gravis",
+        "tipo": "CLINENTITY",
+        "inizio": 1079,
+        "fine": 1095
+      }
+    ]
+  },
+  {
+    "id_doc": "ES100098.xml",
+    "lingua": "Spanish",
+    "text": "Varón de 75 años con antecedentes de EPOC moderado sin otros antecedentes médicos de interés. Entre los hábitos tóxicos, se trataba de un paciente fumador de 20 paquetes/año y no bebedor. No factores ambientales de riesgo ni antecedentes familiares.\r\nEl paciente debuta con uretrorragia e imposibilidad para la micción, motivo por el que acude al Servicio de Urgencias. Ante la imposibilidad para el sondaje urinario, se colocó talla suprapúbica y posteriormente se procedió a estudio. Se le realizó una ecografía donde se observó un gran globo vesical con aparente divertículo único de tamaño similar a vejiga (mayor de 13 cm de diámetro máximo) con varias imágenes polipoideas parietales menores de 2-3 cm tanto en vejiga como en divertículo, hallazgos sugestivos de neoplasia vesical.\r\nAnte los hallazgos ecográficos y la estenosis uretral se procedió a realizar ureterotomía, y cistoscopia donde se observó un tumor sólido de prácticamente 7 cm, calcificado en cara lateral, realizándose en el mismo acto una resección transuretral, observándose enfermedad residual en el acto.\r\nEl resultado anatomopatológico no fue concluyente, pero al realizar el análisis inmunohistoquímico de la muestra, se observó una negatividad para marcadores epiteliales y positividad para marcadores fibroblásticos: vimentina y actina, todo ello compatible con proliferación fibroblástica reactiva o con tumor fibroso solitario. Con el resultado obtenido, se decidió completar la cirugía, y en ese momento, se optó por realizar cistectomía parcial y diverticulectomía, con el siguiente resultado anatomopatológico: leiomiosarcoma de bajo grado (mitosis =3 X10 campos de gran aumento). Marcado pleomorfismo celular. Focos de necrosis intratumoral y múltiples imágenes de necrosis celular aislada. Extensas áreas de cambio mixoide. Intensa inflamación intra y peritumoral. Infiltración de todo el espesor de la pared diverticular hasta el tejido adiposo peridiverticular provocando reacción fibrosa peritumoral. Márgenes quirúrgicos libres de tumor.\r\nInmunohistoquímica\r\nLas células tumorales expresaban positividad para marcadores de diferenciación muscular (vimentina y actina) y son negativas para desmina y marcadores epiteliales (EMA Y Citoquerqatinas de Alto Peso Molecular). Con el resultado obtenido de leiomiosarcoma de bajo grado con infiltración de todas las capas se planteó el caso en comité clínico, optándose por administrar al paciente un tratamiento complementario dado el alto riesgo del paciente. Además se completó el estudio de extensión mediante la realización de una TAC toracoabdominal, una gammagrafía ósea y una RMN pélvica que no mostraron enfermedad a distancia.\r\nSe decidió administración de radioterapia locorregional y quimioterapia complementaria. El paciente recibió radioterapia locorregional a dosis de 57 Gy. La quimioterapia administrada consistió en la combinación ifosfamida-adriamicina a dosis habituales, recibiendo el paciente tres ciclos de dicho tratamiento. Una vez finalizado el tratamiento, el paciente continúa revisiones estrictas mediante realización de cistoscopias periódicas, citología urinaria y TAC toraco-abdomino-pélvico de forma periódica.\r\nTras un periodo de 22 meses, el paciente continúa libre de enfermedad y en revisiones periódicas encontrándose asintomático y con una excelente calidad de vida.\r\n",
+    "entities": [
+      {
+        "testo": "EPOC",
+        "tipo": "CLINENTITY",
+        "inizio": 37,
+        "fine": 41
+      },
+      {
+        "testo": "fumador",
+        "tipo": "CLINENTITY",
+        "inizio": 147,
+        "fine": 154
+      },
+      {
+        "testo": "uretrorragia",
+        "tipo": "CLINENTITY",
+        "inizio": 274,
+        "fine": 286
+      },
+      {
+        "testo": "imposibilidad para la micción",
+        "tipo": "CLINENTITY",
+        "inizio": 289,
+        "fine": 318
+      },
+      {
+        "testo": "globo vesical",
+        "tipo": "CLINENTITY",
+        "inizio": 539,
+        "fine": 552
+      },
+      {
+        "testo": "neoplasia vesical",
+        "tipo": "CLINENTITY",
+        "inizio": 769,
+        "fine": 786
+      },
+      {
+        "testo": "estenosis uretral",
+        "tipo": "CLINENTITY",
+        "inizio": 825,
+        "fine": 842
+      },
+      {
+        "testo": "tumor sólido",
+        "tipo": "CLINENTITY",
+        "inizio": 914,
+        "fine": 926
+      },
+      {
+        "testo": "proliferación",
+        "tipo": "CLINENTITY",
+        "inizio": 1343,
+        "fine": 1356
+      },
+      {
+        "testo": "tumor fibroso solitario",
+        "tipo": "CLINENTITY",
+        "inizio": 1386,
+        "fine": 1409
+      },
+      {
+        "testo": "leiomiosarcoma",
+        "tipo": "CLINENTITY",
+        "inizio": 1597,
+        "fine": 1611
+      },
+      {
+        "testo": "pleomorfismo",
+        "tipo": "CLINENTITY",
+        "inizio": 1675,
+        "fine": 1687
+      },
+      {
+        "testo": "necrosis",
+        "tipo": "CLINENTITY",
+        "inizio": 1706,
+        "fine": 1714
+      },
+      {
+        "testo": "necrosis",
+        "tipo": "CLINENTITY",
+        "inizio": 1752,
+        "fine": 1760
+      },
+      {
+        "testo": "cambio mixoide",
+        "tipo": "CLINENTITY",
+        "inizio": 1796,
+        "fine": 1810
+      },
+      {
+        "testo": "inflamación",
+        "tipo": "CLINENTITY",
+        "inizio": 1820,
+        "fine": 1831
+      },
+      {
+        "testo": "Infiltración",
+        "tipo": "CLINENTITY",
+        "inizio": 1853,
+        "fine": 1865
+      },
+      {
+        "testo": "reacción fibrosa",
+        "tipo": "CLINENTITY",
+        "inizio": 1962,
+        "fine": 1978
+      },
+      {
+        "testo": "tumor",
+        "tipo": "CLINENTITY",
+        "inizio": 2023,
+        "fine": 2028
+      },
+      {
+        "testo": "leiomiosarcoma",
+        "tipo": "CLINENTITY",
+        "inizio": 2291,
+        "fine": 2305
+      },
+      {
+        "testo": "infiltración",
+        "tipo": "CLINENTITY",
+        "inizio": 2324,
+        "fine": 2336
+      }
+    ]
+  },
+  {
+    "id_doc": "FR100611.xml",
+    "lingua": "French",
+    "text": "Un homme de 30 ans, sans antécédent de tuberculose, avait présenté 15 jours avant son admission un trouble du langage avec réduction de la fluence verbale évoluant dans un contexte d'altération de l'état général.\nL'examen neurologique trouvait une aphasie motrice de type Broca avec un syndrome pyramidal latéralisé à droite et des adénopathies latéro-cervicales.\nL'IRM cérébrale: montrait d'une part des tuberculomes intra-parenchymateux cérébraux dont un de siège frontal gauche et l'autre cérébelleux vermien d'autre part un épaississement du cortex de l'insula et du cortex adjacent avec prise de contraste intense des méninges en regard.\nL'étude du LCR révélait une hyperproteinorachie à 0,808 g/L, une glycorachie à 0, 305 g/L pour une glycémie de 0,957 g/L soit un rapport de 0,31% et une pléiocytose à 280 leucocytes/mm3 avec une lymphocytose à 70 %.\nL'examen direct et les cultures étaient négatifs.\nLa PCR de BK dans le LCR était négative.\nLa TDM thoracique montrait de multiples micronodules pulmonaires prédominant aux lobes supérieurs et aux segments supérieurs des lobes inferieurs, une image cavitaire à paroi épaissie et DDB du fowler droit et du culmen.\nLa biopsie des ganglions lymphatiques révélait la présence de granulome typique de tuberculose.\nLa recherche de BK dans les crachats était négative.\nLa sérologie HIV était négative.\nL'hémogramme révélait une anémie microcytaire avec une lymphopénie à 880/UL.\nL'ionogramme sanguin montrait une hyponatrémie à 131 mmol/L et la CRP était à 70 mg/L.\nLe reste du bilan biologique était normal.\nLe diagnostic de tuberculose multifocale (pulmonaire, cérébrale et ganglionnaire) chez un immunocompétent fut retenu.\nUn traitement antituberculeux fut instauré à base d'une quadrithérapie associant isoniazide, rifampicine, pyrazinamide et éthambutol pendant 2 mois puis une bithérapie associant isoniazide et rifampicine pendant 7 mois associé à une corticothérapie adjuvante à base de prédnisolone 1mg/kg/j pendant 8 semaines avec une disparition progressive des symptômes et effacement des lésions à L'IRM cérébrale de contrôle.\n",
+    "entities": [
+      {
+        "testo": "tuberculose",
+        "tipo": "CLINENTITY",
+        "inizio": 39,
+        "fine": 50
+      },
+      {
+        "testo": "trouble du langage",
+        "tipo": "CLINENTITY",
+        "inizio": 99,
+        "fine": 117
+      },
+      {
+        "testo": "réduction de la fluence verbale",
+        "tipo": "CLINENTITY",
+        "inizio": 123,
+        "fine": 154
+      },
+      {
+        "testo": "altération de l'état général",
+        "tipo": "CLINENTITY",
+        "inizio": 183,
+        "fine": 211
+      },
+      {
+        "testo": "aphasie motrice de type Broca",
+        "tipo": "CLINENTITY",
+        "inizio": 248,
+        "fine": 277
+      },
+      {
+        "testo": "syndrome pyramidal",
+        "tipo": "CLINENTITY",
+        "inizio": 286,
+        "fine": 304
+      },
+      {
+        "testo": "adénopathies",
+        "tipo": "CLINENTITY",
+        "inizio": 332,
+        "fine": 344
+      },
+      {
+        "testo": "tuberculomes",
+        "tipo": "CLINENTITY",
+        "inizio": 405,
+        "fine": 417
+      },
+      {
+        "testo": "épaississement du cortex de l'insula et du cortex adjacent",
+        "tipo": "CLINENTITY",
+        "inizio": 528,
+        "fine": 586
+      },
+      {
+        "testo": "hyperproteinorachie",
+        "tipo": "CLINENTITY",
+        "inizio": 671,
+        "fine": 690
+      },
+      {
+        "testo": "glycorachie",
+        "tipo": "CLINENTITY",
+        "inizio": 708,
+        "fine": 719
+      },
+      {
+        "testo": "pléiocytose",
+        "tipo": "CLINENTITY",
+        "inizio": 796,
+        "fine": 807
+      },
+      {
+        "testo": "lymphocytose",
+        "tipo": "CLINENTITY",
+        "inizio": 838,
+        "fine": 850
+      },
+      {
+        "testo": "multiples micronodules pulmonaires",
+        "tipo": "CLINENTITY",
+        "inizio": 980,
+        "fine": 1014
+      },
+      {
+        "testo": "paroi épaissie",
+        "tipo": "CLINENTITY",
+        "inizio": 1119,
+        "fine": 1133
+      },
+      {
+        "testo": "granulome",
+        "tipo": "CLINENTITY",
+        "inizio": 1233,
+        "fine": 1242
+      },
+      {
+        "testo": "tuberculose",
+        "tipo": "CLINENTITY",
+        "inizio": 1254,
+        "fine": 1265
+      },
+      {
+        "testo": "HIV",
+        "tipo": "CLINENTITY",
+        "inizio": 1333,
+        "fine": 1336
+      },
+      {
+        "testo": "anémie microcytaire",
+        "tipo": "CLINENTITY",
+        "inizio": 1379,
+        "fine": 1398
+      },
+      {
+        "testo": "lymphopénie",
+        "tipo": "CLINENTITY",
+        "inizio": 1408,
+        "fine": 1419
+      },
+      {
+        "testo": "hyponatrémie",
+        "tipo": "CLINENTITY",
+        "inizio": 1464,
+        "fine": 1476
+      },
+      {
+        "testo": "tuberculose multifocale (pulmonaire, cérébrale et ganglionnaire",
+        "tipo": "CLINENTITY",
+        "inizio": 1577,
+        "fine": 1640
+      },
+      {
+        "testo": "tuberculose multifocale (pulmonaire, cérébrale",
+        "tipo": "CLINENTITY",
+        "inizio": 1577,
+        "fine": 1623
+      },
+      {
+        "testo": "tuberculose multifocale (pulmonaire",
+        "tipo": "CLINENTITY",
+        "inizio": 1577,
+        "fine": 1612
+      },
+      {
+        "testo": "lésions",
+        "tipo": "CLINENTITY",
+        "inizio": 2053,
+        "fine": 2060
+      }
+    ]
+  },
+  {
+    "id_doc": "EN100275.xml",
+    "lingua": "English",
+    "text": "A 33-year-old woman came to Department of Fertility, Endocrinology and Reproduction at Saiful Anwar public Hospital and consulted that she has not menstruated since 5 years ago (28 years old). Her initial menarche was at the age of 14 years and it is in accordance with the normal growth of a child at her age. The patient had a regular menstrual period of 5-7 days, she replaced the pads for 2-3 times / day, and had no menstrual pain. The patient has a history of injective contraceptive that was done every once a month in 2010, and after the injection, she menstruated for two months and then it stopped. Based on clinical examination and a physical examination, the patient was diagnosed with secondary amenorrhea. Investigations that were used are ultrasonography, thorax X-ray and CT Scan Head. Ultrasonography and thorax X-Ray showed that patient is suspected to have right pleural effusion. CT-Scan examination showed that bilateral ethmoidal sinusitis and pituitary gland was within normal limits. The treatment plan in this patient is P test therapy with Prothyra 1x10 mg for 7 days, with control on 2 weeks after the use. P test showed a negative result, because after 14 days of progesterone consumption the prothyra is not bleeding. The treatment is followed by a E+P test (Estrogen+Progesterone) with Estrogen 1x0.625 mg for 21 days and an addition of Progesterone 1x10 mg on 12th -21st days, while the control was performed one week after the drug runs out. Based on the E+P test, the obtained results were FSH: 8.71 MIU/mL, LH: 3.1 IU/L, Prolactin: 319.4 ng/mL. The E+P test showed a negative result, so it was necessary to do hysteroscopy and curettage for the uterus evaluation. Hysteroscopy results showed that there were grade 4 adhesions in the uterine cavum, with a pale colored connective tissue in the uterine cavum, which refers to the diagnosis of secondary amenorrhea suspect tuberculosis endometritis, while the result of tissue curettage was examined on the Anatomical Pathology department. Results of anatomical pathology hysteroscopy showed endometrial tissue with stromal looks granulomas with lymphocytes, histiocytes, epithelioid and Langhans multinucleated giant cells and no malignancy was found in this preparation, which showed that patient's diagnosis is secondary amenorrhea suspected tuberculosis endometritis. Based on the Anatomical Pathology hysteroscopy result, treatment was done by using anti-tuberculosis drug category I (FDC 1X3 tab) for 6 months. Anatomical pathology result through macroscopic observation showed visible network of approximately 0.3 cm and 0.4 cm in diameter with a grayish-white color, while the microscopic observations showed fibromuscular tissue at high cylindrical epithelium with polyps shaped vacuolar, and inflammatory granulomatic and aplastic cells were not found.\r\n",
+    "entities": [
+      {
+        "testo": "not menstruated",
+        "tipo": "CLINENTITY",
+        "inizio": 143,
+        "fine": 158
+      },
+      {
+        "testo": "menstrual pain",
+        "tipo": "CLINENTITY",
+        "inizio": 421,
+        "fine": 435
+      },
+      {
+        "testo": "secondary amenorrhea",
+        "tipo": "CLINENTITY",
+        "inizio": 698,
+        "fine": 718
+      },
+      {
+        "testo": "right pleural effusion",
+        "tipo": "CLINENTITY",
+        "inizio": 876,
+        "fine": 898
+      },
+      {
+        "testo": "adhesions in the uterine cavum",
+        "tipo": "CLINENTITY",
+        "inizio": 1750,
+        "fine": 1780
+      },
+      {
+        "testo": "secondary amenorrhea",
+        "tipo": "CLINENTITY",
+        "inizio": 1875,
+        "fine": 1895
+      },
+      {
+        "testo": "tuberculosis endometritis",
+        "tipo": "CLINENTITY",
+        "inizio": 1904,
+        "fine": 1929
+      },
+      {
+        "testo": "secondary amenorrhea",
+        "tipo": "CLINENTITY",
+        "inizio": 2295,
+        "fine": 2315
+      },
+      {
+        "testo": "tuberculosis endometritis",
+        "tipo": "CLINENTITY",
+        "inizio": 2326,
+        "fine": 2351
+      }
+    ]
+  },
+  {
+    "id_doc": "EU100125.xml",
+    "lingua": "Basque",
+    "text": "Kristina 19 urteko unibertsitateko ikaslea da, eta duela 6 hilabete arte osasuntsu eta aktibo zegoen.\r\nBat-batean sozialki isolatzen hasi zen; bere logelan geratzen zen eta klaseetara huts egiten hasi zen.\r\nEskolan oso nota onak ateratzen bazituen ere, akademikoki zailtasun handiak izan zituen unibertsitateko bigarren lauhilabetean.\r\n\r\nMedikuarenera joan da gurasoekin.\r\nArduratuta daude zerbait txarto ote dagoen.\r\nGainera, beka gal dezake ez baditu notak hobetzen.\r\n\r\nGurasoek diotenez, Kristina oso arrakastatsua eta sozialki aktiboa zen institutuan.\r\nUda hasieran, Kristina pozik zegoela zirudien etxean familiarekin.\r\nBaina astebete pasatuta, denbora luzea hasi zen pasatzen bakarrik bere logelan.\r\nLagunek egiten zizkioten gonbidapen guztiak ukatu egiten zituen.\r\nHaserrekor jartzen zen gurasoek afaltzera joateko esaten ziotenean.\r\nUda amaieran, ez zen bere logelatik ia irteten, eta behin eta berriro gogorarazi behar zitzaion dutxatu behar zela eta ilea orraztu behar zuela.\r\nAipatutako sintomak izan arren, Kristina unibertsitatera bueltatu da bigarren urtea hasteko.\r\n\r\nMedikuak Kristina berriz ikusi du, eta hark bere buruaren zainketarik ez duela egiten konturatu da.\r\nEz dauka begi-kontakturik, eta gutxi hitz egiten du.\r\nZelan dagoen galdetzean, \"ondo\" dagoela erantzuten du, baina ez dauka espresio emozional handirik aurpegian.\r\nBadirudi deseroso dagoela, eta zaila da harekin hitz egitea.\r\nGertatzen ari zaionaren inguruan galdetzen zaionean, honako hau esaten du.\r\n\"Suposatzen dut ez nagoela unibertsitatean interesaturik\".\r\nEsaten duenez, ez du drogarik ez alkoholik hartzen.\r\nEsaten du ez dela gaixorik sentitzen, eta ez duela minik sentitzen gorputzean.\r\nKristinak bere buruaz beste egitearen sentimenduak edo agresibitate-sentimenduak ere ukatu egiten ditu.\r\n\r\nZerbait arraroa entzuten, ikusten edo esperimentatzen ari den galdetzen zaionean badirudi arreta galtzen duela eta ondoren erantzuten du \"Ez, ez zait halako ezer gertatzen\".\r\n\r\nKristinaren gurasoei edukazioz eskatzen zaie gela utz dezaten.\r\nBere gurasoak joaten direnean, Kristinak esaten du: \"Ez dira nire benetako gurasoak, bahitzaileak dira, poliziari deitu beharko zenioke\".\r\nHasieran medikuak txantxetan dabilela pentsatzen badu ere, laster konturatzen da egoera larria dela eta Kristina beldurtuta dagoela.\r\nMedikua lasaitasuna ematen saiatzen da, baina badirudi Kristina oso beldurtuta dagoela.\r\n\r\nBere analisiak normaltasunaren barnean daude, eta badirudi ez duela drogarik kontsumitzen.\r\n\r\nDuela hilabete batzuetatik, pisu galera handia izan du.\r\n\r\nGurasoek, oso arduratuta, medikuari komentatzen diote Kristina bakarrik hitz egiten entzuten dutela noizbehinka bere logelan.\r\nBeldur dira bere osabaren gaitz berdina izango ote duen.\r\nOsabak eskizofrenia omen dauka.",
+    "entities": [
+      {
+        "testo": "Haserrekor",
+        "tipo": "CLINENTITY",
+        "inizio": 772,
+        "fine": 782
+      },
+      {
+        "testo": "sintomak",
+        "tipo": "CLINENTITY",
+        "inizio": 998,
+        "fine": 1006
+      },
+      {
+        "testo": "minik",
+        "tipo": "CLINENTITY",
+        "inizio": 1650,
+        "fine": 1655
+      },
+      {
+        "testo": "bere buruaz beste egitearen sentimenduak",
+        "tipo": "CLINENTITY",
+        "inizio": 1689,
+        "fine": 1729
+      },
+      {
+        "testo": "agresibitate-sentimenduak",
+        "tipo": "CLINENTITY",
+        "inizio": 1734,
+        "fine": 1759
+      },
+      {
+        "testo": "pisu galera",
+        "tipo": "CLINENTITY",
+        "inizio": 2513,
+        "fine": 2524
+      },
+      {
+        "testo": "eskizofrenia",
+        "tipo": "CLINENTITY",
+        "inizio": 2736,
+        "fine": 2748
+      }
+    ]
   }
 ]

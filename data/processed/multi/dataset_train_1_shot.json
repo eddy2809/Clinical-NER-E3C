@@ -1,242 +1,32 @@
 [
   {
-    "id_doc": "EU100010.xml",
-    "lingua": "Basque",
-    "text": "ERREUMATOLOGIA\r\nOSPITALERATZEKO/KONTSULTARAKO ARRAZOIA.\r\nAzterketa sakona egitera datorren 55 urteko emakumea.\r\nAURREKARIAK.\r\nEz du alergia ezagunik.\r\nHipertentsio arteriala du eta erretzailea da.\r\nEz du ohiko tratamendurik.\r\nEGUNGO HISTORIA.\r\nPazienteak duela lau urtetik 3 faseetako Raynaud-en fenomenoa du.\r\nHatz-puntetan ultzera mingarri txikiak ditu.\r\nDuela 6 hilabetetik hatzak hazita ditu, azala lodituta eta gogortuta, bai besoetan eta bai zangoetan ere.\r\nBihotzerrea sentitzen du maiz, edozein janari hartuta, eta goragalea ere bai.\r\nEz du botaka egin.\r\nBatzuetan beherakoa du.\r\nAtalkako galdeketa: esfortzu txiki eta ertainak egitean disnea sentitzen du; ez du eztulik, ez karkaxarik, ez eta bularreko minik ere.\r\nEz zaio nabarmenki ilea erortzen, ez du ahoko ultzerarik, ez eta fotosentikortasunik ere.\r\nAZTERKETA FISIKOA.\r\nTentsio arteriala, 160/95 mm Hg; tenperatura, 36,5 °C; bihotz-maiztasuna: 85 tau/min; arnas maiztasuna, 16 arnas/min; O2Sat,% 98.\r\nBurua eta lepoa.\r\nEz dago ingurgitazio jugularrik, ez eta adenopatia zerbikalik ere.\r\nBihotz-auskultazioa.\r\nErritmikoa, murmuriorik gabea.\r\nBiriken auskultazioa.\r\nKarraka-soinu finak bi oinaldeetan.\r\nSabelaldea.\r\nEz dago aurkikuntza patologikorik.\r\nAzala.\r\nEsklerodaktilia, hatzak hazita eta atximurka ezinak.\r\nOrbain txikiak hatz-mamietan.\r\nAzala gogortuta, bai besoen atzeko aldean eta bai zangoetan.\r\nRodman-en indizea: orban arreak sorbalden atzealdean.\r\nEz du artritisaren zeinurik.\r\nPROBA OSAGARRIAK.\r\nANALITIKA.\r\nBiokimika, alteraziorik gabe; hemograma, alteraziorik gabe; proteinograma, alteraziorik gabe; gernu- azterketa, 3 eritrozito eremuko, proteinarik ez.\r\nMikroskopioaren bidezko azterketa, alteraziorik gabe.\r\nKonplementu-frakzioak: C3 eta C4 normala; antigorputz antinuklear positiboak, titulazioa 1/640.\r\nAntiDNA negatiboa, Anti-Scl70 positiboa.\r\nESOFAGOGRAMA.\r\nMugimendu motela.\r\nHiatoko hernia.\r\nBULARREKO ERRADIOGRAFIA.\r\nNormala.\r\nBIRIKETAKO PROBA FUNTZIONALAK.\r\nFVC,% 65; FEV1/FVC,% 55; DLCO;% 50. \r\n6MT (6 minutuko testa): 400 metro egin ditu; O2Sat bukaeran,% 96 (hasieran% 98).\r\nTORAXEKO OTA.\r\nBiriken azpiko aldeetan gaixotasun interstiziala, \" beira lauso \" batean zehar ikusiko balitz bezala.\r\nEKOKARDIOGRAMA.\r\nEiekzio-frakzioa,% 60.\r\nEz da isuri perikardikorik ikusten.\r\nBalbula normalak.\r\nEzkerreko aurikula eta aortaren sustraiak normalak dira.\r\nKalkulatutako biriketako arteria-presio sistolikoa, 35 mm Hg.\r\nEBOLUZIOA.\r\nPazienteak esklerosi sistemikoa du, barreiatua.\r\nLarruazaleko erasan progresiboa du eta maiz artatu behar izaten da, barne-organoak larri erasateko arriskuan baitago.\r\nPazienteak Raynaud-en gaixotasunarentzako tratamendua hartu du, hots, iloprosta 5 egunetan jarraian, eta mina jaitsi egin zaio.\r\nAldi berean, tratamendua hasi da bosentana erabiliz, pixkanaka-pixkanaka dosia handiagotuz, hatzetako ultzerak ekiditeko.\r\nEra berean, pantoprazola hartzen ari da, digestio-ondoeza arintzeko.\r\nBirika eta bihotza ebaluatu ondoren, biriketako gaixotasun interstizial hedatua (BGIH) diagnostikatu da, hasierako unean.\r\nKanpo-kontsultetan aldiro-aldiro ebaluatuko dute.\r\nDIAGNOSTIKOA.\r\nEsklerosi sistemiko progresiboa, barreiatua.\r\nRaynaud-en fenomenoa eta hatzetako ultzerak, hasierako biriketako gaixotasun interstiziala.\r\nTRATAMENDUA.\r\nAmlodipinoa, 5 mg/24 orduan behin, hotza egiten duen garaian\r\nBosentana, 125 mg/12 orduan behin.\r\nPantoprazola, 20 mg/24 orduan behin.\r\nMikofenolatoa 500 mg, 2 pilula/24 orduan behin.\r\nEnalaprila, 10 mg/24 orduan behin.\r\nBESTE GOMENDIO BATZUK.\r\nHotza saihestu.\r\nEskularru eta galtzerdi lodiak erabili.\r\nEskuak ur berotan sartu.\r\n",
+    "id_doc": "IT101013.xml",
+    "lingua": "Italian",
+    "text": "Il signor Roberto ha 52 anni, si rivolge al medico di famiglia perché dopo l’influenza che ha avuto ormai due mesi fa, avverte una forte astenia e disappetenza, soprattutto per la carne, con un dimagrimento di 5 Kg. In seguito agli accertamenti diagnostici, risulta la presenza di una neoplasia gastrica. Ricoverato in U.O. di Chirurgia generale, il signor Roberto viene sottoposto ad intervento di gastroresezione totale. Dopo l’intervento chirurgico, torna dalla sala operatoria con ossigeno terapia, catetere venoso centrale, sondino naso-gastrico, catetere vescicale e due drenaggi addominali; è cosciente e chiede insistentemente di bere. Il catetere vescicale appare ostruito, si decide di sostituirlo.\r\n",
     "entities": [
       {
-        "testo": "alergia",
+        "testo": "influenza",
         "tipo": "CLINENTITY",
-        "inizio": 132,
-        "fine": 139
+        "inizio": 77,
+        "fine": 86
       },
       {
-        "testo": "Hipertentsio arteriala",
+        "testo": "astenia",
         "tipo": "CLINENTITY",
-        "inizio": 151,
-        "fine": 173
+        "inizio": 137,
+        "fine": 144
       },
       {
-        "testo": "erretzailea",
+        "testo": "disappetenza",
         "tipo": "CLINENTITY",
-        "inizio": 181,
-        "fine": 192
+        "inizio": 147,
+        "fine": 159
       },
       {
-        "testo": "Raynaud-en fenomenoa",
+        "testo": "neoplasia gastrica",
         "tipo": "CLINENTITY",
         "inizio": 285,
-        "fine": 305
-      },
-      {
-        "testo": "ultzera",
-        "tipo": "CLINENTITY",
-        "inizio": 325,
-        "fine": 332
-      },
-      {
-        "testo": "hazita",
-        "tipo": "CLINENTITY",
-        "inizio": 384,
-        "fine": 390
-      },
-      {
-        "testo": "lodituta",
-        "tipo": "CLINENTITY",
-        "inizio": 403,
-        "fine": 411
-      },
-      {
-        "testo": "Bihotzerrea",
-        "tipo": "CLINENTITY",
-        "inizio": 464,
-        "fine": 475
-      },
-      {
-        "testo": "goragalea",
-        "tipo": "CLINENTITY",
-        "inizio": 523,
-        "fine": 532
-      },
-      {
-        "testo": "botaka",
-        "tipo": "CLINENTITY",
-        "inizio": 549,
-        "fine": 555
-      },
-      {
-        "testo": "beherakoa",
-        "tipo": "CLINENTITY",
-        "inizio": 573,
-        "fine": 582
-      },
-      {
-        "testo": "disnea",
-        "tipo": "CLINENTITY",
-        "inizio": 644,
-        "fine": 650
-      },
-      {
-        "testo": "eztulik",
-        "tipo": "CLINENTITY",
-        "inizio": 671,
-        "fine": 678
-      },
-      {
-        "testo": "bularreko minik",
-        "tipo": "CLINENTITY",
-        "inizio": 702,
-        "fine": 717
-      },
-      {
-        "testo": "ilea erortzen",
-        "tipo": "CLINENTITY",
-        "inizio": 743,
-        "fine": 756
-      },
-      {
-        "testo": "ahoko ultzerarik",
-        "tipo": "CLINENTITY",
-        "inizio": 764,
-        "fine": 780
-      },
-      {
-        "testo": "fotosentikortasunik",
-        "tipo": "CLINENTITY",
-        "inizio": 789,
-        "fine": 808
-      },
-      {
-        "testo": "ingurgitazio jugularrik",
-        "tipo": "CLINENTITY",
-        "inizio": 992,
-        "fine": 1015
-      },
-      {
-        "testo": "adenopatia",
-        "tipo": "CLINENTITY",
-        "inizio": 1024,
-        "fine": 1034
-      },
-      {
-        "testo": "aurkikuntza",
-        "tipo": "CLINENTITY",
-        "inizio": 1187,
-        "fine": 1198
-      },
-      {
-        "testo": "Esklerodaktilia",
-        "tipo": "CLINENTITY",
-        "inizio": 1223,
-        "fine": 1238
-      },
-      {
-        "testo": "hazita",
-        "tipo": "CLINENTITY",
-        "inizio": 1247,
-        "fine": 1253
-      },
-      {
-        "testo": "Orbain",
-        "tipo": "CLINENTITY",
-        "inizio": 1277,
-        "fine": 1283
-      },
-      {
-        "testo": "Azala gogortuta",
-        "tipo": "CLINENTITY",
-        "inizio": 1308,
-        "fine": 1323
-      },
-      {
-        "testo": "orban",
-        "tipo": "CLINENTITY",
-        "inizio": 1389,
-        "fine": 1394
-      },
-      {
-        "testo": "artritisaren",
-        "tipo": "CLINENTITY",
-        "inizio": 1431,
-        "fine": 1443
-      },
-      {
-        "testo": "Hiatoko hernia",
-        "tipo": "CLINENTITY",
-        "inizio": 1865,
-        "fine": 1879
-      },
-      {
-        "testo": "gaixotasun interstiziala",
-        "tipo": "CLINENTITY",
-        "inizio": 2109,
-        "fine": 2133
-      },
-      {
-        "testo": "isuri perikardikorik",
-        "tipo": "CLINENTITY",
-        "inizio": 2235,
-        "fine": 2255
-      },
-      {
-        "testo": "esklerosi sistemikoa",
-        "tipo": "CLINENTITY",
-        "inizio": 2429,
-        "fine": 2449
-      },
-      {
-        "testo": "Raynaud-en gaixotasunarentzako",
-        "tipo": "CLINENTITY",
-        "inizio": 2597,
-        "fine": 2627
-      },
-      {
-        "testo": "mina",
-        "tipo": "CLINENTITY",
-        "inizio": 2691,
-        "fine": 2695
-      },
-      {
-        "testo": "ultzerak",
-        "tipo": "CLINENTITY",
-        "inizio": 2817,
-        "fine": 2825
-      },
-      {
-        "testo": "digestio-ondoeza",
-        "tipo": "CLINENTITY",
-        "inizio": 2879,
-        "fine": 2895
-      },
-      {
-        "testo": "biriketako gaixotasun interstizial hedatua",
-        "tipo": "CLINENTITY",
-        "inizio": 2945,
-        "fine": 2987
-      },
-      {
-        "testo": "BGIH",
-        "tipo": "CLINENTITY",
-        "inizio": 2989,
-        "fine": 2993
-      },
-      {
-        "testo": "Raynaud-en fenomenoa",
-        "tipo": "CLINENTITY",
-        "inizio": 3143,
-        "fine": 3163
-      },
-      {
-        "testo": "ultzerak",
-        "tipo": "CLINENTITY",
-        "inizio": 3178,
-        "fine": 3186
-      },
-      {
-        "testo": "biriketako gaixotasun interstiziala",
-        "tipo": "CLINENTITY",
-        "inizio": 3198,
-        "fine": 3233
+        "fine": 303
       }
     ]
   }

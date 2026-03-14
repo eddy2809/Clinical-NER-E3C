@@ -1,0 +1,88 @@
+[
+  {
+    "id_doc": "IT101013.xml",
+    "lingua": "Italian",
+    "text": "Il signor Roberto ha 52 anni, si rivolge al medico di famiglia perché dopo l’influenza che ha avuto ormai due mesi fa, avverte una forte astenia e disappetenza, soprattutto per la carne, con un dimagrimento di 5 Kg. In seguito agli accertamenti diagnostici, risulta la presenza di una neoplasia gastrica. Ricoverato in U.O. di Chirurgia generale, il signor Roberto viene sottoposto ad intervento di gastroresezione totale. Dopo l’intervento chirurgico, torna dalla sala operatoria con ossigeno terapia, catetere venoso centrale, sondino naso-gastrico, catetere vescicale e due drenaggi addominali; è cosciente e chiede insistentemente di bere. Il catetere vescicale appare ostruito, si decide di sostituirlo.\r\n",
+    "entities": [
+      {
+        "testo": "influenza",
+        "tipo": "CLINENTITY",
+        "inizio": 77,
+        "fine": 86
+      },
+      {
+        "testo": "astenia",
+        "tipo": "CLINENTITY",
+        "inizio": 137,
+        "fine": 144
+      },
+      {
+        "testo": "disappetenza",
+        "tipo": "CLINENTITY",
+        "inizio": 147,
+        "fine": 159
+      },
+      {
+        "testo": "neoplasia gastrica",
+        "tipo": "CLINENTITY",
+        "inizio": 285,
+        "fine": 303
+      }
+    ]
+  },
+  {
+    "id_doc": "FR100979.xml",
+    "lingua": "French",
+    "text": "Nous rapportons le cas d'un accident vasculaire cérébral hémorragique du tronc cérébral chez une patiente de 21 ans admise pour prééclampsie sévère sur grossesse non suivie de 38 SA compliquée d'une éclampsie puis d'un accident vasculaire cérébral hémorragique du tronc cérébral à j2 du post-opératoire d'une césarienne pour suspiçion d'hématome rétro-placentaire dès son admission.\nL'hémorragie intracérébrale est une complication rare mais grave chez les femmes en post-partum, plusieurs études sont en cours pour combler les lacunes de connaissances susceptibles d'être impliqués dans les soins des patientes prééclamptiques présentant des complications neurologiques.\n",
+    "entities": [
+      {
+        "testo": "accident vasculaire cérébral hémorragique",
+        "tipo": "CLINENTITY",
+        "inizio": 28,
+        "fine": 69
+      },
+      {
+        "testo": "prééclampsie",
+        "tipo": "CLINENTITY",
+        "inizio": 128,
+        "fine": 140
+      },
+      {
+        "testo": "éclampsie",
+        "tipo": "CLINENTITY",
+        "inizio": 199,
+        "fine": 208
+      },
+      {
+        "testo": "accident vasculaire cérébral hémorragique",
+        "tipo": "CLINENTITY",
+        "inizio": 219,
+        "fine": 260
+      },
+      {
+        "testo": "hématome rétro-placentaire",
+        "tipo": "CLINENTITY",
+        "inizio": 337,
+        "fine": 363
+      },
+      {
+        "testo": "hémorragie intracérébrale",
+        "tipo": "CLINENTITY",
+        "inizio": 385,
+        "fine": 410
+      },
+      {
+        "testo": "prééclamptiques",
+        "tipo": "CLINENTITY",
+        "inizio": 612,
+        "fine": 627
+      },
+      {
+        "testo": "complications neurologiques",
+        "tipo": "CLINENTITY",
+        "inizio": 643,
+        "fine": 670
+      }
+    ]
+  }
+]
