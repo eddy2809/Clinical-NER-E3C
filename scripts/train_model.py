@@ -11,13 +11,12 @@ from transformers import (
     TrainingArguments, 
     Trainer,
     DataCollatorForTokenClassification,
-    EarlyStoppingCallback
 )
 
 #Configurazione
-FILE_TRAIN = "data/processed/multi/dataset_train_100_shot.json" 
+FILE_TRAIN = "data/processed/multi/dataset_train_full.json" 
 FILE_EVAL = "data/processed/multi/dataset_val.json"
-NOME_MODELLO_SALVATO = "multi_bert_medico_100_shot"
+NOME_MODELLO_SALVATO = "multi_bert_medico_full_shot"
 
 #MODEL_NAME = "dbmdz/bert-base-italian-cased"
 MODEL_NAME = "bert-base-multilingual-cased"
@@ -103,23 +102,6 @@ def compute_metrics_exact_match(p):
         for prediction, label in zip(predictions, labels)
     ]
 
-    # 1. Srotoliamo le liste di liste in una singola lista 1D
-    true_labels_flat = [label for sentence_labels in true_labels for label in sentence_labels]
-    preds_flat = [label for sentence_preds in true_predictions for label in sentence_preds]
-    
-    # da etichetta a id (per wandb)
-    y_true_id = [label2id[label] for label in true_labels_flat]
-    preds_id = [label2id[label] for label in preds_flat]
-
-    wandb.log({
-    "matrice_di_confusione_token": wandb.plot.confusion_matrix(
-        probs=None,
-        y_true=y_true_id,
-        preds=preds_id,
-        class_names=['O', 'B-CLINENTITY', 'I-CLINENTITY']
-    )
-    })
-
     results = seqeval.compute(predictions=true_predictions, references=true_labels)
     return {
         "precision": results["overall_precision"],
@@ -154,11 +136,11 @@ def estrai_entita(seq_tags):
         elif tag.startswith('I-'):
             if tipo_corrente is None:
                 # Caso limite: una I- senza una B- precedente. 
-                # Di solito viene considerata come l'inizio di una nuova entità.
+                # ovvero l'inizio di una nuova entità.
                 tipo_corrente = tag[2:]
                 inizio_corrente = i
             elif tipo_corrente != tag[2:]:
-                # Transizione I- di un tipo diverso (non dovrebbe succedere se hai solo CLINENTITY, ma previene errori)
+                # Transizione I- di un tipo diverso
                 entita.add((tipo_corrente, inizio_corrente, i - 1))
                 tipo_corrente = tag[2:]
                 inizio_corrente = i
@@ -171,11 +153,11 @@ def estrai_entita(seq_tags):
 
 # effettua exact e partial match -> Lenient Evaluation (Valutazione Indulgente) o Relaxed Match (Corrispondenza Rilassata).
 def compute_metrics_exact_partial_match(p):
-    """Calcolo manuale di Precision, Recall, F1 con logica Partial Match (SemEval-style)"""
+    """Calcolo manuale di Precision, Recall, F1 con logica Exact/Partial Match (SemEval-style)"""
     predictions, labels = p
     predictions = np.argmax(predictions, axis=2)
 
-    # si passa da lista di id (o->O, 1->B, 2->I)
+    # si passa da lista di id (o->O, 1->B, 2->I) a lista di stringhe (O, B-CLINENTITY, I-CLINENTITY)
     # 1. Pulizia dai token speciali (-100) assegnati da pytorch, sono token di padding per rendere le sequenze  passate a BERT di lunghezza uguale
     true_predictions = [
         [label_list[p] for (p, l) in zip(prediction, label) if l != -100]
@@ -186,21 +168,6 @@ def compute_metrics_exact_partial_match(p):
         for prediction, label in zip(predictions, labels)
     ]
 
-    # 1. Srotoliamo le liste di liste in una singola lista 1D
-    true_labels_flat = [label for sentence_labels in true_labels for label in sentence_labels]
-    preds_flat = [label for sentence_preds in true_predictions for label in sentence_preds]
-
-    y_true_id = [label2id[label] for label in true_labels_flat]
-    preds_id = [label2id[label] for label in preds_flat]
-
-    wandb.log({
-    "matrice_di_confusione_token": wandb.plot.confusion_matrix(
-        probs=None,
-        y_true=y_true_id,
-        preds=preds_id,
-        class_names=['O', 'B-CLINENTITY', 'I-CLINENTITY']
-    )
-    })
 
     exact_matches = 0
     partial_matches = 0
@@ -231,15 +198,13 @@ def compute_metrics_exact_partial_match(p):
                 # Hanno lo stesso tipo E i loro confini si intersecano/sovrappongono
                 if tipo_v == tipo_p and max(inizio_v, inizio_p) <= min(fine_v, fine_p):
                     
-                    # È un Exact o un Partial Match?
                     if inizio_v == inizio_p and fine_v == fine_p:
                         exact_matches += 1
                     else:
                         partial_matches += 1
                         
-                    # Segniamo la predizione come usata per questo match
                     predizioni_usate.add(pred)
-                    break # Passiamo alla prossima entità vera
+                    break 
 
     
     tp_score = exact_matches + (0.5 * partial_matches)
@@ -316,9 +281,6 @@ if __name__ == "__main__":
         report_to="wandb",
         logging_strategy="epoch",
         lr_scheduler_type="linear"
-        
-        # warmup_ratio=0.1,             
-        # lr_scheduler_type="cosine",   
     )
 
     trainer = Trainer(
@@ -329,7 +291,6 @@ if __name__ == "__main__":
         processing_class=tokenizer,
         data_collator=data_collator,
         compute_metrics=compute_metrics_exact_partial_match,
-        #callbacks=[EarlyStoppingCallback(early_stopping_patience=10)]
     )
 
     
@@ -338,3 +299,41 @@ if __name__ == "__main__":
     trainer.save_model(f"model/{NOME_MODELLO_SALVATO}")
     print(f"Modello salvato in: model/{NOME_MODELLO_SALVATO}")
     trainer.state.save_to_json(f"model/{NOME_MODELLO_SALVATO}/trainer_state.json")
+
+
+
+
+
+
+
+    print("Generazione della matrice di confusione")
+    
+    risultati_eval = trainer.predict(eval_dataset)
+    logits = risultati_eval.predictions 
+    labels_vere = risultati_eval.label_ids
+    
+    
+    preds_ids = np.argmax(logits, axis=2)
+    
+    #togliamo i -100 dalla lista di etichette vere
+    y_true = []
+    y_pred = []
+    
+    for seq_vera, seq_pred in zip(labels_vere, preds_ids):
+        for vera, pred in zip(seq_vera, seq_pred):
+            if vera != -100:
+                y_true.append(vera) # lista di etichette vere
+                y_pred.append(pred) # lista di etichette predette
+                
+    
+    wandb.log({
+        "matrice_di_confusione_finale": wandb.plot.confusion_matrix(
+            probs=None,
+            y_true=y_true,
+            preds=y_pred,
+            class_names=label_list
+        )
+    })
+    
+
+    wandb.finish()

@@ -5,7 +5,7 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 def parse_xmi_e3c(file_path):
-    """Estrae testo ed entità dal formato UIMA XMI in modo sicuro."""
+    """Estrae testo ed entità dal formato UIMA XMI."""
     p = Path(file_path)
     try:
         tree = ET.parse(file_path)
