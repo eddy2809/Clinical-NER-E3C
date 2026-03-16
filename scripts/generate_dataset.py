@@ -40,9 +40,9 @@ def parse_xmi_e3c(file_path):
                     "fine": end
                 })
 
-    # Estrae la lingua guardando due cartelle "sopra" (es: Italian/layer1/file.xml -> Italian)
+    # Estrae la lingua guardando due cartelle sopra
     lingua = p.parent.parent.name 
-
+    
     if testo_completo and len(testo_completo) > 10 and len(entita_estratte) > 0:
         return {
             "id_doc": p.name,
