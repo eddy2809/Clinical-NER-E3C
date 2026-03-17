@@ -16,11 +16,11 @@ from transformers import (
 #Configurazione
 FILE_TRAIN = "data/processed/multi/dataset_train_full.json" 
 FILE_EVAL = "data/processed/multi/dataset_val.json"
-NOME_MODELLO_SALVATO = "multi_bert_medico_full_shot"
+NOME_MODELLO_SALVATO = "multi_Roberta_medico_full_shot"
 
 #MODEL_NAME = "dbmdz/bert-base-italian-cased"
-MODEL_NAME = "bert-base-multilingual-cased"
-#MODEL_NAME = "xlm-roberta-large"
+#MODEL_NAME = "bert-base-multilingual-cased"
+MODEL_NAME = "xlm-roberta-large"
 
 # Mapping etichette BIO in numeri
 label_list = ['O', 'B-CLINENTITY', 'I-CLINENTITY']
