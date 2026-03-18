@@ -79,16 +79,14 @@ def genera_dataset(e3c_root_dir, output_base_dir, modalita="multi", seed=42):
                     if json_element:
                         dataset_completo.append(json_element)
                         
-                        # Aggiorniamo il conteggio dinamico delle lingue
                         lingua = json_element["lingua"]
                         conteggio_lingue[lingua] = conteggio_lingue.get(lingua, 0) + 1
 
-    # --- STATISTICHE ---
     print(f"Trovati e processati {len(dataset_completo)} documenti validi.")
     for lang, count in conteggio_lingue.items():
         print(f"  - {lang}: {count} documenti")
 
-    # --- SPLIT DATASET ---
+    # Split train/val (80/20)
     random.shuffle(dataset_completo)
     num_val = int(len(dataset_completo) * 0.2)
     val_set = dataset_completo[:num_val]
@@ -124,6 +122,5 @@ if __name__ == "__main__":
     E3C_ROOT = Path("data") / "raw" / "E3C-Corpus-2.0.0" / "data_annotation"
     OUT_BASE = Path("data") / "processed" 
     
-    # Eseguiamo per entrambe le modalità
     genera_dataset(E3C_ROOT, OUT_BASE, modalita="multi")
     

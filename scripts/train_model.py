@@ -28,7 +28,7 @@ label2id = {label: i for i, label in enumerate(label_list)}
 id2label = {i: label for i, label in enumerate(label_list)}
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-seqeval = evaluate.load("seqeval") # Metrica NER
+seqeval = evaluate.load("seqeval") # Metrica NER per exact match
 
 
 def BIO_encoding(testo, entita_estratte, tokenizer):
@@ -315,7 +315,6 @@ if __name__ == "__main__":
     
     preds_ids = np.argmax(logits, axis=2)
     
-    #togliamo i -100 dalla lista di etichette vere
     y_true = []
     y_pred = []
     
