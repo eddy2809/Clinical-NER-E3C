@@ -92,6 +92,8 @@ def compute_metrics_exact_match(p):
 
     predictions = np.argmax(predictions, axis=2)
     print(f"predizione: {predictions}, etichetta corretta: {labels}")
+    
+    # si passa da lista di id (o->O, 1->B, 2->I) a lista di stringhe (O, B-CLINENTITY, I-CLINENTITY)
     # Rimuoviamo i -100 (i token speciali ignorati) 
     true_predictions = [
         [label_list[p] for (p, l) in zip(prediction, label) if l != -100]
@@ -158,7 +160,7 @@ def compute_metrics_exact_partial_match(p):
     predictions = np.argmax(predictions, axis=2)
 
     # si passa da lista di id (o->O, 1->B, 2->I) a lista di stringhe (O, B-CLINENTITY, I-CLINENTITY)
-    # 1. Pulizia dai token speciali (-100) assegnati da pytorch, sono token di padding per rendere le sequenze  passate a BERT di lunghezza uguale
+    # Pulizia dai token speciali (-100) assegnati da pytorch, sono token di padding per rendere le sequenze  passate a BERT di lunghezza uguale
     true_predictions = [
         [label_list[p] for (p, l) in zip(prediction, label) if l != -100]
         for prediction, label in zip(predictions, labels)
@@ -174,7 +176,7 @@ def compute_metrics_exact_partial_match(p):
     total_true_entities = 0
     total_pred_entities = 0
 
-    # 2. Calcolo dei Match (Exact vs Partial)
+    #Calcolo dei Match (Exact vs Partial)
     for y_true, y_pred in zip(true_labels, true_predictions):
         ent_vere = estrai_entita(y_true)
         ent_pred = estrai_entita(y_pred)
@@ -182,7 +184,7 @@ def compute_metrics_exact_partial_match(p):
         total_true_entities += len(ent_vere)
         total_pred_entities += len(ent_pred)
         
-        # Teniamo traccia delle predizioni già "accoppiate" per non contarle due volte
+        # Teniamo traccia delle predizioni già accoppiate per non contarle due volte
         predizioni_usate = set()
         
         for vera in ent_vere:
@@ -194,8 +196,8 @@ def compute_metrics_exact_partial_match(p):
                     
                 tipo_p, inizio_p, fine_p = pred
                 
-                # CONDIZIONE DI OVERLAP: 
-                # Hanno lo stesso tipo E i loro confini si intersecano/sovrappongono
+                  
+                #Hanno lo stesso tipo E i loro confini si intersecano/sovrappongono
                 if tipo_v == tipo_p and max(inizio_v, inizio_p) <= min(fine_v, fine_p):
                     
                     if inizio_v == inizio_p and fine_v == fine_p:
